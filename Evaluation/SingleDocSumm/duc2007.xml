@@ -1,0 +1,382 @@
+<ROUGE-EVAL version="1.0">
+    <EVAL ID="1">
+        <PEER-ROOT>DUC2007/system</PEER-ROOT>
+        <MODEL-ROOT>DUC2007/reference</MODEL-ROOT>
+        <MODELS>
+            <M ID="1">D0703_A-A.md</M>
+            <M ID="2">D0703_A-C.md</M>
+            <M ID="3">D0703_A-D.md</M>
+            <M ID="4">D0703_A-J.md</M>
+        </MODELS>
+        <INPUT-FORMAT TYPE="SEE"/>
+        <PEERS>
+            <P ID="1">D0703_35.md</P>
+            <P ID="2">D0703_36.md</P>
+            <P ID="3">D0703_37.md</P>
+            <P ID="4">D0703_38.md</P>
+            <P ID="5">D0703_39.md</P>
+            <P ID="6">D0703_40.md</P>
+            <P ID="7">D0703_41.md</P>
+            <P ID="8">D0703_42.md</P>
+            <P ID="9">D0703_43.md</P>
+            <P ID="10">D0703_44.md</P>
+            <P ID="11">D0703_45.md</P>
+            <P ID="12">D0703_46.md</P>
+            <P ID="13">D0703_47.md</P>
+            <P ID="14">D0703_48.md</P>
+            <P ID="15">D0703_49.md</P>
+            <P ID="16">D0703_50.md</P>
+            <P ID="17">D0703_51.md</P>
+            <P ID="18">D0703_52.md</P>
+            <P ID="19">D0703_53.md</P>
+            <P ID="20">D0703_54.md</P>
+            <P ID="21">D0703_55.md</P>
+            <P ID="22">D0703_56.md</P>
+            <P ID="23">D0703_57.md</P>
+            <P ID="24">D0703_58.md</P>
+            <P ID="25">D0703_sum.md</P>
+        </PEERS>
+    </EVAL>
+    <EVAL ID="2">
+        <PEER-ROOT>DUC2007/system</PEER-ROOT>
+        <MODEL-ROOT>DUC2007/reference</MODEL-ROOT>
+        <MODELS>
+            <M ID="1">D0706_B-B.md</M>
+            <M ID="2">D0706_B-D.md</M>
+            <M ID="3">D0706_B-E.md</M>
+            <M ID="4">D0706_B-I.md</M>
+        </MODELS>
+        <INPUT-FORMAT TYPE="SEE"/>
+        <PEERS>
+            <P ID="1">D0706_35.md</P>
+            <P ID="2">D0706_36.md</P>
+            <P ID="3">D0706_37.md</P>
+            <P ID="4">D0706_38.md</P>
+            <P ID="5">D0706_39.md</P>
+            <P ID="6">D0706_40.md</P>
+            <P ID="7">D0706_41.md</P>
+            <P ID="8">D0706_42.md</P>
+            <P ID="9">D0706_43.md</P>
+            <P ID="10">D0706_44.md</P>
+            <P ID="11">D0706_45.md</P>
+            <P ID="12">D0706_46.md</P>
+            <P ID="13">D0706_47.md</P>
+            <P ID="14">D0706_48.md</P>
+            <P ID="15">D0706_49.md</P>
+            <P ID="16">D0706_50.md</P>
+            <P ID="17">D0706_51.md</P>
+            <P ID="18">D0706_52.md</P>
+            <P ID="19">D0706_53.md</P>
+            <P ID="20">D0706_54.md</P>
+            <P ID="21">D0706_55.md</P>
+            <P ID="22">D0706_56.md</P>
+            <P ID="23">D0706_57.md</P>
+            <P ID="24">D0706_58.md</P>
+            <P ID="25">D0706_sum.md</P>
+        </PEERS>
+    </EVAL>
+    <EVAL ID="3">
+        <PEER-ROOT>DUC2007/system</PEER-ROOT>
+        <MODEL-ROOT>DUC2007/reference</MODEL-ROOT>
+        <MODELS>
+            <M ID="1">D0711_C-A.md</M>
+            <M ID="2">D0711_C-B.md</M>
+            <M ID="3">D0711_C-C.md</M>
+            <M ID="4">D0711_C-F.md</M>
+        </MODELS>
+        <INPUT-FORMAT TYPE="SEE"/>
+        <PEERS>
+            <P ID="1">D0711_35.md</P>
+            <P ID="2">D0711_36.md</P>
+            <P ID="3">D0711_37.md</P>
+            <P ID="4">D0711_38.md</P>
+            <P ID="5">D0711_39.md</P>
+            <P ID="6">D0711_40.md</P>
+            <P ID="7">D0711_41.md</P>
+            <P ID="8">D0711_42.md</P>
+            <P ID="9">D0711_43.md</P>
+            <P ID="10">D0711_44.md</P>
+            <P ID="11">D0711_45.md</P>
+            <P ID="12">D0711_46.md</P>
+            <P ID="13">D0711_47.md</P>
+            <P ID="14">D0711_48.md</P>
+            <P ID="15">D0711_49.md</P>
+            <P ID="16">D0711_50.md</P>
+            <P ID="17">D0711_51.md</P>
+            <P ID="18">D0711_52.md</P>
+            <P ID="19">D0711_53.md</P>
+            <P ID="20">D0711_54.md</P>
+            <P ID="21">D0711_55.md</P>
+            <P ID="22">D0711_56.md</P>
+            <P ID="23">D0711_57.md</P>
+            <P ID="24">D0711_58.md</P>
+            <P ID="25">D0711_sum.md</P>
+        </PEERS>
+    </EVAL>
+    <EVAL ID="4">
+        <PEER-ROOT>DUC2007/system</PEER-ROOT>
+        <MODEL-ROOT>DUC2007/reference</MODEL-ROOT>
+        <MODELS>
+            <M ID="1">D0716_D-C.md</M>
+            <M ID="2">D0716_D-D.md</M>
+            <M ID="3">D0716_D-E.md</M>
+            <M ID="4">D0716_D-F.md</M>
+        </MODELS>
+        <INPUT-FORMAT TYPE="SEE"/>
+        <PEERS>
+            <P ID="1">D0716_35.md</P>
+            <P ID="2">D0716_36.md</P>
+            <P ID="3">D0716_37.md</P>
+            <P ID="4">D0716_38.md</P>
+            <P ID="5">D0716_39.md</P>
+            <P ID="6">D0716_40.md</P>
+            <P ID="7">D0716_41.md</P>
+            <P ID="8">D0716_42.md</P>
+            <P ID="9">D0716_43.md</P>
+            <P ID="10">D0716_44.md</P>
+            <P ID="11">D0716_45.md</P>
+            <P ID="12">D0716_46.md</P>
+            <P ID="13">D0716_47.md</P>
+            <P ID="14">D0716_48.md</P>
+            <P ID="15">D0716_49.md</P>
+            <P ID="16">D0716_50.md</P>
+            <P ID="17">D0716_51.md</P>
+            <P ID="18">D0716_52.md</P>
+            <P ID="19">D0716_53.md</P>
+            <P ID="20">D0716_54.md</P>
+            <P ID="21">D0716_55.md</P>
+            <P ID="22">D0716_56.md</P>
+            <P ID="23">D0716_57.md</P>
+            <P ID="24">D0716_58.md</P>
+            <P ID="25">D0716_sum.md</P>
+        </PEERS>
+    </EVAL>
+    <EVAL ID="5">
+        <PEER-ROOT>DUC2007/system</PEER-ROOT>
+        <MODEL-ROOT>DUC2007/reference</MODEL-ROOT>
+        <MODELS>
+            <M ID="1">D0721_E-B.md</M>
+            <M ID="2">D0721_E-C.md</M>
+            <M ID="3">D0721_E-E.md</M>
+            <M ID="4">D0721_E-G.md</M>
+        </MODELS>
+        <INPUT-FORMAT TYPE="SEE"/>
+        <PEERS>
+            <P ID="1">D0721_35.md</P>
+            <P ID="2">D0721_36.md</P>
+            <P ID="3">D0721_37.md</P>
+            <P ID="4">D0721_38.md</P>
+            <P ID="5">D0721_39.md</P>
+            <P ID="6">D0721_40.md</P>
+            <P ID="7">D0721_41.md</P>
+            <P ID="8">D0721_42.md</P>
+            <P ID="9">D0721_43.md</P>
+            <P ID="10">D0721_44.md</P>
+            <P ID="11">D0721_45.md</P>
+            <P ID="12">D0721_46.md</P>
+            <P ID="13">D0721_47.md</P>
+            <P ID="14">D0721_48.md</P>
+            <P ID="15">D0721_49.md</P>
+            <P ID="16">D0721_50.md</P>
+            <P ID="17">D0721_51.md</P>
+            <P ID="18">D0721_52.md</P>
+            <P ID="19">D0721_53.md</P>
+            <P ID="20">D0721_54.md</P>
+            <P ID="21">D0721_55.md</P>
+            <P ID="22">D0721_56.md</P>
+            <P ID="23">D0721_57.md</P>
+            <P ID="24">D0721_58.md</P>
+            <P ID="25">D0721_sum.md</P>
+        </PEERS>
+    </EVAL>
+    <EVAL ID="6">
+        <PEER-ROOT>DUC2007/system</PEER-ROOT>
+        <MODEL-ROOT>DUC2007/reference</MODEL-ROOT>
+        <MODELS>
+            <M ID="1">D0726_F-A.md</M>
+            <M ID="2">D0726_F-E.md</M>
+            <M ID="3">D0726_F-F.md</M>
+            <M ID="4">D0726_F-G.md</M>
+        </MODELS>
+        <INPUT-FORMAT TYPE="SEE"/>
+        <PEERS>
+            <P ID="1">D0726_35.md</P>
+            <P ID="2">D0726_36.md</P>
+            <P ID="3">D0726_37.md</P>
+            <P ID="4">D0726_38.md</P>
+            <P ID="5">D0726_39.md</P>
+            <P ID="6">D0726_40.md</P>
+            <P ID="7">D0726_41.md</P>
+            <P ID="8">D0726_42.md</P>
+            <P ID="9">D0726_43.md</P>
+            <P ID="10">D0726_44.md</P>
+            <P ID="11">D0726_45.md</P>
+            <P ID="12">D0726_46.md</P>
+            <P ID="13">D0726_47.md</P>
+            <P ID="14">D0726_48.md</P>
+            <P ID="15">D0726_49.md</P>
+            <P ID="16">D0726_50.md</P>
+            <P ID="17">D0726_51.md</P>
+            <P ID="18">D0726_52.md</P>
+            <P ID="19">D0726_53.md</P>
+            <P ID="20">D0726_54.md</P>
+            <P ID="21">D0726_55.md</P>
+            <P ID="22">D0726_56.md</P>
+            <P ID="23">D0726_57.md</P>
+            <P ID="24">D0726_58.md</P>
+            <P ID="25">D0726_sum.md</P>
+        </PEERS>
+    </EVAL>
+    <EVAL ID="7">
+        <PEER-ROOT>DUC2007/system</PEER-ROOT>
+        <MODEL-ROOT>DUC2007/reference</MODEL-ROOT>
+        <MODELS>
+            <M ID="1">D0727_G-A.md</M>
+            <M ID="2">D0727_G-F.md</M>
+            <M ID="3">D0727_G-G.md</M>
+            <M ID="4">D0727_G-H.md</M>
+        </MODELS>
+        <INPUT-FORMAT TYPE="SEE"/>
+        <PEERS>
+            <P ID="1">D0727_35.md</P>
+            <P ID="2">D0727_36.md</P>
+            <P ID="3">D0727_37.md</P>
+            <P ID="4">D0727_38.md</P>
+            <P ID="5">D0727_39.md</P>
+            <P ID="6">D0727_40.md</P>
+            <P ID="7">D0727_41.md</P>
+            <P ID="8">D0727_42.md</P>
+            <P ID="9">D0727_43.md</P>
+            <P ID="10">D0727_44.md</P>
+            <P ID="11">D0727_45.md</P>
+            <P ID="12">D0727_46.md</P>
+            <P ID="13">D0727_47.md</P>
+            <P ID="14">D0727_48.md</P>
+            <P ID="15">D0727_49.md</P>
+            <P ID="16">D0727_50.md</P>
+            <P ID="17">D0727_51.md</P>
+            <P ID="18">D0727_52.md</P>
+            <P ID="19">D0727_53.md</P>
+            <P ID="20">D0727_54.md</P>
+            <P ID="21">D0727_55.md</P>
+            <P ID="22">D0727_56.md</P>
+            <P ID="23">D0727_57.md</P>
+            <P ID="24">D0727_58.md</P>
+            <P ID="25">D0727_sum.md</P>
+        </PEERS>
+    </EVAL>
+    <EVAL ID="8">
+        <PEER-ROOT>DUC2007/system</PEER-ROOT>
+        <MODEL-ROOT>DUC2007/reference</MODEL-ROOT>
+        <MODELS>
+            <M ID="1">D0736_H-G.md</M>
+            <M ID="2">D0736_H-H.md</M>
+            <M ID="3">D0736_H-I.md</M>
+            <M ID="4">D0736_H-J.md</M>
+        </MODELS>
+        <INPUT-FORMAT TYPE="SEE"/>
+        <PEERS>
+            <P ID="1">D0736_35.md</P>
+            <P ID="2">D0736_36.md</P>
+            <P ID="3">D0736_37.md</P>
+            <P ID="4">D0736_38.md</P>
+            <P ID="5">D0736_39.md</P>
+            <P ID="6">D0736_40.md</P>
+            <P ID="7">D0736_41.md</P>
+            <P ID="8">D0736_42.md</P>
+            <P ID="9">D0736_43.md</P>
+            <P ID="10">D0736_44.md</P>
+            <P ID="11">D0736_45.md</P>
+            <P ID="12">D0736_46.md</P>
+            <P ID="13">D0736_47.md</P>
+            <P ID="14">D0736_48.md</P>
+            <P ID="15">D0736_49.md</P>
+            <P ID="16">D0736_50.md</P>
+            <P ID="17">D0736_51.md</P>
+            <P ID="18">D0736_52.md</P>
+            <P ID="19">D0736_53.md</P>
+            <P ID="20">D0736_54.md</P>
+            <P ID="21">D0736_55.md</P>
+            <P ID="22">D0736_56.md</P>
+            <P ID="23">D0736_57.md</P>
+            <P ID="24">D0736_58.md</P>
+            <P ID="25">D0736_sum.md</P>
+        </PEERS>
+    </EVAL>
+    <EVAL ID="9">
+        <PEER-ROOT>DUC2007/system</PEER-ROOT>
+        <MODEL-ROOT>DUC2007/reference</MODEL-ROOT>
+        <MODELS>
+            <M ID="1">D0740_I-D.md</M>
+            <M ID="2">D0740_I-H.md</M>
+            <M ID="3">D0740_I-I.md</M>
+            <M ID="4">D0740_I-J.md</M>
+        </MODELS>
+        <INPUT-FORMAT TYPE="SEE"/>
+        <PEERS>
+            <P ID="1">D0740_35.md</P>
+            <P ID="2">D0740_36.md</P>
+            <P ID="3">D0740_37.md</P>
+            <P ID="4">D0740_38.md</P>
+            <P ID="5">D0740_39.md</P>
+            <P ID="6">D0740_40.md</P>
+            <P ID="7">D0740_41.md</P>
+            <P ID="8">D0740_42.md</P>
+            <P ID="9">D0740_43.md</P>
+            <P ID="10">D0740_44.md</P>
+            <P ID="11">D0740_45.md</P>
+            <P ID="12">D0740_46.md</P>
+            <P ID="13">D0740_47.md</P>
+            <P ID="14">D0740_48.md</P>
+            <P ID="15">D0740_49.md</P>
+            <P ID="16">D0740_50.md</P>
+            <P ID="17">D0740_51.md</P>
+            <P ID="18">D0740_52.md</P>
+            <P ID="19">D0740_53.md</P>
+            <P ID="20">D0740_54.md</P>
+            <P ID="21">D0740_55.md</P>
+            <P ID="22">D0740_56.md</P>
+            <P ID="23">D0740_57.md</P>
+            <P ID="24">D0740_58.md</P>
+            <P ID="25">D0740_sum.md</P>
+        </PEERS>
+    </EVAL>
+    <EVAL ID="10">
+        <PEER-ROOT>DUC2007/system</PEER-ROOT>
+        <MODEL-ROOT>DUC2007/reference</MODEL-ROOT>
+        <MODELS>
+            <M ID="1">D0743_J-B.md</M>
+            <M ID="2">D0743_J-H.md</M>
+            <M ID="3">D0743_J-I.md</M>
+            <M ID="4">D0743_J-J.md</M>
+        </MODELS>
+        <INPUT-FORMAT TYPE="SEE"/>
+        <PEERS>
+            <P ID="1">D0743_35.md</P>
+            <P ID="2">D0743_36.md</P>
+            <P ID="3">D0743_37.md</P>
+            <P ID="4">D0743_38.md</P>
+            <P ID="5">D0743_39.md</P>
+            <P ID="6">D0743_40.md</P>
+            <P ID="7">D0743_41.md</P>
+            <P ID="8">D0743_42.md</P>
+            <P ID="9">D0743_43.md</P>
+            <P ID="10">D0743_44.md</P>
+            <P ID="11">D0743_45.md</P>
+            <P ID="12">D0743_46.md</P>
+            <P ID="13">D0743_47.md</P>
+            <P ID="14">D0743_48.md</P>
+            <P ID="15">D0743_49.md</P>
+            <P ID="16">D0743_50.md</P>
+            <P ID="17">D0743_51.md</P>
+            <P ID="18">D0743_52.md</P>
+            <P ID="19">D0743_53.md</P>
+            <P ID="20">D0743_54.md</P>
+            <P ID="21">D0743_55.md</P>
+            <P ID="22">D0743_56.md</P>
+            <P ID="23">D0743_57.md</P>
+            <P ID="24">D0743_58.md</P>
+            <P ID="25">D0743_sum.md</P>
+        </PEERS>
+    </EVAL>
+</ROUGE-EVAL>

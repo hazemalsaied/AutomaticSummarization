@@ -1,0 +1,367 @@
+<root>
+    <Citance>
+        <Citance_Number>1</Citance_Number>
+        <Reference_Article>C90-2039.txt</Reference_Article>
+        <Citing_Article>P99-1061.xml</Citing_Article>
+        <Citation_Marker_Offset>['48']</Citation_Marker_Offset>
+        <Citation_Marker>Kogure, 1990</Citation_Marker>
+        <Citation_Offset>['48']</Citation_Offset>
+        <Citation_Text>
+            <S sid="48" ssid="28">While an improvement over simple destructive unification, Tomabechi's approach still
+                suffers from what Kogure (Kogure, 1990) calls redundant copying.
+            </S>
+        </Citation_Text>
+        <Reference_Offset>['21', '22','23']</Reference_Offset>
+        <Reference_Text>
+            <S sid="21" ssid="21">itowever, the problem with his method is that a unitication result graph consists only
+                of newly created structures.
+            </S>
+            <S sid="22" ssid="22">This is unnecessary because there are often input snbgraphs that can be used as part
+                of the result graph without any modification, or as sharable parts between one of the input graphs and
+                the result graph.
+            </S>
+            <S sid="23" ssid="23">Copying sharable parts is called redundant copying.</S>
+        </Reference_Text>
+        <Discourse_Facet>Implication_Citation</Discourse_Facet>
+        <Annotator>Kokil Jaidka, NTU</Annotator>
+    </Citance>
+    <Citance>
+        <Citance_Number>2</Citance_Number>
+        <Reference_Article>C90-2039.xml</Reference_Article>
+        <Citing_Article>C92-1059.xml</Citing_Article>
+        <Citation_Marker_Offset>['44']</Citation_Marker_Offset>
+        <Citation_Marker>16</Citation_Marker>
+        <Citation_Offset>['44']</Citation_Offset>
+        <Citation_Text>
+            <S sid="44" ssid="44">The extension is classified into class (1) above.Based on this paper's formalization,
+                unification algorithms have been developed using graph unification techniques[23, 16].
+            </S>
+        </Citation_Text>
+        <Reference_Offset>['0']</Reference_Offset>
+        <Reference_Text>
+            <S sid="0">Strategic Lazy Incremental Copy Graph Unification</S>
+        </Reference_Text>
+        <Discourse_Facet>Method_Citation</Discourse_Facet>
+        <Annotator>Kokil Jaidka, NTU</Annotator>
+    </Citance>
+    <Citance>
+        <Citance_Number>3</Citance_Number>
+        <Reference_Article>C90-2039.xml</Reference_Article>
+        <Citing_Article>C92-1059.xml</Citing_Article>
+        <Citation_Marker_Offset>['214']</Citation_Marker_Offset>
+        <Citation_Marker>16</Citation_Marker>
+        <Citation_Offset>['214']</Citation_Offset>
+        <Citation_Text>
+            <S sid="214" ssid="45">Other versions based on more efficient graph unification methods such as Wroblewski's
+                and Kogure's method [23, 16] have also been developed.
+            </S>
+        </Citation_Text>
+        <Reference_Offset>['0']</Reference_Offset>
+        <Reference_Text>
+            <S sid="0">Strategic Lazy Incremental Copy Graph Unification</S>
+        </Reference_Text>
+        <Discourse_Facet>Method_Citation</Discourse_Facet>
+        <Annotator>Kokil Jaidka, NTU</Annotator>
+    </Citance>
+    <Citance>
+        <Citance_Number>4</Citance_Number>
+        <Reference_Article>C90-2039.xml</Reference_Article>
+        <Citing_Article>C90-3046.xml</Citing_Article>
+        <Citation_Marker_Offset>['102','103']</Citation_Marker_Offset>
+        <Citation_Marker>6</Citation_Marker>
+        <Citation_Offset>['102']</Citation_Offset>
+        <Citation_Text>
+            <S sid="102" ssid="67">This is inefficient with many copy operations due to unfications of unnecessary
+                features that do not contribute to successful unification [6].
+            </S>
+            <S sid="103" ssid="68">Thus treatments such as strategic unification [6] have been developed.</S>
+        </Citation_Text>
+        <Reference_Offset>['205','206']</Reference_Offset>
+        <Reference_Text>
+            <S sid="205" ssid="4">Furthermore, structure sharing increases the portion of token identical substructures
+                of FSs which makes it efficient to keep unification results of substructures of FSs and reuse them.
+            </S>
+            <S sid="206" ssid="5">This reduces repeated calculation of substructures.</S>
+        </Reference_Text>
+        <Discourse_Facet>Aim_Citation</Discourse_Facet>
+        <Annotator>Kokil Jaidka, NTU</Annotator>
+    </Citance>
+    <Citance>
+        <Citance_Number>5</Citance_Number>
+        <Reference_Article>C90-2039.xml</Reference_Article>
+        <Citing_Article>P91-1031.xml</Citing_Article>
+        <Citation_Marker_Offset>['49']</Citation_Marker_Offset>
+        <Citation_Marker>1990</Citation_Marker>
+        <Citation_Offset>['49']</Citation_Offset>
+        <Citation_Text>
+            <S sid="49" ssid="9">This observation is the basis for a reordering method proposed by Kogure [1990].</S>
+        </Citation_Text>
+        <Reference_Offset>['3']</Reference_Offset>
+        <Reference_Text>
+            <S sid="3" ssid="3">The other, called ti~e strategic incremental copy graph unification method, uses an
+                early failure finding strategy which first tries to unify ;ubstructures tending to fail in unification;
+                this method is; based on stochastic data on tim likelihood of failure and ,'educes unnecessary
+                computation.
+            </S>
+        </Reference_Text>
+        <Discourse_Facet>Implication_Citation</Discourse_Facet>
+        <Annotator>Kokil Jaidka, NTU</Annotator>
+    </Citance>
+    <Citance>
+        <Citance_Number>6</Citance_Number>
+        <Reference_Article>C90-2039.xml</Reference_Article>
+        <Citing_Article>P91-1031.xml</Citing_Article>
+        <Citation_Marker_Offset>['62']</Citation_Marker_Offset>
+        <Citation_Marker>Kogure 1990</Citation_Marker>
+        <Citation_Offset>['62']</Citation_Offset>
+        <Citation_Text>
+            <S sid="62" ssid="22">Thus for any automatic counting scheme some constant shuffling and reshuffling of the
+                conjunct order needs to be applied until the order stabilizes (see also [Kogure 1990]).
+            </S>
+        </Citation_Text>
+        <Reference_Offset>['186', '187', '188']</Reference_Offset>
+        <Reference_Text>
+            <S sid="186" ssid="8">in this method, theretbre, the failure tendency information is acquired by a learning
+                process.
+            </S>
+            <S sid="187" ssid="9">That is, the SING unification method applied in an analysis system uses the failure
+                tendency information acquired by a learning analysis process.
+            </S>
+            <S sid="188" ssid="10">in the learning process, when FS unification is applied, feature treatment orders are
+                randomized for the sake of random extraction.
+            </S>
+        </Reference_Text>
+        <Discourse_Facet>Method_Citation</Discourse_Facet>
+        <Annotator>Kokil Jaidka, NTU</Annotator>
+    </Citance>
+    <Citance>
+        <Citance_Number>7</Citance_Number>
+        <Reference_Article>C90-2039.xml</Reference_Article>
+        <Citing_Article>E93-1008.xml</Citing_Article>
+        <Citation_Marker_Offset>['49']</Citation_Marker_Offset>
+        <Citation_Marker>Kogure, 1990</Citation_Marker>
+        <Citation_Offset>['49']</Citation_Offset>
+        <Citation_Text>
+            <S sid="49" ssid="29">The lazy copying approach ([Kogure, 1990], and [Emele, 1991] for lazy copying in TFS
+                with historical backtracking) copies only overlapping parts of the structure.
+            </S>
+        </Citation_Text>
+        <Reference_Offset>['39', '40', '78']</Reference_Offset>
+        <Reference_Text>
+            <S sid="39" ssid="39">This paper proposes an FS unification method that allows structure sharing with
+                constant m'der node access time.
+            </S>
+            <S sid="40" ssid="40">This method achieves structure sharing by introducing lazy copying to Wroblewski's
+                incremental copy graph unification method.
+            </S>
+            <S sid="78" ssid="22">Then, the unification of tl anti t2 is defined as their greatest lower bound or the
+                meet.
+            </S>
+        </Reference_Text>
+        <Discourse_Facet>Method_Citation</Discourse_Facet>
+        <Annotator>Kokil Jaidka, NTU</Annotator>
+    </Citance>
+    <Citance>
+        <Citance_Number>8</Citance_Number>
+        <Reference_Article>C90-2039.xml</Reference_Article>
+        <Citing_Article>C92-2068.xml</Citing_Article>
+        <Citation_Marker_Offset>['17']</Citation_Marker_Offset>
+        <Citation_Marker>Kogure, 1990</Citation_Marker>
+        <Citation_Offset>['17','18']</Citation_Offset>
+        <Citation_Text>
+            <S sid="17" ssid="17">At least two schemes have been proposed recently ])a.~ed Ul)OU this observation
+                (namely [Kogure.
+            </S>
+            <S sid="18" ssid="18">1990] and [Emele, 1991]); however, both schemes are I)ased upon the increlllent'al
+                Col)yiug sehellle all(l ~-LS ([e- scribed in [Tomal)eehi, 1991] incremental copying schemes inherently
+                suffcr fi'om Early Copying as defined in that article.
+            </S>
+        </Citation_Text>
+        <Reference_Offset>['0']</Reference_Offset>
+        <Reference_Text>
+            <S sid="0">Strategic Lazy Incremental Copy Graph Unification</S>
+        </Reference_Text>
+        <Discourse_Facet>Method_Citation</Discourse_Facet>
+        <Annotator>Kokil Jaidka, NTU</Annotator>
+    </Citance>
+    <Citance>
+        <Citance_Number>9</Citance_Number>
+        <Reference_Article>C90-2039.xml</Reference_Article>
+        <Citing_Article>C92-2068.xml</Citing_Article>
+        <Citation_Marker_Offset>['21']</Citation_Marker_Offset>
+        <Citation_Marker>Kogure, 1990</Citation_Marker>
+        <Citation_Offset>['21']</Citation_Offset>
+        <Reference_Offset>['23', '205']</Reference_Offset>
+        <Reference_Text>
+            <S sid="23" ssid="23">Copying sharable parts is called redundant copying.</S>
+            <S sid="205" ssid="4">Furthermore, structure sharing increases the portion of token identical substructures
+                of FSs which makes it efficient to keep unification results of substructures of FSs and reuse them.
+            </S>
+        </Reference_Text>
+        <Discourse_Facet>Method_Citation</Discourse_Facet>
+        <Annotator>Kokil Jaidka, NTU</Annotator>
+    </Citance>
+    <Citance>
+        <Citance_Number>10</Citance_Number>
+        <Reference_Article>C90-2039.xml</Reference_Article>
+        <Citing_Article>P91-1041.xml</Citing_Article>
+        <Citation_Marker_Offset>['16']</Citation_Marker_Offset>
+        <Citation_Marker>Kogure, 1990</Citation_Marker>
+        <Citation_Offset>['16']</Citation_Offset>
+        <Citation_Text>
+            <S sid="16" ssid="16">2In the large-scale HPSG-based spoken Japanese analysis system developed at ATR,
+                sometimes 98 percent of the elapsed time is devoted to graph unification ([Kogure, 1990]).
+            </S>
+        </Citation_Text>
+        <Reference_Offset>['205']</Reference_Offset>
+        <Reference_Text>
+            <S sid="205" ssid="4">Furthermore, structure sharing increases the portion of token identical substructures
+                of FSs which makes it efficient to keep unification results of substructures of FSs and reuse them.
+            </S>
+        </Reference_Text>
+        <Discourse_Facet>Implication_Citation</Discourse_Facet>
+        <Annotator>Kokil Jaidka, NTU</Annotator>
+    </Citance>
+    <Citance>
+        <Citance_Number>11</Citance_Number>
+        <Reference_Article>C90-2039.xml</Reference_Article>
+        <Citing_Article>P91-1041.xml</Citing_Article>
+        <Citation_Marker_Offset>['230']</Citation_Marker_Offset>
+        <Citation_Marker>Kogure, 1990</Citation_Marker>
+        <Citation_Offset>['230']</Citation_Offset>
+        <Citation_Text>
+            <S sid="230" ssid="9">That is, unless some new scheme for reducing excessive copying is introduced such as
+                scucture-sharing of an unchanged shared-forest ([Kogure, 1990]).
+            </S>
+        </Citation_Text>
+        <Reference_Offset>['11','14']</Reference_Offset>
+        <Reference_Text>
+            <S sid="11" ssid="11">For example, a spoken Present.</S>
+            <S sid="14" ssid="14">Japanese analysis system based on llPSG[Kogure 891 uses 90% - 98% of the elapsed time
+                in FS unification.
+            </S>
+        </Reference_Text>
+        <Discourse_Facet>Results_Citation</Discourse_Facet>
+        <Annotator>Kokil Jaidka, NTU</Annotator>
+    </Citance>
+    <Citance>
+        <Citance_Number>12</Citance_Number>
+        <Reference_Article>C90-2039.xml</Reference_Article>
+        <Citing_Article>C94-2143.xml</Citing_Article>
+        <Citation_Marker_Offset>['56']</Citation_Marker_Offset>
+        <Citation_Marker>Kogure, 1990</Citation_Marker>
+        <Citation_Offset>['56']</Citation_Offset>
+        <Citation_Text>
+            <S sid="56" ssid="11">A more eNcient unification algorithm would avoid this redundant copying (copying
+                structures that can be shared by the input and resultant graphs) (Kogure, 1990).
+            </S>
+        </Citation_Text>
+        <Reference_Offset>[203', '22', '23', '24']</Reference_Offset>
+        <Reference_Text>
+            <S sid="203" ssid="2">The LING unification method achieves structure sharing without the O(log d) data
+                access overhead of Pereira's method.
+            </S>
+            <S sid="22" ssid="22">This is unnecessary because there are often input snbgraphs that can be used as part
+                of the result graph without any modification, or as sharable parts between one of the input graphs and
+                the result graph.
+            </S>
+            <S sid="23" ssid="23">Copying sharable parts is called redundant copying.</S>
+            <S sid="24" ssid="24">A better method would nfinimize the copying of sharable varts.</S>
+        </Reference_Text>
+        <Discourse_Facet>Method_Citation</Discourse_Facet>
+        <Annotator>Kokil Jaidka, NTU</Annotator>
+    </Citance>
+    <Citance>
+        <Citance_Number>13</Citance_Number>
+        <Reference_Article>C90-2039.xml</Reference_Article>
+        <Citing_Article>C94-2143.xml</Citing_Article>
+        <Citation_Marker_Offset>['69']</Citation_Marker_Offset>
+        <Citation_Marker>Kogure, 1990</Citation_Marker>
+        <Citation_Offset>['69']</Citation_Offset>
+        <Citation_Text>
+            <S sid="69" ssid="24">Kogure (1990) proposed a lazy incremental copy graph (LING) unification that uses
+                dependency-directed eol)yiug
+            </S>
+        </Citation_Text>
+        <Reference_Offset>['22','23','24']</Reference_Offset>
+        <Reference_Text>
+            <S sid="22" ssid="22">This is unnecessary because there are often input snbgraphs that can be used as part
+                of the result graph without any modification, or as sharable parts between one of the input graphs and
+                the result graph.
+            </S>
+            <S sid="23" ssid="23">Copying sharable parts is called redundant copying.</S>
+            <S sid="24" ssid="24">A better method would nfinimize the copying of sharable varts.</S>
+        </Reference_Text>
+        <Discourse_Facet>Method_Citation</Discourse_Facet>
+        <Annotator>Kokil Jaidka, NTU</Annotator>
+    </Citance>
+    <Citance>
+        <Citance_Number>14</Citance_Number>
+        <Reference_Article>C90-2039.xml</Reference_Article>
+        <Citing_Article>P91-1042.xml</Citing_Article>
+        <Citation_Marker_Offset>['37']</Citation_Marker_Offset>
+        <Citation_Marker>Kogure 90</Citation_Marker>
+        <Citation_Offset>['37']</Citation_Offset>
+        <Citation_Text>
+            <S sid="37" ssid="37">A better method would avoid (eliminate) such redundant copying as it is called by
+                [Kogure 90].
+            </S>
+        </Citation_Text>
+        <Reference_Offset>['23','24']</Reference_Offset>
+        <Reference_Text>
+            <S sid="23" ssid="23">Copying sharable parts is called redundant copying.</S>
+            <S sid="24" ssid="24">A better method would nfinimize the copying of sharable varts.</S>
+        </Reference_Text>
+        <Discourse_Facet>Implication_Citation</Discourse_Facet>
+        <Annotator>Kokil Jaidka, NTU</Annotator>
+    </Citance>
+    <Citance>
+        <Citance_Number>15</Citance_Number>
+        <Reference_Article>C90-2039.xml</Reference_Article>
+        <Citing_Article>P91-1042.xml</Citing_Article>
+        <Citation_Marker_Offset>['116','117','118','124']</Citation_Marker_Offset>
+        <Citation_Marker>Kogure 90</Citation_Marker>
+        <Citation_Offset>['116']</Citation_Offset>
+        <Citation_Text>
+            <S sid="116" ssid="116">As it has been noticed by [Godden 90] and [Kogure 90], the key idea of avoiding
+                "redundant copying" is to do copying lazily.
+            </S>
+            <S sid="117" ssid="117">Copying of nodes will be delayed until a destructive change is about to take
+                place.
+            </S>
+            <S sid="118" ssid="118">Kogure uses a revised copynode procedure which maintains copy dependency information
+                in order to avoid immediate copying.
+            </S>
+            <S sid="124" ssid="124">Similarly, in Kogure's approach, not all redundant copying is avoided in cases where
+                there exists a feature path (a sequence of nodes connected by arcs) to a node that needs to be copied.
+            </S>
+        </Citation_Text>
+        <Reference_Offset>['23','141','142']</Reference_Offset>
+        <Reference_Text>
+            <S sid="23" ssid="23">Copying sharable parts is called redundant copying.</S>
+            <S sid="141" ssid="2">5 disables structure sharing, ttowever, this whole copying is not necessary if a lazy
+                evaluation method is used.
+            </S>
+            <S sid="142" ssid="3">With such a method, it is possible to delay copying a node until either its own
+                contents need to change (e.g., node G3/Ka c !7&gt;) or until it is found to have an arc (sequence) to a
+                node t, hat needs to be copied (e.g., node X G3/&lt;a c&gt; in Fig.
+            </S>
+        </Reference_Text>
+        <Discourse_Facet>Aim_Citation</Discourse_Facet>
+        <Annotator>Kokil Jaidka, NTU</Annotator>
+    </Citance>
+    <Citance>
+        <Citance_Number>17</Citance_Number>
+        <Reference_Article>C90-2039.xml</Reference_Article>
+        <Citing_Article>W97-1503.xml</Citing_Article>
+        <Citation_Marker_Offset>['136']</Citation_Marker_Offset>
+        <Citation_Marker>Kogure, 1990</Citation_Marker>
+        <Citation_Offset>['136']</Citation_Offset>
+        <Reference_Offset>['24']</Reference_Offset>
+        <Reference_Text>
+            <S sid="24" ssid="24">A better method would nfinimize the copying of sharable varts.</S>
+        </Reference_Text>
+        <Discourse_Facet>Method_Citation</Discourse_Facet>
+        <Annotator>Kokil Jaidka, NTU</Annotator>
+    </Citance>
+</root>

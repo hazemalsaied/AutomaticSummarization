@@ -1,0 +1,3 @@
+The Euro was scheduled to be launched on January 1, 1999, and preparations for its introduction were well underway three years before that date.
+By April 1996 a consultative group was in place to design the new currency and a year later a new currency code was issued to facilitate technical preparations.
+In early 1996 many EU countries continued to fear that the Euro would cause them to loose financial sovereignty; however, by late 1997 Germany was encouraging its companies and investors to welcome the Euro, stressing that it would expand investment opportunities, reduce currency risks, and increase competition.

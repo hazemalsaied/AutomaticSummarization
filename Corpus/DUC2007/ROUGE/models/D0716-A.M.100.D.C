@@ -1,0 +1,3 @@
+In October 1997, the Australian government gave permission to Energy Resources of Australia (ERA) to open the Jabiluka uranium mine on the edge of the Kakadu National Park which is on the World Heritage List, in Australia's Northern Territory.
+Conservationists and the Aboriginal "Mirrar" owners of the land oppose the mine while ERA insists that its environmental record has been proven by the 16-year operation of the Ranger mine, also located in the Kakadu Park.
+Shortly after construction began in mid June 1998, 112 protestors were arrested after they overwhelmed police and stormed onto the site.

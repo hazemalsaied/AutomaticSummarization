@@ -1,0 +1,130 @@
+<PAPER>
+<S sid="0">THE CORRECT AND EFFICIENT IMPLEMENTATION OF APPROPRIATENESS SPECIFICATIONS FOR TYPED FEATURE STRUCTURES</S>
+	<ABSTRACT>
+		<S sid="1" ssid="1">in this pa , per , we argue tha , t type inferencing incorrectly implements ample appropriateness for typed [ feature structures , promote a combination of l ; ype resolution and filling a , s a. correct and efficient , and consider the expressive limits of this alternative . </S>
+		<S sid="2" ssid="2">! [ throughout we use feature nonoccurence restrictions as illustration and linguistic motivation . </S>
+	</ABSTRACT>
+	<SECTION number="1" title="INTRODUCTION">
+			<S sid="3" ssid="3">Unification lbrmMisms may be either un-typed ( DCC~s , PATRII , 1 , F ( ; ) or typed ( npsG ) . </S>
+			<S sid="4" ssid="4">A m~L , ior reason for adding types to ~ form ism is to express restrictions on feature a.s in ( ; l 's ( : : [ 5 ] in order to rule out nonexistent ) es of objects . </S>
+			<S sid="5" ssid="5">For example , there are no verbs which have the [ mixture . The simplest way to express such restrictions is by means of a.n appropriateness function : Type &#215; Feat ~ Type . </S>
+			<S sid="6" ssid="6">With such a.n ample rol ) brittleness son Sllch restriction s may be expressed , though no restrictions involving entrances be expressed . </S>
+			<S sid="7" ssid="7">In this pal ) er , we will first in &#167;2 survey the range of type constraints may be expressed with just a. type hierarchy and * ' ] 'he research ( ! lllL ( 'd ill | , his ; paper was pay tidally sponsored hy ' [ subproject `` ( ; onsl.rahH.s on Grammar flora Efficient Ck : generation of the Soi , der forschungsbereich 340 of the Deutsche [ `` orschungsgemeinscha ft. `` VVe would also like to thank Shiloh for help l comments ou thc ideas presented here . </S>
+			<S sid="8" ssid="8">All mistakes arc of collard our OWll . </S>
+			<S sid="9" ssid="9">IKI . </S>
+			<S sid="10" ssid="10">Wilhelmine . </S>
+			<S sid="11" ssid="11">113 , | ) -721174Tfilfi , ,ge , , ( ler- many { rig , King } g'~sfs.n birefringence . </S>
+			<S sid="12" ssid="12">a.n N ) appropriateness specification . </S>
+			<S sid="13" ssid="13">Then in ~3 , we discuss how such type constraints linty be maintained under unification as exemplified in the na.tura. 1 language D~rs- generation system '.l'ro l [ 7 ] . </S>
+			<S sid="14" ssid="14">1 Unlike previous systems such as ALl , : , Troll does not employ any type inferencing inste~M , a , limited amount of named disjunction ( [ 1 1 ] , [ 12 ] , [ 6 ] ) is introduced to record type resolved u son possibilities . </S>
+			<S sid="15" ssid="15">The amount of dis- junction is also kept small by the technique of unwilling g described in [ 9 ] . </S>
+			<S sid="16" ssid="16">This strategy actually apl ) appropriateness conditions in some cases in which a. type in-ferencing strategy would fail l ) 'inMly , in &#167;4 , we discuss the possibilities for genera Lizzie this ample roach to handle a bro~Mer ringer of constraints including constraints inw ) ling ties . </S>
+	</SECTION>
+	<SECTION number="2" title="APPROPRIATENESS FOR, MALISMS. ">
+			<S sid="17" ssid="1">As discussed iu Gerdemann , ~ King [ 8 ] , one can view ample rol ) privateness CO [ editions as ( lining style fea, 1 tl re nonoccurence restrict : ions ( FCRs ) . </S>
+			<S sid="18" ssid="2">In [ 8 ] , we divided FCRs into co , j , active and ditz fictive . </S>
+			<S sid="19" ssid="3">A conjunctive FCI/ . </S>
+			<S sid="20" ssid="4">is a constraint of the following formal i [ ' a.n object is of ; ~ cert ; fin kind then ill deserves certain with dues of certitude kinds An FCI~ stat : ing tha, 2 a. verb must Howe v and N features with values A- and -respectively is all example of a. conjunctive FCI { . </S>
+			<S sid="21" ssid="5">A disjunctive I '' CI { . </S>
+			<S sid="22" ssid="6">is of the form : l Rachel ] roll qysl.em was implemented in Quintus Prolog by Dale ( legerdemain and ' [ Shiloh ] Stz . </S>
+			<S sid="23" ssid="7">if an object is of a. celibate then it deserves cert akin ca, 1 tll'C~s with vMues of certain kinds , or it deserves certain pei'ha.liS other ) fea. 1 u res evil h viii of terrain pergolas other ) kinds , or ... </S>
+			<S sid="24" ssid="8">( 31 : it i : lesser . ; s i : erl ; akin lethal S other ) fea, 1 ll res Vi , l. [ ll ( ~S o [ certain ( perhaps other ) khi , &lt; ls lo : :I exam nipple the following F ( ' , |/ . </S>
+			<S sid="25" ssid="9">sl.a.t.iug , t inverCed verbs lilt|S1 , lie auxiliary tries is disjunctive : a verb Ilitisl ; hare the [ ' ( ~il.l.tll ( ~s INV and AUX with valises d a.Iid I , -a.iitl i L- , or - ; Mid -respectivel.y . Both o| these |el'illS or l , ' ( ' , lls iiHly I ) ( ! </S>
+			<S sid="26" ssid="10">expressed in a. foi'llla.iiSlli shipload ~ fiiiil.e , Myrtia . [ order ( Type , E ) o| types killdeer sub-  8illnptioli a , finite sel . </S>
+			<S sid="27" ssid="11">Feat of ro ; ./.t tll . ( ~s , and an approx privateness , ial rliilcl.ion : Type X Feat -~ Type . </S>
+			<S sid="28" ssid="12">[ intuitively the l , types I ; lie notion ol '' kinds + , j '' object t g : t , ' ill ' capon , of tyl &gt; e t ' i~ &lt; i Mso of l ; Ylle L , il , ll ( ] Approp ( l , f ) = lI ill ' ( ! ; i ( ' [ I object oF type t deserves [ eaA.urt~ f wil . ] i : i . Vi./ . ] lle or type ft. ~ @ 'e call S/IC ] I it . </S>
+			<S sid="29" ssid="13">[ Ol'tll ; liiSlll i-i , ii ; I , ] ) l ) l '' Opl ' ] al , polio ~/ fOl'lllil ] i~ ; lll . </S>
+			<S sid="30" ssid="14">( ' , iLl'- peliLel '' , s AI , F , and ( , Ardelia . </S>
+			<S sid="31" ssid="15">i ; ill ( | ( i ( ~t , z 's Troll are ex : -t.niples o| illilllenienl.a.Lions o| a , pF , ro ] ) ria , Loliess |or ill iSlil , s . l low an a.i ) appropriateness orniaJisnl enc les a conjunctive I : ( ' , R is ob\ . 'i &lt; &gt; us~ bll ( . </S>
+			<S sid="32" ssid="16">llOW it encodes a disjunctive I '' ( ',1 { is less so . </S>
+			<S sid="33" ssid="17">Ali example ] usl ; ral ; es best how it . </S>
+			<S sid="34" ssid="18">is done . </S>
+			<S sid="35" ssid="19">~Ul ) pOS0 that F ( ',1 { [ i sl.al.es , ob- toeclips if type t deserve </S>
+			<S sid="36" ssid="20">[ ( ! a . [ ./ll ( ! S f and , I ) oth with boolea.I/ dues ( I [ Hell's [ lel'lllOF ( ~ that the valises of f ail g iil/lSl Aler ! e , [ &gt; is the disjunct ] w ! I '' ( 111 . </S>
+			<S sid="37" ssid="21">if a , u object is o [ type l then it deserve s f with value and q with due , or it deserts f with value 9 with value - To  0ncode 3 &gt; first iul , rodLiCe sultanates t ~ ; +l.ll [ l '' of I ( 1 E I/ , 1. # # ) , O11 ( ! </S>
+			<S sid="38" ssid="22">SUl ) tyl ) e [ ' ( ) l ' ea , ch disjunct the consequent of . </S>
+			<S sid="39" ssid="23">Then encode the ] 'ea.tli 'e/wthl~.~ 'on ( ! il.illliS in l , he [ first disjunct ILy putting ( t ' , ./ ) : : ~-a , nd Approp ( //~ q ) -+ , and encode the I'eature/value conditions in the second dis-juu ( : t by putting Approp ( t ' , f ) = - . </S>
+			<S sid="40" ssid="24">and Approp ( t ' , g ) = . . '2 This a uproar ch Ina , kes two ill ort ; a , lll , closed-world type assumptions a , bouL ( .he types titling Slll ) SlllIle 11o other types ( hellCe- forth species ) , l : first the p ; partition states that for each type t , if a.n object is ( 31 ' type t the the object is of ex-ax-I.ly o11 ( 2 species subsumed by t. Second , the all-or-nothing condition , tes that 1 ' ( 31 ' each species , q audited f , either every el '' IIO ol &gt; , incl or species s deserves feature . # c.3 All a.l ) ltroltriM , elites orli+ia.lisill ] l a.s ALl : , ( [ 2 ] , [ 3 ] ) ti , ; t.l . does not quiet both conditions llOt ; ] roper y el|cOde a , disjunct '- five l '' ( : l/ . </S>
+			<S sid="41" ssid="25">For example consider disjunctive I '' CI { . </S>
+			<S sid="42" ssid="26">p. An a.I ) prl ; ) primal elleSS [ hernial iSlli I/lily l/O ( properly encode 1 , hit t / a.lld t '' I'll rt , sell MI valid the disjunct s ill the COll.qeqll ( Hlt or [ i wiLhout the i ) Arly inion ] son . </S>
+			<S sid="43" ssid="27">&lt; till a.llln'ol brittleness orlila.liSlll ilia y IIOl . </S>
+			<S sid="44" ssid="28">llrOl ) early encode the [ t~ii.l.llle/vii.hle : ( lll- &lt; liiriOii : demanded em's , hi the COli.~t ! alleluia . </S>
+			<S sid="45" ssid="29">o| p without the a.i [ -Ol'-liot ; Hillie c ( m ( trillion . </S>
+			<S sid="46" ssid="30">As indicated , AI , I. ; is iLIi exactly le o| it . </S>
+			<S sid="47" ssid="31">f ( n'liialiSlU I.ha.l , does it ( it kneel loll h o|  1.hese closed world aS , Gilligan iOli.g . In AI+E : -/ . </S>
+			<S sid="48" ssid="32">[ 'eli.l.tlr ~ st.i'llCtlile i. &lt; 4 won typed ifl ' for each arc iit the te : +d.ure ; tlr 0 if ' 1 , he SOtll ' ( ' ( ~ node is labeled type /. , the target node is halalled with 1 ; ype l / a.lld the il.i'c is IMlelled with [ Eachelle ( ~ f 1 , lien Approp ( /. &gt; .f ) [ l/ . </S>
+			<S sid="49" ssid="33">Furl.her|note a [ teal Kurt strut ( tire is &gt; l's ) h : I : ( JR is , for eXlmsil.ory l ) nrl ) uses quilt simple . </S>
+			<S sid="50" ssid="34">`` l's o [ express transship F ( Jl/ 's , however , is a l'Cal Iiuguisl.ic i ) rol ) lain . </S>
+			<S sid="51" ssid="35">As noted I ) y Copcstakc . </S>
+			<S sid="52" ssid="36">ct al . [ 4 ] , it . </S>
+			<S sid="53" ssid="37">was impossible express CV ( 'II Ihc .~ilii ) ] oM . </S>
+			<S sid="54" ssid="38">formalism o [ l '' ( JRs in l.hc.ii7 VCISiOII ( it ' AI.E . ' [ 'hc basic principle of expressing l '' Clls also ex lends Io I '' ( ' , [ ( s convolving longer pals . </S>
+			<S sid="55" ssid="39">For example , to ( : llSllt't : that . </S>
+			<S sid="56" ssid="40">for the type l , I.he path ( fg ) lakes a varied I ) y . % one lust hll , ro duce the chain ( / , f ) = . , , Approp ( 'a , g ) = .~ . </S>
+			<S sid="57" ssid="41">Milch I . '~'l lts COllid ll ( ! </S>
+			<S sid="58" ssid="42">hll.rodllced a. &lt; - ; part o [ a ( nilling Albion </S>
+			<S sid="59" ssid="43">4 Nob : I.hal . </S>
+			<S sid="60" ssid="44">Chess cl , &gt; s &lt; , d world assumptions art ' explicitly made in Pollard , t , . </S>
+			<S sid="61" ssid="45">Sag ( forthcoming [ 14 ] .. </S>
+			<S sid="62" ssid="46">well-typable iff the feature structure subsumes a well-typed feature structure , in ALl . : , type inferencing is employed to ensure that all feature structures are well-typable -- in fact , all feature structures are well typed . </S>
+			<S sid="63" ssid="47">Unfortunately , well-typability is not sufficient to ensure that disjunctive FCRs are satisfied . </S>
+			<S sid="64" ssid="48">Consider , For exam- pie , our encoding of the disjunctive FCR p and suppose that 99 is the fe , feature structure t [ f : +,9 : - ] . </S>
+			<S sid="65" ssid="49">90 is well-typed , and hence trivially well-typable . </S>
+			<S sid="66" ssid="50">Unfortunately , 99 vb elates the encoded disjunctive FCR p. The only way one could interpret ~ as well-formed . </S>
+			<S sid="67" ssid="51">By contrast , the Troll system described in this paper has an effective algorithm f &lt; &gt; r deciding well-formedness , which is based on the idea of efficiently representing disjunctive possibilities within the feature structure , Call a well-typed feature structure in which all nodes are labeled with species a resolved feature structure and call a set of resolved feature structures that have the same underlying graph ( that is , they differ only in their node labellings ) a disjunctive resolved feature structure . </S>
+			<S sid="68" ssid="52">We write fS , ~vf8 and 'D~ . ) c $ for the collections of feature structures , resolved feature structures and disjunctive resolved feature structures respectively . </S>
+			<S sid="69" ssid="53">Say that F'E RFS is a resolved of F E FS iff F and F ' have the same underlying graph and F subsumes F ' . </S>
+			<S sid="70" ssid="54">Let type resolution be the total function R : - &gt; DRFS such that R ( F ) is the set of all resolved of F. Guided by the partition and all-or-nothing conditions , King [ 13 ] has formulated a semantics of feature structures and developed a notion of a satisfiable feature structure such that F E FS is satisfiable iff R ( F ) 0 . </S>
+			<S sid="71" ssid="55">T $ is satisfiable if [ ' 7~ ( F ) 7 ~ ( 7 ) . </S>
+			<S sid="72" ssid="56">C , legerdemain % King [ 8 ] have also shown that a feature structure l ] lets all encoded FCRs ifl '' the feature structure is satisfiable . </S>
+			<S sid="73" ssid="57">The Troll system , which is based on this idea , effectively implements type resolution . </S>
+			<S sid="74" ssid="58">Why does type resorption succeed where . </S>
+			<S sid="75" ssid="59">type inferencing fails ? </S>
+			<S sid="76" ssid="60">Consider again the encoding of p and the feature structure 9~ . </S>
+			<S sid="77" ssid="61">Loosely speaking , the appropriateness sl ) specifications for type t encode the part of p that sta , tes that an object of tyl ) e t deserves features f and g , both with boolean vales . </S>
+			<S sid="78" ssid="62">However , the appropriateness specifications for the speci- ate sul ) types t ' and t '' of type t encode the part of p that states that these val-lies lust agree . </S>
+			<S sid="79" ssid="63">Well-typability only considers species if forced to . </S>
+			<S sid="80" ssid="64">In the case of ~ , well-typability can be established by considering type t alone , without the l ) partition condition forcing one to find a well-typed species subsumed hy t. Consequently , well-tyl ) ability overlooks the part off encoded by the ai ) appropriateness specifications for t ' and t '' . </S>
+			<S sid="81" ssid="65">Type resolution , on the other hand , always considers species . </S>
+			<S sid="82" ssid="66">Thus , type resolving 9o can not overlook the part of p exclusively encoded by tile appropriateness specifications for t ' and t ' . </S>
+	</SECTION>
+	<SECTION number="3" title="MAINTAINING. ">
+			<S sid="83" ssid="1">APPROPRIATENES S CONDITIONS A very important property of the class of DRFS is that they are closed under unification , i.e. , if F and F'E DRFS then F U F ' E DRFS.4 Given this property , it would in principle he possible to use the disjunctive resolved feature structures in an implementation without any additional type inferencing procedure to maintain satisfiability . </S>
+			<S sid="84" ssid="2">It would , of course , not be very efficient to work with such large disjunctions of feature structures . </S>
+			<S sid="85" ssid="3">4In fact it ~ : ~rl~ I ) ~ SI~OW ~ that if t '' and 1 ' '' 6 fS then `` R ( F ) tJ 1 '' ( 1 '' ' ) = `` R ( F tO F ' ) . </S>
+			<S sid="86" ssid="4">Unification of sets of feature structures is defined here ill the standard way : S t2 , S '' = { 1 '' [ I '' ' 6 S and l '' '' G S '' and 1 '' = 1 '' ' H 1 '' '' } . </S>
+			<S sid="87" ssid="5">( ! rty allows a. disjunct ( , d feature , structure re to I ) e r ( ; l ) rosed ( ~d more et [ efficiently a , s ~t single ) ( ~d feature ' style ( : l.llfe plus a , sel ; of d ( ; pond node lash galliums which can be further ( ; oml ) a , ( : t ( ~d using mi , Nie ( l dis . </S>
+			<S sid="88" ssid="6">junction a.s in ( ' , ( Riemann ( i ] , I ) i'~ [ 're t ( : Fo ] ' exanH ) le , SUl ) l ) OS ( ~ \v ( ~ I , ,yl ) ( ~ r ( solved the [ ea , l , urc st , structure t [ , f ; boo fl ; boo using our encoding of p . </S>
+			<S sid="89" ssid="7">( ) he can ( rosily see that this feature ~ strut : fur ( , has only two I'e solve nts , which ca , n I ) e collapse ~d into one fea, 1 ure stroll tattler with llallV2d d ] disjunctive a , s shown below : f : k , : : &gt; f : ( I t - ) II 'll ; 1 } [ `` ' '' ' ] 0 : t-LU : J , u : ( I t ) We now ha , vo a , [ ; ( mSolml ) ly COml ) a ( : l l'q ) -resentaJ ; ion hi which tho l '' ( il { , has lie ( Hi tl ' ; stalls I , t ( ~ ( [ iul , o a. Ila , ill ( ! ( I ( [ iS . ] loll : violin . </S>
+			<S sid="90" ssid="8">Ih , w O , V ( H ' &gt; ( Hie should note tha , t fills disjunct : l ; ion is only l ) l'eSeUl ; b ( ~ ( : ants ~ the [ 'oaJ , tli'O~i .f a , ] l ( l g ha &gt; l ) l ) en 1 : o I ) o Fir ( ~s ( HIt . </S>
+			<S sid="91" ssid="9">Tilt ! S ( ! </S>
+			<S sid="92" ssid="10">I ( , a lures would seed l ; o Im l ) res ( mt il w ( ~ wt we &lt; ej ( Jaxpcnl , ( H '' s [ :7 ] Lucile al w ( ql idyll iug r ( neurotic oil white qa , y 's 1.1ial ( ! al : ilr ( 's I. dial a , l : e allowed 1 ) o pres , ml Lilllie . </S>
+			<S sid="93" ssid="11">Viola well I.yping is , hi fax : t &gt; income alibi e ; villi type , violin since I ; ore $ ' w ( ql I ) o all incl ; ( ~ seL of tot lly w ( , ll iyl ) od I'esolvalil.s of ; 1 l ' ( ; a , Lllr ( J st ] 'llcttir '~ , For ( ~xa.llipi ~ , all ( lei'.- Sl ) orifice list style flirt ' could be iT ( ~S ( ) /v0 ( I 1.o ; ~ list of length ( L a. list of h : English 1 , elect , Dulce I , ota.I well I , Weylin g is liOt i ' ( ! quire ! ( [ , we limy well a.ctiwqy [ il [ r0 ( lurid lnt [ '0a , tires 5 ill this ( ! Xalli [ ) l ( ! &gt; i [ t , li ( ' f ail ( l ( 7 foray tllrOS ;  , we a , lO ell , h lh ( , simple , disjunction { if , /'~ } : which is ( ! quiv- a , lent , to l ; ] le or ( lillaJ'y l , Yl ) ( ' l. ( ; Thus , iu Lillis ca , so &gt; ] lO ( Lissajous ion a.t all ix rc ! ( lollipop l 10 ( ! 11 '' force the I '' CIL All th ' , tt is require I is tim Quintus lively [ eat , ui'cs arc redundant it Ilwir val llCS art ' . </S>
+			<S sid="94" ssid="12">eul , h's 5 predictable ihc appropriate Sl &gt; eCificatim , .. % 'c GStz [ 1 ) ] , ( ' , cr , lemma [ 7 ] k , r ; I. IIlOl ; ( ' . </S>
+			<S sid="95" ssid="13">[ HXX : iHCforUllllalioii . </S>
+			<S sid="96" ssid="14">&#176; [ n this case il . </S>
+			<S sid="97" ssid="15">would also have b ( : ml l ) ~ &gt; , Bible to unlit oink Kauai teal , life Sll'tl &lt; ltd I , .I.ie I* ' solving . </S>
+			<S sid="98" ssid="16">/Snforl , unary e , ly , llmvcvcr this i~ ; l. &gt; i ; ihvay~ . </S>
+			<S sid="99" ssid="17">the ( : asc , as C ; lll | ) ( ! </S>
+			<S sid="100" ssid="18">S ( ! t'II in the [ allowing ! Xalll ] ) lC : t { j : + ] : &gt; { C/ : + ] } ~ ~ ' . </S>
+			<S sid="101" ssid="19">asSUml ) son t will only be ext ( med I ) y unifying with Walther t ; Oml ) act ~d ) m ( mll ) ( ! r o [ ' `` l ) ' ] ? .Jr , _c , . </S>
+			<S sid="102" ssid="20">This , h.w ( wer , was a. simple case which a.I1 of the named disjunct : son could ho removed . </S>
+			<S sid="103" ssid="21">It would not live I ) ( 'en i ) os sidle to reload ' tim feature 's f ~tll I g if these 17 , atu [ 'es had I ) oen involved iu re ( m-tranci ( +s of i [ ' tlt ( , se ligatures had : om- i ) h+x value 's , lu gt+tlera.I , however our eXl ) e- ri ( ! ll ( : ( ~ ha , s I ) ( ~ ( ql that , eV ( ; l ! wil , li very ( : ( ) tit pl ( 'x type hi ( ~ra , chi ~s and ' ( m , tur ( ; SLI'UC-l , lll'eS [ ( ) 1 '' liPS ( i , very I'll named ( lisjunc-lions a , re introduce 'e ( l. 7 q'hus~ ; ion is e ; ( morally more ( ~xp ( massive unifica.- li , : ) H with unlucky l ( mature ~ slunk : lour 's . </S>
+	</SECTION>
+	<SECTION number="4" title="CONCLUSIONS. ">
+			<S sid="104" ssid="1">\ % havoc sh , :Y , vu in this ital , :~r that the kind of cons , :~Xl ) r.t~ssihlo api ) Vol ) rh~ , l ; or.~ss call he implemented a i . tactical . , .D , sle ] n e , ul ) loyinK typ , M feat r , :'~ strut : tuft , s and utdlica.Lion a.s I.he I : ,ritna.ry ) ( U'a , t , ic : ,n on t ( &gt; ; t , l , ur &lt; + , '- ; t , rut urea . </S>
+			<S sid="105" ssid="2">Slut what . </S>
+			<S sid="106" ssid="3">Of IIlOl ' ( ' COIII [ ) I ( ~N l ; yp ( ~ CC'IIH| , F.~LilI| , ,q it'd l ' , . ' h~y ; r ( Menlo ram : ies ' : [ intro IL~ciug reeJH.ra.ncies ill . </S>
+			<S sid="107" ssid="4">, : : &lt; rest halides allows E. ' the F , O~sihillty of d ( ~liNiu/ , , recursive ) , :~s ~ such a.s the ( lei of append in [ I ] . </S>
+			<S sid="108" ssid="5">( ; lea [ 'ly the re solve -~nl.~ , o [ such a. recursive ~ Lyle ( ' , could Not I ) ( ~ l , reCOmlfiled a.s r , .~quiI'oxl in Troll . </S>
+			<S sid="109" ssid="6">Oue might , Bartholomeus consider a l- [ OWil ] l [ f ( ' ( Hl ( , f a , ll ( 'y- ( 'OIls t f a hI| S oll recursion qy defile . </S>
+			<S sid="110" ssid="7">A ] ) ro/ ) Lemuel still arises ; nastily il lhe l'eSo [ variants of a Frail , till't 1 '' ( ~ ill ( : ludo sonic with a particle r ( ~onll'all : y and s ( ) Tn ( ~ \viLh ( ' , ul , then the ( : , . ) militia ) ll ilia a.II res layouts ( ~ th , :~ same shoal ( ~ would m ) lone ' hold . </S>
+			<S sid="111" ssid="8">( ) ue v. , otter ( q's .~ no ( ~ ( l i.o eml ) loy a moue COml ) l ( , x torsion , aimed listing f , t : tio , ( Ill ] , [ 12 ] , tit ) I ) . </S>
+			<S sid="112" ssid="9">It . </S>
+			<S sid="113" ssid="10">ig ( i , .L ( astir  ~ wh ( theft such a.d additional : ( ) mpl ( ~xit.y would I ) e justified to 'Our CXl ) Ericha : c is derived l , primarily flora test-i.I '' Ihc 'l'loll system ( m a tat , her lar &lt; e , e e , ramble G for ( ' , ( ! l &gt; lll ; lll imperial I &gt; lHases , which was wiit-t ( 'n I ) y I'hhard Ilillrichs a.d Tsum : ko Na , Kazakh incl uncut cd by I ) clear : J 's . </S>
+			<S sid="114" ssid="11">handle this limited class of reentrancy- constraints . </S>
+			<S sid="115" ssid="12">It seems then , that the class of constraints that can be expressed by appropriateness conditions corresponds closely to the class of constraints that can be efficiently precomputed . </S>
+			<S sid="116" ssid="13">We take this as a justification for appropriateness formalisms in general . </S>
+			<S sid="117" ssid="14">It makes sense to ~d ) street out the efficiently processable constraints and then allow another mechalfiSm , such as attachments of definite clauses , to express more complex constraints . </S>
+	</SECTION>
+</PAPER>

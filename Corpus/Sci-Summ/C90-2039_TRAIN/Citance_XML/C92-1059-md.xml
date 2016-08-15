@@ -1,0 +1,34 @@
+<PAPER>
+	<ABSTRACT>
+		<S sid ="8" ssid = "8">In unification-based or information-based linguisticframeworks, the most important objects are struc tures called &amp;apos;feature structures&amp;apos; (FSs), which are usedto describe linguistic objects and phenomena.</S>
+			<S sid ="9" ssid = "9">A fea ture structure is either atomic or complex: an atomic FS is denoted by an atomic symbol; a complex FS consists of a set of feature-value pairs each of which describes an aspect of an object.</S>
+					<S sid ="46" ssid = "46">&lt;/bodyText&gt; &lt;sectionHeader confidence=&quot;0.650502&quot; genericHeader=&quot;method&quot;&gt;</S>
+	</ABSTRACT>
+	<SECTION title="Introduction" number = "1">
+			<S sid ="8" ssid = "8">In unification-based or information-based linguisticframeworks, the most important objects are struc tures called &amp;apos;feature structures&amp;apos; (FSs), which are usedto describe linguistic objects and phenomena.</S>
+			<S sid ="9" ssid = "9">A fea ture structure is either atomic or complex: an atomic FS is denoted by an atomic symbol; a complex FS consists of a set of feature-value pairs each of which describes an aspect of an object.</S>
+					<S sid ="46" ssid = "46">&lt;/bodyText&gt; &lt;sectionHeader confidence=&quot;0.650502&quot; genericHeader=&quot;method&quot;&gt;</S>
+	</SECTION>
+	<SECTION title="Requirements of Negative. " number = "2">
+			<S sid ="8" ssid = "8">In unification-based or information-based linguisticframeworks, the most important objects are struc tures called &amp;apos;feature structures&amp;apos; (FSs), which are usedto describe linguistic objects and phenomena.</S>
+			<S sid ="9" ssid = "9">A fea ture structure is either atomic or complex: an atomic FS is denoted by an atomic symbol; a complex FS consists of a set of feature-value pairs each of which describes an aspect of an object.</S>
+					<S sid ="46" ssid = "46">&lt;/bodyText&gt; &lt;sectionHeader confidence=&quot;0.650502&quot; genericHeader=&quot;method&quot;&gt;</S>	</SECTION>
+	<SECTION title="Formal Treatment of Negative. " number = "3">
+		<S sid ="8" ssid = "8">In unification-based or information-based linguisticframeworks, the most important objects are struc tures called &amp;apos;feature structures&amp;apos; (FSs), which are usedto describe linguistic objects and phenomena.</S>
+			<S sid ="9" ssid = "9">A fea ture structure is either atomic or complex: an atomic FS is denoted by an atomic symbol; a complex FS consists of a set of feature-value pairs each of which describes an aspect of an object.</S>
+					<S sid ="46" ssid = "46">&lt;/bodyText&gt; &lt;sectionHeader confidence=&quot;0.650502&quot; genericHeader=&quot;method&quot;&gt;</S></SECTION>
+	<SECTION title="Vp E P462(P) C Ot(P), and. " number = "4">
+			<S sid ="8" ssid = "8">In unification-based or information-based linguisticframeworks, the most important objects are struc tures called &amp;apos;feature structures&amp;apos; (FSs), which are usedto describe linguistic objects and phenomena.</S>
+			<S sid ="9" ssid = "9">A fea ture structure is either atomic or complex: an atomic FS is denoted by an atomic symbol; a complex FS consists of a set of feature-value pairs each of which describes an aspect of an object.</S>
+					<S sid ="46" ssid = "46">&lt;/bodyText&gt; &lt;sectionHeader confidence=&quot;0.650502&quot; genericHeader=&quot;method&quot;&gt;</S></SECTION>
+	<SECTION title="Conclusion. " number = "5">
+			<S sid ="8" ssid = "8">In unification-based or information-based linguisticframeworks, the most important objects are struc tures called &amp;apos;feature structures&amp;apos; (FSs), which are usedto describe linguistic objects and phenomena.</S>
+			<S sid ="9" ssid = "9">A fea ture structure is either atomic or complex: an atomic FS is denoted by an atomic symbol; a complex FS consists of a set of feature-value pairs each of which describes an aspect of an object.</S>
+					<S sid ="46" ssid = "46">&lt;/bodyText&gt; &lt;sectionHeader confidence=&quot;0.650502&quot; genericHeader=&quot;method&quot;&gt;</S><S sid ="225" ssid = "10">Unification programs based on these algorithms have been developed in Common Lisp.The augmentation of TFSs makes linguistic de scriptions compact and easy to understand, In an HPSG-based grammar, for example, non-emptinessof a subcat or slash feature value can be easily de scribed by using feature-address value disagreement.Moreover, negative descriptions make debugging pro cesses of grammatical descriptions easier.</S>
+	</SECTION>
+	<SECTION title="Acknowledgments">
+			<S sid ="226" ssid = "11">This research was performed in the VCAT project of the Takeuchi Research Group in NTT Basic Research Laboratories.</S>
+			<S sid ="8" ssid = "8">In unification-based or information-based linguisticframeworks, the most important objects are struc tures called &amp;apos;feature structures&amp;apos; (FSs), which are usedto describe linguistic objects and phenomena.</S>
+			<S sid ="9" ssid = "9">A fea ture structure is either atomic or complex: an atomic FS is denoted by an atomic symbol; a complex FS consists of a set of feature-value pairs each of which describes an aspect of an object.</S>
+					<S sid ="46" ssid = "46">&lt;/bodyText&gt; &lt;sectionHeader confidence=&quot;0.650502&quot; genericHeader=&quot;method&quot;&gt;</S>	</SECTION>
+</PAPER>
