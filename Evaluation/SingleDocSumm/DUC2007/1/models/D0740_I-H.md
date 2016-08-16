@@ -1,0 +1,3 @@
+On March 21, 1999, after 19 days, 21 hours and 55 minutes aloft, Bertrand Piccard and Brian Jones ended their 29,056-mile balloon flight in the sands of Egypt's Sahara Desert.
+As the first people to circumnavigate the Earth in a hot-air balloon, the two achieved what promoters said was the last great milestone of aviation and received awards from the International Olympic Committee and the Federation Aeronautique Internationale, as well as a $1 million prize from Anheuser-Bush Co.
+Their helium/hot air hybrid balloon--the Breitling Orbiter 3--will be permanently housed at the Air and Space Museum in Washington, DC.

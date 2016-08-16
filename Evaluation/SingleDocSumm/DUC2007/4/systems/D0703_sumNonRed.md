@@ -1,0 +1,4 @@
+About the future European currency, 20 percent feel "well informed", 79 percent feel to be not well informed.
+Only 20 percent of German companies have taken concrete steps to get prepared for the Euro, Rexrodt said, adding that the country's state institutions were also not well prepared.
+German Economics Minister Guenter Rexrodt said today that most German companies are not prepared for the shift to the single European currency, the Euro, which is due to be launched on January 1, 1999.
+Seven out of ten find the name of the single currency `` Euro '' acceptable , almost one in four say the opposite , and one in 
