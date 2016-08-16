@@ -1,0 +1,18 @@
+<html>
+<head><title>P98-1081_model</title> </head>
+<body bgcolor="white">
+<a name="0">[0]</a> <a href="#0" id=0>In order to see whether combination of the component taggers is likely to lead to improvements of tagging quality , we first examine the results of the individual taggers when applied to Tune . </a>
+<a name="1">[1]</a> <a href="#1" id=1>We accept that we are measuring quality in relation to a specific tagging </a>
+<a name="2">[2]</a> <a href="#2" id=2>5 The most straightforward selection method is an n-way vote . </a>
+<a name="3">[3]</a> <a href="#3" id=3>The most democratic option is to give each tagger one vote ( Majority ) . </a>
+<a name="4">[4]</a> <a href="#4" id=4>However , it appears more useful to give more weight to taggers which have proved their quality . </a>
+<a name="5">[5]</a> <a href="#5" id=5>This can be general quality , e.g . each tagger votes its overall precision ( TotPrecision ) , or quality in relation to the current situation , e.g . each tagger votes its precision on the suggested tag ( Tag- Precision ) . </a>
+<a name="6">[6]</a> <a href="#6" id=6>The information about each tagger 's quality is derived from an inspection of its results on Tune . </a>
+<a name="7">[7]</a> <a href="#7" id=7>Table 2 : Accuracy of individual taggers and combination methods . </a>
+<a name="8">[8]</a> <a href="#8" id=8>Each classier votes for its classification and every pair of classifiers votes for the sense that is most likely given the joint classification . </a>
+<a name="9">[9]</a> <a href="#9" id=9>A next step is to examine them in pairs . </a>
+<a name="10">[10]</a> <a href="#10" id=10>We can investigate all situations where one tagger suggests T1 and the other T2 and estimate the probability that in this situation the tag should actually be Tx . </a>
+<a name="11">[11]</a> <a href="#11" id=11>We can investigate all situations where one tagger suggests T1 and the other T2 and estimate the probability that in this situation the tag should actually be Tx . </a>
+<a name="12">[12]</a> <a href="#12" id=12>When combining the taggers , every tagger pair is taken in turn and allowed to vote ( with the probability described above ) for each possible tag , i.e . not just the ones suggested by the component taggers . </a>
+<a name="13">[13]</a> <a href="#13" id=13>When used on Test , the pairwise voting strategy ( TagPair ) clearly outperforms the other voting strategies , 8 but does not yet approach the level where all tying majority votes are handled correctly ( 98.31 % ) . </a></body>
+</html>
