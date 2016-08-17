@@ -1,1 +1,142 @@
-<ROUGE-EVAL version="1.55"><EVAL ID="1"><PEER-ROOT>c:/rouge/DUC2007Html/systems</PEER-ROOT><MODEL-ROOT>c:/rouge/DUC2007Html/models</MODEL-ROOT><MODELS><M ID="1">D0703_A-A.html</M><M ID="2">D0703_A-C.html</M><M ID="3">D0703_A-D.html</M><M ID="4">D0703_A-J.html</M></MODELS><INPUT-FORMAT TYPE="SEE" /><PEERS><P ID="sumNonRed">D0703_sumNonRed.html</P></PEERS></EVAL><EVAL ID="2"><PEER-ROOT>c:/rouge/DUC2007Html/systems</PEER-ROOT><MODEL-ROOT>c:/rouge/DUC2007Html/models</MODEL-ROOT><MODELS><M ID="1">D0706_B-B.html</M><M ID="2">D0706_B-D.html</M><M ID="3">D0706_B-E.html</M><M ID="4">D0706_B-I.html</M></MODELS><INPUT-FORMAT TYPE="SEE" /><PEERS><P ID="sumNonRed">D0706_sumNonRed.html</P></PEERS></EVAL><EVAL ID="3"><PEER-ROOT>c:/rouge/DUC2007Html/systems</PEER-ROOT><MODEL-ROOT>c:/rouge/DUC2007Html/models</MODEL-ROOT><MODELS><M ID="1">D0711_C-A.html</M><M ID="2">D0711_C-B.html</M><M ID="3">D0711_C-C.html</M><M ID="4">D0711_C-F.html</M></MODELS><INPUT-FORMAT TYPE="SEE" /><PEERS><P ID="sumNonRed">D0711_sumNonRed.html</P></PEERS></EVAL><EVAL ID="4"><PEER-ROOT>c:/rouge/DUC2007Html/systems</PEER-ROOT><MODEL-ROOT>c:/rouge/DUC2007Html/models</MODEL-ROOT><MODELS><M ID="1">D0716_D-C.html</M><M ID="2">D0716_D-D.html</M><M ID="3">D0716_D-E.html</M><M ID="4">D0716_D-F.html</M></MODELS><INPUT-FORMAT TYPE="SEE" /><PEERS><P ID="sumNonRed">D0716_sumNonRed.html</P></PEERS></EVAL><EVAL ID="5"><PEER-ROOT>c:/rouge/DUC2007Html/systems</PEER-ROOT><MODEL-ROOT>c:/rouge/DUC2007Html/models</MODEL-ROOT><MODELS><M ID="1">D0721_E-B.html</M><M ID="2">D0721_E-C.html</M><M ID="3">D0721_E-E.html</M><M ID="4">D0721_E-G.html</M></MODELS><INPUT-FORMAT TYPE="SEE" /><PEERS><P ID="sumNonRed">D0721_sumNonRed.html</P></PEERS></EVAL><EVAL ID="6"><PEER-ROOT>c:/rouge/DUC2007Html/systems</PEER-ROOT><MODEL-ROOT>c:/rouge/DUC2007Html/models</MODEL-ROOT><MODELS><M ID="1">D0726_F-A.html</M><M ID="2">D0726_F-E.html</M><M ID="3">D0726_F-F.html</M><M ID="4">D0726_F-G.html</M></MODELS><INPUT-FORMAT TYPE="SEE" /><PEERS><P ID="sumNonRed">D0726_sumNonRed.html</P></PEERS></EVAL><EVAL ID="7"><PEER-ROOT>c:/rouge/DUC2007Html/systems</PEER-ROOT><MODEL-ROOT>c:/rouge/DUC2007Html/models</MODEL-ROOT><MODELS><M ID="1">D0727_G-A.html</M><M ID="2">D0727_G-F.html</M><M ID="3">D0727_G-G.html</M><M ID="4">D0727_G-H.html</M></MODELS><INPUT-FORMAT TYPE="SEE" /><PEERS><P ID="sumNonRed">D0727_sumNonRed.html</P></PEERS></EVAL><EVAL ID="8"><PEER-ROOT>c:/rouge/DUC2007Html/systems</PEER-ROOT><MODEL-ROOT>c:/rouge/DUC2007Html/models</MODEL-ROOT><MODELS><M ID="1">D0736_H-G.html</M><M ID="2">D0736_H-H.html</M><M ID="3">D0736_H-I.html</M><M ID="4">D0736_H-J.html</M></MODELS><INPUT-FORMAT TYPE="SEE" /><PEERS><P ID="sumNonRed">D0736_sumNonRed.html</P></PEERS></EVAL><EVAL ID="9"><PEER-ROOT>c:/rouge/DUC2007Html/systems</PEER-ROOT><MODEL-ROOT>c:/rouge/DUC2007Html/models</MODEL-ROOT><MODELS><M ID="1">D0740_I-D.html</M><M ID="2">D0740_I-H.html</M><M ID="3">D0740_I-I.html</M><M ID="4">D0740_I-J.html</M></MODELS><INPUT-FORMAT TYPE="SEE" /><PEERS><P ID="sumNonRed">D0740_sumNonRed.html</P></PEERS></EVAL><EVAL ID="10"><PEER-ROOT>c:/rouge/DUC2007Html/systems</PEER-ROOT><MODEL-ROOT>c:/rouge/DUC2007Html/models</MODEL-ROOT><MODELS><M ID="1">D0743_J-B.html</M><M ID="2">D0743_J-H.html</M><M ID="3">D0743_J-I.html</M><M ID="4">D0743_J-J.html</M></MODELS><INPUT-FORMAT TYPE="SEE" /><PEERS><P ID="sumNonRed">D0743_sumNonRed.html</P></PEERS></EVAL></ROUGE-EVAL>
+<ROUGE-EVAL version="1.55">
+    <EVAL ID="1">
+        <PEER-ROOT>c:/rouge/DUC2007Html/systems</PEER-ROOT>
+        <MODEL-ROOT>c:/rouge/DUC2007Html/models</MODEL-ROOT>
+        <MODELS>
+            <M ID="1">D0703_A-A.html</M>
+            <M ID="2">D0703_A-C.html</M>
+            <M ID="3">D0703_A-D.html</M>
+            <M ID="4">D0703_A-J.html</M>
+        </MODELS>
+        <INPUT-FORMAT TYPE="SEE"/>
+        <PEERS>
+            <P ID="sumNonRed">D0703_sumNonRed.html</P>
+        </PEERS>
+    </EVAL>
+    <EVAL ID="2">
+        <PEER-ROOT>c:/rouge/DUC2007Html/systems</PEER-ROOT>
+        <MODEL-ROOT>c:/rouge/DUC2007Html/models</MODEL-ROOT>
+        <MODELS>
+            <M ID="1">D0706_B-B.html</M>
+            <M ID="2">D0706_B-D.html</M>
+            <M ID="3">D0706_B-E.html</M>
+            <M ID="4">D0706_B-I.html</M>
+        </MODELS>
+        <INPUT-FORMAT TYPE="SEE"/>
+        <PEERS>
+            <P ID="sumNonRed">D0706_sumNonRed.html</P>
+        </PEERS>
+    </EVAL>
+    <EVAL ID="3">
+        <PEER-ROOT>c:/rouge/DUC2007Html/systems</PEER-ROOT>
+        <MODEL-ROOT>c:/rouge/DUC2007Html/models</MODEL-ROOT>
+        <MODELS>
+            <M ID="1">D0711_C-A.html</M>
+            <M ID="2">D0711_C-B.html</M>
+            <M ID="3">D0711_C-C.html</M>
+            <M ID="4">D0711_C-F.html</M>
+        </MODELS>
+        <INPUT-FORMAT TYPE="SEE"/>
+        <PEERS>
+            <P ID="sumNonRed">D0711_sumNonRed.html</P>
+        </PEERS>
+    </EVAL>
+    <EVAL ID="4">
+        <PEER-ROOT>c:/rouge/DUC2007Html/systems</PEER-ROOT>
+        <MODEL-ROOT>c:/rouge/DUC2007Html/models</MODEL-ROOT>
+        <MODELS>
+            <M ID="1">D0716_D-C.html</M>
+            <M ID="2">D0716_D-D.html</M>
+            <M ID="3">D0716_D-E.html</M>
+            <M ID="4">D0716_D-F.html</M>
+        </MODELS>
+        <INPUT-FORMAT TYPE="SEE"/>
+        <PEERS>
+            <P ID="sumNonRed">D0716_sumNonRed.html</P>
+        </PEERS>
+    </EVAL>
+    <EVAL ID="5">
+        <PEER-ROOT>c:/rouge/DUC2007Html/systems</PEER-ROOT>
+        <MODEL-ROOT>c:/rouge/DUC2007Html/models</MODEL-ROOT>
+        <MODELS>
+            <M ID="1">D0721_E-B.html</M>
+            <M ID="2">D0721_E-C.html</M>
+            <M ID="3">D0721_E-E.html</M>
+            <M ID="4">D0721_E-G.html</M>
+        </MODELS>
+        <INPUT-FORMAT TYPE="SEE"/>
+        <PEERS>
+            <P ID="sumNonRed">D0721_sumNonRed.html</P>
+        </PEERS>
+    </EVAL>
+    <EVAL ID="6">
+        <PEER-ROOT>c:/rouge/DUC2007Html/systems</PEER-ROOT>
+        <MODEL-ROOT>c:/rouge/DUC2007Html/models</MODEL-ROOT>
+        <MODELS>
+            <M ID="1">D0726_F-A.html</M>
+            <M ID="2">D0726_F-E.html</M>
+            <M ID="3">D0726_F-F.html</M>
+            <M ID="4">D0726_F-G.html</M>
+        </MODELS>
+        <INPUT-FORMAT TYPE="SEE"/>
+        <PEERS>
+            <P ID="sumNonRed">D0726_sumNonRed.html</P>
+        </PEERS>
+    </EVAL>
+    <EVAL ID="7">
+        <PEER-ROOT>c:/rouge/DUC2007Html/systems</PEER-ROOT>
+        <MODEL-ROOT>c:/rouge/DUC2007Html/models</MODEL-ROOT>
+        <MODELS>
+            <M ID="1">D0727_G-A.html</M>
+            <M ID="2">D0727_G-F.html</M>
+            <M ID="3">D0727_G-G.html</M>
+            <M ID="4">D0727_G-H.html</M>
+        </MODELS>
+        <INPUT-FORMAT TYPE="SEE"/>
+        <PEERS>
+            <P ID="sumNonRed">D0727_sumNonRed.html</P>
+        </PEERS>
+    </EVAL>
+    <EVAL ID="8">
+        <PEER-ROOT>c:/rouge/DUC2007Html/systems</PEER-ROOT>
+        <MODEL-ROOT>c:/rouge/DUC2007Html/models</MODEL-ROOT>
+        <MODELS>
+            <M ID="1">D0736_H-G.html</M>
+            <M ID="2">D0736_H-H.html</M>
+            <M ID="3">D0736_H-I.html</M>
+            <M ID="4">D0736_H-J.html</M>
+        </MODELS>
+        <INPUT-FORMAT TYPE="SEE"/>
+        <PEERS>
+            <P ID="sumNonRed">D0736_sumNonRed.html</P>
+        </PEERS>
+    </EVAL>
+    <EVAL ID="9">
+        <PEER-ROOT>c:/rouge/DUC2007Html/systems</PEER-ROOT>
+        <MODEL-ROOT>c:/rouge/DUC2007Html/models</MODEL-ROOT>
+        <MODELS>
+            <M ID="1">D0740_I-D.html</M>
+            <M ID="2">D0740_I-H.html</M>
+            <M ID="3">D0740_I-I.html</M>
+            <M ID="4">D0740_I-J.html</M>
+        </MODELS>
+        <INPUT-FORMAT TYPE="SEE"/>
+        <PEERS>
+            <P ID="sumNonRed">D0740_sumNonRed.html</P>
+        </PEERS>
+    </EVAL>
+    <EVAL ID="10">
+        <PEER-ROOT>c:/rouge/DUC2007Html/systems</PEER-ROOT>
+        <MODEL-ROOT>c:/rouge/DUC2007Html/models</MODEL-ROOT>
+        <MODELS>
+            <M ID="1">D0743_J-B.html</M>
+            <M ID="2">D0743_J-H.html</M>
+            <M ID="3">D0743_J-I.html</M>
+            <M ID="4">D0743_J-J.html</M>
+        </MODELS>
+        <INPUT-FORMAT TYPE="SEE"/>
+        <PEERS>
+            <P ID="sumNonRed">D0743_sumNonRed.html</P>
+        </PEERS>
+    </EVAL>
+</ROUGE-EVAL>

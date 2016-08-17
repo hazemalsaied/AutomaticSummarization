@@ -1,0 +1,5 @@
+The Troll system , which is based on this idea , effectively implements type resolution . 
+Consider again the encoding of p and the feature structure 9~ . 
+By contrast , the Troll system described in this paper has an effective algorithm f < > r deciding well-formedness , which is based on the idea of efficiently representing disjunctive possibilities within the feature structure , Call a well-typed feature structure in which all nodes are labeled with species a resolved feature structure and call a set of resolved feature structures that have the same underlying graph ( that is , they differ only in their node labellings ) a disjunctive resolved feature structure . 
+if an object is of a. celibate then it deserves cert akin ca, 1 tll'C~s with vMues of certain kinds , or it deserves certain pei'ha.liS other ) fea. 1 u res evil h viii of terrain pergolas other ) kinds , or ... 
+We write fS , ~vf8 and 'D~ . ) c $ for the collections of FEATURE structure , resolved FEATURE structure and disjunctive resolved FEATURE structure respectively . 
