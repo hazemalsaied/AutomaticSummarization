@@ -1,0 +1,24 @@
+<html>
+<head><title>J98-2005_Gsummary</title> </head>
+<body bgcolor="white">
+<a name="0">[0]</a> <a href="#0" id=0>In the simple example here , the estimator converges in one step and is the same ~ as if we had observed the entire parse tree for each wi . </a>
+<a name="1">[1]</a> <a href="#1" id=1>Given a set of finite parse trees wl , w2 ... .. w , , the maximum-likelihood estimator for p ( see Section 2 ) is , sensibly enough , the `` relative frequency '' estimator y'~nlf A ~ AA ; wi ) ~i=1 f ( A ~ AA ; wi ) + f ( A ~ a ; wi ) ] where f ( . ; w ) is the number of occurrences of the production `` . '' in the tree w. The sentence a m , although ambiguous ( there are multiple parses when m > 2 ) , always involves m - 1 of the A ~ AA productions and m of the A ~ a productions . </a>
+<a name="2">[2]</a> <a href="#2" id=2>( Wetherell and others use the designation `` consistent '' instead of `` tight , '' but in statistics , consistency refers to the asymptotic correctness of an estimator . ) </a>
+<a name="3">[3]</a> <a href="#3" id=3>Dumpster Laird , and Rubin [ 1977 ] put the idea into a much more general setting and coined the Chi and Geman Probabilistic Context-Free Grammars term EM for Expectation-Maximization . </a>
+<a name="4">[4]</a> <a href="#4" id=4>( 8~fl ea ~ ( B -- ~/3 ) = ~=lf B -- ~/3 ; cai ) ( 3 ) c~ s.t . H < B-~ ) e~ ~i=lf B -- -+o4cai ) The maximum-likelihood estimator is the natural , `` relative frequency , '' estimator . </a>
+<a name="5">[5]</a> <a href="#5" id=5>What if the production probabilities are estimated from data ? </a>
+<a name="6">[6]</a> <a href="#6" id=6>a What if p is estimated from data ? </a>
+<a name="7">[7]</a> <a href="#7" id=7>( 6 ) AEV i=1 In the absence of unit productions and null productions , F ( A ; w ) < 21w [ ( twice the length of the string w ) . </a>
+<a name="8">[8]</a> <a href="#8" id=8>Estimation of Probabilistic Context-Free Grammars</a>
+<a name="9">[9]</a> <a href="#9" id=9>Context-free grammars ( CFG 's ) are useful because of their relatively broad coverage and because of the availability of efficient parsing algorithms . </a>
+<a name="10">[10]</a> <a href="#10" id=10>Given a context-free grammar G = ( V , T , R , S ) , let f2 be the set of finite parse trees , let p : R ~ [ 0,1 ] be a system of production probabilities satisfying ( 1 ) , and let wl , w2 , . </a>
+<a name="11">[11]</a> <a href="#11" id=11>( A~c~ ) ER Chi and Geman Probabilistic Context-Free Grammars Given a set of finite parse trees cab ca2 , ... , can , drawn independently according to the distribution imposed by p , we wish to estimate p. In terms of the frequency function f , introduced in Section 1 , the likelihood of the data is L = L ( p ; cal , ca2 ... .. con ) n = II II p ( AY i=1 ( A~ ) ER Recall the derivation of the maximum-likelihood estimator of p : The log of the likelihood is : n ~ ~f ( A -- + a ; cai ) log A ~ a ) . </a>
+<a name="12">[12]</a> <a href="#12" id=12>Letting ~y denote { w Efk Y ( w ) = Y } , the likelihood of the corpus becomes n H E H P ( A -- '~oL ) f ( A~ ; ~ ) '' i=1 ~OE~y ( ~i ) ( A -- -~o~ ) ER And the maximum-likelihood equation becomes + p ( B fl ) Ei=l EwEfly ( wi , I-I ( A -- . ) cR p ( A -~ a ) f ( A-~ '' ; ~ ) = 0 fT ( B ~ /3 ) = ~iL1 Ep~f ( B ~ fl ; w ) lw E ~y ( ~ , ) ] ( 4 ) , ~s , , , ~Ei=IEpV ( `` a ; w ) lw E ~Y ( o~ , ) ] E ( B_~ , E B ~ where E~ is expectation under fi and where `` ] w E~-~y ( wi ) '' means `` conditioned on 0.2E ~-~Y ( wi ) ' '' There is no hope for a closed form solution , but ( 4 ) does suggest an iteration scheme , which , as it turns out , `` climbs '' the likelihood surface ( though there are no guarantees about approaching a global maximum ) : Let P0 be an arbitrary assignment respecting ( 1 ) . </a>
+<a name="13">[13]</a> <a href="#13" id=13>We will show that in both cases the estimated probability is tight . </a>
+<a name="14">[14]</a> <a href="#14" id=14>Assign probability p to the first production ( A ~ AA ) and q = 1 -p to the second ( A ~ a ) . </a>
+<a name="15">[15]</a> <a href="#15" id=15>For example , there is a simple maximum-likelihood prescription for estimating the production probabilities from a corpus of trees ( see Section 2 ) , resulting in a PCFG . </a>
+<a name="16">[16]</a> <a href="#16" id=16>Proof Almost identical , except that we use ( 5 ) in place of ( 3 ) and end up with : n E qA EEG_1 [ F ( A ; wi ) -F ( A ; wi ) lw C fly ( w , ) ] ~ 0 . </a>
+<a name="17">[17]</a> <a href="#17" id=17>( We use R in place of the more typical P to avoid confusion with probabilities . ) </a>
+<a name="18">[18]</a> <a href="#18" id=18>Journal of the Royal Statistical Society , Series B , 39:138 . </a>
+<a name="19">[19]</a> <a href="#19" id=19>Suppose B E V is unobserved among the parse tree cabc 0 2 -.. , can . </a></body>
+</html>

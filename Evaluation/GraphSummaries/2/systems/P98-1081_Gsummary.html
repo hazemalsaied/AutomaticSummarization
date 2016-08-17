@@ -1,0 +1,29 @@
+<html>
+<head><title>P98-1081_Gsummary</title> </head>
+<body bgcolor="white">
+<a name="0">[0]</a> <a href="#0" id=0>van Halteren ( ed . ) </a>
+<a name="1">[1]</a> <a href="#1" id=1>A next step is to examine them in pairs . </a>
+<a name="2">[2]</a> <a href="#2" id=2>Each of these uses different features of the text to be tagged , and each has a completely different representation of the language model . </a>
+<a name="3">[3]</a> <a href="#3" id=3>Pairwise Voting So far , we have only used information on the performance of individual taggers . </a>
+<a name="4">[4]</a> <a href="#4" id=4>5 The most straightforward selection method is an n-way vote . </a>
+<a name="5">[5]</a> <a href="#5" id=5>van Halteren 1996 ) . </a>
+<a name="6">[6]</a> <a href="#6" id=6>The accuracy measurements for all of them are listed in Table 2 . </a>
+<a name="7">[7]</a> <a href="#7" id=7>When used on Test , the pairwise voting strategy ( TagPair ) clearly outperforms the other voting strategies , 8 but does not yet approach the level where all tying majority votes are handled correctly ( 98.31 % ) . </a>
+<a name="8">[8]</a> <a href="#8" id=8>An example sentence tagged with the resulting tagger is : The ATI singular or plural article Lord NPT singular titular noun Major NPT singular titular noun extended VBD past tense of verb an AT singular article invitation NN singular common noun to IN preposition all ABN pre-quantifier the ATI singular or plural article parliamentary JJ adjective candidates NNS plural common noun SPER period The tagger consists of 170 different tags ( including ditto tags 3 ) and has an average ambiguity of 2.69 tags per word form . </a>
+<a name="9">[9]</a> <a href="#9" id=9>Component taggers In 1992 , van Halteren combined a number of taggers by way of a straightforward majority vote ( cf . </a>
+<a name="10">[10]</a> <a href="#10" id=10>In the more advanced versions we also add information about the word in question ( Tags+Word ) and the tags suggested by all taggers for the previous and the next position ( Tags+Context ) . </a>
+<a name="11">[11]</a> <a href="#11" id=11>Stacked classifiers From the measurements so far it appears that the use of more detailed information leads to a better accuracy improvement . </a>
+<a name="12">[12]</a> <a href="#12" id=12>To see whether this is in fact a good way to spend the extra data , we also trained the two best individual systems ( E and M , with exactly the same settings as in the first experiments ) on a concatenation of Train and Tune , so that they had access to every piece of data that the combination had seen . </a>
+<a name="13">[13]</a> <a href="#13" id=13>However , specific information is not always superior , for TotPrecision scores higher than TagPrecision . </a>
+<a name="14">[14]</a> <a href="#14" id=14>As it turns out all voting systems outperform the best single tagger , E. 7 Also , the best voting system is the one in which the most specific information is used , Precision-Recall . </a>
+<a name="15">[15]</a> <a href="#15" id=15>However , the actual use of this information is severely limited in that the individual information items can only be combined according to the patterns laid down in the rule templates . </a>
+<a name="16">[16]</a> <a href="#16" id=16>The Viterbi algorithm is used to determine the most probable tag sequence . </a>
+<a name="17">[17]</a> <a href="#17" id=17>But we have even more information on how well the taggers perform . </a>
+<a name="18">[18]</a> <a href="#18" id=18>For the first two the similarity metric used during tagging is a straightforward overlap count ; for the third we need to use an Information Gain weighting ( Daelemans ct al . 1997 ) . </a>
+<a name="19">[19]</a> <a href="#19" id=19>As explained above , for combination to lead to improvement , the component taggers must differ in the errors that they make . </a>
+<a name="20">[20]</a> <a href="#20" id=20>We can investigate all situations where one tagger suggests T1 and the other T2 and estimate the probability that in this situation the tag should actually be Tx . </a>
+<a name="21">[21]</a> <a href="#21" id=21>After that , the decisive factor appears to be the difference in language model : T is generally a better combiner than M and R , 12 even though it has the lowest accuracy when operating alone . </a>
+<a name="22">[22]</a> <a href="#22" id=22>The data we use for our experiment consists of the tagged LOB corpus ( Johansson 1986 ) . </a>
+<a name="23">[23]</a> <a href="#23" id=23>9 The explanation for this can be found when we examine the differences within the Memory- Based general strategy : the more feature information is stored , the higher the accuracy on Tune , but the lower the accuracy on Test . </a>
+<a name="24">[24]</a> <a href="#24" id=24>The third systems uses Memory-Based learning as described by Daelemans et al . ( 1996 ; henceforth taggers M , for Memory ) . </a></body>
+</html>
