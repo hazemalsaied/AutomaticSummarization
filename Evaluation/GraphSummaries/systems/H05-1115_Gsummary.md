@@ -1,11 +1,11 @@
-An intuitive interpretation of the stationary distribution can be under- 917 stood by the concept of a random walk on the graph representation of the Markov chain.With probability d , a transition is made from the current node ( sentence ) to the nodes that are similar to the query . 
+In addition , the input to our system isa set of documents relevant to the topic of the query the user has already identified ( e.g . via a search engine . 
 In ( Erkan and Radev , 2004 ) , we introduce method and successfully applied it generic multi-document summarization . 
-Given this observation , we experimented with two mixed strategies , in which the number of content words in a question determined whether LexRank or the baseline system was used for sentence retrieval . 
-3.4 Experiments with topic-sensitive LexRank . 
-Since we are interested in a passage retrieval mechanism that sentences relevant to a given question , providing input to the question answering component of our system , the improvement in average TRDR score is very promising . 
-Newstracker clusters were collected automatically by our Web-based news summarization system . 
-Using Random Walks for Question-focused Sentence Retrieval
+and sentence numbers of the top 20 sentences . 
+While evaluations of question answering systems are often based on a shorter list of ranked sentences we chose to generate longer lists for several reasons . 
+In the new approach , the 916 score of a sentence is determined by a mixture model of the relevance of the sentence to the query and the similarity of the sentence to other high-scoring sentences . 
+3.3 The mixture model . 
+Recent work has motivated the need for systems that support Information Synthesis tasks , in which user seeks a global understanding of a topic story Amigo et al. , 2004 ) . 
+As previously mentioned , the original LexRank method performed welling the context of generic summarization . 
+We presented topic-sensitive LexRank and applied it to the problem of sentence retrieval . 
 While the last two sentences do not provide answers according to our judges , they do provide context information about the situation . 
-3.1 The LexRank method . 
-In the context of answering questions from complex stories , where there is often more than one correct answer to a question , and where answers are typically time-dependent , should focus on maximizing TRDR , which gives us 2For clusters annotated by two judges , all sentences chosen by at least one judge were included . 
-While Evaluation of question answering systems are often based on a shorter list of ranked Sentence we chose to generate longer lists for several reasons . 
+As discussed in Section 2 , our goal wast develop a topic-sensitive version of LexRank and to use it to improve a baseline systems , which previously been used successfully for query-basedsentence Retrieval ( Allan et al . , 2003 ) . 

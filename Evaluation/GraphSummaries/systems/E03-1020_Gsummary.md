@@ -1,14 +1,15 @@
-section 2 ) , and we plan to evaluate the uses of our clustering algorithm for unsupervised disambiguation more thoroughly . 
+This approach to disambiguation combines the benefits of both Yarowsky 's ( 1995 ) and Schtitze 's ( 1998 ) approaches . 
 The quality of the Markov clustering depends strongly on several parameters such as a granularity factor and the size of the local graph . 
 We then determined the WordNet sunsets which most adequately characterized the sense clusters . 
-Discovering Corpus-Specific Word Senses
-The algorithm consists of the following steps : 1 . 
-Usually , one sense of an ambiguous word w is much more frequent than its other senses present in the corpus . 
-In section 2 , we present the graph model from which we discover word senses . 
-However , whereas there are many edges within an area of meaning , there is only a small number of ( weak ) links between different areas of meaning . 
 Automatic word sense discovery has applications of many kinds . 
-Preliminary observations show that the different neighbors in Table 1 can be used to indicate with great accuracy which of the senses is being used . 
-Our algorithm was applied to each word in the list ( with parameters Iii = 20 , n2 = 10 , r = 2.0 , k = 2.0 ) in order to extract the top two sense clusters only . 
 The family of such algorithms is described in ( Widdows , 2003 ) . 
-Following the method in ( Widdows and Dorow , 2002 ) , we build a graph in which each node represents a noun and two nodes have an edge between them if they co-occur in lists more than a given number of times 1 . 
-The expansion steps corresponds with taking the k-th power of TG as outlined above and allows node to see new neighbors . 
+In our simple model based on noun co-occurrences in lists , step 5 corresponds to rebuilding the graph under the restriction that the nodes in the new graph not co-occur ( or at least not very often ) with any of the cluster members already extracted . 
+The process is stopped if the similarity between w and its best neighbor under the reduced set of features is below a fixed threshold . 
+Section 3 describes the way we divide graphs surrounding ambiguous words into different areas corresponding to different senses , using Markov clustering ( van Dongen , 2000 ) . 
+Compute a small local graph Gw around w using the set of features F. If the similarity between w and its closest neighbor is below a fixed threshold go to 6 . 
+Following Lin 's work ( 1998 ) , we are currently investigating a graph with verb-object , verb-subject and modifier-noun-collocations from which it is possible to infer more about the senses of systematically polygamous words . 
+Output the list of class-labels which best represent the different senses of w in the corpus . 
+However , if we remove the mouse-node from its local graph illustrated in figure 1 , the graph decomposes into two parts , one representing the electronic device meaning of mouse and the other one representing its animal sense . 
+In section 2 , we present the graph model from which we discover word senses . 
+Discovering Corpus-Specific Word Senses
+Eventually , flow between dense regions will disappear , the matrix of transition probability TG will converge and the limiting matrix can be interpreted as a clustering of the graph . 
