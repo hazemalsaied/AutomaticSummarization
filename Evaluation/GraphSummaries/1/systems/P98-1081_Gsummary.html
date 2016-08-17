@@ -1,0 +1,29 @@
+<html>
+<head><title>P98-1081_Gsummary</title> </head>
+<body bgcolor="white">
+<a name="0">[0]</a> <a href="#0" id=0>Obviously there is still room for a closer examination of the differences between the combination methods , e.g . the question whether Memory-Based combination would have performed better if we had provided more training data than just Tune , and of the remaining errors , e.g . the effects of inconsistency in the data ( cf . </a>
+<a name="1">[1]</a> <a href="#1" id=1>A next step is to examine them in pairs . </a>
+<a name="2">[2]</a> <a href="#2" id=2>Table 2 : Accuracy of individual taggers and combination methods . </a>
+<a name="3">[3]</a> <a href="#3" id=3>van Halteren ( ed . ) </a>
+<a name="4">[4]</a> <a href="#4" id=4>5 The most straightforward selection method is an n-way vote . </a>
+<a name="5">[5]</a> <a href="#5" id=5>The relation between the accuracy of combinations ( using TagPair ) and that of the individual taggers is shown in Table 3 . </a>
+<a name="6">[6]</a> <a href="#6" id=6>In the machine learning literature this approach is known as ensemble , stacked , or combined classifiers . </a>
+<a name="7">[7]</a> <a href="#7" id=7>van Halteren 1996 ) . </a>
+<a name="8">[8]</a> <a href="#8" id=8>Improving Data Driven Wordclass Tagging by System Combination</a>
+<a name="9">[9]</a> <a href="#9" id=9>Component taggers In 1992 , van Halteren combined a number of taggers by way of a straightforward majority vote ( cf . </a>
+<a name="10">[10]</a> <a href="#10" id=10>Its tagging , which was manually checked and corrected , is generally accepted to be quite accurate . </a>
+<a name="11">[11]</a> <a href="#11" id=11>The accuracy measurements for all of them are listed in Table 2 . </a>
+<a name="12">[12]</a> <a href="#12" id=12>Our experiment shows that , at least for the task at hand , combination of several different systems allows us to raise the performance ceiling for data driven systems . </a>
+<a name="13">[13]</a> <a href="#13" id=13>To see whether this is in fact a good way to spend the extra data , we also trained the two best individual systems ( E and M , with exactly the same settings as in the first experiments ) on a concatenation of Train and Tune , so that they had access to every piece of data that the combination had seen . </a>
+<a name="14">[14]</a> <a href="#14" id=14>The practice of feeding the outputs of a number of classifiers as features for a next learner sit is significantly better than the runner-up ( Precision-Recall ) with p=0 . </a>
+<a name="15">[15]</a> <a href="#15" id=15>The Viterbi algorithm is used to determine the most probable tag sequence . </a>
+<a name="16">[16]</a> <a href="#16" id=16>During the training phase , cases containing information about the word , the context and the correct tag are stored in memory . </a>
+<a name="17">[17]</a> <a href="#17" id=17>In the more advanced versions we also add information about the word in question ( Tags+Word ) and the tags suggested by all taggers for the previous and the next position ( Tags+Context ) . </a>
+<a name="18">[18]</a> <a href="#18" id=18>Both Tune and Test contain around 2.5 % new tokens ( wrt Train ) and a further 0.2 % known tokens with new tags . </a>
+<a name="19">[19]</a> <a href="#19" id=19>Unfortunately , the quality that can be reached for a given task is limited , and not merely by the potential of the learning method used . </a>
+<a name="20">[20]</a> <a href="#20" id=20>We can investigate all situations where one tagger suggests T1 and the other T2 and estimate the probability that in this situation the tag should actually be Tx . </a>
+<a name="21">[21]</a> <a href="#21" id=21>Z. system starts with a basic corpus annotation ( each word is tagged with its most likely tag ) and then searches through a space of transformation rules in order to reduce the discrepancy between its current annotation and the correct one ( in our case 528 rules were learned ) . </a>
+<a name="22">[22]</a> <a href="#22" id=22>The data we use for our experiment consists of the tagged LOB corpus ( Johansson 1986 ) . </a>
+<a name="23">[23]</a> <a href="#23" id=23>2Ratnaparkhi 's Java implementation of this system is available at ftp : //ftp.cis.upenn.edu/ </a>
+<a name="24">[24]</a> <a href="#24" id=24>It ought therefore to be advantageous to step away from the underlying mechanism of Voting and to models the situations observed in Tune more closely . </a></body>
+</html>
