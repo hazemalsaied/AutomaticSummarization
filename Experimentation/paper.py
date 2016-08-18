@@ -324,7 +324,7 @@ class Paper:
             if getName:
                 self.__paperName = item
                 break
-            if item == 'data':
+            if item == 'Sci-Summ':
                 getName = True
 
     def getPaperName(self):

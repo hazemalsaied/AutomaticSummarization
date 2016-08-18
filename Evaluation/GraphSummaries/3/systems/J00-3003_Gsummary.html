@@ -1,0 +1,40 @@
+<html>
+<head><title>J00-3003_Gsummary</title> </head>
+<body bgcolor="white">
+<a name="0">[0]</a> <a href="#0" id=0>2.3 Major Dialogue Act Types . </a>
+<a name="1">[1]</a> <a href="#1" id=1>However , the approach gives only a small reduction in word error on our corpus , which can be attributed to a preponderance of a single dialog act type ( statements ) . </a>
+<a name="2">[2]</a> <a href="#2" id=2>The HMM states correspond to DAs , observations correspond to utterances , transition probabilities are given by the discourse grammar ( see Section 4 ) , and observation probabilities are given by the local likelihoods P ( Eil Ui ) . </a>
+<a name="3">[3]</a> <a href="#3" id=3>Speaker Dialogue Act Utterance A STATEMENT we 're from , uh , I 'm from Ohio / A STATEMENT and my wife 's from Florida / A TURN-ExIT SO , -/ B BACKCHANNEL Uh-huh./ A HEDGE so , I do n't know , / A ABANDONED it 's Klipsmack > , -/ A STATEMENT I 'm glad it 's not the kind of problem I have to come up with an answer to because it 's not - Answers and Agreements . </a>
+<a name="4">[4]</a> <a href="#4" id=4>5.2.4 Neural Network Classifiers . </a>
+<a name="5">[5]</a> <a href="#5" id=5>Finally , Ries ( 1999a shows that neural networks using only trigram features can be superior to higher-order n-gram DA models . </a>
+<a name="6">[6]</a> <a href="#6" id=6>We have the apparent difficulty that decision trees ( as well as other classifiers , such as neural networks ) give estimates for the posterior probabilities , P ( Ui [ Fi ) . </a>
+<a name="7">[7]</a> <a href="#7" id=7>Neural networks are worth investigating since they offer potential advantages over decision trees . </a>
+<a name="8">[8]</a> <a href="#8" id=8>Dialogue Act Modeling for Automatic Tagging and Recognition of Conversational Speech</a>
+<a name="9">[9]</a> <a href="#9" id=9>4 5.1 Dialogue Act Classification Using Words . </a>
+<a name="10">[10]</a> <a href="#10" id=10>In an automatic labeling of word boundaries as either utterance or boundaries using a combination of lexical and prosodic cues , we obtained 96 % accuracy based on correct word transcripts , and 78 % accuracy with automatically recognized words . </a>
+<a name="11">[11]</a> <a href="#11" id=11>Eventually , it is desirable to integrate dialog grammar , lexical , and prosodic cues into a single model , e.g. , one that predicts the next DA based on DA history and all the local evidence . </a>
+<a name="12">[12]</a> <a href="#12" id=12>Our primary purpose in adapting the tag set was to enable computational DA modeling for conversational speech , with possible improvements to conversational speech recognition . </a>
+<a name="13">[13]</a> <a href="#13" id=13>Also , the focus on conversational speech recognition led to a certain bias toward categories that were lexically or syntactically distinct ( recognition accuracy is traditionally measured including all lexical elements in an utterance ) . </a>
+<a name="14">[14]</a> <a href="#14" id=14>A back channel is a short utterance that plays discourse-structuring roles , e.g. , indicating that the speaker should go on talking . </a>
+<a name="15">[15]</a> <a href="#15" id=15>Dialog grammars for conversational speech need to be made more aware of the temporal properties of utterances . </a>
+<a name="16">[16]</a> <a href="#16" id=16>A DA represents the meaning of an utterance at the level of elocutionary force ( Austin 1962 ) . </a>
+<a name="17">[17]</a> <a href="#17" id=17>5.2 Dialogue Act Classification Using Prosody . </a>
+<a name="18">[18]</a> <a href="#18" id=18>We chose to follow a recent standard for shallow discourse structure annotation , the Dialog Act Markup in Several Layers ( DAMSL ) tag set , which was designed by the natural language processing community under the auspices of the Discourse Resource Initiative ( Core and Allen 1997 ) . </a>
+<a name="19">[19]</a> <a href="#19" id=19>Table 2 The 42 dialog act labels . </a>
+<a name="20">[20]</a> <a href="#20" id=20>1 % What did you wear to work today ? </a>
+<a name="21">[21]</a> <a href="#21" id=21>However , we believe that this study represents a fairly comprehensive application of technology in this area and can serve as a point of departure and reference for other work . </a>
+<a name="22">[22]</a> <a href="#22" id=22>The idea caught on very quickly : Suhm and Waibel ( 1994 ) , Mast et aL ( 1996 ) , Warnke et al . ( 1997 ) , Reithinger and Klesen ( 1997 ) , and Taylor et al . ( 1998 ) all use variants of back off interpolated , or class n-gram language models to estimate DA likelihoods . </a>
+<a name="23">[23]</a> <a href="#23" id=23>Warned et al . ( 1999 ) and Ohler , Harbeck , and Niemann ( 1999 ) use related discriminative training algorithms for language models . </a>
+<a name="24">[24]</a> <a href="#24" id=24>Assuming that the true ( hand-transcribed ) words of utterances are given as evidence , we can compute word-based likelihoods P ( WIU ) in a straightforward way , by building a statistical language model for each of the 42 DAs . </a>
+<a name="25">[25]</a> <a href="#25" id=25>The HMM terminology was chosen here mainly for historical reasons.. </a>
+<a name="26">[26]</a> <a href="#26" id=26>Apart from corpus and tag set differences , our approach differs primarily in that it generalizes the simple HMM approach to cope with new kinds of problems , based on the Bayes network representations depicted in Figures 2 and 4 . </a>
+<a name="27">[27]</a> <a href="#27" id=27>The system detects sequences of distinctive pitch patterns by training one continuous- density HMM for each DA type . </a>
+<a name="28">[28]</a> <a href="#28" id=28>Figure 1 shows the variables in the resulting HMM with directed edges representing conditional dependence . </a>
+<a name="29">[29]</a> <a href="#29" id=29>Some researchers explicitly used HMM induction techniques to infer dialog grammars . </a>
+<a name="30">[30]</a> <a href="#30" id=30>To keep things simple , a first-order HMM ( trigram discourse grammar ) is assumed . </a>
+<a name="31">[31]</a> <a href="#31" id=31>~ Ui ) ... -- -* Un < end > Figure 1 The discourse HMM as Bayes network . </a>
+<a name="32">[32]</a> <a href="#32" id=32>( Indeed , with the exception of Samuel , Carberry , and VijayShanker ( 1998 ) , all models listed in Table 14 rely on some version of this HMM metaphor . ) </a>
+<a name="33">[33]</a> <a href="#33" id=33>We then used the decision tree posteriors as scaled DA likelihoods in the dialog model HMM , combining it with various n-gram dialog grammars for testing on our full standard test set . </a>
+<a name="34">[34]</a> <a href="#34" id=34>The distinction was designed to capture the different kinds of responses we saw to opinions ( which are often countered or disagreed with via further opinions ) and to statements ( which more often elicit continuer or channels : Dialogue Act Example Utterance STATEMENT Well , we have a cat , um , STATEMENT He 's probably , oh , a good two years old , big , old , fat and sassy tabby . </a>
+<a name="35">[35]</a> <a href="#35" id=35>3.1 Dialogue Act likelihood . </a></body>
+</html>

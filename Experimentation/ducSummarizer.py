@@ -7,22 +7,59 @@ from shutil import copyfile
 import powerlaw
 from paper import Paper
 from matplotlib import pyplot as plt
-
+from termBank import TermBank
+from sentence import Sentence
 
 class DucSummarizer:
     """
         A class used for generating a single document summary, the DUC 2007 data is used.
     """
-    ducDocumentsPath = "/Users/hazemalsaied/RA/Corpus/DUC2007/update_corpus/"
-    ducPeerPath = '/Users/hazemalsaied/RA/Corpus/DUC2007/updateEval/ROUGE/peers/'
-    ducModelPath = '/Users/hazemalsaied/RA/Corpus/DUC2007/updateEval/ROUGE/models/'
+    ducDocumentsPath = "/Users/hazemalsaied/RA/Corpus/DUC2007/corpus/"
+    ducPeerPath = '/Users/hazemalsaied/RA/Corpus/DUC2007/ROUGE/peers/'
+    ducModelPath = '/Users/hazemalsaied/RA/Corpus/DUC2007/ROUGE/models/'
     evPath = '/Users/hazemalsaied/RA/Evaluation/SingleDocSumm/DUC2007/'
-    evReferencePath = '/Users/hazemalsaied/Evaluation/SingleDocSumm/DUC2007/models/'
-    evSystemPath = '/Users/hazemalsaied/Evaluation/SingleDocSumm/DUC2007/systems/'
-    evHtmlPath = '/Users/hazemalsaied/Evaluation/SingleDocSumm/DUC2007Html/'
+    evReferencePath = '/Users/hazemalsaied/RA/Evaluation/SingleDocSumm/DUC2007/models/'
+    evSystemPath = '/Users/hazemalsaied/RA/Evaluation/SingleDocSumm/DUC2007/systems/'
+    evHtmlPath = '/Users/hazemalsaied/RA/Evaluation/SingleDocSumm/DUC2007/'
 
     @staticmethod
-    def summarizeDUC2007(path):
+    def getStatistics(path, doubleSection=False):
+        """
+            This method generate all summary of Duc 2007 files and save them into the evaluation folder
+
+            :param path:  '/Users/hazemalsaied/git/scisumm-corpus/DUC2007/update_corpus/'
+            :return:
+        """
+        for ducFile in os.listdir(path):
+            if ducFile == '.DS_Store':
+                continue
+
+            paper = Paper(os.path.join(path, ducFile), isDucFile=True, doubleSection=doubleSection)
+            classifierList = []
+            for word in TermBank.wordsBank.values():
+                wordCls = WordClassifier(word.getText(), word.getTotalOccurrence(), word.getOccurrence())
+                classifierList.append(wordCls)
+
+            sortedClassifierList = sorted(classifierList,
+                                           key=lambda WordClassifier: WordClassifier.frecuency,reverse=True)
+
+            statistics = 'Word,Frecuency,Frecuency in sections\n'
+            for cls in sortedClassifierList[:50]:
+                statistics += cls.wordStr + ','+ str(cls.frecuency) + ','+ str(cls.occurrence.values()).replace(',','-').replace('[','').replace(']','') + '\n'
+
+
+            # Writing the summary to the evaluation folder as a peer summary
+            fileName = ducFile[0:5] + '_statistics.csv'
+            stPath = '/Users/hazemalsaied/RA/Evaluation/SingleDocSumm/Statistics/'
+            if not os.path.exists(stPath):
+                os.makedirs(stPath)
+
+            ff = open(stPath + fileName, 'w+')
+            ff.write(statistics)
+            ff.close()
+
+    @staticmethod
+    def summarizeDUC2007(path,doubleSection=False):
         """
             This method generate all summary of Duc 2007 files and save them into the evaluation folder
 
@@ -34,7 +71,7 @@ class DucSummarizer:
         for ducFile in os.listdir(path):
             if ducFile == '.DS_Store':
                 continue
-            summary = DucSummarizer.summarizeSD(os.path.join(path, ducFile), isDucFile=True,doubleSection=True)
+            summary = DucSummarizer.summarizeSD(os.path.join(path, ducFile), isDucFile=True,doubleSection=doubleSection)
             # Deleting empty lines for applying the convention of ROUGE 2.0
             lines = summary.split('\n')
             newSummm = ''
@@ -43,7 +80,7 @@ class DucSummarizer:
                     newSummm += line + '\n'
             newSummm = newSummm[:-1]
             # Writing the summary to the evaluation folder as a peer summary
-            fileName = ducFile[0:5] + '_sum.md'
+            fileName = ducFile[0:5] + '_sumNonRed.md'
             ff = open(os.path.join(DucSummarizer.evSystemPath, fileName), 'w+')
             ff.write(newSummm)
             ff.close()
@@ -150,6 +187,19 @@ class DucSummarizer:
         return results.power_law.xmin
 
     @staticmethod
+    def getXMinSentence(sentences):
+        """
+           For plotting the words of the article according to their weights
+        """
+        sortedSents = sorted(sentences, key=lambda Sentence: Sentence.getWeight(), reverse=True)
+        xArr = []
+        for sent in sortedSents:
+            xArr.append(sent.getWeight())
+
+        results = powerlaw.Fit(xArr)
+        return results.power_law.xmin
+
+    @staticmethod
     def adjustWeights(targetSentence, paper, WordsNumber=3):
         """
             This method reduce the weight of top-weighted words who taken place in the target sentence.
@@ -232,6 +282,7 @@ class DucSummarizer:
     @staticmethod
     def prepareModelNameConvention(path):
         """
+        Copy the model files of DUC 2007 into the evaluation folder
 
         :param path:
         :return:
@@ -246,7 +297,9 @@ class DucSummarizer:
 
     @staticmethod
     def normailzeSummaries():
-
+        DucSummarizer.evReferencePath = '/Users/hazemalsaied/RA/Evaluation/SingleDocSumm/DUC2007/4/models/'
+        DucSummarizer.evSystemPath = '/Users/hazemalsaied/RA/Evaluation/SingleDocSumm/DUC2007/4/systems/'
+        DucSummarizer.evHtmlPath = DucSummarizer.evHtmlPath + '/html/4/'
         if not os.path.exists(DucSummarizer.evHtmlPath):
             os.makedirs(DucSummarizer.evHtmlPath)
         if not os.path.exists(DucSummarizer.evHtmlPath + 'models'):
@@ -262,6 +315,7 @@ class DucSummarizer:
 
     @staticmethod
     def normailzeSummary(f, folder):
+        DucSummarizer.evPath = '/Users/hazemalsaied/RA/Evaluation/SingleDocSumm/DUC2007/4/'
         fullPath = os.path.join(DucSummarizer.evPath + folder, f)
 
         fo = open(fullPath, "rw+")
@@ -289,6 +343,8 @@ class DucSummarizer:
         root.set('version', '1.55')
         taskDic = []
         idList = []
+        DucSummarizer.evReferencePath = '/Users/hazemalsaied/RA/Evaluation/SingleDocSumm/DUC2007/1/models/'
+        DucSummarizer.evSystemPath = '/Users/hazemalsaied/RA/Evaluation/SingleDocSumm/DUC2007/1/systems/'
         for roots, _, files in os.walk(DucSummarizer.evReferencePath):
             for f in files:
                 if f.split('_')[0] not in taskDic:
@@ -330,12 +386,20 @@ class DucSummarizer:
 
             idx += 1
         tree = ET.ElementTree(root)
-        tree.write("/Users/hazemalsaied/Evaluation/SingleDocSumm/duc2007.xml")
+        tree.write("/Users/hazemalsaied/RA/Evaluation/SingleDocSumm/duc2007.xml")
+
+class WordClassifier:
+
+    def __init__(self, wordStr, frecuency, occurrence):
+        self.wordStr = wordStr
+        self.frecuency = frecuency
+        self.occurrence = occurrence
 
 
-# DucSummarizer.prepareDUCPeer(DucSummarizer.ducPeerPath)
-# DucSummarizer.prepareModelNameConvention(DucSummarizer.ducModelPath )
+#DucSummarizer.prepareDUCPeer(DucSummarizer.ducPeerPath)
+#DucSummarizer.prepareModelNameConvention(DucSummarizer.ducModelPath)
 #DucSummarizer.prepareDUCCorpus(DucSummarizer.ducDocumentsPath)
-#DucSummarizer.summarizeDUC2007(DucSummarizer.ducDocumentsPath)
+#DucSummarizer.summarizeDUC2007(DucSummarizer.ducDocumentsPath, True)
+#DucSummarizer.getStatistics(DucSummarizer.ducDocumentsPath)
 #DucSummarizer.normailzeSummaries()
 #DucSummarizer.generateEvalXML()

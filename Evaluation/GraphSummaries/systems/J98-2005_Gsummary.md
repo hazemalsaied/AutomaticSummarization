@@ -1,20 +1,23 @@
-In the simple example here , the estimator converges in one step and is the same ~ as if we had observed the entire parse tree for each wi . 
-Given a set of finite parse trees wl , w2 ... .. w , , the maximum-likelihood estimator for p ( see Section 2 ) is , sensibly enough , the `` relative frequency '' estimator y'~nlf A ~ AA ; wi ) ~i=1 f ( A ~ AA ; wi ) + f ( A ~ a ; wi ) ] where f ( . ; w ) is the number of occurrences of the production `` . '' in the tree w. The sentence a m , although ambiguous ( there are multiple parses when m > 2 ) , always involves m - 1 of the A ~ AA productions and m of the A ~ a productions . 
-( Wetherell and others use the designation `` consistent '' instead of `` tight , '' but in statistics , consistency refers to the asymptotic correctness of an estimator . ) 
-Dumpster Laird , and Rubin [ 1977 ] put the idea into a much more general setting and coined the Chi and Geman Probabilistic Context-Free Grammars term EM for Expectation-Maximization . 
-( 8~fl ea ~ ( B -- ~/3 ) = ~=lf B -- ~/3 ; cai ) ( 3 ) c~ s.t . H < B-~ ) e~ ~i=lf B -- -+o4cai ) The maximum-likelihood estimator is the natural , `` relative frequency , '' estimator . 
-What if the production probabilities are estimated from data ? 
-a What if p is estimated from data ? 
-( 6 ) AEV i=1 In the absence of unit productions and null productions , F ( A ; w ) < 21w [ ( twice the length of the string w ) . 
-Estimation of Probabilistic Context-Free Grammars
-Context-free grammars ( CFG 's ) are useful because of their relatively broad coverage and because of the availability of efficient parsing algorithms . 
-Given a context-free grammar G = ( V , T , R , S ) , let f2 be the set of finite parse trees , let p : R ~ [ 0,1 ] be a system of production probabilities satisfying ( 1 ) , and let wl , w2 , . 
 ( A~c~ ) ER Chi and Geman Probabilistic Context-Free Grammars Given a set of finite parse trees cab ca2 , ... , can , drawn independently according to the distribution imposed by p , we wish to estimate p. In terms of the frequency function f , introduced in Section 1 , the likelihood of the data is L = L ( p ; cal , ca2 ... .. con ) n = II II p ( AY i=1 ( A~ ) ER Recall the derivation of the maximum-likelihood estimator of p : The log of the likelihood is : n ~ ~f ( A -- + a ; cai ) log A ~ a ) . 
+Dumpster Laird , and Rubin [ 1977 ] put the idea into a much more general setting and coined the Chi and Geman Probabilistic Context-Free Grammars term EM for Expectation-Maximization . 
+More generally , ~ will refer to the probability distribution on ( possibly infinite ) parse trees induced by the maximum-likelihood estimator . 
+This iteration procedure is an instance of the EM Algorithm . 
+2 * Division of Applied Mathematics , Brown University , Providence , RI 02912 USA 1 Note added in proof : An alternative proof of one of our main results ( see Corollary , Section 3 ) recently appeared in the IEEE Transactions on Pattern Analysis and Machine Intelligence ( S , Sanchez and Bened ( [ 1997 ] ) . 
+Based upon the results of Stolcke [ 1995 ] it is likely that this restriction can be relaxed , but we have not pursued this . 
+( Wetherell and others use the designation `` consistent '' instead of `` tight , '' but in statistics , consistency refers to the asymptotic correctness of an estimator . ) 
+If the corpus is unparsed then there is an iterative approach to maximum-likelihood estimation ( the EM or Baum-Welsh algorithm -- again , see Section 2 ) and the same question arises : do we get actual probabilities or do the estimated PCFG 's assign some mass to infinite trees ? 
+Given a set of finite parse trees wl , w2 ... .. w , , the maximum-likelihood estimator for p ( see Section 2 ) is , sensibly enough , the `` relative frequency '' estimator y'~nlf A ~ AA ; wi ) ~i=1 f ( A ~ AA ; wi ) + f ( A ~ a ; wi ) ] where f ( . ; w ) is the number of occurrences of the production `` . '' in the tree w. The sentence a m , although ambiguous ( there are multiple parses when m > 2 ) , always involves m - 1 of the A ~ AA productions and m of the A ~ a productions . 
+Furthermore , CFG 's are readily fit with a probability distribution ( to make probabilistic CFG 's -- or PCFG 's ) , rendering them suitable for ambiguous languages through the maximum a posteriori rule of choosing the most probable parse . 
 Letting ~y denote { w Efk Y ( w ) = Y } , the likelihood of the corpus becomes n H E H P ( A -- '~oL ) f ( A~ ; ~ ) '' i=1 ~OE~y ( ~i ) ( A -- -~o~ ) ER And the maximum-likelihood equation becomes + p ( B fl ) Ei=l EwEfly ( wi , I-I ( A -- . ) cR p ( A -~ a ) f ( A-~ '' ; ~ ) = 0 fT ( B ~ /3 ) = ~iL1 Ep~f ( B ~ fl ; w ) lw E ~y ( ~ , ) ] ( 4 ) , ~s , , , ~Ei=IEpV ( `` a ; w ) lw E ~Y ( o~ , ) ] E ( B_~ , E B ~ where E~ is expectation under fi and where `` ] w E~-~y ( wi ) '' means `` conditioned on 0.2E ~-~Y ( wi ) ' '' There is no hope for a closed form solution , but ( 4 ) does suggest an iteration scheme , which , as it turns out , `` climbs '' the likelihood surface ( though there are no guarantees about approaching a global maximum ) : Let P0 be an arbitrary assignment respecting ( 1 ) . 
-We will show that in both cases the estimated probability is tight . 
-Assign probability p to the first production ( A ~ AA ) and q = 1 -p to the second ( A ~ a ) . 
+More generally , let G -- ( V , T , R , S ) denote a context-free grammar with finite variable set V , start symbol S E V , finite terminal set T , and finite production ( or rule ) set R . 
+We will show that qs = 0 ( i.e. , derivation trees rooted with S always terminate ) . 
+Furthermore , F ( A ; w ) and F ( A ; ~ ) satisfy the same conditions as before : I : ( A ; w ) = F ( A ; w ) except when A = S , in which case F ( A ; w ) < F ( A ; w ) . 
 For example , there is a simple maximum-likelihood prescription for estimating the production probabilities from a corpus of trees ( see Section 2 ) , resulting in a PCFG . 
+For each nonterminal symbol , a ( normalized ) probability is placed on the set of all productions from that symbol . 
+Assign probability p to the first production ( A ~ AA ) and q = 1 -p to the second ( A ~ a ) . 
+It is reasonable to hope that if the trees in the sample are finite , then an estimate of production probabilities based upon the sample will produce a system that assigns probability zero to the set of infinite trees . 
 Proof Almost identical , except that we use ( 5 ) in place of ( 3 ) and end up with : n E qA EEG_1 [ F ( A ; wi ) -F ( A ; wi ) lw C fly ( w , ) ] ~ 0 . 
-( We use R in place of the more typical P to avoid confusion with probabilities . ) 
+It is not hard to show that Sh is nondecreasing and converges to min ( 1 , I ) , meaning that a proper probability is obtained if and only if p < ~ . 
 Journal of the Royal Statistical Society , Series B , 39:138 . 
-Suppose B E V is unobserved among the parse tree cabc 0 2 -.. , can . 
+In the simple example here , the estimator converges in one step and is the same ~ as if we had observed the entire parse tree for each wi . 
+Given a Context-Free grammars G = ( V , T , R , S ) , let f2 be the set of finite parse tree , let p : R ~ [ 0,1 ] be a system of productions probability satisfying ( 1 ) , and let wl , w2 , . 

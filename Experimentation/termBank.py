@@ -31,7 +31,7 @@ class TermBank:
         """
             Method for loading the manula stop word list content
         """
-        stopsFile = open("/Users/hazemalsaied/git/scisumm-corpus/Experimentation/stopWordsExpanded.txt")
+        stopsFile = open("/Users/hazemalsaied/RA/Experimentation/stopWordsExpanded.txt")
         for line in stopsFile.xreadlines():
             TermBank.stopWordsList.append(line.strip().lower())
 

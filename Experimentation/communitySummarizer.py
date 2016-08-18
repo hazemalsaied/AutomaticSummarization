@@ -5,10 +5,10 @@ import xml.etree.ElementTree as ET
 
 from Experimentation.paper import Paper
 from Experimentation.sentence import Sentence
-
 from Experimentation.termBank import TermBank
-from ducSummarizer import DucSummarizer
 from correction import Corrector
+from ducSummarizer import DucSummarizer
+from ducSummarizer import WordClassifier
 
 
 class CommunitySummarizer:
@@ -17,13 +17,91 @@ class CommunitySummarizer:
     """
 
     sourceCorpusPath = '/Users/hazemalsaied/RA/Corpus/Sci-Summ/'
-    corpusPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries/SCISUMM/'
+    corpusPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries/'
     htmlCorpus = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries/SCISUMM-NonBinaryHtml/'
     modelPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries/SCISUMM/models/'
-    peerPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries/SCISUMM/systems/'
+    peerPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries/systems/'
 
     @staticmethod
-    def generatePeerCommunitySummary(getBinarySummaries=False):
+    def createAutodeterminedSummary():
+
+        for subdir, dirs, files in os.walk(CommunitySummarizer.sourceCorpusPath):
+            for directory in dirs:
+                documentName = directory[:8]
+                referenceXmlPath = os.path.join(os.path.join(CommunitySummarizer.sourceCorpusPath, directory),
+                                                'Reference_XML/' + documentName + '.xml')
+                paperText = Corrector.getPaperText(referenceXmlPath)
+                newPath = Corrector.correct(referenceXmlPath, paperText)
+                paper = Paper(newPath, isDucFile=False)
+
+                sents = DucSummarizer.getSentencesWeights(paper)
+                threshold = DucSummarizer.getXMinSentence(sents)
+
+                candidateSents = []
+                for sent in sents:
+                    if sent.getWeight() > threshold and sent.getWordsNum() > 20:
+                        candidateSents.append(sent)
+                candidateSents = sorted(candidateSents, key=lambda Sentence: Sentence.getWeight(), reverse=True)
+                summary = []
+                for sent1 in candidateSents:
+                    for sent2 in candidateSents:
+                        if sent1 is not sent2:
+                            distance = sent1.getDis(sent2)
+                            if distance > 0.7:
+                                candidateSents.remove(sent2)
+                    summary.append(sent1)
+                    candidateSents.remove(sent1)
+                summary = sorted(summary,key=lambda Sentence: Sentence.getIndex())
+                summ = DucSummarizer.generateSummaryText(summary)
+                print summ
+
+    @staticmethod
+    def createDemonstrativeSummary():
+
+        for subdir, dirs, files in os.walk(CommunitySummarizer.sourceCorpusPath):
+            for directory in dirs:
+                documentName = directory[:8]
+                referenceXmlPath = os.path.join(os.path.join(CommunitySummarizer.sourceCorpusPath, directory),
+                                                'Reference_XML/' + documentName + '.xml')
+                paperText = Corrector.getPaperText(referenceXmlPath)
+                newPath = Corrector.correct(referenceXmlPath, paperText)
+                paper = Paper(newPath, isDucFile=False)
+
+                sents = DucSummarizer.getSentencesWeights(paper)
+                threshold = DucSummarizer.getXMinSentence(sents)
+
+                candidateSents = []
+                for sent in sents:
+                    if sent.getWeight() > threshold and sent.getWordsNum() > 20:
+                        candidateSents.append(sent)
+                candidateSents = sorted(candidateSents, key=lambda Sentence: Sentence.getWeight(), reverse=True)
+
+                sentenceCluster = {}
+                for sent in candidateSents:
+                    if sent.getSection() is not None:
+                        secIdx = sent.getSection().getIndex()
+                        if secIdx in sentenceCluster.keys():
+                            sentenceCluster[secIdx].append(sent)
+                        else:
+                            sentenceCluster[secIdx] = [sent]
+                summary = []
+                for key in sentenceCluster.keys():
+                    sents = sorted(sentenceCluster[key], key=lambda Sentence: Sentence.getWeight(), reverse=True)
+                    for sent1 in sents:
+                        for sent2 in sents:
+                            if sent1 is not sent2:
+                                distance = sent1.getDis(sent2)
+                                if distance < 0.5:
+                                    sents.remove(sent2)
+                        summary.append(sent1)
+                        sents.remove(sent1)
+
+                summary = sorted(summary, key=lambda Sentence: Sentence.getIndex())
+                summ = DucSummarizer.generateSummaryText(summary)
+                print summ
+
+    @staticmethod
+    def generatePeerCommunitySummary(getBinarySummaries=False, getMaxValue=False, forTerms=False, forWordsAndTerms=False):
         """
             This method create the mpdel summaries using the cosine similarity approach.
              for each sentence of the citation we search for the most close sentence of the article
@@ -50,9 +128,10 @@ class CommunitySummarizer:
                         Corrector.correctSentence(citSent, paperText)
                         for idx, sent in TermBank.sentenceBank.iteritems():
                             if getBinarySummaries:
-                                distance = sent.getBinaryDistance(citSent,xMin)
+                                distance = sent.getBinaryDistance(citSent, xMin)
                             else:
-                                distance = sent.getDis(citSent) #sent.getDistance(citSent)
+                                distance = sent.getDis(citSent, getMaxValue=getMaxValue,
+                                                       forTerms=forTerms,forWordsAndTerms=forWordsAndTerms)  # sent.getDistance(citSent)
                             ann.addSpanResultItem(distance, sent, citSent)
                         sortedSpanResults = sorted(ann.spanResultList,
                                                    key=lambda SpanResultItem: SpanResultItem.distance)
@@ -60,7 +139,7 @@ class CommunitySummarizer:
                             if sortedSpanResult.referenceSent not in summary:
                                 summary.append(sortedSpanResult.referenceSent)
                                 break
-                        #DucSummarizer.adjustWeights(sortedSpanResults[0].referenceSent, paper, WordsNumber=7)
+                        DucSummarizer.adjustWeights(sortedSpanResults[0].referenceSent, paper, WordsNumber=5)
                 ff = open(os.path.join(CommunitySummarizer.peerPath, documentName + '_summary.md'), 'w+')
                 ff.write(DucSummarizer.generateSummaryText(summary))
                 ff.close()
@@ -305,30 +384,52 @@ class CommunitySummarizer:
         for subdir, dirs, files in os.walk(CommunitySummarizer.sourceCorpusPath):
             for dir in dirs:
                 documentName = dir[:8]
+                print documentName
                 referenceXmlPath = os.path.join(os.path.join(CommunitySummarizer.sourceCorpusPath, dir),
                                                 'Reference_XML/' + documentName + '.xml')
                 paper = Paper(referenceXmlPath, isDucFile=False, setWeights=False)
                 for ann in paper.getAnnotations():
-                    if not ann.isValid():
+                    if not ann.isValid:
                         print ann.citanceNumber, 'is not valid'
             break
 
-
     @staticmethod
     def normailzeSummaries():
+        CommunitySummarizer.htmlCorpus = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries/6/'
+        CommunitySummarizer.peerPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries/systems/'
         if not os.path.exists(CommunitySummarizer.htmlCorpus):
             os.makedirs(CommunitySummarizer.htmlCorpus)
-            os.makedirs(CommunitySummarizer.htmlCorpus + 'models')
+            # os.makedirs(CommunitySummarizer.htmlCorpus + 'models')
+        if not os.path.exists(CommunitySummarizer.htmlCorpus + 'systems'):
             os.makedirs(CommunitySummarizer.htmlCorpus + 'systems')
-        for root, _, files in os.walk(CommunitySummarizer.modelPath):
-            for f in files:
-                CommunitySummarizer.normailzeSummary(f, 'models')
+        # for root, _, files in os.walk(CommunitySummarizer.modelPath):
+        #     for f in files:
+        #         CommunitySummarizer.normailzeSummary(f, 'models')
         for root, _, files in os.walk(CommunitySummarizer.peerPath):
             for f in files:
                 CommunitySummarizer.normailzeSummary(f, 'systems')
 
     @staticmethod
+    def normailzeGraphSummaries():
+        CommunitySummarizer.htmlCorpus = '/Users/hazemalsaied/RA/Evaluation/GraphSummaries/3/'
+        CommunitySummarizer.peerPath = '/Users/hazemalsaied/RA/Evaluation/GraphSummaries/systems3/'
+        if not os.path.exists(CommunitySummarizer.htmlCorpus):
+            os.makedirs(CommunitySummarizer.htmlCorpus)
+            # os.makedirs(CommunitySummarizer.htmlCorpus + 'models')
+        if not os.path.exists(CommunitySummarizer.htmlCorpus + 'systems'):
+            os.makedirs(CommunitySummarizer.htmlCorpus + 'systems')
+        # for root, _, files in os.walk(CommunitySummarizer.modelPath):
+        #     for f in files:
+        #         CommunitySummarizer.normailzeSummary(f, 'models')
+        for root, _, files in os.walk(CommunitySummarizer.peerPath):
+            for f in files:
+                CommunitySummarizer.normailzeSummary(f, 'systems3')
+
+    @staticmethod
     def normailzeSummary(f, folder):
+        if f == '.DS_Store':
+            return
+        CommunitySummarizer.corpusPath = '/Users/hazemalsaied/RA/Evaluation/GraphSummaries/'
         fullPath = os.path.join(CommunitySummarizer.corpusPath + folder, f)
 
         fo = open(fullPath, "rw+")
@@ -340,12 +441,12 @@ class CommunitySummarizer:
         for line in lines:
             if line.endswith('\n'):
                 line = line[:-1]
-            summary += '<a name="' + str(idx) + '">[' +str(idx) + ']</a> <a href="#' + str(idx) + '" id=' \
+            summary += '<a name="' + str(idx) + '">[' + str(idx) + ']</a> <a href="#' + str(idx) + '" id=' \
                        + str(idx) + '>' + line + '</a>\n'
             idx += 1
         summary = summary[:-1] + '</body>\n</html>\n'
 
-        file = open(CommunitySummarizer.htmlCorpus + folder + '/' + f[:-2] + 'html', 'w')
+        file = open(CommunitySummarizer.htmlCorpus + folder[:-1] + '/' + f[:-2] + 'html', 'w')
         file.write(summary)
         file.close()
 
@@ -355,6 +456,7 @@ class CommunitySummarizer:
         root = ET.Element('ROUGE-EVAL')
         root.set('version', '1.55')
         taskDic = []
+        CommunitySummarizer.htmlCorpus = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries/2/'
         for roots, _, files in os.walk(CommunitySummarizer.htmlCorpus + 'models'):
             for f in files:
                 if f.split('_')[0] not in taskDic:
@@ -364,9 +466,9 @@ class CommunitySummarizer:
             eval = ET.SubElement(root, 'EVAL')
             eval.set('ID', str(idx))
             peerRoot = ET.SubElement(eval, 'PEER-ROOT')
-            peerRoot.text = 'c:/rouge/SCISUMMHtml/systems'
+            peerRoot.text = 'c:/rouge/sci-summ/systems'
             modelRoot = ET.SubElement(eval, 'MODEL-ROOT')
-            modelRoot.text = 'c:/rouge/SCISUMMHtml/models'
+            modelRoot.text = 'c:/rouge/sci-summ/models'
             inputFormat = ET.SubElement(eval, 'INPUT-FORMAT')
             inputFormat.set('TYPE', 'SEE')
             models = ET.SubElement(eval, 'MODELS')
@@ -375,7 +477,7 @@ class CommunitySummarizer:
                 for f in files:
                     if f.startswith(task):
                         reference = ET.SubElement(models, 'M')
-                        reference.set('ID',  f[1:3] + f[4:8] + str(referenceIdx))
+                        reference.set('ID', f[1:3] + f[4:8] + str(referenceIdx))
                         reference.text = f
                         referenceIdx += 1
 
@@ -388,19 +490,65 @@ class CommunitySummarizer:
                         if f.split('_')[1][:-3] == 'sum':
                             peer.set('ID', '59')
                         else:
-                            peer.set('ID',f[1:3] + f[4:8] )  #)  # str(peerIdx))
+                            peer.set('ID', f[1:3] + f[4:8])  # )  # str(peerIdx))
                         peer.text = f
                         peerIdx += 1
 
             idx += 1
         tree = ET.ElementTree(root)
-        tree.write("/Users/hazemalsaied/RA/Evaluation/CommunitySummaries/SCISUMM.xml")
+        tree.write("/Users/hazemalsaied/RA/Evaluation/CommunitySummaries/sci-summ.xml")
+
+    @staticmethod
+    def getStatistics():
+        """
+            This method generate all summary of Duc 2007 files and save them into the evaluation folder
+
+            :param path:  '/Users/hazemalsaied/git/scisumm-corpus/DUC2007/update_corpus/'
+            :return:
+        """
+
+        for subdir, dirs, files in os.walk(CommunitySummarizer.sourceCorpusPath):
+            for directory in dirs:
+                documentName = directory[:8]
+                referenceXmlPath = os.path.join(os.path.join(CommunitySummarizer.sourceCorpusPath, directory),
+                                                'Reference_XML/' + documentName + '.xml')
+                paperText = Corrector.getPaperText(referenceXmlPath)
+                newPath = Corrector.correct(referenceXmlPath, paperText)
+                paper = Paper(newPath, isDucFile=False)
+                classifierList = []
+                for word in TermBank.wordsBank.values():
+                    wordCls = WordClassifier(word.getText(), word.getTotalOccurrence(), word.getOccurrence())
+                    classifierList.append(wordCls)
+
+                sortedClassifierList = sorted(classifierList,
+                                              key=lambda WordClassifier: WordClassifier.frecuency, reverse=True)
+
+                statistics = 'Word,Frecuency,Frecuency in sections\n'
+                for cls in sortedClassifierList[:50]:
+                    statistics += cls.wordStr + ',' + str(cls.frecuency) + ',' + str(cls.occurrence.values()).replace(
+                        ',',
+                        '-').replace(
+                        '[', '').replace(']', '') + '\n'
+
+                # Writing the summary to the evaluation folder as a peer summary
+                fileName = paper.getPaperName() + '_statistics.csv'
+                stPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries/Statistics/'
+                if not os.path.exists(stPath):
+                    os.makedirs(stPath)
+
+                ff = open(stPath + fileName, 'w+')
+                ff.write(statistics)
+                ff.close()
 
 
 reload(sys)
 sys.setdefaultencoding('utf8')
 # CommunitySummarizer.detectNonValidAnnotations()
-#CommunitySummarizer.generateModelCommunitySummary()
-CommunitySummarizer.generatePeerCommunitySummary(True)
-#CommunitySummarizer.normailzeSummaries()
-#CommunitySummarizer.generateEvalXML()
+# CommunitySummarizer.generateModelCommunitySummary()
+#CommunitySummarizer.generatePeerCommunitySummary(forWordsAndTerms=True)
+CommunitySummarizer.normailzeGraphSummaries()
+# CommunitySummarizer.generateEvalXML()
+# CommunitySummarizer.getStatistics()
+
+#CommunitySummarizer.createAutodeterminedSummary()
+#CommunitySummarizer.createDemonstrativeSummary()

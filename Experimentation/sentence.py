@@ -77,22 +77,22 @@ class Sentence:
                 self.addWord(
                     Word(lemmatizedTermText, self, self.getWords().index(word), paper,
                          True))
-            thirdWord = self.getNextWord(secondWord)
-            if thirdWord is not None and thirdWord.isCandidateFeature():
-                self.__termsNum += 1
-                lemmatizedTermText += ' ' + thirdWord.getLemma()
-                if lemmatizedTermText.lower() in TermBank.termsBank.keys():
-                    term = TermBank.termsBank[lemmatizedTermText.lower()]
-                    term.addIndex(self.getWords().index(word))
-                    term.addSentence(self)
-                    self.addWord(term)
-                else:
-                    paper = None
-                    if self.getSection() is not None:
-                        paper = self.getSection().getPaper()
-                    self.addWord(
-                        Word(lemmatizedTermText, self, self.getWords().index(word),
-                             paper, True))
+            # thirdWord = self.getNextWord(secondWord)
+            # if thirdWord is not None and thirdWord.isCandidateFeature():
+            #     self.__termsNum += 1
+            #     lemmatizedTermText += ' ' + thirdWord.getLemma()
+            #     if lemmatizedTermText.lower() in TermBank.termsBank.keys():
+            #         term = TermBank.termsBank[lemmatizedTermText.lower()]
+            #         term.addIndex(self.getWords().index(word))
+            #         term.addSentence(self)
+            #         self.addWord(term)
+            #     else:
+            #         paper = None
+            #         if self.getSection() is not None:
+            #             paper = self.getSection().getPaper()
+            #         self.addWord(
+            #             Word(lemmatizedTermText, self, self.getWords().index(word),
+            #                  paper, True))
                     # Paper.addSentenceBankItem(self)
 
     def getIndex(self):
@@ -143,7 +143,7 @@ class Sentence:
     def getTempWeight(self):
         return self.__TempWeight
 
-    def setTempWeight(self, weight=-1, paper=None, usingFeatures=False):
+    def setTempWeight(self, weight=-1, paper=None, usingFeatures=False,forTerms=False):
         """
             After assigning weights for all the words of the article, we assign weights for sentences in calculating the
             average of informative words for each sentence.
@@ -156,18 +156,26 @@ class Sentence:
             return
         self.__TempWeight = 0
         counter = 0
-        for word in self.getWords():
-            if usingFeatures and self.getSection() is not None and not word.isTempFeature(self.getSection().getIndex()):
-                    continue
-            word = TermBank.getWordBankItem(word.getLemma())
-            if word is not None and word.getTempfMeasure():
-                wordWeight = 0
+        dictionary = TermBank.wordsBank
+        if forTerms:
+            dictionary = TermBank.termsBank
+        composantList = self.getWords()
+        if forTerms:
+            composantList = self.getTerms()
+        for composant in composantList:
+            #if usingFeatures and self.getSection() is not None and not word.isTempFeature(self.getSection().getIndex()):
+            #        continue
+            if not composant.isTerm() and not composant.isCandidateFeature():
+                continue
+            composant = dictionary[composant.getLemma()]
+            if composant is not None and composant.getTempfMeasure():
+                composantWeight = 0
                 counter += 1
                 if self.getSection() is None:
-                        wordWeight = max(word.getTempfMeasure().values())
+                        composantWeight = max(composant.getTempfMeasure().values())
                 else:
-                    wordWeight = word.getTempfMeasure()[self.getSection().getIndex()]
-                self.__TempWeight += wordWeight
+                    composantWeight = composant.getTempfMeasure()[self.getSection().getIndex()]
+                self.__TempWeight += composantWeight
         if counter is not 0:
             self.__TempWeight = self.__TempWeight / counter
         return self.__TempWeight
@@ -252,6 +260,12 @@ class Sentence:
                 lemma.append(word.getLemma())
         return lemma
 
+    def getLemmaListOfTerms(self):
+        lemma = []
+        for word in self.getTerms():
+            lemma.append(word.getLemma())
+        return lemma
+
     def getMixedWords(self):
         result = []
         for word in self.getWords():
@@ -262,16 +276,60 @@ class Sentence:
     def isValid(self):
         return self.__isValid
 
-    def getWordBag(self, ph1, ph2, usingFeatures):
-
+    def getWordBag(self, ph1, ph2, usingFeatures, forTerms=False,forWordsAndTerms=False):
         wordBag = {}
+
+        if forWordsAndTerms:
+
+            terms = ph1.getTerms() + ph2.getTerms()
+            tempWords = ph1.getWords() + ph2.getWords()
+            for word in tempWords:
+                addWord = True
+                for term in terms:
+                    if word.getLemma() in term.getLemma():
+                        addWord = False
+                if addWord:
+                    terms.append(word)
+
+            for word in terms:
+                if word.isTerm():
+                    if word.getLemma() in TermBank.termsBank.keys():
+                        if usingFeatures and self.getSection() is not None and not word.isTempFeature()[
+                            self.getSection().getIndex()]:
+                            continue
+                        copyWord = TermBank.termsBank[word.getLemma()]
+                        if word.isCandidateFeature() and copyWord.getFMeasure():
+                            wordBag[copyWord.getLemma()] = copyWord
+                else:
+                    if word.getLemma() in TermBank.wordsBank.keys():
+                        if usingFeatures and self.getSection() is not None and not word.isTempFeature()[
+                            self.getSection().getIndex()]:
+                            continue
+                        copyWord = TermBank.wordsBank[word.getLemma()]
+                        if word.isCandidateFeature() and copyWord.getFMeasure():
+                            wordBag[copyWord.getLemma()] = copyWord
+            return wordBag
+
+
+        if forTerms:
+            words = ph1.getTerms() + ph2.getTerms()
+            for word in words:
+                if word.getLemma() in TermBank.termsBank.keys():
+                    if usingFeatures and self.getSection() is not None and not word.isTempFeature()[
+                        self.getSection().getIndex()]:
+                        continue
+                    copyWord = TermBank.termsBank[word.getLemma()]
+                    if word.isCandidateFeature() and copyWord.getFMeasure():
+                        wordBag[copyWord.getLemma()] = copyWord
+            return wordBag
+
         words = ph1.getWords() + ph2.getWords()
         for word in words:
             if word.getLemma() in TermBank.wordsBank.keys():
                 if usingFeatures and self.getSection() is not None and not word.isTempFeature()[self.getSection().getIndex()]:
                     continue
                 copyWord = TermBank.wordsBank[word.getLemma()]
-                if word.isCandidateFeature() and copyWord.getFMeasure():
+                if copyWord.isCandidateFeature() and copyWord.getFMeasure():
                     wordBag[copyWord.getLemma()] = copyWord
         return wordBag
 
@@ -281,13 +339,29 @@ class Sentence:
             value = word.getTempfMeasure()
         return value
 
-    def vectorize(self, bag, secIdx, isTempFMeasure):
+    def vectorize(self, bag, secIdx, isTempFMeasure, forTerms=False,forWordsAndTerms=False):
 
         vector = []
-        lemmas = self.getLemmaList()
-        for word in bag.values():
 
-            word = TermBank.wordsBank[word.getLemma()]
+        lemmas = self.getLemmaList()
+        if forWordsAndTerms:
+            lemmas = []
+            for word in self.getTerms() + self.getWords():
+                if word.getLemma() in bag.keys() and  word.getLemma()  not in lemmas:
+                    lemmas.append(word.getLemma())
+
+        if forTerms:
+            lemmas = []
+            for term in self.getTerms():
+                lemmas.append(term.getLemma())
+        for word in bag.values():
+            if word.isTerm():
+                word = TermBank.termsBank[word.getLemma()]
+            else:
+                word = TermBank.wordsBank[word.getLemma()]
+            print bag
+            print word.getTempfMeasure()
+            print word.getText()
             if not secIdx:
                 fmeasure = max(self.getValue(isTempFMeasure, word).values())
             else:
@@ -298,19 +372,19 @@ class Sentence:
                 vector.append(0)
         return vector
 
-    def getDis(self, ph1, isTempFMeasure=False, usingFeatures=False):
-        bag = self.getWordBag(ph1, self, usingFeatures)
+    def getDis(self, ph1, isTempFMeasure=False, usingFeatures=False, getMaxValue=False, forTerms=False,forWordsAndTerms=False):
+        bag = self.getWordBag(ph1, self, usingFeatures,forTerms=forTerms, forWordsAndTerms=forWordsAndTerms)
         v = []
         for ph in [ph1, self]:
             secIdx = False
-            if ph.getSection() is not None:
+            if not getMaxValue and ph.getSection() is not None:
                 secIdx = ph.getSection().getIndex()
             # else:
             #     for phh in [ph1, self]:
             #         if phh is not ph and phh.getSection() is not None:
             #             secIdx = phh.getSection().getIndex()
 
-            v.append(ph.vectorize(bag, secIdx,isTempFMeasure))
+            v.append(ph.vectorize(bag, secIdx,isTempFMeasure,forTerms=forTerms,forWordsAndTerms=forWordsAndTerms))
         return spatial.distance.cosine(v[0], v[1])
 
     def getTermalDistance(self, citingSent):
