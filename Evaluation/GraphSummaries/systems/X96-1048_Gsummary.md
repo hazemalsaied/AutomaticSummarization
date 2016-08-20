@@ -1,0 +1,37 @@
+Any participant in a future MUC evaluation faces the challenge of providing a named entity identification capability that would score in the 90th percentile on the F-measure on a task such as the MUC6 one . 
+The other two tasks , Template Element and Scenario Template , were information extraction tasks that followed on from the MUC evaluations conducted in previous years . 
+Documentation of each of the tasks and summary scores for all systems evaluated can be found in the MUC6 proceedings [ 1 ] . 
+Recognition of alternative ways of identifying an entity constitutes a large portion of the Coreference task and another critical portion of the Template Element task and has been shown to represent only a modest challenge when the referents are names or pronouns . 
+NAMED ENTITY The Named Entity ( NE ) task requires insertion of SGML tags into the text stream . 
+The example passage covers a broad spectrum of the phenomena included in the task . 
+Individual thanks go to Ralph Grishman of NYU for serving as program co- chair , to Nancy Chinchor for her critical efforts on virtually all aspects of MUC6 , and to the other members of the program committee , which included Chinatsu Aone of SRA Corp. , Lois Childs of Lockheed Martin Corp. , Jerry Hobbs of SRI International , Boyan Onyshkevych of the U.S. Dept . of Defense , Marc Vilain of The MITRE Corp. , Takahiro Wakao of the Univ . of Sheffield , and Ralph Weischedel of BBN Systems and Technologies . 
+The inclusion of four different tasks in the evaluation implicitly encouraged sites to design general-purpose architectures that allow the production of a variety of types of output from a single internal representation in order to allow use of the full range of analysis techniques for all tasks . 
+As a result , a few `` peripheral '' facts about the event were included that were difficult to define in the task documentation Andros were not reported clearly in many of the articles . 
+The one-month limitation on development in preparation for MUC6 would be difficult to factor into the computation , and even without that additional factor , the problem of coming up with a reasonable , objective way of measuring relative task difficulty has not been adequately addressed . 
+No analysis has been done of the relative difficulty of the MUC6 ST task compared to previous extraction evaluation tasks . 
+The evolution and design of the MUC6 evaluation are discussed in the paper by Grishman and Sundheim in this volume . 
+MUC6 56.40 MUC5 EJV 52.75 MUC5 JJV 60.07 MUC5 EME 49.18 MUC5 JME 56.31 Table 4 . 
+Many of the sites have emphasized their pattern-matching techniques in discussing the strengths of their MUC6 systems . 
+As defined for MUC6 , the ST task presents a significant challenge in terms of system portability , in that the test procedure required that all domain-specific development be done in a period of one month . 
+An algorithm developed by the MITRE Corporation for MUC6 was implemented by SAIC and used for scoring the task . 
+A few of the evaluation sites reported that good nameless recognition alone would buy a system a lot of recall and precision points on this task , perhaps about 30 % recall ( since proper names constituted a large minority of the annotations ) and 90 % precision . 
+The identification of a name as that of an organization ( hence , instantiation of an ORGANIZATION object ) or as a person ( PERSON object ) is a named entity identification task . 
+The definition and implementation of the evaluations reported on at the Message Understanding Conference was once again a `` community '' effort , requiring active involvement on the part of the evaluation participants as well as the organizers and sponsors . 
+Finally , a change in administration of the MUC evaluations is occurring that will bring fresh ideas . 
+The NE evaluation results serve mainly to document in the MUC context what was already strongly suspected : 1 . 
+However , there were at least three factors that might lead one to expect higher levels of performance than seen in previous MUC evaluations : 1 . 
+Human performance was measured in terms of annotator variability on only 30 texts in the test set and showed agreement to be approximately 83 % , when one annotator 's templates were treated as the `` key '' and the other annotator 's templates were treated as the `` response '' . 
+The amount of agreement between the two annotators was found to be 80 % recall and 82 % precision . 
+Human performance was measured by comparing the 30 draft answer keys produced by the annotator at NRaD with those produced by the annotator at SAIC . 
+The annotators ' problems with ONZI'HE_JOB were probably more substantive , since the heuristics documented in the appendix were complex and sometimes hard to map onto the expressions found in the news articles . 
+Paraphrased summary of ST outputs for walk through article The article was relatively straightforward for the annotators who prepared the answer key , and there were no substantive differences in the output produced by each of the two annotators . 
+The annotators ' problems with VACANCY_REASON may have had more to do with understanding what the scenario definition was saying than with understanding what the news articles were saying . 
+Using the scoring method in which one annotator 's draft key serves as the `` key '' and the other annotator 's draft key serves as the `` response , '' the overall consistency score was 93.14 on the F-measure , with 93 % recall and 93 % precision . 
+This test measures the amount of variability between the annotators . 
+In the case of the management succession scenario , a proposal was made to eliminate the three slots discussed above and more , including the relational object itself , and to put the personnel information in the event object . 
+Three scenarios were defined in the course of MUC6 : ( 1 ) a scenario concerning the event of organizations placing orders to buy aircraft with aircraft manufacturers ( the `` aircraft order '' scenario ) ; ( 2 ) a scenario concerning the event of contract negotiations between labor unions and companies ( the `` labor negotiations '' scenario ) ; ( 3 ) a scenario concerning changes in corporate managers occupying executive posts ( the `` management succession '' scenario ) . 
+The two SGML-based tasks required innovations to tie system-internal data structures to the original text so that the annotations could be inserted by the system without altering the original text in any other way . 
+Defining a generalized template structure and using Template Element objects as one layer in the structure reduced the amount of effort required for participants to move their system from one scenario to another . 
+For common noun phrases , the systems were not required to include the entire NP in the response ; the response could minimally contain only the head noun . 
+Also , the descriptor is not always close to the name , and some discourse processing may be required in order to identify it -- this is likely to increase the opportunity for systems to miss the information . 
+For generation of an organization object , the texts must provide either the names ( full or part ) or a descriptor of the organization . 

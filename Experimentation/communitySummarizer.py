@@ -411,8 +411,8 @@ class CommunitySummarizer:
 
     @staticmethod
     def normailzeGraphSummaries():
-        CommunitySummarizer.htmlCorpus = '/Users/hazemalsaied/RA/Evaluation/GraphSummaries/3/'
-        CommunitySummarizer.peerPath = '/Users/hazemalsaied/RA/Evaluation/GraphSummaries/systems3/'
+        CommunitySummarizer.htmlCorpus = '/Users/hazemalsaied/RA/Evaluation/GraphSummaries/4/'
+        CommunitySummarizer.peerPath = '/Users/hazemalsaied/RA/Evaluation/GraphSummaries/systems/'
         if not os.path.exists(CommunitySummarizer.htmlCorpus):
             os.makedirs(CommunitySummarizer.htmlCorpus)
             # os.makedirs(CommunitySummarizer.htmlCorpus + 'models')
@@ -423,7 +423,7 @@ class CommunitySummarizer:
         #         CommunitySummarizer.normailzeSummary(f, 'models')
         for root, _, files in os.walk(CommunitySummarizer.peerPath):
             for f in files:
-                CommunitySummarizer.normailzeSummary(f, 'systems3')
+                CommunitySummarizer.normailzeSummary(f, 'systems')
 
     @staticmethod
     def normailzeSummary(f, folder):
@@ -446,7 +446,7 @@ class CommunitySummarizer:
             idx += 1
         summary = summary[:-1] + '</body>\n</html>\n'
 
-        file = open(CommunitySummarizer.htmlCorpus + folder[:-1] + '/' + f[:-2] + 'html', 'w')
+        file = open(CommunitySummarizer.htmlCorpus + folder + '/' + f[:-2] + 'html', 'w')
         file.write(summary)
         file.close()
 

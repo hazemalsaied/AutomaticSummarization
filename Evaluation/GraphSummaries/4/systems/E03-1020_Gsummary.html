@@ -1,0 +1,32 @@
+<html>
+<head><title>E03-1020_Gsummary</title> </head>
+<body bgcolor="white">
+<a name="0">[0]</a> <a href="#0" id=0>This approach to disambiguation combines the benefits of both Yarowsky 's ( 1995 ) and Schtitze 's ( 1998 ) approaches . </a>
+<a name="1">[1]</a> <a href="#1" id=1>Based on the intuition that nouns which co-occur in a list are often semantically related , we extract contexts of the form Noun , Noun , ... Andros Noun , e.g . `` gnomic DNA from rat , mouse and dog '' . </a>
+<a name="2">[2]</a> <a href="#2" id=2>Following the method in ( Widdows and Dorow , 2002 ) , we build a graph in which each node represents a noun and two nodes have an edge between them if they co-occur in lists more than a given number of times 1 . </a>
+<a name="3">[3]</a> <a href="#3" id=3>The quality of the Markov clustering depends strongly on several parameters such as a granularity factor and the size of the local graph . </a>
+<a name="4">[4]</a> <a href="#4" id=4>Section 3 describes the way we divide graphs surrounding ambiguous words into different areas corresponding to different senses , using Markov clustering ( van Dongen , 2000 ) . </a>
+<a name="5">[5]</a> <a href="#5" id=5>We then determined the WordNet sunsets which most adequately characterized the sense clusters . </a>
+<a name="6">[6]</a> <a href="#6" id=6>In section 4 , we outline a word sense discovery algorithm which bypasses the problem of parameter tuning . </a>
+<a name="7">[7]</a> <a href="#7" id=7>In section 2 , we present the graph model from which we discover word senses . </a>
+<a name="8">[8]</a> <a href="#8" id=8>This paper describes an algorithm which automatically discovers word senses from free text and maps them to the appropriate entries of existing dictionaries or taxonomies . </a>
+<a name="9">[9]</a> <a href="#9" id=9>The ability to map senses into a taxonomy using the class-labelling algorithm can be used to ensure that the sense-distinctions discovered correspond to recognized differences in meaning . </a>
+<a name="10">[10]</a> <a href="#10" id=10>The family of such algorithms is described in ( Widdows , 2003 ) . </a>
+<a name="11">[11]</a> <a href="#11" id=11>Our algorithm was applied to each word in the list ( with parameters Iii = 20 , n2 = 10 , r = 2.0 , k = 2.0 ) in order to extract the top two sense clusters only . </a>
+<a name="12">[12]</a> <a href="#12" id=12>Instead we link each word to its top n neighbors where n can be determined by the user ( cf . </a>
+<a name="13">[13]</a> <a href="#13" id=13>The same corpus evidence which supports a clustering of an ambiguous word into distinct senses can be used to decide which sense is referred to in a given context ( Schiitze , 1998 ) . </a>
+<a name="14">[14]</a> <a href="#14" id=14>However , there are ambiguous words with more closely related senses which are metaphorical or metonymy variations of one another . </a>
+<a name="15">[15]</a> <a href="#15" id=15>Following Lin 's work ( 1998 ) , we are currently investigating a graph with verb-object , verb-subject and modifier-noun-collocations from which it is possible to infer more about the senses of systematically polygamous words . </a>
+<a name="16">[16]</a> <a href="#16" id=16>However , whereas there are many edges within an area of meaning , there is only a small number of ( weak ) links between different areas of meaning . </a>
+<a name="17">[17]</a> <a href="#17" id=17>Flow within dense regions in the graph is concentrated by both expansion and inflation . </a>
+<a name="18">[18]</a> <a href="#18" id=18>In contrast to pure Markov clustering , we do n't try to find a complete clustering of G into senses at once . </a>
+<a name="19">[19]</a> <a href="#19" id=19>Take the `` best '' cluster ( the one that is most strongly connected to w in Gw before removal of w ) , add it to the final list of clusters L and removal its features from F. 5 . </a>
+<a name="20">[20]</a> <a href="#20" id=20>Usually , one sense of an ambiguous word w is much more frequent than its other senses present in the corpus . </a>
+<a name="21">[21]</a> <a href="#21" id=21>The word sense clustering algorithm as outlined below can be applied to any kind of similarity measure based on any set of features . </a>
+<a name="22">[22]</a> <a href="#22" id=22>sz44 CD miltrA , literate h , ) Cik Figure 1 : Local graph of the word mouse </a>
+<a name="23">[23]</a> <a href="#23" id=23>1 Si ample cutoff functions proved unsatisfactory because of the bias they give to more frequent words . </a>
+<a name="24">[24]</a> <a href="#24" id=24>The problem can be addressed by using word sense clustering to attune an existing resource to accurately describe the meanings used in a particular corpus . </a>
+<a name="25">[25]</a> <a href="#25" id=25>To detect the different areas of meaning in our local graphs , we use a cluster algorithm for graphs ( Markov clustering , MCL ) developed by van Dongen ( 2000 ) . </a>
+<a name="26">[26]</a> <a href="#26" id=26>The output of the MCL-algorithm strongly depends on the inflation and expansion parameters r and k as well as the size of the local graph which serves as input to MCL . </a>
+<a name="27">[27]</a> <a href="#27" id=27>If the local graph handed over to the MCL process is small , we might miss some of w 's meaning in the corpus . </a></body>
+</html>
