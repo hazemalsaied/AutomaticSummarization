@@ -135,11 +135,21 @@ class CommunitySummarizer:
                             ann.addSpanResultItem(distance, sent, citSent)
                         sortedSpanResults = sorted(ann.spanResultList,
                                                    key=lambda SpanResultItem: SpanResultItem.distance)
+
+                        sentNumm = len(ann.referenceSentencesDictionary.values())
+                        idx = 1
                         for sortedSpanResult in sortedSpanResults:
                             if sortedSpanResult.referenceSent not in summary:
                                 summary.append(sortedSpanResult.referenceSent)
-                                break
-                        DucSummarizer.adjustWeights(sortedSpanResults[0].referenceSent, paper, WordsNumber=5)
+                                idx += 1
+                                if idx > sentNumm:
+                                    break
+
+                        # for sortedSpanResult in sortedSpanResults:
+                        #     if sortedSpanResult.referenceSent not in summary:
+                        #         summary.append(sortedSpanResult.referenceSent)
+                        #         break
+                        # DucSummarizer.adjustWeights(sortedSpanResults[0].referenceSent, paper, WordsNumber=5)
                 ff = open(os.path.join(CommunitySummarizer.peerPath, documentName + '_summary.md'), 'w+')
                 ff.write(DucSummarizer.generateSummaryText(summary))
                 ff.close()
@@ -395,7 +405,7 @@ class CommunitySummarizer:
 
     @staticmethod
     def normailzeSummaries():
-        CommunitySummarizer.htmlCorpus = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries/6/'
+        CommunitySummarizer.htmlCorpus = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries/7/'
         CommunitySummarizer.peerPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries/systems/'
         if not os.path.exists(CommunitySummarizer.htmlCorpus):
             os.makedirs(CommunitySummarizer.htmlCorpus)
@@ -429,7 +439,7 @@ class CommunitySummarizer:
     def normailzeSummary(f, folder):
         if f == '.DS_Store':
             return
-        CommunitySummarizer.corpusPath = '/Users/hazemalsaied/RA/Evaluation/GraphSummaries/'
+        CommunitySummarizer.corpusPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries/'
         fullPath = os.path.join(CommunitySummarizer.corpusPath + folder, f)
 
         fo = open(fullPath, "rw+")
@@ -545,8 +555,8 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 # CommunitySummarizer.detectNonValidAnnotations()
 # CommunitySummarizer.generateModelCommunitySummary()
-#CommunitySummarizer.generatePeerCommunitySummary(forWordsAndTerms=True)
-CommunitySummarizer.normailzeGraphSummaries()
+# CommunitySummarizer.generatePeerCommunitySummary(getBinarySummaries=True)
+CommunitySummarizer.normailzeSummaries()
 # CommunitySummarizer.generateEvalXML()
 # CommunitySummarizer.getStatistics()
 

@@ -1,0 +1,25 @@
+<html>
+<head><title>H05-1115_summary</title> </head>
+<body bgcolor="white">
+<a name="0">[0]</a> <a href="#0" id=0>The final number of questions annotated for answer the entire corpus was 341 , and the distribution questions per cluster can be found in Table 1 . </a>
+<a name="1">[1]</a> <a href="#1" id=1>Using Random Walks for Question-focused Sentence Retrieval</a>
+<a name="2">[2]</a> <a href="#2" id=2>Recent work has motivated the need for systems that support Information Synthesis tasks , in which user seeks a global understanding of a topic story Amigo et al. , 2004 ) . </a>
+<a name="3">[3]</a> <a href="#3" id=3>To evaluate our sentence retrieval mechanism , reproduced extract files , which contain a list of sentences deemed to be relevant to the question , for the system and from human judgment . </a>
+<a name="4">[4]</a> <a href="#4" id=4>We presented topic-sensitive LexRank and applied it to the problem of sentence retrieval . </a>
+<a name="5">[5]</a> <a href="#5" id=5>In the new approach , the 916 score of a sentence is determined by a mixture model of the relevance of the sentence to the query and the similarity of the sentence to other high-scoring sentences . </a>
+<a name="6">[6]</a> <a href="#6" id=6>Our model is similar in spirit to the random- walk summarization model ( Otterbacher et al. , 2005 ) . </a>
+<a name="7">[7]</a> <a href="#7" id=7>The baseline system explained above does not make use of any inter-sentence information in a cluster.We hypothesize that a sentence that is similar to the high scoring sentences in the cluster should also a high score . </a>
+<a name="8">[8]</a> <a href="#8" id=8>Graph Figure 2 : LexRank example : sentence similarity graph with a cosine threshold of 0.15 . </a>
+<a name="9">[9]</a> <a href="#9" id=9>To apply LexRank , a similarity graph is produce the sentences in an input document set . </a>
+<a name="10">[10]</a> <a href="#10" id=10>As discussed in Section 2 , our goal wast develop a topic-sensitive version of LexRank and to use it to improve a baseline system , which previously been used successfully for query-basedsentence retrieval ( Allan et al. , 2003 ) . </a>
+<a name="11">[11]</a> <a href="#11" id=11>Out of the 72 questions in the set , the baseline system outperformed LexRank on 22 of the questions . </a>
+<a name="12">[12]</a> <a href="#12" id=12>To contrast , LexRank might perform better when the question provides fewer content words , since it considers both similarity to the query andinter-sentence similarity . </a>
+<a name="13">[13]</a> <a href="#13" id=13>Given this observation , we experimented with two mixed strategies , in which the number of content words in a question determined whether LexRank or the baseline system was used for sentence retrieval . </a>
+<a name="14">[14]</a> <a href="#14" id=14>This time , all four LexRank systems outperformed the baseline , both in terms of average MRRand TRDR scores . </a>
+<a name="15">[15]</a> <a href="#15" id=15>While LexRank outperforms the baseline system on the first two clusters both in terms of and TRDR , their performances are not substantially different on the third cluster . </a>
+<a name="16">[16]</a> <a href="#16" id=16>It should be noted that both for the LexRank and baseline systems , chronological ordering of the documents sentence is preserved , such that in cases where two sentences have the same score , the one published is ranked higher . </a>
+<a name="17">[17]</a> <a href="#17" id=17>The idea behind using LexRank for sentence retrieval is that a system that considers only the similarity between candidate sentences and the input and not the similarity between the candidate sentences themselves , is likely to miss some important sentences . </a>
+<a name="18">[18]</a> <a href="#18" id=18>An example of such a scenario is illustrated inTables 8 and 9 , which show the top ranked sentence the baseline and LexRank , respectively for the question caused the Kursk to sink ?  from theKursk submarine cluster . </a>
+<a name="19">[19]</a> <a href="#19" id=19>In contrast to the classical question answering setting ( e.g . TREC-style Q & A ( Voorhees and Tice , 2000 ) ) , in which the user presents a single question and the system returns corresponding answer ( or a set of likely answers ) , in this case the user has a more complex information . </a>
+<a name="20">[20]</a> <a href="#20" id=20>The score for the four LexRank systems and the baseline on the development data are shown in systems Ave. MRR Ave. TRDR baseline 0.5518 0.8297 LR [ 0.14,0.95 ] 0.5267 0.8305LR [ 0.18,0.90 ] 0.5376 0.8382LR [ 0.18,0.95 ] 0.5421 0.8382LR [ 0.20,0.95 ] 0.5404 0.8311 Table 4 : training phase : systems outperforming the baseline in terms of TRDR score . </a></body>
+</html>
