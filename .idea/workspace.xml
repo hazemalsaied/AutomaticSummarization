@@ -2,1418 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fea1f80-735b-44dd-b5ba-6253f8bf8d11" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_PDF/C00-2123.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_PDF/C02-1050.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_PDF/C02-1164.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_PDF/C04-1091.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_PDF/E03-1007.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_PDF/E06-1004.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_PDF/H01-1062.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_PDF/J03-1005.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_PDF/J04-2003.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_PDF/J04-4002.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_PDF/N03-1010.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_PDF/P01-1027.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_PDF/P03-1039.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_PDF/W01-0505.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_PDF/W01-1404.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_PDF/W01-1407.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_PDF/W01-1408.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_PDF/W02-1020.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_PDF/C04-1089.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_PDF/C10-1070.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_PDF/C10-2164.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_PDF/D10-1042.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_PDF/D12-1003.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_PDF/J13-2001.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_PDF/N09-1048.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_PDF/P06-1011.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_PDF/P09-1098.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_PDF/P13-1059.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_PDF/P13-1062.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_PDF/P13-1107.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_PDF/P13-2036.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_PDF/W11-1215.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_PDF/W11-2206.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_PDF/W13-2501.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_PDF/W13-2512.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_PDF/C08-1107.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_PDF/C10-2017.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_PDF/D12-1094.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_PDF/E09-1025.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_PDF/I05-5011.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_PDF/I08-1070.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_PDF/J10-3003.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_PDF/J12-1003.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_PDF/P06-2094.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_PDF/P07-1058.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_PDF/P08-1078.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_PDF/P09-2063.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_PDF/P10-1124.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_PDF/P11-1062.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_PDF/P11-1109.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_PDF/P12-1013.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_PDF/P12-2031.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_PDF/P13-1131.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_PDF/W07-0909.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_PDF/W12-4006.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/A00-2032.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/C00-2095.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/C02-1049.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/C02-1080.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/C02-1143.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/C04-1067.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/E09-1063.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/I05-3031.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/J00-3004.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/J04-1004.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/J05-4005.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/J11-1005.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/J11-3001.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/J96-3004.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/J96-4004.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/J97-4004.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/L08-1055.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/N10-1068.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/P03-1035.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/P06-1010.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/P06-1126.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/P07-1015.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/P07-1016.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/P07-1106.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/P11-1141.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/P12-1110.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/P12-1111.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/P97-1041.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/P98-1076.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/P99-1036.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/W00-0803.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/W00-1207.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/W01-0513.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/W01-0701.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/W02-1117.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/W02-1808.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/W03-1025.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/W03-1728.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/W04-3236.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/W05-0709.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/W06-1630.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/W10-3212.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/W10-3708.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/W11-0823.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/W12-1011.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/W12-2303.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/W97-0120.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/W97-0311.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_PDF/W97-0316.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_PDF/C10-2139.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_PDF/D13-1031.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_PDF/I08-4009.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_PDF/I08-4015.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_PDF/I08-4030.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_PDF/J11-1005.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_PDF/N06-2049.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_PDF/N09-1007.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_PDF/P06-2123.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_PDF/P07-1106.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_PDF/P07-2007.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_PDF/P12-1027.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_PDF/W06-0118.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_PDF/W08-0335.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_PDF/W10-4128.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_PDF/W10-4135.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_PDF/W10-4138.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_PDF/C10-2101.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_PDF/E09-1045.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_PDF/J07-4005.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_PDF/J09-3004.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_PDF/N06-1017.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_PDF/N07-1024.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_PDF/P05-1004.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_PDF/P12-2050.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_PDF/S10-1090.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_PDF/S12-1011.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_PDF/S12-1023.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_PDF/W06-1670.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_PDF/W07-2032.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/C08-1088.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/C10-1018.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/C10-1064.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/C10-2087.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/D07-1076.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/D09-1149.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/D10-1034.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/D10-1100.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/D11-1076.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/D12-1074.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/E06-2012.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/E12-1020.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/I08-1004.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/L08-1305.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/N06-1037.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/N07-1015.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/N09-3012.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/N13-1093.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/N13-1095.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/P05-1053.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/P06-1016.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/P06-1017.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/P06-1104.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/P06-2012.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/P08-2023.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/P09-1113.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/P09-1114.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/P11-1053.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/P11-1056.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/P11-3012.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/P13-1147.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/W06-1634.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/W06-1667.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/W08-0602.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/W11-1101.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_PDF/W11-1815.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/A00-2034.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/C00-2118.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/C00-2148.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/C08-1002.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/C10-1081.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/E99-1007.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/H01-1010.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/J01-3003.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/J04-1003.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/J05-1004.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/L08-1037.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/N01-1012.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/N09-1057.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/P03-1009.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/P04-1046.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/P06-1117.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/P13-3009.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/P98-1046.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/P99-1051.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/W00-0202.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/W02-0907.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/W02-1108.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/W03-0910.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/W04-2424.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/W04-2606.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/W06-2611.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/W11-0910.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/W99-0503.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_PDF/W99-0632.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/A00-1020.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/C02-1027.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/C04-1074.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/C04-1075.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/C04-1143.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/D09-1101.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/E99-1031.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/H05-1001.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/H05-1083.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/I05-1065.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/I05-2040.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/I08-1004.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/I08-3014.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/J01-4001.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/J01-4003.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/J01-4005.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/J01-4006.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/J02-1001.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/J05-3004.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/L08-1071.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/N01-1008.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/N04-1004.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/P00-1022.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/P01-1006.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/P03-1023.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/P04-1017.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/P04-1018.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/P05-1021.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/P06-1006.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/P07-1068.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/P10-2049.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/P13-3012.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/P98-2143.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/S10-1019.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/W01-0704.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/W01-0717.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/W01-1017.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/W04-0707.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/W04-0711.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/W04-0714.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/W04-1210.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/W04-2310.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/W06-2302.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/W09-2411.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/W99-0104.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_PDF/W99-0207.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_PDF/D07-1018.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_PDF/D09-1138.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_PDF/D11-1095.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_PDF/E09-1072.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_PDF/J06-2001.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_PDF/N13-1118.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_PDF/P03-1009.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_PDF/P04-2007.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_PDF/P07-3016.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_PDF/W03-0410.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_PDF/W06-2910.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_PDF/W07-2018.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/C00-2123/C00-2123.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/C00-2123/C02-1050.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/C00-2123/C04-1091.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/C00-2123/E03-1007.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/C00-2123/E06-1004.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/C00-2123/H01-1062.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/C00-2123/J03-1005.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/C00-2123/J04-2003.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/C00-2123/J04-4002.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/C00-2123/N03-1010.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/C00-2123/P01-1027.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/C00-2123/P03-1039.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/C00-2123/W01-0505.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/C00-2123/W01-1404.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/C00-2123/W01-1407.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/C00-2123/W01-1408.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/C00-2123/W02-1020.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Citance_XML/C02-1050.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Citance_XML/C04-1091.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Citance_XML/E03-1007.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Citance_XML/E06-1004.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Citance_XML/H01-1062.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Citance_XML/J03-1005.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Citance_XML/J04-2003.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Citance_XML/J04-4002.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Citance_XML/N03-1010.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Citance_XML/P01-1027.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Citance_XML/P03-1039.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Citance_XML/W01-0505.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Citance_XML/W01-1404.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Citance_XML/W01-1407.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Citance_XML/W01-1408.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Citance_XML/W02-1020.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/C02-1050-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/C02-1050.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/C02-1050word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/C02-1164-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/C02-1164.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/C02-1164word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/C04-1091-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/C04-1091.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/C04-1091word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/E03-1007-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/E03-1007.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/E03-1007word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/E06-1004-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/E06-1004.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/E06-1004word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/H01-1062-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/H01-1062.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/H01-1062word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/J03-1005-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/J03-1005.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/J03-1005word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/J04-2003-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/J04-2003.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/J04-2003word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/J04-4002-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/J04-4002.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/J04-4002word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/N03-1010-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/N03-1010.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/N03-1010word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/P01-1027-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/P01-1027.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/P01-1027word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/P03-1039-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/P03-1039.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/P03-1039word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/W01-0505-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/W01-0505.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/W01-0505word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/W01-1404-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/W01-1404.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/W01-1404word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/W01-1407-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/W01-1407.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/W01-1407word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/W01-1408-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/W01-1408.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/citing papers-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/citing papers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Documents_TXT/citing_papers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Reference_XML/C00-2123.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/annotation/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/summary/C00-2123.abstract.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/summary/C00-2123.community.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/summary/C00-2123.human.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/C04-1089/C04-1089.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/C04-1089/C10-1070.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/C04-1089/C10-2164.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/C04-1089/D10-1042.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/C04-1089/D12-1003.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/C04-1089/J13-2001.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/C04-1089/N09-1048.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/C04-1089/P06-1011.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/C04-1089/P09-1098.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/C04-1089/P13-1059.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/C04-1089/P13-1062.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/C04-1089/P13-1107.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/C04-1089/P13-2036.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/C04-1089/W11-1215.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/C04-1089/W11-2206.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/C04-1089/W13-2501.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/C04-1089/W13-2512.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Citance_XML/C10-1070.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Citance_XML/C10-2164.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Citance_XML/D10-1042.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Citance_XML/D12-1003.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Citance_XML/J13-2001.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Citance_XML/N09-1048.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Citance_XML/P06-1011.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Citance_XML/P09-1098.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Citance_XML/P13-1059.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Citance_XML/P13-1062.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Citance_XML/P13-1107.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Citance_XML/P13-2036.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Citance_XML/W11-1215.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Citance_XML/W11-2206.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Citance_XML/W13-2501.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Citance_XML/W13-2512.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/C10-1070-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/C10-1070.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/C10-1070word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/C10-2164-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/C10-2164.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/C10-2164word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/D10-1042-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/D10-1042.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/D10-1042word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/D12-1003-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/D12-1003.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/D12-1003word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/J13-2001-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/J13-2001.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/J13-2001word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/N09-1048-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/N09-1048.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/N09-1048word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/P06-1011-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/P06-1011.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/P06-1011word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/P09-1098-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/P09-1098.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/P09-1098word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/P13-1059-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/P13-1059.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/P13-1059word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/P13-1062-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/P13-1062.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/P13-1062word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/P13-1107-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/P13-1107.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/P13-1107word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/P13-2036-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/P13-2036.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/P13-2036word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/W11-1215-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/W11-1215.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/W11-1215word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/W11-2206-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/W11-2206.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/W11-2206word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/W13-2501-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/W13-2501.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/W13-2501word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/W13-2512-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/W13-2512.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Documents_TXT/W13-2512word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Reference_XML/C04-1089.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/annotation/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/summary/C04-1089.abstract.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/summary/C04-1089.community.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/summary/C04-1089.human" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/summary/C04-1089_abstract.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/C08-1107.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/C10-2017.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/D12-1094.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/E09-1025.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/I08-1070.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/J10-3003.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/J10-3003word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/J12-1003.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/J12-1003word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/P06-2094.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/P07-1058.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/P08-1078.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/P09-2063.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/P10-1124.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/P11-1062.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/P11-1109.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/P12-1013.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/P12-2031.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/P13-1131.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/W07-0909.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Citance_XML/W12-4006.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/C08-1107-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/C08-1107.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/C08-1107word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/C10-2017-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/C10-2017.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/C10-2017word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/D12-1094-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/D12-1094.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/D12-1094word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/E09-1025-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/E09-1025.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/E09-1025word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/I08-1070-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/I08-1070.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/I08-1070word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/J10-3003-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/J10-3003.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/J10-3003word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/J12-1003-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/J12-1003.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/J12-1003word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P06-2094-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P06-2094.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P06-2094word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P07-1058-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P07-1058.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P07-1058word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P08-1078-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P08-1078.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P08-1078word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P09-2063-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P09-2063.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P09-2063word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P10-1124-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P10-1124.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P10-1124word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P11-1062-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P11-1062.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P11-1062word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P11-1109-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P11-1109.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P11-1109word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P12-1013-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P12-1013.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P12-1013word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P12-2031-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P12-2031.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P12-2031word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P13-1131-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P13-1131.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/P13-1131word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/W07-0909-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/W07-0909.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/W07-0909word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/W12-4006-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/citing papers-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/citing papers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Documents_TXT/citing_papers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Reference_XML/I05-5011.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/annotation/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/summary/I05-5011.abstract.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/summary/I05-5011.community.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/summary/I05-5011.human.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/A00-2032.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/C00-2095.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/C02-1049.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/C02-1080.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/C02-1143.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/C04-1067.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/E09-1063.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/I05-3031.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/J00-3004.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/J04-1004.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/J05-4005.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/J11-1005.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/J11-3001.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/J96-4004.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/J97-4004.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/N10-1068.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/P03-1035.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/P06-1010.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/P06-1126.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/P07-1015.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/P07-1016.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/P07-1106.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/P11-1141.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/P12-1110.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/P12-1111.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/P97-1041.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/P98-1076.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/P99-1036.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/W00-0803.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/W00-1207.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/W01-0513.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/W01-0701.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/W02-1117.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/W02-1808.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/W03-1025.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/W03-1728.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/W04-3236.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/W05-0709.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/W06-1630.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/W10-3212.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/W10-3708.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/W11-0823.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/W12-1011.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/W12-2303.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/W97-0120.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/W97-0311.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Citance_XML/W97-0316.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_TXT/A00-2032-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_TXT/A00-2032word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_TXT/C00-2095-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_TXT/C00-2095.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Documents_TXT/C02-1049-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Reference_XML/J96-3004.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/annotation/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/summary/J96-3004.abstract.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/summary/J96-3004.community.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/summary/J96-3004.human.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Citance_XML/C10-2139.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Citance_XML/D13-1031.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Citance_XML/I08-4009.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Citance_XML/I08-4015.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Citance_XML/I08-4030.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Citance_XML/J11-1005.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Citance_XML/N09-1007.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Citance_XML/P06-2123.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Citance_XML/P07-1106.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Citance_XML/P07-2007.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Citance_XML/P12-1027.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Citance_XML/W06-0118.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Citance_XML/W08-0335.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Citance_XML/W10-4128.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Citance_XML/W10-4135.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Citance_XML/W10-4138.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/C10-2139-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/C10-2139.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/C10-2139word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/D13-1031-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/D13-1031.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/D13-1031word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/I08-4009-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/I08-4009.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/I08-4009word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/I08-4015-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/I08-4015.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/I08-4015word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/I08-4030-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/I08-4030.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/I08-4030word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/J11-1005-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/J11-1005.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/J11-1005word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/N09-1007-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/N09-1007.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/N09-1007word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/P06-2123-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/P06-2123.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/P06-2123word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/P07-1106-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/P07-1106.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/P07-1106word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/P07-2007-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/P07-2007.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/P07-2007word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/P12-1027-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/P12-1027.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/P12-1027word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/W06-0118-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/W06-0118.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/W06-0118word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/W08-0335-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/W08-0335.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/W08-0335word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/W10-4128-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/W10-4128.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/W10-4128word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/W10-4135-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/W10-4135.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/W10-4135word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/W10-4138-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/W10-4138.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/W10-4138word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/citing papers-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/citing papers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Documents_TXT/citing_papers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Reference_XML/N06-2049.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/annotation/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/summary/N06-2049.abstract" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/summary/N06-2049.abstract.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/summary/N06-2049.community" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/summary/N06-2049.community.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/summary/N06-2049.human.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Citance_XML/C10-2101.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Citance_XML/E09-1045.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Citance_XML/J07-4005.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Citance_XML/J09-3004.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Citance_XML/N06-1017.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Citance_XML/N07-1024.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Citance_XML/P12-2050.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Citance_XML/S07-1032.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Citance_XML/S10-1090.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Citance_XML/S12-1011.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Citance_XML/S12-1023.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Citance_XML/W06-1670.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_TXT/C10-2101word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_TXT/E09-1045word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_TXT/J07-4005word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_TXT/J09-3004word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_TXT/N06-1017word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_TXT/N07-1024word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_TXT/P05-1004word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_TXT/P12-2050word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_TXT/S07-1032word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_TXT/S10-1090word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_TXT/S12-1011word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_TXT/S12-1023word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_TXT/W06-1670word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Documents_TXT/W07-2032-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/P05-1004/C10-2101.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/P05-1004/E09-1045.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/P05-1004/J07-4005.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/P05-1004/J09-3004.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/P05-1004/N06-1017.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/P05-1004/N07-1024.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/P05-1004/P05-1004.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/P05-1004/P12-2050.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/P05-1004/S07-1032.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/P05-1004/S10-1090.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/P05-1004/S12-1011.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/P05-1004/S12-1023.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/P05-1004/W06-1670.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Reference_XML/P05-1004.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/annotation/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/summary/C00-2123_abstract.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/summary/P05-1004.abstract.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/summary/P05-1004.community.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/summary/P05-1004.human.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/C08-1088.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/C10-1018.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/C10-1064.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/C10-2087.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/D07-1076.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/D09-1149.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/D10-1034.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/D10-1100.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/D11-1076.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/D12-1074.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/E06-2012.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/E12-1020.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/I08-1004.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/N06-1037.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/N07-1015.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/N09-3012.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/N13-1093.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/N13-1095.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/P06-1016.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/P06-1017.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/P06-1104.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/P06-2012.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/P08-2023.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/P09-1113.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/P09-1114.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/P11-1053.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/P11-1056.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/P11-3012.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/P13-1147.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/W06-1634.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/W06-1667.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/W08-0602.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/W11-1101.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Citance_XML/W11-1815.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/C08-1088word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/C10-1018word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/C10-1064word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/C10-2087word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/D07-1076word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/D09-1149word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/D10-1034word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/D10-1100word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/D11-1076word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/D12-1074word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/E06-2012word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/E12-1020word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/I08-1004word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/N06-1037word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/N07-1015word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/N09-3012word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/N13-1093word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/N13-1095word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/P05-1053word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/P06-1016word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/P06-1017word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/P06-1104word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/P06-2012word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/P08-2023word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/P09-1113word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/P09-1114word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/P11-1053word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/P11-1056word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/P11-3012word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/P13-1147word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/W06-1634word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/W06-1667word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/W08-0602word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/W11-1101word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Documents_TXT/W11-1815word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Reference_XML/P05-1053.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/annotation/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/summary/P05-1053.community.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/summary/P10-1053.abstract.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/summary/P10-1053.human.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/A00-2034.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/C00-2118.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/C00-2148.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/C08-1002.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/C10-1081.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/E99-1007.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/H01-1010.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/J01-3003.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/J04-1003.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/J05-1004.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/N01-1012.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/N09-1057.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/P03-1009.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/P04-1046.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/P06-1117.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/P13-3009.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/P99-1051.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/W00-0202.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/W02-1108.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/W03-0910.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/W04-2424.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/W04-2606.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/W06-2611.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/W11-0910.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/W99-0503.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Citance_XML/W99-0632.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/A00-2034word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/C00-2118word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/C00-2148word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/C08-1002word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/C10-1081word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/E99-1007word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/H01-1010word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/J01-3003word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/J04-1003word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/J05-1004word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/N01-1012word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/N09-1057word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/P03-1009word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/P04-1046word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/P06-1117word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/P13-3009word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/P98-1046word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/P99-1051word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/W00-0202word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/W02-0907-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/W02-0907word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/W02-1108-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/W02-1108word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/W03-0910word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/W04-2424word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/W04-2606-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/W04-2606word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/W06-2611word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/W11-0910word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/W99-0503word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Documents_TXT/W99-0632word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/P98-1046/A00-2034.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/P98-1046/C00-2118.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/P98-1046/C00-2148.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/P98-1046/C08-1002.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/P98-1046/C10-1081.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/P98-1046/E99-1007.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/P98-1046/H01-1010.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/P98-1046/J01-3003.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/P98-1046/J04-1003.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/P98-1046/J05-1004.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/P98-1046/N01-1012.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/P98-1046/N09-1057.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/P98-1046/P03-1009.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/P98-1046/P04-1046.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Reference_XML/P98-1046.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/annotation/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/summary/P98-1046.abstract" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/summary/P98-1046.community" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/summary/P98-1046.human" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/A00-1020.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/C02-1027.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/C04-1074.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/C04-1075.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/C04-1143.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/D09-1101.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/E99-1031.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/H05-1001.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/H05-1083.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/I05-1065.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/I05-2040.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/I08-1004.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/I08-3014.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/J01-4001.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/J01-4003.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/J01-4005.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/J01-4006.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/J02-1001.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/J05-3004.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/N01-1008.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/N04-1004.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/P00-1022.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/P01-1006.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/P03-1023.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/P04-1017.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/P04-1018.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/P05-1021.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/P06-1006.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/P07-1068.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/P10-2049.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/P13-3012.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/S10-1019.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/W01-0704.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/W01-0717.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/W01-1017.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/W04-0707.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/W04-0711.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/W04-0714.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/W04-2310.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/W06-2302.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/W09-2411.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/W99-0104.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Citance_XML/W99-0207.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_TXT/A00-1020word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_TXT/C02-1027word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_TXT/C04-1074word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_TXT/C04-1075word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_TXT/C04-1143word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_TXT/D09-1101word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_TXT/E99-1031word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_TXT/H05-1001word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_TXT/H05-1083word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_TXT/I05-1065word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Documents_TXT/I05-2040word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Reference_XML/P98-2143.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/annotation/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/summary/P98-2143.abstract.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/summary/P98-2143.community.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/summary/P98-2143.human.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Citance_XML/D07-1018.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Citance_XML/D09-1138.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Citance_XML/D11-1095.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Citance_XML/E09-1072.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Citance_XML/J06-2001.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Citance_XML/N13-1118.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Citance_XML/P03-1009.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Citance_XML/P04-2007.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Citance_XML/P07-3016.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Citance_XML/W06-2910.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_TXT/D07-1018word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_TXT/D09-1138word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_TXT/D11-1095word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_TXT/E09-1072word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_TXT/J06-2001-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_TXT/J06-2001word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_TXT/N13-1118word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_TXT/P03-1009-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_TXT/P03-1009word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_TXT/P04-2007-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_TXT/P04-2007word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_TXT/P07-3016word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_TXT/W06-2910-text.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Documents_TXT/W06-2910word.docx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Reference_XML/W03-0410.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/W03-0410/D07-1018.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/W03-0410/D09-1138.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/W03-0410/D11-1095.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/W03-0410/E09-1072.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/W03-0410/J06-2001.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/W03-0410/N13-1118.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/W03-0410/P03-1009.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/W03-0410/P04-2007.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/W03-0410/P07-3016.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/W03-0410/W03-0410.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/W03-0410/W06-2910.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/annotation/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/summary/W03-0410.abstract.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/summary/W03-0410.community.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/summary/W03-0410.human.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/C00-2123.abstract.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/C00-2123.community.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/C00-2123.human.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/C04-1089.abstract.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/C04-1089.community.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/C04-1089.human.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/I05-5011.abstract.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/I05-5011.community.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/I05-5011.human.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/J96-3004.abstract.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/J96-3004.community.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/J96-3004.human.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/N06-2049.abstract.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/N06-2049.community.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/N06-2049.human.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/P05-1004.abstract.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/P05-1004.community.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/P05-1004.human.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/P98-1046.abstract.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/P98-1046.community.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/P98-1046.human.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/P98-2143.abstract.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/P98-2143.community.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/P98-2143.human.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/W03-0410.abstract.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/W03-0410.community.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task2/W03-0410.human.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task2/C00-2123.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task2/C04-1089.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task2/I05-5011.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task2/J96-3004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task2/N06-2049.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task2/P05-1004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task2/P05-1053.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task2/P98-1046.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task2/P98-2143.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task2/W03-0410.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task2/C00-2123.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task2/C04-1089.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task2/I05-5011.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task2/J96-3004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task2/N06-2049.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task2/P05-1004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task2/P05-1053.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task2/P98-1046.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task2/P98-2143.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task2/W03-0410.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System12/Default/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System12/Default/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System12/Default/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System12/Default/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System12/Default/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System12/Default/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System12/Default/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System12/Default/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System12/Default/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System12/Default/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task2/C00-2123.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task2/C04-1089.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task2/I05-5011.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task2/J96-3004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task2/N06-2049.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task2/P05-1004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task2/P05-1053.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task2/P98-1046.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task2/P98-2143.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task2/W03-0410.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task2/C00-2123.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task2/C04-1089.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task2/I05-5011.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task2/J96-3004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task2/N06-2049.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task2/P05-1004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task2/P05-1053.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task2/P98-1046.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task2/P98-2143.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task2/W03-0410.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task2/C00-2123.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task2/C04-1089.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task2/I05-5011.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task2/J96-3004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task2/N06-2049.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task2/P05-1004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task2/P05-1053.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task2/P98-1046.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task2/P98-2143.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task2/W03-0410.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task2/C00-2123.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task2/C04-1089.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task2/I05-5011.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task2/J96-3004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task2/N06-2049.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task2/P05-1004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task2/P05-1053.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task2/P98-1046.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task2/P98-2143.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task2/W03-0410.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task2/C00-2123.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task2/C04-1089.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task2/I05-5011.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task2/J96-3004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task2/N06-2049.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task2/P05-1004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task2/P05-1053.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task2/P98-1046.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task2/P98-2143.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task2/W03-0410.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task2/C00-2123.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task2/C04-1089.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task2/I05-5011.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task2/J96-3004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task2/N06-2049.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task2/P05-1004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task2/P05-1053.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task2/P98-1046.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task2/P98-2143.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task2/W03-0410.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task2/C00-2123.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task2/C04-1089.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task2/I05-5011.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task2/J96-3004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task2/N06-2049.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task2/P05-1004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task2/P05-1053.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task2/P98-1046.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task2/P98-2143.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task2/W03-0410.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task2/C00-2123.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task2/C04-1089.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task2/I05-5011.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task2/J96-3004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task2/N06-2049.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task2/P05-1004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task2/P05-1053.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task2/P98-1046.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task2/P98-2143.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task2/W03-0410.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMKL1_CCS1/Task2/C00-2123.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMKL1_CCS1/Task2/C04-1089.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMKL1_CCS1/Task2/I05-5011.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMKL1_CCS1/Task2/J96-3004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMKL1_CCS1/Task2/N06-2049.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMKL1_CCS1/Task2/P05-1004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMKL1_CCS1/Task2/P05-1053.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMKL1_CCS1/Task2/P98-1046.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMKL1_CCS1/Task2/P98-2143.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMKL1_CCS1/Task2/W03-0410.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMKL2_CCS3/Task2/C00-2123.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMKL2_CCS3/Task2/C04-1089.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMKL2_CCS3/Task2/I05-5011.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMKL2_CCS3/Task2/J96-3004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMKL2_CCS3/Task2/N06-2049.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMKL2_CCS3/Task2/P05-1004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMKL2_CCS3/Task2/P05-1053.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMKL2_CCS3/Task2/P98-1046.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMKL2_CCS3/Task2/P98-2143.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMKL2_CCS3/Task2/W03-0410.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMequal_CCS2/Task2/C00-2123.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMequal_CCS2/Task2/C04-1089.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMequal_CCS2/Task2/I05-5011.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMequal_CCS2/Task2/J96-3004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMequal_CCS2/Task2/N06-2049.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMequal_CCS2/Task2/P05-1004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMequal_CCS2/Task2/P05-1053.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMequal_CCS2/Task2/P98-1046.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMequal_CCS2/Task2/P98-2143.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/LMequal_CCS2/Task2/W03-0410.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/TF_CCS4/Task2/C00-2123.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/TF_CCS4/Task2/C04-1089.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/TF_CCS4/Task2/I05-5011.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/TF_CCS4/Task2/J96-3004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/TF_CCS4/Task2/N06-2049.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/TF_CCS4/Task2/P05-1004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/TF_CCS4/Task2/P05-1053.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/TF_CCS4/Task2/P98-1046.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/TF_CCS4/Task2/P98-2143.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System3/TF_CCS4/Task2/W03-0410.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System5/Default/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System5/Default/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System5/Default/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System5/Default/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System5/Default/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System5/Default/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System5/Default/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System5/Default/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System5/Default/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System5/Default/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System5/Default/Task2/C00-2123.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System5/Default/Task2/C04-1089.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System5/Default/Task2/I05-5011.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System5/Default/Task2/J96-3004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System5/Default/Task2/N06-2049.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System5/Default/Task2/P05-1004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System5/Default/Task2/P05-1053.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System5/Default/Task2/P98-1046.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System5/Default/Task2/P98-2143.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System5/Default/Task2/W03-0410.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System6/Default/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System6/Default/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System6/Default/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System6/Default/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System6/Default/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System6/Default/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System6/Default/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System6/Default/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System6/Default/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System6/Default/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Fusion Method/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Fusion Method/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Fusion Method/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Fusion Method/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Fusion Method/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Fusion Method/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Fusion Method/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Fusion Method/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Fusion Method/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Fusion Method/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Cascade Method/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Cascade Method/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Cascade Method/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Cascade Method/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Cascade Method/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Cascade Method/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Cascade Method/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Cascade Method/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Cascade Method/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Cascade Method/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Cascade Method/Task2/C00-2123.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Cascade Method/Task2/C04-1089.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Cascade Method/Task2/I05-5011.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Cascade Method/Task2/J96-3004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Cascade Method/Task2/N06-2049.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Cascade Method/Task2/P05-1004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Cascade Method/Task2/P05-1053.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Cascade Method/Task2/P98-1046.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Cascade Method/Task2/P98-2143.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Cascade Method/Task2/W03-0410.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task2/C00-2123.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task2/C04-1089.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task2/I05-5011.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task2/J96-3004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task2/N06-2049.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task2/P05-1004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task2/P05-1053.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task2/P98-1046.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task2/P98-2143.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task2/W03-0410.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/SVM Method/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/SVM Method/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/SVM Method/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/SVM Method/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/SVM Method/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/SVM Method/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/SVM Method/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/SVM Method/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/SVM Method/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/SVM Method/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/SVM Method/Task2/C00-2123.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/SVM Method/Task2/C04-1089.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/SVM Method/Task2/I05-5011.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/SVM Method/Task2/J96-3004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/SVM Method/Task2/N06-2049.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/SVM Method/Task2/P05-1004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/SVM Method/Task2/P05-1053.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/SVM Method/Task2/P98-1046.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/SVM Method/Task2/P98-2143.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/SVM Method/Task2/W03-0410.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method1/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method1/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method1/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method1/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method1/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method1/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method1/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method1/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method1/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method1/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method1/Task2/C00-2123.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method1/Task2/C04-1089.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method1/Task2/I05-5011.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method1/Task2/J96-3004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method1/Task2/N06-2049.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method1/Task2/P05-1004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method1/Task2/P05-1053.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method1/Task2/P98-1046.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method1/Task2/P98-2143.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method1/Task2/W03-0410.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method2/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method2/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method2/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method2/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method2/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method2/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method2/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method2/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method2/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method2/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method2/Task2/C00-2123.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method2/Task2/C04-1089.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method2/Task2/I05-5011.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method2/Task2/J96-3004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method2/Task2/N06-2049.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method2/Task2/P05-1004.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method2/Task2/P05-1053.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method2/Task2/P98-1046.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method2/Task2/P98-2143.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Voting Method2/Task2/W03-0410.system.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/modified-tsr/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/modified-tsr/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/modified-tsr/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/modified-tsr/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/modified-tsr/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/modified-tsr/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/modified-tsr/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/modified-tsr/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/modified-tsr/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/modified-tsr/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/W03-0410.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/tsr-sent-class/Task1/C00-2123.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/tsr-sent-class/Task1/C04-1089.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/tsr-sent-class/Task1/I05-5011.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/tsr-sent-class/Task1/J96-3004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/tsr-sent-class/Task1/N06-2049.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/tsr-sent-class/Task1/P05-1004.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/tsr-sent-class/Task1/P05-1053.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/tsr-sent-class/Task1/P98-1046.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/tsr-sent-class/Task1/P98-2143.annv3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System9/tsr-sent-class/Task1/W03-0410.annv3.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Corpus/DUC2007/corpus/D0703A-A.scu" afterPath="$PROJECT_DIR$/Corpus/DUC2007/corpus/D0703A-A.scu" />
     </list>
     <ignored path="RA.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1541,6 +130,9 @@
       </file>
       <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Evaluation/GraphSummaries/readme.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="135">
@@ -1549,9 +141,6 @@
               </first_editor>
               <second_editor />
             </state>
-          </provider>
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
           </provider>
         </entry>
       </file>
@@ -1625,8 +214,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1661,6 +248,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1999,30 +588,38 @@
       <option name="presentableId" value="Default" />
       <updated>1471304114150</updated>
     </task>
+    <task id="LOCAL-00001" summary="Publiciation exxperiementation">
+      <created>1476545828590</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1476545828590</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="45" width="1409" height="793" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25566107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25931337" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25273922" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4051355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4051355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2210,6 +807,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Evaluation/CommunitySummaries/summary.md">
+      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="60">
@@ -2218,11 +818,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/CommunitySummaries/demonstrativeSummary.md">
       <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Evaluation/CommunitySummaries/demonstrativeSummary.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="30">
@@ -2230,9 +830,6 @@
           </first_editor>
           <second_editor />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Corpus/Sci-Summ/E03-1020_TRAIN/Reference_XML/E03-1020-correction.xml">
@@ -2243,6 +840,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Evaluation/SingleDocSumm/DUC2007/readme.md">
+      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="90">
@@ -2250,9 +850,6 @@
           </first_editor>
           <second_editor />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Evaluation/SingleDocSumm/duc2007.xml">
@@ -2270,6 +867,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Evaluation/CommunitySummaries/readme.md">
+      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -2277,9 +877,6 @@
           </first_editor>
           <second_editor />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file:///Library/Python/2.7/site-packages/numpy/linalg/linalg.py">
@@ -2304,6 +901,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Evaluation/GraphSummaries/systems/C90-2039_Gsummary.md">
+      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -2311,9 +911,6 @@
           </first_editor>
           <second_editor />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Evaluation/GraphSummaries/2/systems/C90-2039_Gsummary.html">
@@ -2324,6 +921,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Result/matchingResult.md">
+      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -2331,9 +931,6 @@
           </first_editor>
           <second_editor />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Experimentation/correction.py">
@@ -2368,6 +965,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Evaluation/GraphSummaries/readme.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="135">
@@ -2376,9 +976,6 @@
           </first_editor>
           <second_editor />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Experimentation/ducSummarizer.py">
