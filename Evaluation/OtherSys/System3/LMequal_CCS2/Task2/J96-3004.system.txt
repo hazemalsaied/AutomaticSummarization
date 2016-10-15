@@ -1,0 +1,14 @@
+The model segments Chinese text into dictionary entries and words derived by various productive lexical processes, and--since the primary intended application of this model is to text-to-speech synthesis--provides pronunciations for these words. 
+The model described here thus demonstrates great potential for use in widespread applications. 
+We also thank ChaoHuang Chang, reviewers for the 1994 ACL conference, and four anonymous reviewers for Computational Linguistics for useful comments. 
+The initial stage of text analysis for any NLP task usually involves the tokenization of the input into words. 
+There are several commonly used segmentation methods such as forward maximum matching and backward maximum matching. 
+Since the transducers are built from human-readable descriptions using a lexical toolkit, the system is easily maintained and extended. 
+Chang of Tsinghua University, Taiwan, R.O.C., for kindly providing us with the name corpora. 
+Conventionally a word segmentation process identifies the words in input text by matching lexical entries and resolving the ambiguous matching. 
+Chinese According to Sproat et al. of a purely statistical apÂ­ proach. 
+The Chinese person-name model is a modified version of that described in Sproat et al.. 
+The Chinese word segmentation is a nontrivial task because no explicit delimiters. 
+Despite these limitations, a purely finite-state approach to Chinese word segmentation enjoys a number of strong advantages. 
+In this paper we present a stochastic finite-state model wherein the basic workhorse is the weighted finite-state transducer. 
+Many natural language models can be captured by weighted finite-state transducers, which offer several benefits:â€¢ WFSTs provide a uniform knowledge represen tation. 

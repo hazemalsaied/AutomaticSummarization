@@ -1,0 +1,12 @@
+This paper investigates the incorporation of diverse lexical, syntactic and semantic knowledge in feature-based relation extraction using SVM.
+This suggests that most of useful information in full parse trees for relation extraction is shallow and can be captured by chunking.
+We also demonstrate how semantic information such as WordNet and Name List, can be used in feature-based relation extraction to further improve the performance.
+In ACE vocabulary, entities are objects, mentions are references to them, and relations are semantic relationships between entities.
+The EDT task entails the detection of entity mentions and chaining them together by identifying their coreference.
+For example, we want to determine whether person is at location, based on the evidence in the context.
+The RDC task detects and classifies implicit and explicit relations1 between entities identified by the EDT task.
+Information Extraction (IE) systems are expected to identify relevant information (usually of predefined types) from text documents in certain domain and put them in structured format.
+We also demonstrate how semantic information such as WordNet (Miller 1990) and Name List can be used in the feature-based framework.
+Entities can be of five types: persons, organizations, locations, facilities and geopolitical entities (GPE: geographically defined regions that indicate political boundary, e.g. countries, states, cities, etc.).
+Implicit relations need not have explicit supporting evidence in text, though they should be evident from reading of the document.
+This paper focuses on the ACE RDC task and employs diverse lexical, syntactic and semantic knowledge in feature-based relation extraction using Support Vector

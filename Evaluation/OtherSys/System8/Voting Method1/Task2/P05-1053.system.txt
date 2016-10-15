@@ -1,0 +1,13 @@
+This paper investigates the incorporation of diverse lexical, syntactic and semantic knowledge in feature-based relation extraction using SVM.
+This suggests that most of useful information in full parse trees for relation extraction is shallow and can be captured by chunking.
+The EDT task entails the detection of entity mentions and chaining them together by identifying their coreference.
+For example, we want to determine whether person is at location, based on the evidence in the context.
+The RDC task detects and classifies implicit and explicit relations1 between entities identified by the EDT task.
+We also demonstrate how semantic information such as WordNet (Miller 1990) and Name List can be used in the feature-based framework.
+Implicit relations need not have explicit supporting evidence in text, though they should be evident from reading of the document.
+427 Proceedings of the 43rd Annual Meeting of the ACL, pages 427–434, Ann Arbor, June 2005.
+Finally, we present experimental setting and results in Section and conclude with some general observations in relation extraction in Section 6.
+Extraction of semantic relationships between entities can be very useful for applications such as question answering, e.g. to answer the query “Who is the president of the United States?”.
+Zhang (2004) approached relation classification by combining various lexical and syntactic features with bootstrapping on top of Support Vector Machines.
+Miller et al (2000) augmented syntactic full parse trees with semantic information corresponding to entities and relations, and built generative models for the augmented trees.
+Extracting semantic relationships between entities is

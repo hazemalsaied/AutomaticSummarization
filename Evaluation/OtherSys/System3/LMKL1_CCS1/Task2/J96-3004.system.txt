@@ -1,0 +1,13 @@
+The model segments Chinese text into dictionary entries and words derived by various productive lexical processes, and--since the primary intended application of this model is to text-to-speech synthesis--provides pronunciations for these words. 
+The model described here thus demonstrates great potential for use in widespread applications. 
+We also thank ChaoHuang Chang, reviewers for the 1994 ACL conference, and four anonymous reviewers for Computational Linguistics for useful comments. 
+Chang of Tsinghua University, Taiwan, R.O.C., for kindly providing us with the name corpora. 
+There are several commonly used segmentation methods such as forward maximum matching and backward maximum matching. 
+Furthermore, by inverting the transducer so that it maps from phonemic transcriptions to hanzi sequences, one can apply the segmenter to other problems, such as speech recognition. 
+Since the transducers are built from human-readable descriptions using a lexical toolkit, the system is easily maintained and extended. 
+Chinese According to Sproat et al. of a purely statistical apÂ­ proach. 
+Despite these limitations, a purely finite-state approach to Chinese word segmentation enjoys a number of strong advantages. 
+The Chinese word segmentation is a nontrivial task because no explicit delimiters. 
+As described in Sproat, the Chinese segmenter presented here fits directly into the context of a broader finite-state model of text analysis for speech synthesis. 
+In this paper we present a stochastic finite-state model wherein the basic workhorse is the weighted finite-state transducer. 
+Many natural language models can be captured by weighted finite-state transducers, which offer several benefits:â€¢ WFSTs provide a uniform knowledge represen tation. 

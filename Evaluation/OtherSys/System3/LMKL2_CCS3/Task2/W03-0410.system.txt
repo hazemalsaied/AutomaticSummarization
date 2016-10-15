@@ -1,0 +1,10 @@
+As successful as our seed set of features is, it still does not achieve the accuracy of a supervised learner. 
+We instead proposed a semi-supervised method in which a seed set of verbs is chosen for training a supervised classifier, from which the useful features are extracted for use in clustering. 
+Furthermore, the method is relatively insensitive to the precise makeup of the selected seed set. 
+We cluster verbs into lexical semantic classes, using a general set of noisy features that capture syntactic and semantic properties of the verbs. 
+We find that manual selection of a subset of features based on the known classification performs better than using a full set of noisy features, demonstrating the potential benefit of feature selection in our task. 
+We have explored manual, unsupervised, and semi- supervised methods for feature selection in a clustering approach for verb class discovery. 
+In moving to a scenario of verb class discovery, using clustering, we face the problem of having a large number of irrelevant features for a particular clustering task. 
+investigate the applicability of this general feature space to unsupervised verb clustering tasks. 
+Our feature set is essentially a generalization of theirs, but in scaling up the feature space to be useful across English verb classes in general, we necessarily face a dimensionality problem that did not arise in their research. 
+However, Schulte im Walde’s features rely on accurate subcategorization statistics, and her experiments include a much larger set of classes. 

@@ -1,0 +1,10 @@
+par t. y e s y e s y e s y e s y e s ye s ye s ye s y e s y e s y e s y e s y e s y e s y e s ind. acti on loc at. 
+We also have begun to ex­ amine related classes in Portuguese, and find that these verbs demonstrate similarly coherent syntactic and semantic properties. 
+We also plan to experiment with different classification schemes for verb semantics such as WordNet. 
+Dang et al., for example, have refined the current classification by creating intersective classes for those verbs which share membership of more than one Levin class. 
+We have presented a refinement of Levin classes, intersective classes, and discussed the potential for mapping them to WordNet senses. 
+VN is built on a refinement of the Levin classes, the intersective Levin classes, aimed at achieving more coherent classes both semantically and syntactically. 
+This constraint of having the same semantic roles is further ensured inside the VN lexicon which is constructed based on a more refined version of the Levinâ€™s classification, called Intersective Levin classes. 
+Palmer  argue that syntactic frames and verb classes are useful for developing principled classifications of verbs. 
+In this paper we specifically address questions of polysemy with respect to verbs, and how regular extensions of meaning can be achieved through the adjunction of particular syntactic phrases. 
+In computational linguistics, the VerbNet project  bear relation to this work. 

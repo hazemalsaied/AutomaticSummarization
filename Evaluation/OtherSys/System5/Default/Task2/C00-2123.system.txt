@@ -1,0 +1,11 @@
+This article will present a DP-based beam search decoder for the IBM4 translation model.
+They were usually incorporated in the EM algorithm (Brown et al., 1993; Kupiec, 1993; Tillmann and Ney, 2000; Och et al., 2000).
+Under this constraint, many researchers had contributed algorithms and associated pruning strategies, such as Berger et al.
+To summarize these experimental tests, we briefly report experimental offline results for the following translation approachesâ€¢ single-word based approach [20];
+Some of these studies have concentrated on finite-state or extended finite-state machinery, such as (Vilar and others, 1999), others have chosen models closer to context-free grammars and context-free transduction, such as (Alshawi et al., 2000; Watanabe et al., 2000; Yamamoto and Matsumoto, 2000), and yet other studies cannot be comfortably assigned to either of these two frameworks, such as (Brown and others, 1990) and (Tillmann and Ney, 2000).
+This algorithm can be applied to statistical machine translation.
+= p(fj je) max Æ;e00 j02Cnfjg np(jjj0; J) p(Æ) pÆ(eje0; e00) Qe00 (e0;C n fjg; j 0 )o: The DP equation is evaluated recursively for each hypothesis (e0; e; C; j).		
+In order to handle the necessary word reordering as an optimization problem within our dynamic programming approach, we describe a solution to the traveling salesman problem (TSP) which is based on dynamic programming (Held, Karp, 1962).
+  
+			
+

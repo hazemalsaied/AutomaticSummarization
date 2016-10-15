@@ -1,0 +1,14 @@
+In total 13,976 phrases are assigned to sets of phrases, and the accuracy on our evaluation data ranges from 65 to 99%, depending on the domain and the size of the sets. 
+The accuracies for link were 73% and 86% on two evaluated domains. 
+This has led to active research on broad-scale acquisition of entailment rules for predicates, e.g.. 
+While there are other obstacles to completing this idea, we believe automatic paraphrase discovery is an important component for building a fully automatic information extraction system. 
+These results are promising and there are several avenues for improving on these results. 
+It is a relatively frequent word in the domain, but it can be used in different extraction scenarios. 
+As was explained in the results section, “strength” or “add” are not desirable keywords in the CC-domain. 
+The first stage identifies a keyword in each phrase and joins phrases with the same keyword into sets. 
+After tagging a large corpus with an automatic NE tagger, the method tries to find sets of paraphrases automatically without being given a seed phrase or any kind of cue. 
+We proposed an unsupervised method to discover paraphrases from a large untagged corpus. 
+Some existing entailment acquisition algorithms can add contextual constraints to the learned rules, but most donâ€™t. 
+Sometime, multiple words are needed, like “vice chairman”, “prime minister” or “pay for”. 
+This problem arises because our keywords consist of only one word. 
+We focus on phrases which connect two Named Entities, and proceed in two stages. 

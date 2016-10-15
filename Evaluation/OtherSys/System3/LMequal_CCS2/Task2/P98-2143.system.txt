@@ -1,0 +1,14 @@
+Mitkov  obtains a success rate of 89.7% for pronominal references, working with English technical manuals. 
+Evaluation reports a success rate of 89.7% which is better than the suc­ cess rates of the approaches selected for comparison and tested on the same data. 
+The robust approach adapted for Polish demonstrated a high success rate of 93.3% in resolv­ ing anaphors. 
+The evaluation for Polish was based technical manuals available on the Internet. 
+We have also adapted and evaluated the approach for Polish. 
+In addition, preliminary experiments show that the approach can be success­ fully adapted for other languages with minimum modifications. 
+Candidates are assigned scores by each indicator and the candidate with the highest score is returned as the antecedent. 
+Mitkovâ€™s knowledge-poor pronoun resolution method, for example, uses the scores from a set of antecedent indicators to rank the candidates. 
+We have described a robust, knowledge-poor ap­ proach to pronoun resolution which operates on texts pre-processed by a part-of-speech tagger. 
+Our paper discusses a particular configuration of this new evaluation environment incorporating three approaches sharing a common â€knowledge-poor philosophyâ€: Kennedy and Boguraevâ€™s  knowledge-poor approach. 
+Our preference-based approach showed clear su­ periority over both baseline models. 
+Most traditional approaches to anaphora resolution rely heavily on linguistic and domain knowledge. 
+As expected, some of the preferences had to be modified in order to fit with specific features of Polish. 
+One of the disadvantages of developing a knowledge­ based system, however, is that it is a very labour­ intensive and time-consuming task. 

@@ -1,0 +1,12 @@
+We also proposed a method to find paraphrases in the context of two Named Entity instances in a large un-annotated corpus (Sekine 05).
+This sparked intensive research on unsupervised acquisition of entailment rules (and similarly paraphrases) e.g.
+Consequently, sub stantial effort has been made to learn such rules (Lin and Pantel, 2001; Sekine, 2005; Szpektor and Dagan, 2008; Schoenmackers et al., 2010).
+(Sekine, 2005), (CallisonBurch, 2008)), but most do not.
+A number of automatically acquired inference rule/paraphrase collections are available, such as (Szpektor et al., 2004), (Sekine, 2005).
+The coverage of u by v is measured bypare between these complex features of t and tl (Ravichandran and Hovy, 2002; Szpektor et al., 2004; Sekine, 2005).
+Figure 2 shows examples of extracted NE pair instances and their contexts.
+After tagging a large corpus with an automatic NE tagger, the method tries to find sets of paraphrases automatically without being given a seed phrase or any kinds of cue.
+Automatic paraphrase discovery is an important but challenging task.
+If the same pair of NE instances is used with different phrases, these phrases are likely to be paraphrases.
+Keywords with more than one word In the evaluation, we explained that “chairman” and “vice chairman” are considered paraphrases.
+For example, the two NEs “Eastern Group Plc” and “Hanson Plc” have the following contexts.

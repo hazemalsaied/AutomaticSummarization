@@ -1,0 +1,15 @@
+In this work, we proposed a subword-based IOB tagging method for Chinese word segmentation. 
+Our main contribution is to extend the IOB tagging approach from being a character-based to a subword-based. 
+Using the CRFs approaches, we prove that it outperformed the character- based method using the CRF approaches. 
+After we get word-based segmentation result, we use it to revise the CRF tagging result similar to. 
+We found the former achieved better performance than the existing character-based tagging, and the latter improved segmentation further by combining the former with a dictionary-based segmentation. 
+We found a speed up both in training and test. 
+CRF + Rule system represents a combination of CRF model and rule based model presented in Zhang et al.. 
+For this purpose, our system is based on a combination of subword-based tagging method. 
+This approach is effective for performing desired segmentation based on users’ requirements to R-oov and R-iv. 
+We also successfully employed the confidence measure to make a confidence-dependent word segmentation. 
+Consequently, many strategies are proposed to balance the IV and OOV performance. 
+Our results are listed together with the best results from Bakeoff 2005 in Table 4 in terms of F-scores. 
+We achieved the highest F-scores in CITYU, PKU and MSR corpora. 
+We chose the three models that achieved at least one best score in the closed tests from Emerson  for comparison. 
+For AS corpus, “Adam Smith” are two words in the training but become a one- word in the test, “AdamSmith”. 

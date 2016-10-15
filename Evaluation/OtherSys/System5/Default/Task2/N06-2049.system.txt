@@ -1,0 +1,12 @@
+(2006) were proposed.
+Among these strategies, the confidence measure used to combine the results of CT and DS is a straightforward one, which is introduced in (Zhang et al., 2006a).
+Thus, the bigram â€œRAIL ENQUIRIESâ€\x9d gives a misleading probability that â€œRAILâ€\x9d is followed by â€œENQUIRIESâ€\x9d irrespective of what precedes it.
+If the confidence of a character is lower than the threshold, the tag of that character will be adjusted to the tag assigned by the Maximum Probability Segmentation (R. Zhang et al., 2006).
+2 Table 5Segmentation performance presented in previous work and of our combination model.
+After we get word-based segmentation result, we use it to revise the CRF tagging result similar to (Zhang et al., 2006).
+We chose the three models that achieved at least one best score in the closed tests from Emerson (2005), as well as the sub-word-based model of Zhang, Kikui, and Sumita (2006) for comparison.
+We also successfully employed the confidence measure to make a confidence-dependent word segmentation.
+The character-based “IOB” tagging approach has been widely used in Chinese word segmentation recently (Xue and Shen, 2003; Peng and McCallum, 2004; Tseng et al., 2005).
+The confidence measure comes from two sources: IOB tagging and dictionary- based word segmentation.
+The effect of the confidence measure is shown in Table 3, where we used α = 0.7 and confidence threshold t = 0.8.
+We define a confidence measure, C M(tiob |w), to measure the confidence of the results produced by the IOB tagging by using the results from the dictionary-based segmentation.

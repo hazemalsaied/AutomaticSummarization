@@ -1,0 +1,14 @@
+We focus on phrases which connect two Named Entities, and proceed in two stages. 
+Also, the method of using keywords rules out phrases which don’t contain popular words in the domain. 
+It is a relatively frequent word in the domain, but it can be used in different extraction scenarios. 
+As was explained in the results section, “strength” or “add” are not desirable keywords in the CC-domain. 
+The first stage identifies a keyword in each phrase and joins phrases with the same keyword into sets. 
+In total 13,976 phrases are assigned to sets of phrases, and the accuracy on our evaluation data ranges from 65 to 99%, depending on the domain and the size of the sets. 
+The accuracies for link were 73% and 86% on two evaluated domains. 
+This problem arises because our keywords consist of only one word. 
+We proposed an unsupervised method to discover paraphrases from a large untagged corpus. 
+These results are promising and there are several avenues for improving on these results. 
+While there are other obstacles to completing this idea, we believe automatic paraphrase discovery is an important component for building a fully automatic information extraction system. 
+This has led to active research on broad-scale acquisition of entailment rules for predicates, e.g.. 
+Many methods for automatic acquisition of rules have been suggested in recent years, ranging from distributional similarity to finding shared contexts. 
+Indeed, the prominent approach for evaluating the quality of rule acquisition algorithms is by human judgment of the learned rules. 

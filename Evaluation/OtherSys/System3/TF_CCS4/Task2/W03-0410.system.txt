@@ -1,0 +1,10 @@
+We find that manual selection of a subset of features based on the known classification performs better than using a full set of noisy features, demonstrating the potential benefit of feature selection in our task. 
+As successful as our seed set of features is, it still does not achieve the accuracy of a supervised learner. 
+We instead proposed a semi-supervised method in which a seed set of verbs is chosen for training a supervised classifier, from which the useful features are extracted for use in clustering. 
+Supervised methods for automatic verb classification have been extensively investigated. 
+Table 1 shows our results and the results of Stevenson and Joanis  on T1 when employing AGG using Ward as the linkage criterion. 
+In recent work, Stevenson and Joanis, which used an entropy measure to organize data into a multidimensional space. 
+Our feature set is essentially a generalization of theirs, but in scaling up the feature space to be useful across English verb classes in general, we necessarily face a dimensionality problem that did not arise in their research. 
+Furthermore, we might question the clustering approach itself, in the context of verb class discovery. 
+In moving to a scenario of verb class discovery, using clustering, we face the problem of having a large number of irrelevant features for a particular clustering task. 
+Performance differences may be due to the types of features, or due to the number or size of classes. 

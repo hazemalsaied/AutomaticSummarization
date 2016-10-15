@@ -1,0 +1,11 @@
+Robust pronoun resolution with limited knowledge
+Most traditional approaches to anaphora resolution rely heavily on linguistic and domain knowledge.
+One of the disadvantages of developing a knowledge­ based system, however, is that it is a very labour­ intensive and time-consuming task.
+This paper pres­ ents a robust, knowledge-poor approach to resolving pronouns in technical manuals, which operates on texts pre-processed by a part-of-speech tagger.
+Input is checked against agreement and for a number of antecedent indicators.
+Candidates are assigned scores by each indicator and the candidate with the highest score is returned as the antecedent.
+Evaluation reports a success rate of 89.7% which is better than the suc­ cess rates of the approaches selected for comparison and tested on the same data.
+In addition, preliminary experiments show that the approach can be success­ fully adapted for other languages with minimum modifications.
+For the most part, anaphora resolution has focused on traditional linguistic methods (Carbonell & Brown 1988; Carter 1987; Hobbs 1978; Ingria & Stallard 1989; Lappin & McCord 1990; Lappin & Leass 1994; Mitkov 1994; Rich & LuperFoy 1988; Sidner 1979; Webber 1979).
+However, to represent and manipulate the various types of linguistic and domain knowledge involved requires considerable human input and computational expense.
+While various alternatives have been proposed, making use of e.g. neural networks, a situation se­ mantics framework, or the principles of reasoning with uncertainty (e.g. Connoly et al. 1994; Mitkov 1995; Tin & Akman 1995), there is still a strong need for the development of robust

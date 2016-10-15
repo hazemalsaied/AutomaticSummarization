@@ -1,0 +1,11 @@
+One of the disadvantages of developing knowledge­ based system, however, is that it is very labour­ intensive and time-consuming task.
+Evaluation reports success rate of 89.7% which is better than the suc­ cess rates of the approaches selected for comparison and tested on the same data.
+Candidates are assigned scores by each indicator and the candidate with the highest score is returned as the antecedent.
+However, to represent and manipulate the various types of linguistic and domain knowledge involved requires considerable human input and computational expense.
+In addition, preliminary experiments show that the approach can be success­ fully adapted for other languages with minimum modifications.
+It is also an example of how anaphors in specific genre can be resolved quite successfully without any sophisticated linguistic knowledge or even without parsing.
+Our work is continuation of these latest trends in the search for inexpensive, fast and reliable procedures for anaph­ ora resolution.
+Finally, our evaluation shows that the basic set of antecedent tracking indicators can work well not only for English, but also for other languages (in our case Polish and Arabic).
+Most traditional approaches to anaphora resolution rely heavily on linguistic and domain knowledge.
+The noun phrase with the highest aggregate score is proposed as antecedent; in the rare event of tie, priority is given to the candidate with the higher score for im­ mediate reference.
+For the most part, anaphora resolution has focused on traditional linguistic methods (Carbonell Brown 1988; Carter 1987; Hobbs 1978; Ingria Stallard 1989; Lappin McCord

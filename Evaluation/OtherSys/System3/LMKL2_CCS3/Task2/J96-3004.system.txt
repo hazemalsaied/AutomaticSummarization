@@ -1,0 +1,12 @@
+The model described here thus demonstrates great potential for use in widespread applications. 
+While size of the resulting transducers may seem daunting-the segmenter described here, as it is used in the Bell Labs Mandarin TTS system has about 32,000 states and 209,000 arcs-recent work on minimization of weighted machines and transducers (cf. 
+Furthermore, by inverting the transducer so that it maps from phonemic transcriptions to hanzi sequences, one can apply the segmenter to other problems, such as speech recognition. 
+Since the transducers are built from human-readable descriptions using a lexical toolkit, the system is easily maintained and extended. 
+We used a maximum- matching algorithm and a dictionary compiled from the CTB  to do segmentation 
+We also thank ChaoHuang Chang, reviewers for the 1994 ACL conference, and four anonymous reviewers for Computational Linguistics for useful comments. 
+We thank United Informatics for providing us with our corpus of Chinese text, and BDC for the 'Behavior ChineseEnglish Electronic Dictionary.' 
+Many natural language models can be captured by weighted finite-state transducers, which offer several benefits:â€¢ WFSTs provide a uniform knowledge represen tation. 
+Despite these limitations, a purely finite-state approach to Chinese word segmentation enjoys a number of strong advantages. 
+As described in Sproat, the Chinese segmenter presented here fits directly into the context of a broader finite-state model of text analysis for speech synthesis. 
+A previous work along this line is Sproat et al.. 
+21 In Chinese, numerals and demonstratives cannot modify nouns directly, and must be accompanied by. 

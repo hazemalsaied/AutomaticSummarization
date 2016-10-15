@@ -1,0 +1,14 @@
+Mining New Word Translations from Comparable Corpora
+New words such as names, technical terms, etc appear frequently.
+As such, the bilingual lexicon of a machine translation system has to be constantly updated with these new word translations.
+Comparable corpora such as news documents of the same period from different news agencies are readily available.
+In this paper, we present a new approach to mining new word translations from comparable corpora, by using context information to complement transliteration information.
+We evaluated our approach on six months of Chinese and English Gigaword corpora, with encouraging results.
+New words such as person names, organization names, technical terms, etc. appear frequently.
+In order for a machine translation system to translate these new words correctly, its bilingual lexicon needs to be constantly updated with new word translations.
+Much research has been done on using parallel corpora to learn bilingual lexicons (Melamed, 1997; Moore, 2003).
+But parallel corpora are scarce resources, especially for uncommon lan guage pairs.
+Comparable corpora refer to texts that are not direct translation but are about the same topic.
+For example, various news agencies report major world events in different languages, and such news documents form a readily available source of comparable corpora.
+Being more readily available, comparable corpora are thus more suitable than parallel corpora for the task of acquiring new word translations, although relatively less research has been done in the past on comparable corpora.
+Previous research efforts on acquiring translations from comparable corpora include (Fung and Yee, 1998; Rapp,

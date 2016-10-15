@@ -1,0 +1,15 @@
+A detailed description of the search procedure used is given in this patent. 
+In this paper, we describe a search procedure for statistical machine translation. 
+Skipped : The translation of up to two words may be anticipated. 
+To formalize the approach, we introduce four verbgroup states S: Initial : A contiguous, initial block of source positions is covered. 
+For each extension a new position is added to the coverage set. 
+A position is presented by the word at that position. 
+The sequence of states needed to carry out the word reordering example in Fig. 
+Starting from a DP-based solution to the traveling salesman problem, we present a novel technique to restrict the possible word reordering between source and target language in order to achieve an eÆcient search algorithm. 
+We used a translation system called â€œsingle- word based approachâ€ described in. 
+Covering the first uncovered position in the source sentence, we use the language model probability p. 
+Our new approach, which is called quasi-monotone search, processes the source sentence monotonically, while explicitly taking into account the positions of the German verbgroup. 
+Final : The rest of the sentence is processed monotonically taking account of the already covered positions. 
+Using these states, we define partial hypothesis extensions, which are of the following type: ! 
+The complexity of the algorithm is O, where E is the size of the target language vocabulary. 
+The computational complexity for the left-to-right and right-to-left is the same, O( 

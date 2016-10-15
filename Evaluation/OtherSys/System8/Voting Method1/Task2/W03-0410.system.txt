@@ -1,0 +1,13 @@
+We cluster verbs into lexical semantic classes, using general set of noisy features that capture syntactic and semantic properties of the verbs.
+The feature set was previously shown to work well in supervised learning setting, using known English verb classes.
+Learning the argument structure properties of verbs—the semantic roles they assign and their mapping to syntactic positions—is both particularly important and difficult.
+We investigate various approaches to feature selection, using both unsupervised and semi-supervised methods, comparing the results to subsets of features manually chosen according to linguistic properties.
+It is also necessary to consider the probable lack of sophisticated grammars or text processing tools for extracting accurate features.
+By avoiding the dependence on precise feature extraction, our approach should be more portable to new languages.
+However, general feature space means that most features will be irrelevant to any given verb discrimination task.
+We focus here on extending the applicability of unsupervised methods, as in (Schulte im Walde and Brew, 2002; Stevenson and Merlo, 1999), to the lexical semantic classification of verbs.
+Thus, the problem of dimensionality reduction is key issue to be addressed in verb class discovery.
+The Animacy Features (76 features) Semantic properties of the arguments that fill certain roles, such as animacy or motion, are more challenging to detect automatically.
+Currently, our only such feature is an extension of the animacy feature of Merlo and Stevenson (2001).
+Here we describe the selection of the experimental classes and verbs, and the estimation of the feature values.
+Semi-supervised Verb Class

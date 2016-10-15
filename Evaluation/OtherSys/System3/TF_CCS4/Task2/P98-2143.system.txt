@@ -1,0 +1,13 @@
+Evaluation reports a success rate of 89.7% which is better than the suc­ cess rates of the approaches selected for comparison and tested on the same data. 
+The robust approach adapted for Polish demonstrated a high success rate of 93.3% in resolv­ ing anaphors. 
+We have also adapted and evaluated the approach for Polish. 
+Mitkov showed that a salience-based approach can be applied across genres and without complex syntactic, semantic, and discourse analysis. 
+Indeed, existing learning-based approaches to anaphor resolution have performed reasonably well using limited and shallow knowledge, Soon et al. 
+This paper pres­ ents a robust, knowledge-poor approach to resolving pronouns in technical manuals, which operates on texts pre-processed by a part-of-speech tagger. 
+This module resolves third-person personal pronouns and is an adaptation of Mitkovâ€™s robust, knowledge-poor multilingual approach. 
+Mitkovâ€™s knowledge-poor pronoun resolution method, for example, uses the scores from a set of antecedent indicators to rank the candidates. 
+Candidates are assigned scores by each indicator and the candidate with the highest score is returned as the antecedent. 
+Early work on pronoun anaphora resolution usually uses rule-based methods, which try to mine the cues of the relation between the pronouns and its antecedents. 
+As expected, some of the preferences had to be modified in order to fit with specific features of Polish. 
+Whereas knowledge-based systems like  address the problem without sophisticated linguistic knowledge. 
+We selected for comparative evaluation three approaches extensively cited in the literature: Kennedy and Boguraevâ€™s parser- free version of Lappin and Leassâ€™ RAP. 

@@ -1,0 +1,24 @@
+(2005) explore various features in relation extraction using SVM.
+A technique that many previous approaches have used is shallow parsing (Koike et al., 2003; Yao et al., 2004; Zhou et al., 2005).
+(2005), TPWF kernel, SL kernel, different versions of proposed KH F kernel and KH ybrid kernel.
+7 Here, we use the same set of flat features (i.e. word,.
+(2005) introduce additional chunking features to enhance the parse tree features.
+This is a lightweight model and generally does not attempt to exhaustively leverage all possible proven sources of useful features (Zhou et al., 2005) towards a higher absolute score, but rather to serve as a point of comparison to the models which rely on syntactic information.
+Zhou et al (2005) further systematically explored diverse lexical, syntactic and semantic features through support vector machines and achieved F- measure of 68.1 and 55.5 on the 5 relation types and the 24 relation subtypes in the ACE RDC 2003 corpus respectively.
+This paper investigates the incorporation of diverse lexical, syntactic and semantic knowledge in feature-based relation extraction using SVM.
+It shows that our system achieves the performance of 84.8%/66.7%/74.7 in precision/recall/F- measure on relation detection.
+explicit relations occur in text with explicit evidence suggesting the relationships.
+This paper uses the ACE corpus provided by LDC to train and evaluate our feature-based relation extraction system.		
+The experiment result also shows that our feature-based approach outperforms the tree kernel-based approaches by more than 20 F-measure on the extraction of 5 ACE relation types.
+
+
+
+
+
+
+
+
+
+
+			
+

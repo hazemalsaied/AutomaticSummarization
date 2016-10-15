@@ -1,0 +1,13 @@
+As an alternative to the resource-intensive manual classifications, automatic methods such as classification and clustering are applied to induce verb classes from corpus data, e.g.
+Table 1Comparison against Stevenson and Joanis (2003)’s result on T1 (using similar features).
+Low- frequency and ambiguous verbs were excluded from the classes.
+In these experiments, they enlarged the number of gold standard English verb classes to 14 classes related to Levin classes, with a total of 841 verbs.
+In addition, a significant amount of information is lost in pairwise clustering.
+For the evaluation of the clustering results, we calculated the accuracy of the clusters, a cluster similarity measure that has been applied before, cf.
+They found that a semisupervised approach where the classifier was trained with five seed verbs from each verb class outperformed both a manual selection of features and the unsupervised 186 approach of Dash, Liu, and Yao (1997), which used an entropy measure to organize data into a multidimensional space.
+Our feature space was designed to reflect these classes by capturing properties of the semantic arguments of verbs and their mapping to syntactic positions.
+The 13-way task includes all of our classes.
+In an unsupervised (clustering) scenario of verb class discovery, can we maintain the benefit of only needing noisy features, without the generality of the feature space leading to “the curse of dimensionality”?
+More research is needed on the definition of the general feature space, as well as on the methods for selecting a more useful set of features for clustering.
+  
+		

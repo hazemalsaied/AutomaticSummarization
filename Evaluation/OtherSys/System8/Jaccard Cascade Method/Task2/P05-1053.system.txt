@@ -1,0 +1,11 @@
+Exploring Various Knowledge in Relation Extraction
+Extracting semantic relationships between entities is challenging.
+This paper investigates the incorporation of diverse lexical, syntactic and semantic knowledge in feature-based relation extraction using SVM.
+Our study illustrates that the base phrase chunking information is very effective for relation extraction and contributes to most of the performance improvement from syntactic aspect while additional information from full parsing gives limited further enhancement.
+This suggests that most of useful information in full parse trees for relation extraction is shallow and can be captured by chunking.
+We also demonstrate how semantic information such as WordNet and Name List, can be used in feature-based relation extraction to further improve the performance.
+Evaluation on the ACE corpus shows that effective incorporation of diverse features enables our system outperform previously best-reported systems on the 24 ACE relation subtypes and significantly outperforms tree kernel-based systems by over 20 in F-measure on the 5 ACE relation types.
+With the dramatic increase in the amount of textual information available in digital archives and the WWW, there has been growing interest in techniques for automatically extracting information from text.
+Information Extraction (IE) systems are expected to identify relevant information (usually of predefined types) from text documents in a certain domain and put them in a structured format.
+According to the scope of the NIST Automatic Content Extraction (ACE) program, current research in IE has three main objectives: Entity Detection and Tracking (EDT), Relation Detection and Characterization (RDC), and Event Detection and Characterization (EDC).
+The
