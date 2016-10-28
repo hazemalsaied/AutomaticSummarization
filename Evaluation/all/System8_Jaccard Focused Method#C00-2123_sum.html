@@ -1,0 +1,28 @@
+<html>
+<head><title>C00-2123_sum</title> </head>
+<body bgcolor="white">
+<a name="0">[0]</a> <a href="#0" id=0>In this paper, we describe a search procedure for statistical machine translation (MT) based on dynamic programming (DP).</a>
+<a name="1">[1]</a> <a href="#1" id=1>In this paper, we describe a search procedure for statistical machine translation (MT) based on dynamic programming (DP).</a>
+<a name="2">[2]</a> <a href="#2" id=2>A search restriction especially useful for the translation direction from German to English is presented.</a>
+<a name="3">[3]</a> <a href="#3" id=3>The goal of machine translation is the translation of a text given in some source language into a target language.</a>
+<a name="4">[4]</a> <a href="#4" id=4>We are given a source string fJ 1 = f1fj fJ of length J, which is to be translated into a target string eI 1 = e1eieI of length I. Among all possible target strings, we will choose the string with the highest probability ^eI 1 = arg max eI 1 fPr(eI 1jfJ 1 )g = arg max eI 1 fPr(eI 1) Pr(fJ 1 jeI 1)g  (1) The argmax operation denotes the search problem, i.e. the generation of the output sentence in the target language.</a>
+<a name="5">[5]</a> <a href="#5" id=5>The model is often further restricted so that each source word is assigned to exactly one target word (Brown et al., 1993; Ney et al., 2000).</a>
+<a name="6">[6]</a> <a href="#6" id=6>The model is often further restricted so that each source word is assigned to exactly one target word (Brown et al., 1993; Ney et al., 2000).</a>
+<a name="7">[7]</a> <a href="#7" id=7>The alignment mapping is j ! i = aj from source position j to target position i = aj . The use of this alignment model raises major problems if a source word has to be aligned to several target words, e.g. when translating German compound nouns.</a>
+<a name="8">[8]</a> <a href="#8" id=8>The alignment model uses two kinds of parameters alignment probabilities p(aj jajô1; I; J), where the probability of alignment aj for position j depends on the previous alignment position ajô1 (Ney et al., 2000) and lexicon probabilities p(fj jeaj ).</a>
+<a name="9">[9]</a> <a href="#9" id=9>The inverted alignment probability p(bijbiô1; I; J) and the lexicon probability p(fbi jei) are obtained by relative frequency estimates from the Viterbi alignment path after the final training iteration.</a>
+<a name="10">[10]</a> <a href="#10" id=10>The details are given in (Och and Ney, 2000).</a>
+<a name="11">[11]</a> <a href="#11" id=11>The details are given in (Och and Ney, 2000).</a>
+<a name="12">[12]</a> <a href="#12" id=12>The details are given in (Och and Ney, 2000).</a>
+<a name="13">[13]</a> <a href="#13" id=13>The baseline alignment model does not permit that a source word is aligned to two or more target words, e.g. for the translation direction from German toEnglish, the German compound noun 'Zahnarztter min' causes problems, because it must be translated by the two target words dentist's appointment.</a>
+<a name="14">[14]</a> <a href="#14" id=14>The resulting algorithm has a complexity of O(n!).</a>
+<a name="15">[15]</a> <a href="#15" id=15>However, dynamic programming can be used to find the shortest tour in exponential time, namely in O(n22n), using the algorithm by Held and Karp.</a>
+<a name="16">[16]</a> <a href="#16" id=16>The complexity of the quasimonotone search is O(E3 J (R2+LR)).</a>
+<a name="17">[17]</a> <a href="#17" id=17>Restrictions We compare our new approach with the word reordering used in the IBM translation approach (Berger et al., 1996).</a>
+<a name="18">[18]</a> <a href="#18" id=18>We show translation results for three approaches the monotone search (MonS), where no word reordering is allowed (Tillmann, 1997), the quasimonotone search (QmS) as presented in this paper and the IBM style (IbmS) search as described in Section 3.2.</a>
+<a name="19">[19]</a> <a href="#19" id=19>We show translation results for three approaches the monotone search (MonS), where no word reordering is allowed (Tillmann, 1997), the quasimonotone search (QmS) as presented in this paper and the IBM style (IbmS) search as described in Section 3.2.</a>
+<a name="20">[20]</a> <a href="#20" id=20>Table 4 shows translation results for the three approaches.</a>
+<a name="21">[21]</a> <a href="#21" id=21>Depending on the threshold t0, the search algorithm may miss the globally optimal path which typically results in additional translation errors.</a>
+<a name="22">[22]</a> <a href="#22" id=22>In this paper, we have presented a new, eÃcient DP-based search procedure for statistical machine translation.</a>
+<a name="23">[23]</a> <a href="#23" id=23>Future extensions of the system might include 1) An extended translation model, where we use more context to predict a source word.</a></body>
+</html>

@@ -1,0 +1,35 @@
+<html>
+<head><title>N06-2049_sum</title> </head>
+<body bgcolor="white">
+<a name="0">[0]</a> <a href="#0" id=0>We proposed two approaches to improve Chinese word segmentation a subword-based tagging and a confidence measure approach.</a>
+<a name="1">[1]</a> <a href="#1" id=1>We proposed two approaches to improve Chinese word segmentation a subword-based tagging and a confidence measure approach.</a>
+<a name="2">[2]</a> <a href="#2" id=2>We found the former achieved better performance than the existing character-based tagging, and the latter improved segmentation further by combining the former with a dictionary-based segmentation.</a>
+<a name="3">[3]</a> <a href="#3" id=3>By these techniques we achieved higher F-scores in CITYU, PKU and MSR corpora than the best results from Sighan Bakeoff 2005.</a>
+<a name="4">[4]</a> <a href="#4" id=4>The character-based Ãá¸ÃÂÃÂIOBÃá¸ÃÂÃÂ tagging approach has been widely used in Chinese word segmentation recently (Xue and Shen, 2003; Peng and McCallum, 2004; Tseng et al., 2005).</a>
+<a name="5">[5]</a> <a href="#5" id=5>The character-based Ãá¸ÃÂÃÂIOBÃá¸ÃÂÃÂ tagging approach has been widely used in Chinese word segmentation recently (Xue and Shen, 2003; Peng and McCallum, 2004; Tseng et al., 2005).</a>
+<a name="6">[6]</a> <a href="#6" id=6>Under the scheme, each character of a word is labeled as Ãá¸ÃÂÃÂBÃá¸ÃÂÃÂ if it is the first character of a multiple-character word, or Ãá¸ÃÂÃÂOÃá¸ÃÂÃÂ if the character functions as an independent word, or Ãá¸ÃÂÃÂIÃá¸ÃÂÃÂ otherwise.Ãá¸ÃÂÃÂ For example, Ãá¸ÃÂÃÂ (whole) (Beijing city)Ãá¸ÃÂÃÂ is labeled as Ãá¸ÃÂÃÂ (whole)/O (north)/B (capital)/I (city)/IÃá¸ÃÂÃÂ.</a>
+<a name="7">[7]</a> <a href="#7" id=7>In this work we propose a subword-based IOB tagging, which assigns tags to a predefined lexicon subset consisting of the most frequent multiple-character words in addition to single Chinese characters.</a>
+<a name="8">[8]</a> <a href="#8" id=8>In this work we propose a subword-based IOB tagging, which assigns tags to a predefined lexicon subset consisting of the most frequent multiple-character words in addition to single Chinese characters.</a>
+<a name="9">[9]</a> <a href="#9" id=9>We will give a detailed description of this approach in Section 2.</a>
+<a name="10">[10]</a> <a href="#10" id=10>We will give a detailed description of this approach in Section 2.</a>
+<a name="11">[11]</a> <a href="#11" id=11>By this approach we can change R-oovs and R-ivs and find an optimal tradeoff.</a>
+<a name="12">[12]</a> <a href="#12" id=12>In the followings, we illustrate our word segmentation process in Section 2, where the subword-based tagging is implemented by the CRFs method.</a>
+<a name="13">[13]</a> <a href="#13" id=13>It is composed of three parts a dictionary-based N-gram word segmentation for segmenting IV words, a subword- based tagging by the CRF for recognizing OOVs, and a confidence-dependent word segmentation used for merging the results of both the dictionary-based and the IOB tagging.</a>
+<a name="14">[14]</a> <a href="#14" id=14>It is composed of three parts a dictionary-based N-gram word segmentation for segmenting IV words, a subword- based tagging by the CRF for recognizing OOVs, and a confidence-dependent word segmentation used for merging the results of both the dictionary-based and the IOB tagging.</a>
+<a name="15">[15]</a> <a href="#15" id=15>In the third step, we used the CRFs approach to train the IOB tagger (Lafferty et al., 2001) on the training data.</a>
+<a name="16">[16]</a> <a href="#16" id=16>For the bigram features, we only used the previous and the current observations, tÃá¸ÃÂÃÂ1 t0 . As to feature selection, we simply used absolute counts for each feature in the training data.</a>
+<a name="17">[17]</a> <a href="#17" id=17>We used the data provided by Sighan Bakeoff 2005 to test our approaches described in the previous sections.</a>
+<a name="18">[18]</a> <a href="#18" id=18>Since this work was to evaluate the proposed subword-based IOB tagging, we carried out the closed test only.</a>
+<a name="19">[19]</a> <a href="#19" id=19>For the dictionary-based approach, we extracted a word list from the training data as the vocabulary.</a>
+<a name="20">[20]</a> <a href="#20" id=20>The segmentation results using CRF tagging are shown in Table 2, where the upper numbers of each slot were produced by the character-based approach while the lower numbers were of the subword-based.</a>
+<a name="21">[21]</a> <a href="#21" id=21>Comparing Table 1 and 2, we found the CRF-modeled IOB tagging yielded better segmentation than the dictionary- based approach.</a>
+<a name="22">[22]</a> <a href="#22" id=22>Comparing Table 1 and 2, we found the CRF-modeled IOB tagging yielded better segmentation than the dictionary- based approach.</a>
+<a name="23">[23]</a> <a href="#23" id=23>Comparing Table 1 and 2, we found the CRF-modeled IOB tagging yielded better segmentation than the dictionary- based approach.</a>
+<a name="24">[24]</a> <a href="#24" id=24>Comparing Table 1 and 2, we found the CRF-modeled IOB tagging yielded better segmentation than the dictionary- based approach.</a>
+<a name="25">[25]</a> <a href="#25" id=25>Comparing Table 1 and 2, we found the CRF-modeled IOB tagging yielded better segmentation than the dictionary- based approach.</a>
+<a name="26">[26]</a> <a href="#26" id=26>Later, this approach was implemented by the CRF-based method (Peng and McCallum, 2004), which was proved to achieve better results than the maximum entropy approach because it can solve the label bias problem (Lafferty et al., 2001).</a>
+<a name="27">[27]</a> <a href="#27" id=27>Later, this approach was implemented by the CRF-based method (Peng and McCallum, 2004), which was proved to achieve better results than the maximum entropy approach because it can solve the label bias problem (Lafferty et al., 2001).</a>
+<a name="28">[28]</a> <a href="#28" id=28>By way of the confidence measure we combined results from the dictionary-based and the IOB-tagging-based and as a result, we could achieve the optimal performance.</a>
+<a name="29">[29]</a> <a href="#29" id=29>In this work, we proposed a subword-based IOB tagging method for Chinese word segmentation.</a>
+<a name="30">[30]</a> <a href="#30" id=30>In this work, we proposed a subword-based IOB tagging method for Chinese word segmentation.</a></body>
+</html>

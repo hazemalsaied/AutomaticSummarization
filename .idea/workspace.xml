@@ -2,43 +2,782 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fea1f80-735b-44dd-b5ba-6253f8bf8d11" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Experimentation/RougeNormalisation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Experimentation/otherSys.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Experimentation/overLapEvaluation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system0_run_1_cos_bin.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/C00-2123.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/C04-1089.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/I05-5011.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/J96-3004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/N06-2049.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/P05-1004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/P05-1053.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/P98-1046.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/P98-2143.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/W03-0410.annv3.txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/summary/P98-1046.community" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/summary/P98-1046.community.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/Reference_XML/C00-2123-correction.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/Reference_XML/C04-1089-correction.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/Reference_XML/I05-5011-correction.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Reference_XML/J96-3004-correction.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/Reference_XML/N06-2049-correction.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1004/Reference_XML/P05-1004-correction.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P05-1053/Reference_XML/P05-1053-correction.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/Reference_XML/P98-1046-correction.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/Reference_XML/P98-2143-correction.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/W03-0410/Reference_XML/W03-0410-correction.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Annotations/systems/C00-2123.annv3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Annotations/systems/C04-1089.annv3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Annotations/systems/I05-5011.annv3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Annotations/systems/J96-3004.annv3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Annotations/systems/N06-2049.annv3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Annotations/systems/P05-1004.annv3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Annotations/systems/P05-1053.annv3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Annotations/systems/P98-1046.annv3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Annotations/systems/P98-2143.annv3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Annotations/systems/W03-0410.annv3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Summaries/systems/C00-2123_summary.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Summaries/systems/C04-1089_summary.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Summaries/systems/I05-5011_summary.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Summaries/systems/J96-3004_summary.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Summaries/systems/N06-2049_summary.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Summaries/systems/P05-1004_summary.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Summaries/systems/P05-1053_summary.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Summaries/systems/P98-1046_summary.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Summaries/systems/P98-2143_summary.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Summaries/systems/W03-0410_summary.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System10_run1_one_line/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System10_run1_one_line/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System10_run1_one_line/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System10_run1_one_line/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System10_run1_one_line/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System10_run1_one_line/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System10_run1_one_line/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System10_run1_one_line/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System10_run1_one_line/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System10_run1_one_line/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System10_run2_one_line/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System10_run2_one_line/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System10_run2_one_line/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System10_run2_one_line/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System10_run2_one_line/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System10_run2_one_line/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System10_run2_one_line/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System10_run2_one_line/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System10_run2_one_line/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System10_run2_one_line/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System12_Default/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System12_Default/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System12_Default/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System12_Default/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System12_Default/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System12_Default/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System12_Default/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System12_Default/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System12_Default/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System12_Default/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System13_Default/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System13_Default/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System13_Default/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System13_Default/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System13_Default/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System13_Default/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System13_Default/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System13_Default/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System13_Default/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System13_Default/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-1/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-1/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-1/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-1/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-1/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-1/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-1/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-1/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-1/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-1/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-1ce/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-1ce/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-1ce/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-1ce/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-1ce/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-1ce/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-1ce/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-1ce/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-1ce/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-1ce/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-4/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-4/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-4/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-4/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-4/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-4/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-4/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-4/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-4/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-4/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-4ce/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-4ce/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-4ce/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-4ce/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-4ce/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-4ce/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-4ce/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-4ce/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-4ce/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-4ce/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-8/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-8/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-8/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-8/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-8/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-8/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-8/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-8/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-8/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-8/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-8ce/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-8ce/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-8ce/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-8ce/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-8ce/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-8ce/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-8ce/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-8ce/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-8ce/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_Tkern1-8ce/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_tfidf+st+sl/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_tfidf+st+sl/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_tfidf+st+sl/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_tfidf+st+sl/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_tfidf+st+sl/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_tfidf+st+sl/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_tfidf+st+sl/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_tfidf+st+sl/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_tfidf+st+sl/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System15_tfidf+st+sl/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System16_Default/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System16_Default/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System16_Default/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System16_Default/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System16_Default/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System16_Default/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System16_Default/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System16_Default/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System16_Default/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System16_Default/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System5_Default/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System5_Default/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System5_Default/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System5_Default/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System5_Default/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System5_Default/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System5_Default/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System5_Default/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System5_Default/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System5_Default/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System6_Default/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System6_Default/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System6_Default/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System6_Default/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System6_Default/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System6_Default/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System6_Default/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System6_Default/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System6_Default/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System6_Default/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Fusion Method/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Fusion Method/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Fusion Method/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Fusion Method/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Fusion Method/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Fusion Method/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Fusion Method/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Fusion Method/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Fusion Method/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Fusion Method/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Jaccard Cascade Method/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Jaccard Cascade Method/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Jaccard Cascade Method/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Jaccard Cascade Method/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Jaccard Cascade Method/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Jaccard Cascade Method/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Jaccard Cascade Method/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Jaccard Cascade Method/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Jaccard Cascade Method/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Jaccard Cascade Method/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Jaccard Focused Method/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Jaccard Focused Method/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Jaccard Focused Method/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Jaccard Focused Method/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Jaccard Focused Method/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Jaccard Focused Method/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Jaccard Focused Method/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Jaccard Focused Method/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Jaccard Focused Method/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Jaccard Focused Method/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_SVM Method/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_SVM Method/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_SVM Method/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_SVM Method/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_SVM Method/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_SVM Method/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_SVM Method/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_SVM Method/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_SVM Method/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_SVM Method/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method1/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method1/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method1/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method1/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method1/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method1/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method1/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method1/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method1/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method1/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method2/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method2/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method2/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method2/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method2/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method2/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method2/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method2/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method2/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method2/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System9_modified-tsr/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System9_modified-tsr/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System9_modified-tsr/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System9_modified-tsr/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System9_modified-tsr/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System9_modified-tsr/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System9_modified-tsr/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System9_modified-tsr/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System9_modified-tsr/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System9_modified-tsr/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System9_tsr-sent-class/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System9_tsr-sent-class/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System9_tsr-sent-class/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System9_tsr-sent-class/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System9_tsr-sent-class/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System9_tsr-sent-class/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System9_tsr-sent-class/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System9_tsr-sent-class/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System9_tsr-sent-class/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/System9_tsr-sent-class/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/models/C00-2123_model.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/models/C04-1089_model.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/models/I05-5011_model.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/models/J96-3004_model.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/models/N06-2049_model.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/models/P05-1004_model.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/models/P05-1053_model.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/models/P98-1046_model.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/models/P98-2143_model.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummaries/models/W03-0410_model.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System10_run1_one_line/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System10_run1_one_line/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System10_run1_one_line/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System10_run1_one_line/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System10_run1_one_line/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System10_run1_one_line/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System10_run1_one_line/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System10_run1_one_line/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System10_run1_one_line/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System10_run1_one_line/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System10_run2_one_line/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System10_run2_one_line/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System10_run2_one_line/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System10_run2_one_line/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System10_run2_one_line/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System10_run2_one_line/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System10_run2_one_line/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System10_run2_one_line/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System10_run2_one_line/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System10_run2_one_line/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System12_Default/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System12_Default/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System12_Default/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System12_Default/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System12_Default/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System12_Default/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System12_Default/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System12_Default/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System12_Default/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System12_Default/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System13_Default/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System13_Default/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System13_Default/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System13_Default/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System13_Default/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System13_Default/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System13_Default/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System13_Default/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System13_Default/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System13_Default/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-1/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-1/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-1/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-1/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-1/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-1/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-1/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-1/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-1/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-1/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-1ce/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-1ce/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-1ce/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-1ce/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-1ce/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-1ce/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-1ce/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-1ce/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-1ce/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-1ce/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-4/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-4/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-4/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-4/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-4/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-4/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-4/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-4/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-4/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-4/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-4ce/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-4ce/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-4ce/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-4ce/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-4ce/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-4ce/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-4ce/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-4ce/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-4ce/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-4ce/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8ce/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8ce/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8ce/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8ce/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8ce/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8ce/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8ce/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8ce/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8ce/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8ce/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_tfidf+st+sl/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_tfidf+st+sl/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_tfidf+st+sl/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_tfidf+st+sl/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_tfidf+st+sl/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_tfidf+st+sl/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_tfidf+st+sl/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_tfidf+st+sl/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_tfidf+st+sl/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_tfidf+st+sl/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System16_Default/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System16_Default/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System16_Default/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System16_Default/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System16_Default/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System16_Default/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System16_Default/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System16_Default/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System16_Default/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System16_Default/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System5_Default/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System5_Default/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System5_Default/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System5_Default/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System5_Default/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System5_Default/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System5_Default/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System5_Default/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System5_Default/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System5_Default/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System6_Default/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System6_Default/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System6_Default/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System6_Default/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System6_Default/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System6_Default/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System6_Default/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System6_Default/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System6_Default/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System6_Default/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Fusion Method/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Fusion Method/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Fusion Method/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Fusion Method/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Fusion Method/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Fusion Method/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Fusion Method/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Fusion Method/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Fusion Method/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Fusion Method/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Jaccard Cascade Method/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Jaccard Cascade Method/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Jaccard Cascade Method/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Jaccard Cascade Method/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Jaccard Cascade Method/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Jaccard Cascade Method/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Jaccard Cascade Method/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Jaccard Cascade Method/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Jaccard Cascade Method/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Jaccard Cascade Method/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Jaccard Focused Method/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Jaccard Focused Method/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Jaccard Focused Method/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Jaccard Focused Method/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Jaccard Focused Method/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Jaccard Focused Method/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Jaccard Focused Method/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Jaccard Focused Method/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Jaccard Focused Method/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Jaccard Focused Method/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_SVM Method/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_SVM Method/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_SVM Method/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_SVM Method/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_SVM Method/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_SVM Method/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_SVM Method/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_SVM Method/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_SVM Method/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_SVM Method/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method1/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method1/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method1/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method1/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method1/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method1/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method1/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method1/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method1/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method1/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method2/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method2/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method2/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method2/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method2/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method2/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method2/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method2/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method2/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method2/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_modified-tsr/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_modified-tsr/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_modified-tsr/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_modified-tsr/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_modified-tsr/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_modified-tsr/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_modified-tsr/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_modified-tsr/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_modified-tsr/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_modified-tsr/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_tsr-sent-class/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_tsr-sent-class/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_tsr-sent-class/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_tsr-sent-class/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_tsr-sent-class/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_tsr-sent-class/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_tsr-sent-class/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_tsr-sent-class/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_tsr-sent-class/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_tsr-sent-class/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/models/C00-2123_model.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/models/C04-1089_model.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/models/I05-5011_model.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/models/J96-3004_model.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/models/N06-2049_model.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/models/P05-1004_model.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/models/P05-1053_model.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/models/P98-1046_model.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/models/P98-2143_model.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/models/W03-0410_model.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/system0_run_1_cos_bin/C00-2123_summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/system0_run_1_cos_bin/C04-1089_summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/system0_run_1_cos_bin/I05-5011_summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/system0_run_1_cos_bin/J96-3004_summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/system0_run_1_cos_bin/N06-2049_summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/system0_run_1_cos_bin/P05-1004_summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/system0_run_1_cos_bin/P05-1053_summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/system0_run_1_cos_bin/P98-1046_summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/system0_run_1_cos_bin/P98-2143_summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/system0_run_1_cos_bin/W03-0410_summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System10_run1_one_line.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System10_run2_one_line.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System12_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System13_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System15_Tkern1-1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System15_Tkern1-1ce.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System15_Tkern1-4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System15_Tkern1-4ce.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System15_Tkern1-8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System15_Tkern1-8ce.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System15_tfidf+st+sl.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System16_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System5_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System6_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System8_Fusion Method.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System8_Jaccard Cascade Method.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System8_Jaccard Focused Method.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System8_SVM Method.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System8_Voting Method1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System8_Voting Method2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System9_modified-tsr.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/System9_tsr-sent-class.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/RougeXmls/system0_run_1_cos_bin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System10_run1_one_line.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System10_run2_one_line.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System12_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System13_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System15_Tkern1-1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System15_Tkern1-1ce.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System15_Tkern1-4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System15_Tkern1-4ce.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System15_Tkern1-8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System15_Tkern1-8ce.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System15_tfidf+st+sl.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System16_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System5_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System6_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System8_Fusion Method.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System8_Jaccard Cascade Method.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System8_Jaccard Focused Method.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System8_SVM Method.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System8_Voting Method1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System8_Voting Method2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System9_modified-tsr.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/XmlBank/System9_tsr-sent-class.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System10_run1_one_line#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System10_run1_one_line#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System10_run1_one_line#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System10_run1_one_line#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System10_run1_one_line#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System10_run1_one_line#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System10_run1_one_line#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System10_run1_one_line#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System10_run1_one_line#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System10_run1_one_line#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System10_run2_one_line#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System10_run2_one_line#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System10_run2_one_line#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System10_run2_one_line#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System10_run2_one_line#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System10_run2_one_line#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System10_run2_one_line#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System10_run2_one_line#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System10_run2_one_line#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System10_run2_one_line#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System12_Default#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System12_Default#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System12_Default#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System12_Default#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System12_Default#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System12_Default#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System12_Default#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System12_Default#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System12_Default#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System12_Default#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System13_Default#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System13_Default#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System13_Default#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System13_Default#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System13_Default#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System13_Default#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System13_Default#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System13_Default#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System13_Default#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System13_Default#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-1#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-1#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-1#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-1#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-1#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-1#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-1#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-1#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-1#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-1#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-1ce#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-1ce#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-1ce#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-1ce#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-1ce#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-1ce#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-1ce#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-1ce#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-1ce#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-1ce#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-4#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-4#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-4#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-4#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-4#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-4#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-4#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-4#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-4#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-4#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-4ce#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-4ce#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-4ce#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-4ce#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-4ce#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-4ce#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-4ce#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-4ce#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-4ce#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-4ce#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-8#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-8#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-8#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-8#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-8#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-8#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-8#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-8#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-8#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-8#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-8ce#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-8ce#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-8ce#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-8ce#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-8ce#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-8ce#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-8ce#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-8ce#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-8ce#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_Tkern1-8ce#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_tfidf+st+sl#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_tfidf+st+sl#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_tfidf+st+sl#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_tfidf+st+sl#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_tfidf+st+sl#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_tfidf+st+sl#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_tfidf+st+sl#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_tfidf+st+sl#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_tfidf+st+sl#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System15_tfidf+st+sl#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System16_Default#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System16_Default#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System16_Default#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System16_Default#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System16_Default#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System16_Default#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System16_Default#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System16_Default#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System16_Default#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System16_Default#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System5_Default#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System5_Default#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System5_Default#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System5_Default#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System5_Default#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System5_Default#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System5_Default#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System5_Default#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System5_Default#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System5_Default#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System6_Default#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System6_Default#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System6_Default#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System6_Default#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System6_Default#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System6_Default#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System6_Default#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System6_Default#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System6_Default#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System6_Default#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Fusion Method#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Fusion Method#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Fusion Method#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Fusion Method#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Fusion Method#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Fusion Method#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Fusion Method#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Fusion Method#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Fusion Method#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Fusion Method#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Jaccard Cascade Method#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Jaccard Cascade Method#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Jaccard Cascade Method#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Jaccard Cascade Method#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Jaccard Cascade Method#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Jaccard Cascade Method#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Jaccard Cascade Method#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Jaccard Cascade Method#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Jaccard Cascade Method#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Jaccard Cascade Method#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Jaccard Focused Method#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Jaccard Focused Method#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Jaccard Focused Method#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Jaccard Focused Method#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Jaccard Focused Method#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Jaccard Focused Method#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Jaccard Focused Method#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Jaccard Focused Method#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Jaccard Focused Method#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Jaccard Focused Method#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_SVM Method#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_SVM Method#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_SVM Method#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_SVM Method#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_SVM Method#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_SVM Method#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_SVM Method#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_SVM Method#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_SVM Method#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_SVM Method#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Voting Method1#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Voting Method1#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Voting Method1#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Voting Method1#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Voting Method1#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Voting Method1#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Voting Method1#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Voting Method1#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Voting Method1#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Voting Method1#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Voting Method2#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Voting Method2#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Voting Method2#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Voting Method2#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Voting Method2#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Voting Method2#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Voting Method2#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Voting Method2#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Voting Method2#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System8_Voting Method2#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System9_modified-tsr#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System9_modified-tsr#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System9_modified-tsr#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System9_modified-tsr#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System9_modified-tsr#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System9_modified-tsr#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System9_modified-tsr#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System9_modified-tsr#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System9_modified-tsr#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System9_modified-tsr#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System9_tsr-sent-class#C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System9_tsr-sent-class#C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System9_tsr-sent-class#I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System9_tsr-sent-class#J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System9_tsr-sent-class#N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System9_tsr-sent-class#P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System9_tsr-sent-class#P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System9_tsr-sent-class#P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System9_tsr-sent-class#P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/System9_tsr-sent-class#W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/system0_run_1_cos_bin#C00-2123_summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/system0_run_1_cos_bin#C04-1089_summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/system0_run_1_cos_bin#I05-5011_summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/system0_run_1_cos_bin#J96-3004_summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/system0_run_1_cos_bin#N06-2049_summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/system0_run_1_cos_bin#P05-1004_summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/system0_run_1_cos_bin#P05-1053_summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/system0_run_1_cos_bin#P98-1046_summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/system0_run_1_cos_bin#P98-2143_summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/all/system0_run_1_cos_bin#W03-0410_summary.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/annotation/C00-2123.annv3.txt" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/annotation/C00-2123.annv3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/annotation/I05-5011.annv3.txt" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/annotation/I05-5011.annv3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Reference_XML/J96-3004.xml" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Reference_XML/J96-3004.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/annotation/J96-3004.annv3.txt" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/annotation/J96-3004.annv3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/annotation/N06-2049.annv3.txt" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/annotation/N06-2049.annv3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/annotation/P98-2143.annv3.txt" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/annotation/P98-2143.annv3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Corpus/Sci-Summ/C94-2154_TRAIN/summary/C94-2154.community.xml" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ/C94-2154_TRAIN/summary/C94-2154.community.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/C00-2123.annv3.txt" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/C00-2123.annv3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/C04-1089.annv3.txt" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/C04-1089.annv3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/I05-5011.annv3.txt" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/I05-5011.annv3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/J96-3004.annv3.txt" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/J96-3004.annv3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/N06-2049.annv3.txt" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/N06-2049.annv3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P05-1004.annv3.txt" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P05-1004.annv3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P05-1053.annv3.txt" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P05-1053.annv3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P98-1046.annv3.txt" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P98-1046.annv3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P98-2143.annv3.txt" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P98-2143.annv3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/W03-0410.annv3.txt" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/W03-0410.annv3.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Experimentation/annotation.py" afterPath="$PROJECT_DIR$/Experimentation/annotation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Experimentation/communitySummarizer.py" afterPath="$PROJECT_DIR$/Experimentation/communitySummarizer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Experimentation/paper.py" afterPath="$PROJECT_DIR$/Experimentation/paper.py" />
     </list>
     <ignored path="RA.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -223,6 +962,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="RA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Experimentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Evaluation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Evaluation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OtherSysSummaries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Evaluation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OtherSysSummaries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="System10_run1_one_line" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -527,7 +1334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476547960884</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Publiciation exxperiementation">
+      <created>1477665508659</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1477665508659</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">

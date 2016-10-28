@@ -1,0 +1,28 @@
+<html>
+<head><title>W03-0410_model</title> </head>
+<body bgcolor="white">
+<a name="0">[0]</a> <a href="#0" id=0>We focus here on extending the applicability of unsupervised methods, as in (Schulte im Walde and Brew, 2002; Stevenson and Merlo, 1999), to the lexical semantic classification of verbs.</a>
+<a name="1">[1]</a> <a href="#1" id=1>Development of minimally supervised methods is of particular importance if we are to automatically classify verbs for languages other than English, where substantial amounts of labelled data are not available for training classifiers.</a>
+<a name="2">[2]</a> <a href="#2" id=2>We have previously shown that a broad set of 220 noisy features performs well in supervised verb classification (Joanis and Stevenson, 2003).</a>
+<a name="3">[3]</a> <a href="#3" id=3>In an unsupervised (clustering) scenario of verb class discovery, can we maintain the benefit of only needing noisy features, without the generality of the feature space leading to “the curse of dimensionality”?</a>
+<a name="4">[4]</a> <a href="#4" id=4>In this paper, we report results on several feature selection approaches to the problem: manual selection (based on linguistic knowledge), unsupervised selection (based on an entropy measure among the features, Dash et al., 1997), and a semi- supervised approach (in which seed verbs are used to train a supervised learner, from which we extract the useful features).</a>
+<a name="5">[5]</a> <a href="#5" id=5>Although our motivation is verb class discovery, we perform our experiments on English, for which we have an accepted classification to serve as a gold standard (Levin, 1993).</a>
+<a name="6">[6]</a> <a href="#6" id=6>Like others, we have assumed lexical semantic classes of verbs as defined in Levin (1993) (hereafter Levin), which have served as a gold standard in computational linguistics research</a>
+<a name="7">[7]</a> <a href="#7" id=7>Levin’s classes form a hierarchy of verb groupings with shared meaning and syntax.</a>
+<a name="8">[8]</a> <a href="#8" id=8>7 5 0 Table 1: Verb classes (see Section 3.1), their Levin class numbers, and the number of experimental verbs in each (see Section 3.2).</a>
+<a name="9">[9]</a> <a href="#9" id=9>We started with a list of all the verbs in the given classes from Levin, removing any verb that did not occur at least 100 times in our corpus (the BNC, described below).</a>
+<a name="10">[10]</a> <a href="#10" id=10>All experiments reported here were run on this same final set of 20 verbs per class (including a replication of our earlier supervised experiments).</a>
+<a name="11">[11]</a> <a href="#11" id=11>4.1 Clustering Parameters.</a>
+<a name="12">[12]</a> <a href="#12" id=12>We used the hierarchical clustering command in Matlab, which implements bottom-up agglomerative clustering, for all our unsupervised experiments.</a>
+<a name="13">[13]</a> <a href="#13" id=13>In the experiments here, however, we report only results for , since we found no principled way of automatically determining a good cutoff.</a>
+<a name="14">[14]</a> <a href="#14" id=14>mean precision of the clusters, weighted according to cluster size.</a>
+<a name="15">[15]</a> <a href="#15" id=15>Then accuracy has the standard definition:2 2 is equivalent to the weighted mean precision of the clusters, weighted according to cluster size.</a>
+<a name="16">[16]</a> <a href="#16" id=16>4.2.2 Adjusted Rand Measure Accuracy can be relatively high for a clustering when a few clusters are very good, and others are not good.15122</a>
+<a name="17">[17]</a> <a href="#17" id=17>4.2.3 Mean Silhouette gives an average of the individual goodness of the clusters, and a measure of the overall goodness, both with respect to the gold standard classes.</a>
+<a name="18">[18]</a> <a href="#18" id=18>All 13 Classes .58 .19 .29 .31 .29 .07 .08 .09 .05 .12 .16 Mean of multiway .67 .23 .30 .36 .38 .07 .10 .11 .08 .19 .23 Table 2: Experimental Results.</a>
+<a name="19">[19]</a> <a href="#19" id=19>This feature selection method is highly successful, outperforming the full feature set (Full) on and on most tasks, and performing the same or very close on the remainder.</a>
+<a name="20">[20]</a> <a href="#20" id=20>Moreover, the seed set of features outperforms the manually selected set (Ling) on over half the tasks.</a>
+<a name="21">[21]</a> <a href="#21" id=21>Our feature set is essentially a generalization of theirs, but in scaling up the feature space to be useful across English verb classes in general, we necessarily face a dimensionality problem that did not arise in their research.</a>
+<a name="22">[22]</a> <a href="#22" id=22>We have explored manual, unsupervised, and semi- supervised methods for feature selection in a clustering approach for verb class discovery.</a>
+<a name="23">[23]</a> <a href="#23" id=23></a></body>
+</html>

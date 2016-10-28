@@ -1,0 +1,712 @@
+<System runId="Voting Method2" susId="System8">
+    <Article name="C00-2123">
+        <Annotation EvalScore="0" autoRef="['122', ' 29', ' 125', ' 21']" citanceNum="1" citation="['41']"
+                    goldRef="['179']"/>
+        <Annotation EvalScore="0" autoRef="['9', ' 25', ' 5', ' 2']" citanceNum="2" citation="['8']"
+                    goldRef="['1','94']"/>
+        <Annotation EvalScore="0" autoRef="['2', ' 192', ' 29', ' 170']" citanceNum="3" citation="['43']"
+                    goldRef="['46','47']"/>
+        <Annotation EvalScore="0" autoRef="['42', ' 119', ' 139', ' 82']" citanceNum="4" citation="['80']"
+                    goldRef="['94','139']"/>
+        <Annotation EvalScore="0" autoRef="['9', ' 25', ' 170', ' 193']" citanceNum="5" citation="['22']"
+                    goldRef="['39']"/>
+        <Annotation EvalScore="0" autoRef="['21', ' 9', ' 33', ' 112']" citanceNum="6" citation="['22']"
+                    goldRef="['6']"/>
+        <Annotation EvalScore="0" autoRef="['170', ' 171', ' 194', ' 122']" citanceNum="7" citation="['113']"
+                    goldRef="['169']"/>
+        <Annotation EvalScore="0" autoRef="['170', ' 2', ' 192', ' 1']" citanceNum="8" citation="['115','117']"
+                    goldRef="['165']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 9', ' 32', ' 25']" citanceNum="9" citation="['35']"
+                    goldRef="['20']"/>
+        <Annotation EvalScore="0" autoRef="['29', ' 21', ' 110', ' 120']" citanceNum="10" citation="['235']"
+                    goldRef="['19']"/>
+        <Annotation EvalScore="0" autoRef="['110', ' 120', ' 140', ' 9']" citanceNum="11" citation="['282']"
+                    goldRef="['179']"/>
+        <Annotation EvalScore="0" autoRef="['9', ' 184', ' 2', ' 1']" citanceNum="12" citation="['16']"
+                    goldRef="['136','165']"/>
+        <Annotation EvalScore="0" autoRef="['21', ' 195', ' 170', ' 27']" citanceNum="13" citation="['127']"
+                    goldRef="['169']"/>
+        <Annotation EvalScore="0" autoRef="['1', ' 2', ' 48', ' 192']" citanceNum="14" citation="['113']"
+                    goldRef="['165']"/>
+        <Annotation EvalScore="0" autoRef="['21', ' 120', ' 140', ' 6']" citanceNum="15" citation="['120']"
+                    goldRef="['58']"/>
+        <Annotation EvalScore="0" autoRef="['9', ' 29', ' 110', ' 21']" citanceNum="16" citation="['13']"
+                    goldRef="['27']"/>
+        <Annotation EvalScore="0" autoRef="['9', ' 21', ' 25', ' 26']" citanceNum="17" citation="['5']"
+                    goldRef="['159']"/>
+        <Annotation EvalScore="0" autoRef="['25', ' 122', ' 125', ' 21']" citanceNum="18" citation="['110']"
+                    goldRef="['169']"/>
+        <Annotation EvalScore="0" autoRef="['2', ' 170', ' 43', ' 46']" citanceNum="19" citation="['47']"
+                    goldRef="['165']"/>
+        <Annotation EvalScore="0" autoRef="['21', ' 9', ' 33', ' 25']" citanceNum="20" citation="['61','62']"
+                    goldRef="['1']"/>
+    </Article>
+    <Article name="C04-1089">
+        <Annotation EvalScore="0" autoRef="['55', ' 79', ' 95', ' 168']" citanceNum="1" citation="['78','79']"
+                    goldRef="['53','61']"/>
+        <Annotation EvalScore="0" autoRef="['4', ' 17', ' 173', ' 12']" citanceNum="2" citation="['15']"
+                    goldRef="['135']"/>
+        <Annotation EvalScore="0" autoRef="['8', ' 12', ' 11', ' 13']" citanceNum="3" citation="['53','54']"
+                    goldRef="['10,'11']"/>
+        <Annotation EvalScore="0" autoRef="['16', ' 24', ' 164', ' 13']" citanceNum="4" citation="['38']"
+                    goldRef="['32']"/>
+        <Annotation EvalScore="0" autoRef="['36', ' 44', ' 68', ' 69']" citanceNum="5" citation="['68']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="0" autoRef="['4', ' 12', ' 16', ' 11']" citanceNum="6" citation="['15']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="0" autoRef="['4', ' 17', ' 173', ' 3']" citanceNum="7" citation="['50']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="0" autoRef="['16', ' 13', ' 24', ' 133']" citanceNum="8" citation="['147']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="0" autoRef="['13', ' 16', ' 164', ' 15']" citanceNum="9" citation="['208']"
+                    goldRef="['90']"/>
+        <Annotation EvalScore="0" autoRef="['95', ' 84', ' 81', ' 168']" citanceNum="10" citation="['163','164']"
+                    goldRef="['30']"/>
+        <Annotation EvalScore="0" autoRef="['13', ' 24', ' 133', ' 164']" citanceNum="11" citation="['212']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="0" autoRef="['168', ' 17', ' 169', ' 170']" citanceNum="12" citation="['7']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="500" autoRef="['107', ' 41', ' 47', ' 159']" citanceNum="13" citation="['8']"
+                    goldRef="['107']"/>
+        <Annotation EvalScore="0" autoRef="['13', ' 164', ' 173', ' 16']" citanceNum="14" citation="['38']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="0" autoRef="['13', ' 164', ' 173', ' 16']" citanceNum="15" citation="['185']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="0" autoRef="['13', ' 16', ' 164', ' 24']" citanceNum="16" citation="['23']"
+                    goldRef="['7']"/>
+        <Annotation EvalScore="0" autoRef="['169', ' 168', ' 11', ' 14']" citanceNum="17" citation="['66']"
+                    goldRef="['135']"/>
+    </Article>
+    <Article name="I05-5011">
+        <Annotation EvalScore="0" autoRef="['40', ' 167', ' 2', ' 22']" citanceNum="1" citation="['18','19']"
+                    goldRef="['204']"/>
+        <Annotation EvalScore="0" autoRef="['40', ' 169', ' 31', ' 12']" citanceNum="2" citation="['42']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="500" autoRef="['13', ' 12', ' 40', ' 202']" citanceNum="3" citation="['12']"
+                    goldRef="['13','15','22']"/>
+        <Annotation EvalScore="0" autoRef="['2', ' 167', ' 203', ' 24']" citanceNum="4" citation="['70']"
+                    goldRef="['22']"/>
+        <Annotation EvalScore="500" autoRef="['40', ' 164', ' 24', ' 12']" citanceNum="5" citation="['27']"
+                    goldRef="['22','40']"/>
+        <Annotation EvalScore="0" autoRef="['23', ' 205', ' 3', ' 170']" citanceNum="6" citation="['53']"
+                    goldRef="['40','41']"/>
+        <Annotation EvalScore="0" autoRef="['202', ' 167', ' 170', ' 77']" citanceNum="7" citation="['429']"
+                    goldRef="['110']"/>
+        <Annotation EvalScore="0" autoRef="['40', ' 167', ' 210', ' 111']" citanceNum="8" citation="['24']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="0" autoRef="['2', ' 22', ' 204', ' 24']" citanceNum="9" citation="['65']"
+                    goldRef="['29','30']"/>
+        <Annotation EvalScore="0" autoRef="['40', ' 52', ' 53', ' 111']" citanceNum="10" citation="['49']"
+                    goldRef="['38']"/>
+        <Annotation EvalScore="0" autoRef="['40', ' 167', ' 165', ' 12']" citanceNum="11" citation="['57']"
+                    goldRef="['38']"/>
+        <Annotation EvalScore="0" autoRef="['167', ' 40', ' 165', ' 7']" citanceNum="12" citation="['67']"
+                    goldRef="['18','20']"/>
+        <Annotation EvalScore="0" autoRef="['40', ' 12', ' 167', ' 162']" citanceNum="13" citation="['12']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="0" autoRef="['202', ' 203', ' 18', ' 201']" citanceNum="14" citation="['11']"
+                    goldRef="['22','23']"/>
+        <Annotation EvalScore="0" autoRef="['111', ' 10', ' 40', ' 165']" citanceNum="15" citation="['10','11']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="0" autoRef="['40', ' 167', ' 12', ' 111']" citanceNum="16" citation="['12']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="500" autoRef="['197', ' 2', ' 204', ' 71']" citanceNum="17" citation="['218']"
+                    goldRef="['197']"/>
+        <Annotation EvalScore="0" autoRef="['40', ' 167', ' 162', ' 165']" citanceNum="18" citation="['12']"
+                    goldRef="['164']"/>
+        <Annotation EvalScore="0" autoRef="['40', ' 20', ' 165', ' 167']" citanceNum="19" citation="['9']"
+                    goldRef="['164']"/>
+        <Annotation EvalScore="0" autoRef="['40', ' 165', ' 162', ' 49']" citanceNum="20" citation="['20']"
+                    goldRef="['18']"/>
+        <Annotation EvalScore="500" autoRef="['62', ' 86', ' 77', ' 165']" citanceNum="21" citation="['134']"
+                    goldRef="['62','65']"/>
+        <Annotation EvalScore="0" autoRef="['40', ' 165', ' 52', ' 53']" citanceNum="22" citation="['14','15']"
+                    goldRef="['32','33']"/>
+        <Annotation EvalScore="500" autoRef="['23', ' 205', ' 2', ' 3']" citanceNum="23" citation="['41']"
+                    goldRef="['22','23']"/>
+    </Article>
+    <Article name="J96-3004">
+        <Annotation EvalScore="0" autoRef="['128', ' 91', ' 458', ' 89']" citanceNum="1" citation="['141','142']"
+                    goldRef="['89','90','91']"/>
+        <Annotation EvalScore="0" autoRef="['52', ' 408', ' 88', ' 49']" citanceNum="2" citation="['5']"
+                    goldRef="['137','138']"/>
+        <Annotation EvalScore="0" autoRef="['33', ' 228', ' 21', ' 34']" citanceNum="3" citation="['80']"
+                    goldRef="['297','298']"/>
+        <Annotation EvalScore="0" autoRef="['115', ' 132', ' 55', ' 116']" citanceNum="4" citation="['58']"
+                    goldRef="['108','109','112']"/>
+        <Annotation EvalScore="0" autoRef="['49', ' 102', ' 248', ' 251']" citanceNum="5" citation="['125','126','127']"
+                    goldRef="['92','93']"/>
+        <Annotation EvalScore="500" autoRef="['51', ' 137', ' 23', ' 33']" citanceNum="6" citation="['20']"
+                    goldRef="['51']"/>
+        <Annotation EvalScore="0" autoRef="['305', ' 307', ' 112', ' 244']" citanceNum="7" citation="['107']"
+                    goldRef="['108']"/>
+        <Annotation EvalScore="0" autoRef="['242', ' 325', ' 16', ' 33']" citanceNum="8" citation="['107']"
+                    goldRef="['297','325']"/>
+        <Annotation EvalScore="0" autoRef="['20', ' 33', ' 49', ' 88']" citanceNum="9" citation="['6','7']"
+                    goldRef="['2','33']"/>
+        <Annotation EvalScore="0" autoRef="['136', ' 352', ' 21', ' 70']" citanceNum="10" citation="['42']"
+                    goldRef="['297','325']"/>
+        <Annotation EvalScore="0" autoRef="['101', ' 128', ' 281', ' 49']" citanceNum="11" citation="['96']"
+                    goldRef="['399']"/>
+        <Annotation EvalScore="0" autoRef="['91', ' 458', ' 455', ' 117']" citanceNum="12" citation="['53']"
+                    goldRef="['89']"/>
+        <Annotation EvalScore="0" autoRef="['124', ' 108', ' 112', ' 244']" citanceNum="13" citation="['113']"
+                    goldRef="['108']"/>
+        <Annotation EvalScore="0" autoRef="['412', ' 129', ' 128', ' 410']" citanceNum="14" citation="['211']"
+                    goldRef="['133']"/>
+        <Annotation EvalScore="0" autoRef="['70', ' 130', ' 297', ' 133']" citanceNum="15" citation="['321']"
+                    goldRef="['297']"/>
+        <Annotation EvalScore="0" autoRef="['67', ' 87', ' 91', ' 398']" citanceNum="16" citation="['88']"
+                    goldRef="['398']"/>
+        <Annotation EvalScore="500" autoRef="['325', ' 49', ' 130', ' 346']" citanceNum="17" citation="['125','126']"
+                    goldRef="['325']"/>
+        <Annotation EvalScore="500" autoRef="['325', ' 346', ' 424', ' 130']" citanceNum="18" citation="['131','132']"
+                    goldRef="['325']"/>
+        <Annotation EvalScore="0" autoRef="['458', ' 16', ' 462', ' 244']" citanceNum="19" citation="['489','490']"
+                    goldRef="['399']"/>
+        <Annotation EvalScore="500" autoRef="['325', ' 21', ' 49', ' 70']" citanceNum="20" citation="['123']"
+                    goldRef="['325']"/>
+        <Annotation EvalScore="0" autoRef="['410', ' 348', ' 128', ' 244']" citanceNum="21" citation="['326']"
+                    goldRef="['296','297']"/>
+        <Annotation EvalScore="0" autoRef="['124', ' 368', ' 116', ' 121']" citanceNum="22" citation="['24']"
+                    goldRef="['137']"/>
+        <Annotation EvalScore="0" autoRef="['116', ' 49', ' 115', ' 101']" citanceNum="23" citation="['9']"
+                    goldRef="['21','33']"/>
+        <Annotation EvalScore="0" autoRef="['116', ' 49', ' 111', ' 115']" citanceNum="24" citation="['515']"
+                    goldRef="['108']"/>
+        <Annotation EvalScore="0" autoRef="['67', ' 398', ' 458', ' 457']" citanceNum="25" citation="['612','613']"
+                    goldRef="['138']"/>
+        <Annotation EvalScore="0" autoRef="['16', ' 456', ' 67', ' 454']" citanceNum="26" citation="['621']"
+                    goldRef="['108']"/>
+        <Annotation EvalScore="0" autoRef="['244', ' 457', ' 67', ' 138']" citanceNum="27" citation="['6']"
+                    goldRef="['138']"/>
+        <Annotation EvalScore="0" autoRef="['67', ' 398', ' 153', ' 461']" citanceNum="28" citation="['41']"
+                    goldRef="['138']"/>
+        <Annotation EvalScore="0" autoRef="['230', ' 242', ' 74', ' 204']" citanceNum="29" citation="['122']"
+                    goldRef="['419','420']"/>
+        <Annotation EvalScore="500" autoRef="['281', ' 282', ' 283', ' 399']" citanceNum="30" citation="['155']"
+                    goldRef="['281']"/>
+        <Annotation EvalScore="500" autoRef="['283', ' 161', ' 242', ' 170']" citanceNum="31" citation="['42','43']"
+                    goldRef="['283','284']"/>
+        <Annotation EvalScore="500" autoRef="['88', ' 20', ' 21', ' 124']" citanceNum="32" citation="['7']"
+                    goldRef="['88']"/>
+        <Annotation EvalScore="0" autoRef="['103', ' 161', ' 242', ' 21']" citanceNum="33" citation="['113']"
+                    goldRef="['283','284']"/>
+        <Annotation EvalScore="0" autoRef="['161', ' 21', ' 73', ' 158']" citanceNum="34" citation="['70']"
+                    goldRef="['284']"/>
+        <Annotation EvalScore="0" autoRef="['135', ' 134', ' 398', ' 54']" citanceNum="35" citation="['105']"
+                    goldRef="['54']"/>
+        <Annotation EvalScore="0" autoRef="['335', ' 108', ' 112', ' 244']" citanceNum="36" citation="['91']"
+                    goldRef="['108','109']"/>
+        <Annotation EvalScore="500" autoRef="['88', ' 402', ' 52', ' 128']" citanceNum="37" citation="['12']"
+                    goldRef="['87','88']"/>
+        <Annotation EvalScore="0" autoRef="['16', ' 101', ' 52', ' 178']" citanceNum="38" citation="['39']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="0" autoRef="['138', ' 398', ' 461', ' 374']" citanceNum="39" citation="['144','145']"
+                    goldRef="['419','420']"/>
+        <Annotation EvalScore="0" autoRef="['244', ' 141', ' 212', ' 459']" citanceNum="40" citation="['149','150']"
+                    goldRef="['419']"/>
+        <Annotation EvalScore="0" autoRef="['23', ' 124', ' 419', ' 16']" citanceNum="41" citation="['5','6']"
+                    goldRef="['356']"/>
+        <Annotation EvalScore="0" autoRef="['244', ' 245', ' 415', ' 23']" citanceNum="42" citation="['8']"
+                    goldRef="['415','416','417']"/>
+        <Annotation EvalScore="0" autoRef="['170', ' 399', ' 242', ' 16']" citanceNum="43" citation="['10']"
+                    goldRef="['398','399']"/>
+        <Annotation EvalScore="0" autoRef="['357', ' 128', ' 405', ' 296']" citanceNum="44" citation="['178']"
+                    goldRef="['128']"/>
+        <Annotation EvalScore="0" autoRef="['23', ' 20', ' 244', ' 458']" citanceNum="45" citation="['29']"
+                    goldRef="['116']"/>
+        <Annotation EvalScore="0" autoRef="['124', ' 125', ' 168', ' 122']" citanceNum="46" citation="['10']"
+                    goldRef="['415','417']"/>
+        <Annotation EvalScore="500" autoRef="['20', ' 66', ' 357', ' 159']" citanceNum="47" citation="['40','41']"
+                    goldRef="['20','33']"/>
+        <Annotation EvalScore="0" autoRef="['112', ' 367', ' 368', ' 108']" citanceNum="48" citation="['13']"
+                    goldRef="['108','109']"/>
+        <Annotation EvalScore="0" autoRef="['120', ' 119', ' 124', ' 168']" citanceNum="49" citation="['5']"
+                    goldRef="['65','168','169','170']"/>
+        <Annotation EvalScore="500" autoRef="['325', ' 367', ' 244', ' 342']" citanceNum="50" citation="['17']"
+                    goldRef="['325']"/>
+        <Annotation EvalScore="0" autoRef="['137', ' 415', ' 23', ' 54']" citanceNum="51" citation="['180']"
+                    goldRef="['0','325']"/>
+        <Annotation EvalScore="0" autoRef="['101', ' 128', ' 138', ' 137']" citanceNum="52" citation="['186','187']"
+                    goldRef="['138','149','150']"/>
+        <Annotation EvalScore="0" autoRef="['23', ' 120', ' 20', ' 21']" citanceNum="53" citation="['3']"
+                    goldRef="['65']"/>
+        <Annotation EvalScore="0" autoRef="['54', ' 20', ' 16', ' 22']" citanceNum="54" citation="['157']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="0" autoRef="['107', ' 245', ' 418', ' 134']" citanceNum="55" citation="['83']"
+                    goldRef="['419']"/>
+        <Annotation EvalScore="0" autoRef="['242', ' 170', ' 16', ' 20']" citanceNum="56" citation="['118']"
+                    goldRef="['284']"/>
+        <Annotation EvalScore="0" autoRef="['108', ' 117', ' 67', ' 90']" citanceNum="57" citation="['16']"
+                    goldRef="['305']"/>
+        <Annotation EvalScore="500" autoRef="['325', ' 21', ' 49', ' 70']" citanceNum="58" citation="['16']"
+                    goldRef="['325']"/>
+        <Annotation EvalScore="500" autoRef="['92', ' 93', ' 103', ' 91']" citanceNum="59" citation="['174']"
+                    goldRef="['92','93','103']"/>
+        <Annotation EvalScore="0" autoRef="['16', ' 20', ' 130', ' 77']" citanceNum="60" citation="['41']"
+                    goldRef="['325']"/>
+        <Annotation EvalScore="0" autoRef="['128', ' 304', ' 325', ' 357']" citanceNum="61" citation="['204']"
+                    goldRef="['325']"/>
+        <Annotation EvalScore="0" autoRef="['16', ' 153', ' 91', ' 119']" citanceNum="62" citation="['11','12']"
+                    goldRef="['158']"/>
+        <Annotation EvalScore="0" autoRef="['284', ' 459', ' 67', ' 399']" citanceNum="63" citation="['156','157']"
+                    goldRef="['398','399']"/>
+        <Annotation EvalScore="0" autoRef="['134', ' 188', ' 21', ' 170']" citanceNum="64" citation="['26']"
+                    goldRef="['67','68','69']"/>
+        <Annotation EvalScore="0" autoRef="['305', ' 456', ' 242', ' 244']" citanceNum="65" citation="['69']"
+                    goldRef="['108','109']"/>
+        <Annotation EvalScore="0" autoRef="['172', ' 170', ' 173', ' 190']" citanceNum="66" citation="['73']"
+                    goldRef="['190','191']"/>
+        <Annotation EvalScore="0" autoRef="['330', ' 21', ' 108', ' 109']" citanceNum="67" citation="['86']"
+                    goldRef="['108','109']"/>
+        <Annotation EvalScore="0" autoRef="['128', ' 357', ' 405', ' 244']" citanceNum="68" citation="['121']"
+                    goldRef="['142','143','356']"/>
+        <Annotation EvalScore="0" autoRef="['116', ' 124', ' 2', ' 419']" citanceNum="69" citation="['10','11']"
+                    goldRef="['65']"/>
+    </Article>
+    <Article name="N06-2049">
+        <Annotation EvalScore="0" autoRef="['5', ' 43', ' 80', ' 111']" citanceNum="1" citation="['290','305']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="500" autoRef="['25', ' 32', ' 33', ' 152']" citanceNum="2" citation="['273','274']"
+                    goldRef="['25','104']"/>
+        <Annotation EvalScore="0" autoRef="['5', ' 89', ' 14', ' 134']" citanceNum="3" citation="['19']"
+                    goldRef="['3']"/>
+        <Annotation EvalScore="0" autoRef="['57', ' 58', ' 150', ' 108']" citanceNum="4" citation="['20']"
+                    goldRef="['58','59']"/>
+        <Annotation EvalScore="0" autoRef="['25', ' 101', ' 60', ' 14']" citanceNum="5" citation="['36']"
+                    goldRef="['104']"/>
+        <Annotation EvalScore="0" autoRef="['33', ' 62', ' 34', ' 8']" citanceNum="6" citation="['13']"
+                    goldRef="['66','67']"/>
+        <Annotation EvalScore="0" autoRef="['25', ' 134', ' 44', ' 14']" citanceNum="7" citation="['51']"
+                    goldRef="['66','67','104','105']"/>
+        <Annotation EvalScore="0" autoRef="['4', ' 14', ' 129', ' 111']" citanceNum="8" citation="['277']"
+                    goldRef="['8']"/>
+        <Annotation EvalScore="0" autoRef="['44', ' 25', ' 5', ' 14']" citanceNum="9" citation="['134']"
+                    goldRef="['25']"/>
+        <Annotation EvalScore="0" autoRef="['5', ' 14', ' 33', ' 101']" citanceNum="10" citation="['197']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="0" autoRef="['99', ' 45', ' 38', ' 57']" citanceNum="11" citation="['93','94']"
+                    goldRef="['8']"/>
+        <Annotation EvalScore="0" autoRef="['129', ' 4', ' 33', ' 14']" citanceNum="12" citation="['172','173']"
+                    goldRef="['8']"/>
+        <Annotation EvalScore="0" autoRef="['33', ' 25', ' 32', ' 14']" citanceNum="13" citation="['188']"
+                    goldRef="['25']"/>
+        <Annotation EvalScore="0" autoRef="['101', ' 30', ' 44', ' 14']" citanceNum="14" citation="['14']"
+                    goldRef="['8']"/>
+        <Annotation EvalScore="0" autoRef="['1', ' 5', ' 33', ' 151']" citanceNum="15" citation="['24']"
+                    goldRef="['8','153','72']"/>
+        <Annotation EvalScore="0" autoRef="['14', ' 72', ' 33', ' 4']" citanceNum="16" citation="['55','56']"
+                    goldRef="['151','72']"/>
+        <Annotation EvalScore="0" autoRef="['43', ' 14', ' 72', ' 44']" citanceNum="17" citation="['160']"
+                    goldRef="['78','79']"/>
+        <Annotation EvalScore="0" autoRef="['14', ' 5', ' 8', ' 36']" citanceNum="18" citation="['11']"
+                    goldRef="['8']"/>
+        <Annotation EvalScore="0" autoRef="['19', ' 151', ' 0', ' 5']" citanceNum="19" citation="['11']"
+                    goldRef="['1','2']"/>
+        <Annotation EvalScore="0" autoRef="['137', ' 62', ' 44', ' 50']" citanceNum="20" citation="['25']"
+                    goldRef="['8']"/>
+        <Annotation EvalScore="0" autoRef="['0', ' 1', ' 151', ' 33']" citanceNum="21" citation="['30']"
+                    goldRef="['8','9']"/>
+        <Annotation EvalScore="0" autoRef="['151', ' 62', ' 8', ' 16']" citanceNum="22" citation="['21','22']"
+                    goldRef="['38','39']"/>
+    </Article>
+    <Article name="P05-1004">
+        <Annotation EvalScore="0" autoRef="['20', ' 68', ' 108', ' 3']" citanceNum="1" citation="['74']"
+                    goldRef="['2']"/>
+        <Annotation EvalScore="0" autoRef="['3', ' 73', ' 108', ' 65']" citanceNum="2" citation="['23']"
+                    goldRef="['65']"/>
+        <Annotation EvalScore="0" autoRef="['36', ' 68', ' 147', ' 20']" citanceNum="3" citation="['229']"
+                    goldRef="['147']"/>
+        <Annotation EvalScore="0" autoRef="['18', ' 92', ' 11', ' 1']" citanceNum="4" citation="['446']"
+                    goldRef="['13']"/>
+        <Annotation EvalScore="500" autoRef="['147', ' 1', ' 108', ' 65']" citanceNum="5" citation="['26']"
+                    goldRef="['147']"/>
+        <Annotation EvalScore="0" autoRef="['106', ' 62', ' 148', ' 108']" citanceNum="6" citation="['189']"
+                    goldRef="['228']"/>
+        <Annotation EvalScore="0" autoRef="['94', ' 47', ' 108', ' 1']" citanceNum="7" citation="['83']"
+                    goldRef="['231']"/>
+        <Annotation EvalScore="0" autoRef="['14', ' 35', ' 68', ' 20']" citanceNum="8" citation="['15']"
+                    goldRef="['20']"/>
+        <Annotation EvalScore="500" autoRef="['65', ' 171', ' 96', ' 108']" citanceNum="9" citation="['16']"
+                    goldRef="['65']"/>
+        <Annotation EvalScore="0" autoRef="['3', ' 73', ' 108', ' 65']" citanceNum="10" citation="['16']"
+                    goldRef="['65']"/>
+        <Annotation EvalScore="0" autoRef="['108', ' 26', ' 96', ' 92']" citanceNum="11" citation="['6']"
+                    goldRef="['87']"/>
+        <Annotation EvalScore="500" autoRef="['20', ' 68', ' 108', ' 169']" citanceNum="12" citation="['50']"
+                    goldRef="['20']"/>
+        <Annotation EvalScore="0" autoRef="['108', ' 198', ' 106', ' 61']" citanceNum="13" citation="['234']"
+                    goldRef="['65']"/>
+        <Annotation EvalScore="500" autoRef="['20', ' 68', ' 222', ' 108']" citanceNum="14" citation="['94']"
+                    goldRef="['20']"/>
+    </Article>
+    <Article name="P05-1053">
+        <Annotation EvalScore="0" autoRef="['57', ' 162', ' 163', ' 24']" citanceNum="1" citation="['36','37']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="0" autoRef="['213', ' 38', ' 132', ' 6']" citanceNum="2" citation="['15']"
+                    goldRef="['193']"/>
+        <Annotation EvalScore="500" autoRef="['51', ' 90', ' 33', ' 32']" citanceNum="3" citation="['180']"
+                    goldRef="['51','52']"/>
+        <Annotation EvalScore="0" autoRef="['34', ' 43', ' 108', ' 163']" citanceNum="4" citation="['12']"
+                    goldRef="['40','20']"/>
+        <Annotation EvalScore="0" autoRef="['108', ' 86', ' 20', ' 24']" citanceNum="5" citation="['42']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="0" autoRef="['132', ' 37', ' 133', ' 28']" citanceNum="6" citation="['45']"
+                    goldRef="['40']"/>
+        <Annotation EvalScore="0" autoRef="['37', ' 36', ' 164', ' 17']" citanceNum="7" citation="['10']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="500" autoRef="['17', ' 34', ' 192', ' 132']" citanceNum="8" citation="['14']"
+                    goldRef="['17','20']"/>
+        <Annotation EvalScore="0" autoRef="['4', ' 3', ' 132', ' 193']" citanceNum="9" citation="['14']"
+                    goldRef="['196','197']"/>
+        <Annotation EvalScore="0" autoRef="['32', ' 33', ' 51', ' 164']" citanceNum="10" citation="['161']"
+                    goldRef="['51','52']"/>
+        <Annotation EvalScore="500" autoRef="['34', ' 132', ' 93', ' 31']" citanceNum="11" citation="['166','167']"
+                    goldRef="['34']"/>
+        <Annotation EvalScore="500" autoRef="['33', ' 24', ' 25', ' 34']" citanceNum="12" citation="['176','177']"
+                    goldRef="['33']"/>
+        <Annotation EvalScore="500" autoRef="['17', ' 33', ' 30', ' 37']" citanceNum="13" citation="['9']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="0" autoRef="['34', ' 60', ' 132', ' 17']" citanceNum="14" citation="['53']"
+                    goldRef="['60','17']"/>
+        <Annotation EvalScore="0" autoRef="['43', ' 44', ' 214', ' 6']" citanceNum="15" citation="['81']"
+                    goldRef="['121','122']"/>
+        <Annotation EvalScore="0" autoRef="['31', ' 93', ' 132', ' 3']" citanceNum="16" citation="['100']"
+                    goldRef="['40']"/>
+        <Annotation EvalScore="0" autoRef="['37', ' 2', ' 33', ' 9']" citanceNum="17" citation="['59']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="0" autoRef="['132', ' 131', ' 193', ' 196']" citanceNum="18" citation="['54']"
+                    goldRef="['17','20']"/>
+        <Annotation EvalScore="0" autoRef="['213', ' 211', ' 39', ' 102']" citanceNum="19" citation="['109']"
+                    goldRef="['37','40']"/>
+        <Annotation EvalScore="0" autoRef="['24', ' 25', ' 131', ' 52']" citanceNum="21" citation="['224','225']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="0" autoRef="['2', ' 192', ' 17', ' 25']" citanceNum="22" citation="['10']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="0" autoRef="['3', ' 41', ' 36', ' 34']" citanceNum="23" citation="['9']"
+                    goldRef="['193']"/>
+        <Annotation EvalScore="0" autoRef="['2', ' 132', ' 34', ' 36']" citanceNum="24" citation="['31','32']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="0" autoRef="['43', ' 24', ' 25', ' 34']" citanceNum="25" citation="['35','36']"
+                    goldRef="['34','40']"/>
+        <Annotation EvalScore="0" autoRef="['86', ' 211', ' 213', ' 132']" citanceNum="26" citation="['38']"
+                    goldRef="['193']"/>
+        <Annotation EvalScore="500" autoRef="['34', ' 131', ' 132', ' 108']" citanceNum="27" citation="['135','136']"
+                    goldRef="['34','40']"/>
+        <Annotation EvalScore="0" autoRef="['23', ' 110', ' 22', ' 18']" citanceNum="28" citation="['137']"
+                    goldRef="['110']"/>
+        <Annotation EvalScore="500" autoRef="['34', ' 93', ' 97', ' 132']" citanceNum="29" citation="['12']"
+                    goldRef="['34']"/>
+        <Annotation EvalScore="0" autoRef="['24', ' 25', ' 4', ' 138']" citanceNum="30" citation="['33','34']"
+                    goldRef="['40']"/>
+        <Annotation EvalScore="0" autoRef="['78', ' 107', ' 133', ' 96']" citanceNum="31" citation="['117']"
+                    goldRef="['133']"/>
+        <Annotation EvalScore="0" autoRef="['24', ' 25', ' 37', ' 90']" citanceNum="32" citation="['122','123','124']"
+                    goldRef="['67','68']"/>
+        <Annotation EvalScore="0" autoRef="['195', ' 24', ' 25', ' 143']" citanceNum="33" citation="['130','131','132']"
+                    goldRef="['93']"/>
+        <Annotation EvalScore="500" autoRef="['20', ' 130', ' 132', ' 213']" citanceNum="34" citation="['7']"
+                    goldRef="['20']"/>
+        <Annotation EvalScore="0" autoRef="['72', ' 131', ' 132', ' 100']" citanceNum="35" citation="['72','73']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="0" autoRef="['32', ' 217', ' 56', ' 2']" citanceNum="36" citation="['107','108']"
+                    goldRef="['51']"/>
+        <Annotation EvalScore="0" autoRef="['215', ' 148', ' 153', ' 204']" citanceNum="38" citation="['112','113']"
+                    goldRef="['53']"/>
+        <Annotation EvalScore="0" autoRef="['34', ' 43', ' 39', ' 31']" citanceNum="39" citation="['6']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="0" autoRef="['38', ' 126', ' 214', ' 39']" citanceNum="40" citation="['13']"
+                    goldRef="['121']"/>
+        <Annotation EvalScore="0" autoRef="['39', ' 17', ' 36', ' 30']" citanceNum="41" citation="['18']"
+                    goldRef="['53','121']"/>
+        <Annotation EvalScore="0" autoRef="['37', ' 30', ' 52', ' 204']" citanceNum="42" citation="['29','30']"
+                    goldRef="['108']"/>
+        <Annotation EvalScore="0" autoRef="['36', ' 17', ' 130', ' 132']" citanceNum="43" citation="['45']"
+                    goldRef="['130']"/>
+        <Annotation EvalScore="0" autoRef="['123', ' 59', ' 110', ' 34']" citanceNum="44" citation="['128']"
+                    goldRef="['110','58','59']"/>
+        <Annotation EvalScore="0" autoRef="['37', ' 30', ' 45', ' 36']" citanceNum="45" citation="['6']"
+                    goldRef="['53']"/>
+        <Annotation EvalScore="500" autoRef="['17', ' 24', ' 25', ' 44']" citanceNum="46" citation="['198','199']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="0" autoRef="['212', ' 3', ' 81', ' 128']" citanceNum="48" citation="['206','207']"
+                    goldRef="['40']"/>
+        <Annotation EvalScore="0" autoRef="['33', ' 37', ' 44', ' 39']" citanceNum="49" citation="['35']"
+                    goldRef="['40']"/>
+        <Annotation EvalScore="0" autoRef="['192', ' 17', ' 2', ' 36']" citanceNum="50" citation="['39']"
+                    goldRef="['40']"/>
+        <Annotation EvalScore="0" autoRef="['37', ' 164', ' 30', ' 36']" citanceNum="51" citation="['5']"
+                    goldRef="['53']"/>
+        <Annotation EvalScore="0" autoRef="['193', ' 41', ' 101', ' 102']" citanceNum="52" citation="['29','30']"
+                    goldRef="['18','155']"/>
+        <Annotation EvalScore="0" autoRef="['130', ' 132', ' 17', ' 133']" citanceNum="53" citation="['39']"
+                    goldRef="['18']"/>
+        <Annotation EvalScore="0" autoRef="['25', ' 193', ' 24', ' 33']" citanceNum="54" citation="['50','51','52']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="0" autoRef="['36', ' 215', ' 216', ' 34']" citanceNum="55" citation="['23','24','25']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="0" autoRef="['44', ' 37', ' 33', ' 36']" citanceNum="56" citation="['7']"
+                    goldRef="['17','20']"/>
+        <Annotation EvalScore="0" autoRef="['31', ' 60', ' 34', ' 36']" citanceNum="57" citation="['10']"
+                    goldRef="['40']"/>
+        <Annotation EvalScore="0" autoRef="['86', ' 131', ' 132', ' 97']" citanceNum="58" citation="['80','81']"
+                    goldRef="['40','52']"/>
+        <Annotation EvalScore="0" autoRef="['80', ' 215', ' 38', ' 93']" citanceNum="59" citation="['85','86']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="0" autoRef="['184', ' 121', ' 25', ' 37']" citanceNum="60" citation="['193']"
+                    goldRef="['108']"/>
+        <Annotation EvalScore="0" autoRef="['214', ' 25', ' 126', ' 24']" citanceNum="61" citation="['11']"
+                    goldRef="['59']"/>
+        <Annotation EvalScore="0" autoRef="['214', ' 123', ' 132', ' 11']" citanceNum="62" citation="['58']"
+                    goldRef="['128']"/>
+        <Annotation EvalScore="0" autoRef="['60', ' 130', ' 36', ' 6']" citanceNum="63" citation="['34']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="0" autoRef="['100', ' 5', ' 19', ' 132']" citanceNum="64" citation="['47']"
+                    goldRef="['130']"/>
+        <Annotation EvalScore="0" autoRef="['100', ' 131', ' 140', ' 93']" citanceNum="66" citation="['167']"
+                    goldRef="['17','126']"/>
+        <Annotation EvalScore="0" autoRef="['30', ' 45', ' 52', ' 46']" citanceNum="67" citation="['9']"
+                    goldRef="['53']"/>
+        <Annotation EvalScore="0" autoRef="['37', ' 4', ' 25', ' 39']" citanceNum="68" citation="['17']"
+                    goldRef="['4']"/>
+        <Annotation EvalScore="0" autoRef="['30', ' 33', ' 34', ' 37']" citanceNum="69" citation="['8']"
+                    goldRef="['53']"/>
+        <Annotation EvalScore="0" autoRef="['31', ' 93', ' 97', ' 132']" citanceNum="70" citation="['174']"
+                    goldRef="['193']"/>
+        <Annotation EvalScore="0" autoRef="['25', ' 81', ' 179', ' 218']" citanceNum="71" citation="['39']"
+                    goldRef="['30']"/>
+    </Article>
+    <Article name="P98-1046">
+        <Annotation EvalScore="0" autoRef="['39', ' 18', ' 174', ' 173']" citanceNum="1" citation="['36','37']"
+                    goldRef="['47']"/>
+        <Annotation EvalScore="0" autoRef="['62', ' 110', ' 63', ' 39']" citanceNum="2" citation="['38','39']"
+                    goldRef="['47']"/>
+        <Annotation EvalScore="0" autoRef="['157', ' 158', ' 43', ' 22']" citanceNum="3" citation="['211']"
+                    goldRef="['47']"/>
+        <Annotation EvalScore="500" autoRef="['4', ' 29', ' 15', ' 42']" citanceNum="4" citation="['18']"
+                    goldRef="['4','47']"/>
+        <Annotation EvalScore="500" autoRef="['4', ' 156', ' 47', ' 20']" citanceNum="5" citation="['46']"
+                    goldRef="['4']"/>
+        <Annotation EvalScore="0" autoRef="['160', ' 164', ' 158', ' 1']" citanceNum="6" citation="['163','164','165']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="0" autoRef="['20', ' 67', ' 65', ' 97']" citanceNum="7" citation="['17']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="0" autoRef="['6', ' 29', ' 42', ' 97']" citanceNum="8" citation="['25']"
+                    goldRef="['40']"/>
+        <Annotation EvalScore="0" autoRef="['174', ' 22', ' 157', ' 158']" citanceNum="9" citation="['660']"
+                    goldRef="['38','47']"/>
+        <Annotation EvalScore="0" autoRef="['27', ' 29', ' 26', ' 173']" citanceNum="10" citation="['58','59']"
+                    goldRef="['40']"/>
+        <Annotation EvalScore="0" autoRef="['26', ' 39', ' 108', ' 18']" citanceNum="11" citation="['436']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="0" autoRef="['109', ' 114', ' 97', ' 73']" citanceNum="12" citation="['68']"
+                    goldRef="['65']"/>
+        <Annotation EvalScore="0" autoRef="['39', ' 20', ' 173', ' 9']" citanceNum="13" citation="['208']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="0" autoRef="['9', ' 174', ' 20', ' 70']" citanceNum="14" citation="['30']"
+                    goldRef="['70','94']"/>
+        <Annotation EvalScore="0" autoRef="['39', ' 9', ' 20', ' 173']" citanceNum="15" citation="['5','6']"
+                    goldRef="['28']"/>
+        <Annotation EvalScore="0" autoRef="['174', ' 24', ' 175', ' 18']" citanceNum="16" citation="['183']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="0" autoRef="['19', ' 137', ' 18', ' 9']" citanceNum="17" citation="['21']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="0" autoRef="['15', ' 108', ' 47', ' 3']" citanceNum="18" citation="['78']"
+                    goldRef="['47']"/>
+        <Annotation EvalScore="0" autoRef="['20', ' 3', ' 62', ' 174']" citanceNum="19" citation="['147','148','149']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="0" autoRef="['18', ' 39', ' 26', ' 127']" citanceNum="20" citation="['22']"
+                    goldRef="['164']"/>
+        <Annotation EvalScore="0" autoRef="['127', ' 123', ' 174', ' 90']" citanceNum="21" citation="['18']"
+                    goldRef="['158']"/>
+        <Annotation EvalScore="0" autoRef="['20', ' 67', ' 174', ' 9']" citanceNum="22" citation="['18']"
+                    goldRef="['62']"/>
+        <Annotation EvalScore="0" autoRef="['62', ' 20', ' 40', ' 73']" citanceNum="23" citation="['48','49']"
+                    goldRef="['65']"/>
+        <Annotation EvalScore="0" autoRef="['15', ' 30', ' 73', ' 74']" citanceNum="24" citation="['8']"
+                    goldRef="['4']"/>
+        <Annotation EvalScore="0" autoRef="['39', ' 9', ' 20', ' 173']" citanceNum="25" citation="['7']"
+                    goldRef="['28']"/>
+        <Annotation EvalScore="0" autoRef="['19', ' 137', ' 18', ' 98']" citanceNum="26" citation="['21']"
+                    goldRef="[0]"/>
+        <Annotation EvalScore="0" autoRef="['15', ' 20', ' 108', ' 109']" citanceNum="27" citation="['83']"
+                    goldRef="['65']"/>
+        <Annotation EvalScore="0" autoRef="['2', ' 118', ' 162', ' 132']" citanceNum="28" citation="['59']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="0" autoRef="['174', ' 9', ' 173', ' 20']" citanceNum="29" citation="['6','7']"
+                    goldRef="['3']"/>
+        <Annotation EvalScore="0" autoRef="['27', ' 173', ' 26', ' 42']" citanceNum="30" citation="['45','46']"
+                    goldRef="['65']"/>
+        <Annotation EvalScore="500" autoRef="['20', ' 157', ' 73', ' 18']" citanceNum="31" citation="['203']"
+                    goldRef="['20']"/>
+    </Article>
+    <Article name="P98-2143">
+        <Annotation EvalScore="0" autoRef="['11', ' 90', ' 152', ' 155']" citanceNum="1" citation="['28','29']"
+                    goldRef="['154','155',156']"/>
+        <Annotation EvalScore="0" autoRef="['1', ' 152', ' 154', ' 3']" citanceNum="2" citation="['13']"
+                    goldRef="['15']"/>
+        <Annotation EvalScore="0" autoRef="['135', ' 3', ' 11', ' 152']" citanceNum="3" citation="['65']"
+                    goldRef="['15']"/>
+        <Annotation EvalScore="0" autoRef="['17', ' 11', ' 2', ' 76']" citanceNum="4" citation="['71','72','73']"
+                    goldRef="['15','18']"/>
+        <Annotation EvalScore="0" autoRef="['14', ' 93', ' 152', ' 17']" citanceNum="5" citation="['79']"
+                    goldRef="['16','25']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 8', ' 145', ' 10']" citanceNum="6" citation="['16','17']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="0" autoRef="['1', ' 8', ' 13', ' 119']" citanceNum="7" citation="['61']"
+                    goldRef="['19','47']"/>
+        <Annotation EvalScore="0" autoRef="['10', ' 11', ' 8', ' 153']" citanceNum="8" citation="['19']"
+                    goldRef="['15']"/>
+        <Annotation EvalScore="0" autoRef="['121', ' 76', ' 40', ' 59']" citanceNum="9" citation="['101']"
+                    goldRef="['58']"/>
+        <Annotation EvalScore="0" autoRef="['119', ' 148', ' 76', ' 98']" citanceNum="10" citation="['52']"
+                    goldRef="['23','24']"/>
+        <Annotation EvalScore="0" autoRef="['6', ' 8', ' 117', ' 152']" citanceNum="11" citation="['6','7']"
+                    goldRef="['93','94','115']"/>
+        <Annotation EvalScore="0" autoRef="['8', ' 69', ' 152', ' 11']" citanceNum="12" citation="['91']"
+                    goldRef="['24','25']"/>
+        <Annotation EvalScore="0" autoRef="['70', ' 154', ' 152', ' 10']" citanceNum="13" citation="['59']"
+                    goldRef="['15']"/>
+        <Annotation EvalScore="500" autoRef="['16', ' 69', ' 3', ' 17']" citanceNum="14" citation="['61','62']"
+                    goldRef="['15','16']"/>
+        <Annotation EvalScore="500" autoRef="['17', ' 148', ' 58', ' 98']" citanceNum="15" citation="['63']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="0" autoRef="['8', ' 106', ' 133', ' 86']" citanceNum="16" citation="['35']"
+                    goldRef="['16']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 8', ' 70', ' 10']" citanceNum="17" citation="['123']"
+                    goldRef="['96']"/>
+        <Annotation EvalScore="0" autoRef="['8', ' 11', ' 10', ' 12']" citanceNum="18" citation="['15']"
+                    goldRef="['16']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 8', ' 10', ' 1']" citanceNum="19" citation="['10']"
+                    goldRef="['154']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 14', ' 8', ' 10']" citanceNum="20" citation="['22','23']"
+                    goldRef="['154']"/>
+        <Annotation EvalScore="0" autoRef="['113', ' 145', ' 152', ' 8']" citanceNum="21" citation="['41']"
+                    goldRef="['154']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 86', ' 1', ' 8']" citanceNum="22" citation="['5']"
+                    goldRef="['93','113','114']"/>
+        <Annotation EvalScore="0" autoRef="['134', ' 135', ' 94', ' 52']" citanceNum="23" citation="['318']"
+                    goldRef="['16']"/>
+        <Annotation EvalScore="0" autoRef="['8', ' 15', ' 119', ' 98']" citanceNum="24" citation="['45']"
+                    goldRef="['94']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 8', ' 12', ' 6']" citanceNum="25" citation="['6']" goldRef="['8']"/>
+        <Annotation EvalScore="0" autoRef="['133', ' 13', ' 9', ' 11']" citanceNum="26" citation="['7','8']"
+                    goldRef="['154','155']"/>
+        <Annotation EvalScore="0" autoRef="['138', ' 11', ' 76', ' 119']" citanceNum="27" citation="['9','10','11']"
+                    goldRef="['1','2','154','155']"/>
+        <Annotation EvalScore="0" autoRef="['15', ' 152', ' 139', ' 11']" citanceNum="28" citation="['63']"
+                    goldRef="['154']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 86', ' 1', ' 8']" citanceNum="29" citation="['45']"
+                    goldRef="['15','155','156']"/>
+        <Annotation EvalScore="0" autoRef="['93', ' 155', ' 145', ' 153']" citanceNum="30" citation="['27']"
+                    goldRef="['16']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 1', ' 154', ' 98']" citanceNum="31" citation="['178']"
+                    goldRef="['3','6']"/>
+        <Annotation EvalScore="0" autoRef="['133', ' 135', ' 11', ' 8']" citanceNum="32" citation="['209']"
+                    goldRef="['15']"/>
+        <Annotation EvalScore="0" autoRef="['119', ' 3', ' 98', ' 17']" citanceNum="33" citation="['65']"
+                    goldRef="['154']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 119', ' 98', ' 148']" citanceNum="34" citation="['82']"
+                    goldRef="['3','5']"/>
+        <Annotation EvalScore="0" autoRef="['133', ' 134', ' 3', ' 108']" citanceNum="35" citation="['138']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="0" autoRef="['23', ' 52', ' 5', ' 11']" citanceNum="36" citation="['8']"
+                    goldRef="['154']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 10', ' 142', ' 130']" citanceNum="37" citation="['13']"
+                    goldRef="['3','5']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 8', ' 98', ' 15']" citanceNum="38" citation="['191']"
+                    goldRef="['25']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 1', ' 152', ' 10']" citanceNum="39" citation="['8']"
+                    goldRef="['15']"/>
+        <Annotation EvalScore="0" autoRef="['119', ' 98', ' 148', ' 17']" citanceNum="40" citation="['17']"
+                    goldRef="['13']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 8', ' 90', ' 10']" citanceNum="41" citation="['97']"
+                    goldRef="['25']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 10', ' 1', ' 152']" citanceNum="42" citation="['12']"
+                    goldRef="['16']"/>
+        <Annotation EvalScore="0" autoRef="['137', ' 69', ' 152', ' 11']" citanceNum="43" citation="['5']"
+                    goldRef="['15','16']"/>
+        <Annotation EvalScore="0" autoRef="['15', ' 70', ' 152', ' 11']" citanceNum="44" citation="['78']"
+                    goldRef="['155']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 10', ' 1', ' 2']" citanceNum="45" citation="['15']"
+                    goldRef="['25','64','65']"/>
+        <Annotation EvalScore="0" autoRef="['6', ' 147', ' 76', ' 88']" citanceNum="46" citation="['5','6','7']"
+                    goldRef="['15','16']"/>
+        <Annotation EvalScore="0" autoRef="['10', ' 11', ' 8', ' 134']" citanceNum="47" citation="['82','83']"
+                    goldRef="['154','155']"/>
+        <Annotation EvalScore="0" autoRef="['70', ' 11', ' 29', ' 69']" citanceNum="48" citation="['145']"
+                    goldRef="['154']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 152', ' 93', ' 119']" citanceNum="49" citation="['222']"
+                    goldRef="['154']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 1', ' 12', ' 8']" citanceNum="50" citation="['19']"
+                    goldRef="['0']"/>
+        <Annotation EvalScore="0" autoRef="['8', ' 145', ' 152', ' 10']" citanceNum="51" citation="['18']"
+                    goldRef="['154']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 1', ' 152', ' 98']" citanceNum="52" citation="['102']"
+                    goldRef="['63','64','65']"/>
+        <Annotation EvalScore="500" autoRef="['85', ' 11', ' 1', ' 10']" citanceNum="53" citation="['11']"
+                    goldRef="['85','139']"/>
+        <Annotation EvalScore="0" autoRef="['1', ' 88', ' 8', ' 11']" citanceNum="54" citation="['48']"
+                    goldRef="['15','16']"/>
+        <Annotation EvalScore="0" autoRef="['152', ' 5', ' 76', ' 98']" citanceNum="55" citation="['6']"
+                    goldRef="['15','16']"/>
+        <Annotation EvalScore="0" autoRef="['103', ' 133', ' 11', ' 138']" citanceNum="56" citation="['59']"
+                    goldRef="['3','5']"/>
+        <Annotation EvalScore="0" autoRef="['148', ' 2', ' 152', ' 98']" citanceNum="57" citation="['60']"
+                    goldRef="['25']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 1', ' 8', ' 10']" citanceNum="58" citation="['128']"
+                    goldRef="['98','99']"/>
+        <Annotation autoRef="" citanceNum="59" citation="['131']" goldRef="['12','13']"/>
+    </Article>
+    <Article name="W03-0410">
+        <Annotation EvalScore="0" autoRef="['120', ' 51', ' 9', ' 17']" citanceNum="1" citation="['9']"
+                    goldRef="['11']"/>
+        <Annotation EvalScore="0" autoRef="['11', ' 17', ' 51', ' 9']" citanceNum="2" citation="['25']"
+                    goldRef="['15']"/>
+        <Annotation EvalScore="0" autoRef="['9', ' 11', ' 17', ' 10']" citanceNum="3" citation="['70']"
+                    goldRef="['17']"/>
+        <Annotation EvalScore="0" autoRef="['17', ' 51', ' 131', ' 9']" citanceNum="4" citation="['17']"
+                    goldRef="['131']"/>
+        <Annotation EvalScore="0" autoRef="['228', ' 120', ' 51', ' 151']" citanceNum="5" citation="['38']"
+                    goldRef="['34']"/>
+        <Annotation EvalScore="0" autoRef="['51', ' 117', ' 120', ' 17']" citanceNum="6" citation="['40']"
+                    goldRef="['123']"/>
+        <Annotation EvalScore="0" autoRef="['17', ' 39', ' 120', ' 9']" citanceNum="7" citation="['54']"
+                    goldRef="['34','117']"/>
+        <Annotation EvalScore="0" autoRef="['178', ' 17', ' 51', ' 192']" citanceNum="8" citation="['82','83']"
+                    goldRef="['137']"/>
+        <Annotation EvalScore="0" autoRef="['39', ' 51', ' 192', ' 10']" citanceNum="9" citation="['167']"
+                    goldRef="['27']"/>
+        <Annotation EvalScore="0" autoRef="['188', ' 192', ' 228', ' 17']" citanceNum="10" citation="['168']"
+                    goldRef="['28']"/>
+        <Annotation EvalScore="0" autoRef="['192', ' 51', ' 120', ' 228']" citanceNum="11" citation="['169']"
+                    goldRef="['114']"/>
+        <Annotation EvalScore="0" autoRef="['151', ' 157', ' 142', ' 51']" citanceNum="12" citation="['397']"
+                    goldRef="['157']"/>
+        <Annotation EvalScore="0" autoRef="['27', ' 228', ' 10', ' 28']" citanceNum="13"
+                    citation="['586','587','588','589']" goldRef="['117','229','230']"/>
+        <Annotation EvalScore="0" autoRef="['10', ' 11', ' 51', ' 255']" citanceNum="14" citation="['52']"
+                    goldRef="['144']"/>
+        <Annotation EvalScore="0" autoRef="['151', ' 144', ' 171', ' 168']" citanceNum="15" citation="['124']"
+                    goldRef="['144']"/>
+        <Annotation EvalScore="0" autoRef="['51', ' 192', ' 120', ' 56']" citanceNum="16" citation="['143']"
+                    goldRef="['195']"/>
+        <Annotation EvalScore="500" autoRef="['11', ' 51', ' 120', ' 10']" citanceNum="17" citation="['11']"
+                    goldRef="['11']"/>
+        <Annotation EvalScore="0" autoRef="['39', ' 51', ' 120', ' 9']" citanceNum="18" citation="['75']"
+                    goldRef="['130']"/>
+        <Annotation EvalScore="0" autoRef="['51', ' 192', ' 27', ' 28']" citanceNum="19" citation="['125']"
+                    goldRef="['150','151']"/>
+        <Annotation EvalScore="0" autoRef="['39', ' 51', ' 22', ' 23']" citanceNum="20" citation="['39']"
+                    goldRef="['23']"/>
+        <Annotation EvalScore="0" autoRef="['9', ' 11', ' 34', ' 261']" citanceNum="21" citation="['7','8']"
+                    goldRef="['261']"/>
+        <Annotation EvalScore="0" autoRef="['192', ' 17', ' 120', ' 10']" citanceNum="22" citation="['13']"
+                    goldRef="['35','254']"/>
+        <Annotation EvalScore="0" autoRef="['51', ' 171', ' 39', ' 120']" citanceNum="23" citation="['118','119']"
+                    goldRef="['144']"/>
+        <Annotation EvalScore="0" autoRef="['9', ' 192', ' 17', ' 46']" citanceNum="24" citation="['80']"
+                    goldRef="['17']"/>
+    </Article>
+</System>

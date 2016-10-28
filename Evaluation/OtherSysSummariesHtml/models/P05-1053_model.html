@@ -1,0 +1,36 @@
+<html>
+<head><title>P05-1053_model</title> </head>
+<body bgcolor="white">
+<a name="0">[0]</a> <a href="#0" id=0>Exploring Various Knowledge in Relation Extraction</a>
+<a name="1">[1]</a> <a href="#1" id=1>This suggests that most of useful information in full parse trees for relation extraction is shallow and can be captured by chunking.</a>
+<a name="2">[2]</a> <a href="#2" id=2>Entities can be of five types: persons, organizations, locations, facilities and geopolitical entities (GPE: geographically defined regions that indicate a political boundary, e.g. countries, states, cities, etc.).</a>
+<a name="3">[3]</a> <a href="#3" id=3>This paper focuses on the ACE RDC task and employs diverse lexical, syntactic and semantic knowledge in feature-based relation extraction using Support Vector Machines (SVMs).</a>
+<a name="4">[4]</a> <a href="#4" id=4>Our study illustrates that the base phrase chunking information contributes to most of the performance inprovement from syntactic aspect while additional full parsing information does not contribute much, largely due to the fact that most of relations defined in ACE corpus are within a very short distance.</a>
+<a name="5">[5]</a> <a href="#5" id=5>Evaluation shows that the incorporation of diverse features enables our system achieve best reported performance.</a>
+<a name="6">[6]</a> <a href="#6" id=6>The relation extraction task was formulated at the 7th Message Understanding Conference (MUC7 1998) and is starting to be addressed more and more within the natural language processing and machine learning communities.</a>
+<a name="7">[7]</a> <a href="#7" id=7>Culotta et al (2004) extended this work to estimate kernel functions between augmented dependency trees and achieved 63.2 F-measure in relation detection and 45.8 F-measure in relation detection and classification on the 5 ACE relation types.</a>
+<a name="8">[8]</a> <a href="#8" id=8>Kambhatla (2004) employed Maximum Entropy models for relation extraction with features derived from word, entity type, mention level, overlap, dependency tree and parse tree.</a>
+<a name="9">[9]</a> <a href="#9" id=9>Tree kernel-based approaches proposed by Zelenko et al (2003) and Culotta et al (2004) are able to explore the implicit feature space without much feature engineering.</a>
+<a name="10">[10]</a> <a href="#10" id=10>This paper will further explore the feature-based approach with a systematic study on the extensive incorporation of diverse lexical, syntactic and semantic information.</a>
+<a name="11">[11]</a> <a href="#11" id=11>Moreover, we only apply the simple linear kernel, although other kernels can peform better.</a>
+<a name="12">[12]</a> <a href="#12" id=12>The reason why we choose SVMs for this purpose is that SVMs represent the state-of–the-art in the machine learning research community, and there are good implementations of the algorithm available.</a>
+<a name="13">[13]</a> <a href="#13" id=13>In this paper, we use the binary-class SVMLight2 deleveloped by Joachims (1998).</a>
+<a name="14">[14]</a> <a href="#14" id=14>The semantic relation is determined between two mentions.</a>
+<a name="15">[15]</a> <a href="#15" id=15>In addition, we distinguish the argument order of the two mentions (M1 for the first mention and M2 for the second mention), e.g. M1-Parent- Of-M2 vs. M2-Parent-Of-M1.</a>
+<a name="16">[16]</a> <a href="#16" id=16>For each pair of mentions3, we compute various lexical, syntactic and semantic features.</a>
+<a name="17">[17]</a> <a href="#17" id=17>This is done by replacing the pronominal mention with the most recent non-pronominal antecedent when determining the word features, which include: • WM1: bag-of-words in M1 • HM1: head word of M1 3 In ACE, each mention has a head annotation and an.</a>
+<a name="18">[18]</a> <a href="#18" id=18>extent annotation.</a>
+<a name="19">[19]</a> <a href="#19" id=19>This category of features includes information about the words, part-of-speeches and phrase labels of the words on which the mentions are dependent in the dependency tree derived from the syntactic full parse tree.</a>
+<a name="20">[20]</a> <a href="#20" id=20>This paper uses the ACE corpus provided by LDC to train and evaluate our feature-based relation extraction system.</a>
+<a name="21">[21]</a> <a href="#21" id=21>In this paper, we only model explicit relations because of poor inter-annotator agreement in the annotation of implicit relations and their limited number.</a>
+<a name="22">[22]</a> <a href="#22" id=22>ACE corpus suffers from a small amount of annotated data for a few subtypes such as the subtype “Founder” under the type “ROLE”.</a>
+<a name="23">[23]</a> <a href="#23" id=23>It also shows that the ACE RDC task defines some difficult sub- types such as the subtypes “Based-In”, “Located” and “Residence” under the type “AT”, which are difficult even for human experts to differentiate.</a>
+<a name="24">[24]</a> <a href="#24" id=24>In this way, we model relation extraction as a multi-class classification problem with 43 classes, two for each relation subtype (except the above 6 symmetric subtypes) and a “NONE” class for the case where the two mentions are not related.</a>
+<a name="25">[25]</a> <a href="#25" id=25>In this paper, we only measure the performance of relation extraction on “true” mentions with “true” chaining of coreference (i.e. as annotated by the corpus annotators) in the ACE corpus.</a>
+<a name="26">[26]</a> <a href="#26" id=26>It shows that our system achieves best performance of 63.1%/49.5%/ 55.5 in precision/recall/F-measure when combining diverse lexical, syntactic and semantic features.</a>
+<a name="27">[27]</a> <a href="#27" id=27>• Entity type features are very useful and improve the F-measure by 8.1 largely due to the recall increase.</a>
+<a name="28">[28]</a> <a href="#28" id=28>This is largely due to incorporation of two semantic resources, i.e. the country name list and the personal relative trigger word list.</a>
+<a name="29">[29]</a> <a href="#29" id=29>Instead of exploring the full parse tree information directly as previous related work, we incorporate the base phrase chunking information performance improvement from syntactic aspect while further incorporation of the parse tree and dependence tree information only slightly improves the performance.</a>
+<a name="30">[30]</a> <a href="#30" id=30>Second, it is well known that full parsing is always prone to long-distance parsing errors although the Collins’ parser used in our system achieves the state-of-the-art performance.</a>
+<a name="31">[31]</a> <a href="#31" id=31>Therefore, the state-of-art full parsing still needs to be further enhanced to provide accurate enough information, especially PP (Preposition Phrase) attachment.</a></body>
+</html>
