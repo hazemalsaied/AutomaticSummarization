@@ -1,10 +1,13 @@
+import copy
 import os
 import sys
 import xml.etree.ElementTree
 import xml.etree.ElementTree as ET
+from RougeNormalisation import RougeNormalisation
 
 from Experimentation.paper import Paper
 from Experimentation.sentence import Sentence
+from Experimentation.spanResult import SpanResultItem
 from Experimentation.termBank import TermBank
 from correction import Corrector
 from ducSummarizer import DucSummarizer
@@ -16,11 +19,12 @@ class CommunitySummarizer:
          Responsible of generating the model and peer summaries of the scisumm corpus in cosine similarity
     """
 
-    sourceCorpusPath = '/Users/hazemalsaied/RA/Corpus/Sci-Summ/'
-    corpusPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries/'
-    htmlCorpus = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries/SCISUMM-NonBinaryHtml/'
-    modelPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries/SCISUMM/models/'
-    peerPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries/systems/'
+    sourceCorpusPath = '/Users/hazemalsaied/RA/Corpus/Sci-Summ-Test/'
+    corpusPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries-Test/'
+    htmlCorpus = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries-Test/SCISUMM-NonBinaryHtml/'
+    modelPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries-Test/SCISUMM/models/'
+    peerPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries-Test/Summaries/systems/'
+    annotationsPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries-Test/Annotations/systems'
 
     @staticmethod
     def createAutodeterminedSummary():
@@ -51,7 +55,7 @@ class CommunitySummarizer:
                                 candidateSents.remove(sent2)
                     summary.append(sent1)
                     candidateSents.remove(sent1)
-                summary = sorted(summary,key=lambda Sentence: Sentence.getIndex())
+                summary = sorted(summary, key=lambda Sentence: Sentence.getIndex())
                 summ = DucSummarizer.generateSummaryText(summary)
                 print summ
 
@@ -101,7 +105,8 @@ class CommunitySummarizer:
                 print summ
 
     @staticmethod
-    def generatePeerCommunitySummary(getBinarySummaries=False, getMaxValue=False, forTerms=False, forWordsAndTerms=False):
+    def generatePeerCommunitySummary(getBinarySummaries=False, getMaxValue=False, forTerms=False,
+                                     forWordsAndTerms=False):
         """
             This method create the mpdel summaries using the cosine similarity approach.
              for each sentence of the citation we search for the most close sentence of the article
@@ -109,8 +114,11 @@ class CommunitySummarizer:
 
         if not os.path.exists(CommunitySummarizer.peerPath):
             os.makedirs(CommunitySummarizer.peerPath)
+        if not os.path.exists(CommunitySummarizer.annotationsPath):
+            os.makedirs(CommunitySummarizer.annotationsPath)
         for subdir, dirs, files in os.walk(CommunitySummarizer.sourceCorpusPath):
             for directory in dirs:
+                newAnnotationList = []
                 documentName = directory[:8]
                 referenceXmlPath = os.path.join(os.path.join(CommunitySummarizer.sourceCorpusPath, directory),
                                                 'Reference_XML/' + documentName + '.xml')
@@ -121,6 +129,8 @@ class CommunitySummarizer:
                     xMin = DucSummarizer.getXMin(TermBank.wordsBank.values())
                 summary = []
                 for ann in paper.getAnnotations():
+                    annSent = []
+                    spanResultList = []
                     if not ann.isValid:
                         print ann.citanceNumber + ' : Not valid annotation'
                         continue
@@ -130,12 +140,11 @@ class CommunitySummarizer:
                             if getBinarySummaries:
                                 distance = sent.getBinaryDistance(citSent, xMin)
                             else:
-                                distance = sent.getDis(citSent, getMaxValue=getMaxValue,
-                                                       forTerms=forTerms,forWordsAndTerms=forWordsAndTerms)  # sent.getDistance(citSent)
-                            ann.addSpanResultItem(distance, sent, citSent)
-                        sortedSpanResults = sorted(ann.spanResultList,
-                                                   key=lambda SpanResultItem: SpanResultItem.distance)
-
+                                distance = sent.getDis(citSent, getMaxValue=getMaxValue, forTerms=forTerms,forWordsAndTerms=forWordsAndTerms)  # sent.getDistance(citSent)
+                            spanResultList.append(SpanResultItem(distance, sent, citSent))
+                            # ann.addSpanResultItem(distance, sent, citSent)
+                        sortedSpanResults = sorted(spanResultList, key=lambda SpanResultItem: SpanResultItem.distance)
+                        annSent.extend(sortedSpanResults[:5])
                         sentNumm = len(ann.referenceSentencesDictionary.values())
                         idx = 1
                         for sortedSpanResult in sortedSpanResults:
@@ -144,16 +153,33 @@ class CommunitySummarizer:
                                 idx += 1
                                 if idx > sentNumm:
                                     break
+                    annSent = sorted(annSent, key=lambda SpanResultItem: SpanResultItem.distance)[:5]
+                    referenceOffset = []
+                    for annS in annSent:
+                        referenceOffset.append(annS.referenceSent.getIndex())
+                    annotation = copy.copy(ann)
+                    annotation.referenceOffset = str(referenceOffset)
+                    newAnnotationList.append(annotation)
 
-                        # for sortedSpanResult in sortedSpanResults:
-                        #     if sortedSpanResult.referenceSent not in summary:
-                        #         summary.append(sortedSpanResult.referenceSent)
-                        #         break
-                        # DucSummarizer.adjustWeights(sortedSpanResults[0].referenceSent, paper, WordsNumber=5)
+                CommunitySummarizer.writeAnnotations(newAnnotationList, documentName)
                 ff = open(os.path.join(CommunitySummarizer.peerPath, documentName + '_summary.md'), 'w+')
                 ff.write(DucSummarizer.generateSummaryText(summary))
                 ff.close()
             break
+
+    @staticmethod
+    def writeAnnotations(newAnnotationList, documentName):
+
+        result = ''
+        for ann in newAnnotationList:
+            result += 'Citance Number :' + str(ann.citanceNumber) + ' | '
+            result += 'Reference Article :' + str(ann.referenceArticle) + ' | '
+            result += 'Citing Article :' + str(ann.citingArticle) + ' | '
+            result += 'Citation Offset :' + str(ann.citationOffset) + ' | '
+            result += 'Reference Offset :' + str(ann.referenceOffset) + ' | \n\n'
+        ff = open(os.path.join(CommunitySummarizer.annotationsPath, documentName + '.annv3.txt'), 'w+')
+        ff.write(result)
+        ff.close()
 
     @staticmethod
     def testDIstance(getBinarySummaries=False):
@@ -555,10 +581,18 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 # CommunitySummarizer.detectNonValidAnnotations()
 # CommunitySummarizer.generateModelCommunitySummary()
-# CommunitySummarizer.generatePeerCommunitySummary(getBinarySummaries=True)
-CommunitySummarizer.normailzeSummaries()
+
+
+#CommunitySummarizer.generatePeerCommunitySummary(getBinarySummaries=True)
+
+
+# CommunitySummarizer.normailzeSummaries()
 # CommunitySummarizer.generateEvalXML()
 # CommunitySummarizer.getStatistics()
 
-#CommunitySummarizer.createAutodeterminedSummary()
-#CommunitySummarizer.createDemonstrativeSummary()
+# CommunitySummarizer.createAutodeterminedSummary()
+# CommunitySummarizer.createDemonstrativeSummary()
+
+readingPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries-Test/Summaries/systems'
+writingPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries-Test/SummariesHtml/system'
+RougeNormalisation.normailzeGraphSummaries(readingPath,writingPath)

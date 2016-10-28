@@ -1,4 +1,5 @@
-﻿Citance Number: 1  | Reference Article:  P05-1053.xml | Citing Article:  C08-1088.xml | Citation Marker Offset:  ['37'] | Citation Marker: 2005 | Citation Offset:  ['36'] | Citation Text:  <S sid ="36" ssid = "2">For those interested in feature-based methods, please refer to Zhou et al.</S>  | Reference Offset: [-1] | Reference Text: N.A. | Discourse Facet : N.A.
+﻿
+Citance Number: 1  | Reference Article:  P05-1053.xml | Citing Article:  C08-1088.xml | Citation Marker Offset:  ['37'] | Citation Marker: 2005 | Citation Offset:  ['36'] | Citation Text:  <S sid ="36" ssid = "2">For those interested in feature-based methods, please refer to Zhou et al.</S>  | Reference Offset: [-1] | Reference Text: N.A. | Discourse Facet : N.A.
 
 Citance Number: 2  | Reference Article:  P05-1053.xml | Citing Article:  C08-1088.xml | Citation Marker Offset:  ['15'] | Citation Marker:  2005 | Citation Offset:  ['15'] | Citation Text:  <S sid ="15" ssid = "15">However, detailed research (Zhou et al., 2005) shows that itâ€™s difficult to extract new effective features to further improve the extraction accuracy.</S>  | Reference Offset: [81] | Reference Text:<S sid="81" ssid="24">Normally, the above overlap features are too general to be effective alone.</S> | Discourse Facet : Method_Citation
 

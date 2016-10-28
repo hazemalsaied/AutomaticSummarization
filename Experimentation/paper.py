@@ -244,7 +244,7 @@ class Paper:
             :param paperPath: the path of the paper
         """
         annPathList = self.getPaperName().split('_')
-        annotationPath = '/Users/hazemalsaied/RA/Corpus/Sci-Summ/' + self.getPaperName() + '/annotation/' + annPathList[0] + '.annv3.txt'
+        annotationPath = '/Users/hazemalsaied/RA/Corpus/Sci-Summ-Test/' + self.getPaperName() + '/annotation/' + annPathList[0] + '.annv3.txt'
         try:
             annotationFile = open(annotationPath)
             self.__annotationPath = annotationPath
@@ -324,7 +324,7 @@ class Paper:
             if getName:
                 self.__paperName = item
                 break
-            if item == 'Sci-Summ':
+            if item == 'Sci-Summ-Test':
                 getName = True
 
     def getPaperName(self):

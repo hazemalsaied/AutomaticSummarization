@@ -2,7 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fea1f80-735b-44dd-b5ba-6253f8bf8d11" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Experimentation/RougeNormalisation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Experimentation/otherSys.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Experimentation/overLapEvaluation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system0_run_1_cos_bin.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/C00-2123.annv3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/C04-1089.annv3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/I05-5011.annv3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/J96-3004.annv3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/N06-2049.annv3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/P05-1004.annv3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/P05-1053.annv3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/P98-1046.annv3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/P98-2143.annv3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/sect-class-tsr/Task1/W03-0410.annv3.txt" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/summary/P98-1046.community" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-1046/summary/P98-1046.community.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/annotation/C00-2123.annv3.txt" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/annotation/C00-2123.annv3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/annotation/I05-5011.annv3.txt" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/annotation/I05-5011.annv3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Reference_XML/J96-3004.xml" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Reference_XML/J96-3004.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/annotation/J96-3004.annv3.txt" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/annotation/J96-3004.annv3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/annotation/N06-2049.annv3.txt" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/annotation/N06-2049.annv3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/annotation/P98-2143.annv3.txt" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/annotation/P98-2143.annv3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Corpus/Sci-Summ/C94-2154_TRAIN/summary/C94-2154.community.xml" afterPath="$PROJECT_DIR$/Corpus/Sci-Summ/C94-2154_TRAIN/summary/C94-2154.community.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/C00-2123.annv3.txt" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/C00-2123.annv3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/C04-1089.annv3.txt" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/C04-1089.annv3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/I05-5011.annv3.txt" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/I05-5011.annv3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/J96-3004.annv3.txt" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/J96-3004.annv3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/N06-2049.annv3.txt" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/N06-2049.annv3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P05-1004.annv3.txt" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P05-1004.annv3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P05-1053.annv3.txt" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P05-1053.annv3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P98-1046.annv3.txt" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P98-1046.annv3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P98-2143.annv3.txt" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P98-2143.annv3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/W03-0410.annv3.txt" afterPath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/W03-0410.annv3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Experimentation/annotation.py" afterPath="$PROJECT_DIR$/Experimentation/annotation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Experimentation/communitySummarizer.py" afterPath="$PROJECT_DIR$/Experimentation/communitySummarizer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Experimentation/paper.py" afterPath="$PROJECT_DIR$/Experimentation/paper.py" />
     </list>
     <ignored path="RA.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,44 +69,8 @@
       <file leaf-file-name="communitySummarizer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Experimentation/communitySummarizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7995">
-              <caret line="543" column="67" selection-start-line="543" selection-start-column="67" selection-end-line="543" selection-end-column="67" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="D0703A-A.scu" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Corpus/DUC2007/corpus/D0703A-A.scu">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
-              <folding>
-                <element signature="e#1298#1304#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tricontour.py" pinned="false" current-in-tab="false">
-        <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/matplotlib/tri/tricontour.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graphSummarizer.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Experimentation/graphSummarizer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="55">
+              <caret line="239" column="45" selection-start-line="239" selection-start-column="23" selection-end-line="239" selection-end-column="45" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -78,68 +78,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="powerlaw.py" pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Python/2.7/site-packages/powerlaw.py">
+      <file leaf-file-name="RougeNormalisation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Experimentation/RougeNormalisation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1545">
-              <caret line="104" column="42" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="42" />
+            <state relative-caret-position="100">
+              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="C04-1089.community.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/summary/C04-1089.community.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="23" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="word.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Experimentation/word.py">
+      <file leaf-file-name="C94-2154.community.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Corpus/Sci-Summ/C94-2154_TRAIN/summary/C94-2154.community.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="11" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utf_8.py" pinned="false" current-in-tab="false">
-        <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/encodings/utf_8.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sentence.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Experimentation/sentence.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8115">
-              <caret line="547" column="83" selection-start-line="547" selection-start-column="83" selection-end-line="547" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ducSummarizer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Experimentation/ducSummarizer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2475">
-              <caret line="175" column="8" selection-start-line="175" selection-start-column="8" selection-end-line="175" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Evaluation/GraphSummaries/readme.md">
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="135">
-                <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -152,28 +118,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Experimentation/correction.py" />
-        <option value="$PROJECT_DIR$/Experimentation/termBank.py" />
-        <option value="$PROJECT_DIR$/Evaluation/SingleDocSumm/DUC2007/readme.md" />
-        <option value="$PROJECT_DIR$/Experimentation/paper.py" />
-        <option value="$PROJECT_DIR$/Corpus/Sci-Summ/C90-2039_TRAIN/annotation/C90-2039.annv3.txt" />
-        <option value="$PROJECT_DIR$/Corpus/Sci-Summ/H89-2014_TRAIN/annotation/H89-2014.annv3.txt" />
-        <option value="$PROJECT_DIR$/Corpus/Sci-Summ/J00-3003_TRAIN/annotation/J00-3003.annv3.txt" />
-        <option value="$PROJECT_DIR$/Corpus/Sci-Summ/P98-1081_TRAIN/annotation/P98-1081.annv3.txt" />
-        <option value="$PROJECT_DIR$/Corpus/Sci-Summ/N01-1011_TRAIN/annotation/N01-1011.annv3.txt" />
-        <option value="$PROJECT_DIR$/Corpus/Sci-Summ/J98-2005_TRAIN/annotation/J98-2005.annv3.txt" />
-        <option value="$PROJECT_DIR$/Evaluation/CommunitySummaries/SCISUMM/readme.md" />
-        <option value="$PROJECT_DIR$/Evaluation/CommunitySummaries/sci-summ.xml" />
-        <option value="$PROJECT_DIR$/Experimentation/ducSummarizer.py" />
-        <option value="$PROJECT_DIR$/Evaluation/CommunitySummaries/summary.md" />
-        <option value="$PROJECT_DIR$/Evaluation/CommunitySummaries/demonstrativeSummary.md" />
-        <option value="$PROJECT_DIR$/Experimentation/word.py" />
-        <option value="$PROJECT_DIR$/Evaluation/SingleDocSumm/duc2007.xml" />
-        <option value="$PROJECT_DIR$/Evaluation/GraphSummaries/readme.md" />
-        <option value="$PROJECT_DIR$/Experimentation/sentence.py" />
-        <option value="$PROJECT_DIR$/Experimentation/graphSummarizer.py" />
+        <option value="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/Reference_XML/J96-3004.xml" />
+        <option value="$PROJECT_DIR$/Corpus/Sci-Summ-Test/C00-2123/annotation/C00-2123.annv3.txt" />
+        <option value="$PROJECT_DIR$/Corpus/Sci-Summ-Test/I05-5011/annotation/I05-5011.annv3.txt" />
+        <option value="$PROJECT_DIR$/Corpus/Sci-Summ-Test/P98-2143/annotation/P98-2143.annv3.txt" />
+        <option value="$PROJECT_DIR$/Corpus/Sci-Summ-Test/N06-2049/annotation/N06-2049.annv3.txt" />
+        <option value="$PROJECT_DIR$/Corpus/Sci-Summ-Test/J96-3004/annotation/J96-3004.annv3.txt" />
+        <option value="$PROJECT_DIR$/Experimentation/annotation.py" />
+        <option value="$PROJECT_DIR$/Evaluation/result.md" />
+        <option value="$PROJECT_DIR$/Evaluation/System16_Default.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/C00-2123.annv3.txt" />
+        <option value="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/J96-3004.annv3.txt" />
+        <option value="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/N06-2049.annv3.txt" />
+        <option value="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P05-1004.annv3.txt" />
+        <option value="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P05-1053.annv3.txt" />
+        <option value="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P98-1046.annv3.txt" />
+        <option value="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P98-2143.annv3.txt" />
+        <option value="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/W03-0410.annv3.txt" />
+        <option value="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/I05-5011.annv3.txt" />
+        <option value="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/C04-1089.annv3.txt" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System16_Default.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System5_Default.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System8_Fusion Method.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System8_Jaccard Cascade Method.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System6_Default.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System8_Jaccard Focused Method.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System8_SVM Method.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System8_Voting Method1.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System8_Voting Method2.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System9_modified-tsr.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System9_tsr-sent-class.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System10_run1_one_line.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System10_run2_one_line.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System12_Default.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System13_Default.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System15_tfidf+st+sl.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System15_Tkern1-1.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System15_Tkern1-1ce.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System15_Tkern1-4.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System15_Tkern1-4ce.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System15_Tkern1-8.xml" />
+        <option value="$PROJECT_DIR$/Evaluation/XmlBank/System15_Tkern1-8ce.xml" />
+        <option value="$PROJECT_DIR$/Experimentation/generateOtherSystemsSummaries.py" />
+        <option value="$PROJECT_DIR$/Experimentation/overLapEvaluation.py" />
+        <option value="$PROJECT_DIR$/Experimentation/otherSys.py" />
+        <option value="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Annotations/systems/C00-2123.annv3.txt" />
+        <option value="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Summaries/systems/C04-1089_summary.md" />
         <option value="$PROJECT_DIR$/Experimentation/communitySummarizer.py" />
-        <option value="$PROJECT_DIR$/Corpus/DUC2007/corpus/D0703A-A.scu" />
+        <option value="$PROJECT_DIR$/system0_run_1_cos_bin.xml" />
+        <option value="$PROJECT_DIR$/Corpus/Sci-Summ/C94-2154_TRAIN/summary/C94-2154.community.xml" />
+        <option value="$PROJECT_DIR$/Experimentation/RougeNormalisation.py" />
+        <option value="$PROJECT_DIR$/Evaluation/RougeXmls/system0_run_1_cos_bin.xml" />
       </list>
     </option>
   </component>
@@ -184,10 +179,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
-    <option name="y" value="45" />
-    <option name="width" value="1409" />
-    <option name="height" value="793" />
+    <option name="y" value="23" />
+    <option name="width" value="1434" />
+    <option name="height" value="857" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -232,24 +226,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Corpus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,61 +238,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager" selected="Python.communitySummarizer">
-    <configuration default="false" name="word" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Experimentation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="RA" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Experimentation/word.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ducSummarizer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Experimentation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="RA" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Experimentation/ducSummarizer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="termBank" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Experimentation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="RA" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Experimentation/termBank.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Evaluation" />
+      <recent name="$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml" />
+      <recent name="$PROJECT_DIR$/Evaluation/OtherSys" />
+      <recent name="$PROJECT_DIR$/Evaluation/temp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.RougeNormalisation">
     <configuration default="false" name="communitySummarizer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -349,55 +287,58 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+    <configuration default="false" name="overLapEvaluation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Experimentation" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="RA" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Experimentation/overLapEvaluation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+    <configuration default="false" name="generateOtherSystemsSummaries" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Experimentation" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="RA" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Experimentation/otherSys.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+    <configuration default="false" name="RougeNormalisation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Experimentation" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="RA" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Experimentation/RougeNormalisation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -429,22 +370,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <module name="RA" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -558,19 +483,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.word" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ducSummarizer" />
-      <item index="2" class="java.lang.String" itemvalue="Python.termBank" />
-      <item index="3" class="java.lang.String" itemvalue="Python.communitySummarizer" />
-      <item index="4" class="java.lang.String" itemvalue="Python.graphSummarizer" />
+      <item index="0" class="java.lang.String" itemvalue="Python.communitySummarizer" />
+      <item index="1" class="java.lang.String" itemvalue="Python.graphSummarizer" />
+      <item index="2" class="java.lang.String" itemvalue="Python.overLapEvaluation" />
+      <item index="3" class="java.lang.String" itemvalue="Python.generateOtherSystemsSummaries" />
+      <item index="4" class="java.lang.String" itemvalue="Python.RougeNormalisation" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.communitySummarizer" />
-        <item index="1" class="java.lang.String" itemvalue="Python.graphSummarizer" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ducSummarizer" />
-        <item index="3" class="java.lang.String" itemvalue="Python.termBank" />
-        <item index="4" class="java.lang.String" itemvalue="Python.word" />
+        <item index="0" class="java.lang.String" itemvalue="Python.RougeNormalisation" />
+        <item index="1" class="java.lang.String" itemvalue="Python.communitySummarizer" />
+        <item index="2" class="java.lang.String" itemvalue="Python.generateOtherSystemsSummaries" />
+        <item index="3" class="java.lang.String" itemvalue="Python.overLapEvaluation" />
+        <item index="4" class="java.lang.String" itemvalue="Python.graphSummarizer" />
       </list>
     </recent_temporary>
   </component>
@@ -595,30 +520,37 @@
       <option name="project" value="LOCAL" />
       <updated>1476545828590</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Publiciation exxperiementation">
+      <created>1476547960884</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1476547960884</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="45" width="1409" height="793" extended-state="0" />
+    <frame x="0" y="23" width="1434" height="857" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25931337" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25388968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25273922" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2510608" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4051355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39215687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -639,6 +571,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Experimentation/RougeNormalisation.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -649,395 +588,461 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="133" />
+      <option name="time" value="218" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Corpus/Sci-Summ/C94-2154_TRAIN/annotation/C94-2154.annv3.txt">
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System15_Tkern1-8/C00-2123_sum.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Corpus/Sci-Summ/X96-1048_TRAIN/annotation/X96-1048.annv3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Corpus/Sci-Summ/P98-1081_TRAIN/annotation/P98-1081.annv3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Corpus/Sci-Summ/N01-1011_TRAIN/annotation/N01-1011.annv3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="397" selection-start-line="12" selection-start-column="397" selection-end-line="12" selection-end-column="397" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Corpus/Sci-Summ/J98-2005_TRAIN/annotation/J98-2005.annv2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Corpus/Sci-Summ/H89-2014_TRAIN/annotation/H89-2014.annv3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="26" column="388" selection-start-line="26" selection-start-column="388" selection-end-line="26" selection-end-column="388" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Corpus/Sci-Summ/H05-1115_TRAIN/annotation/H05-1115.annv3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Corpus/Sci-Summ/E03-1020_TRAIN/annotation/E03-1020.annv3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="27" column="207" selection-start-line="27" selection-start-column="207" selection-end-line="27" selection-end-column="207" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Corpus/Sci-Summ/J98-2005_TRAIN/annotation/J98-2005.annv3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="36" column="284" selection-start-line="36" selection-start-column="284" selection-end-line="36" selection-end-column="284" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2016.2/python_stubs/-2125986627/__builtin__.py" />
-    <entry file="file://$PROJECT_DIR$/Evaluation/SingleDocSumm/StatisticsD0703_statistics.csv" />
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/genericpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/nltk/compat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="559" column="0" selection-start-line="559" selection-start-column="0" selection-end-line="559" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/nltk/corpus/reader/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/nltk/corpus/reader/wordlist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/nltk/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="312" column="0" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Evaluation/CommunitySummaries/Statistics/C94-2154_TRAIN_statistics.csv">
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method2/P05-1053_sum.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experimentation/termBank.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experimentation/paper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="255" column="50" selection-start-line="255" selection-start-column="50" selection-end-line="255" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Corpus/Sci-Summ/C90-2039_TRAIN/annotation/C90-2039.annv3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="462" selection-start-line="9" selection-start-column="462" selection-end-line="9" selection-end-column="462" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Corpus/Sci-Summ/C90-2039_TRAIN/summary/C90-2039.community.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="74" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Evaluation/CommunitySummaries111/1/SCISUMMHtml/models/C90-2039_model.html" />
-    <entry file="file://$PROJECT_DIR$/Evaluation/CommunitySummaries/SCISUMM/readme.md" />
-    <entry file="file://$PROJECT_DIR$/Evaluation/CommunitySummaries/1/systems/C90-2039_summary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Evaluation/CommunitySummaries/sci-summ.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Evaluation/CommunitySummaries/summary.md">
-      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Evaluation/CommunitySummaries/demonstrativeSummary.md">
-      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Corpus/Sci-Summ/E03-1020_TRAIN/Reference_XML/E03-1020-correction.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1435">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Evaluation/SingleDocSumm/DUC2007/readme.md">
-      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Evaluation/SingleDocSumm/duc2007.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Corpus/Sci-Summ/J00-3003_TRAIN/annotation/J00-3003.annv3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="21" column="420" selection-start-line="21" selection-start-column="420" selection-end-line="21" selection-end-column="420" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Evaluation/CommunitySummaries/readme.md">
-      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/numpy/linalg/linalg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="1923" column="0" selection-start-line="1923" selection-start-column="0" selection-end-line="1923" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/scipy/spatial/distance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="286" column="0" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Evaluation/GraphSummaries/1/systems/C90-2039_Gsummary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Evaluation/GraphSummaries/systems/C90-2039_Gsummary.md">
-      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Evaluation/GraphSummaries/2/systems/C90-2039_Gsummary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Result/matchingResult.md">
-      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experimentation/correction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Corpus/C90-2039_TRAIN/annotation/xmlC90-2039_TRAIN.xml" />
-    <entry file="file://$PROJECT_DIR$/Experimentation/annotation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/encodings/utf_8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Experimentation/word.py">
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System8_Voting Method2/C04-1089_sum.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Evaluation/GraphSummaries/readme.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_modified-tsr/P05-1004_sum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_modified-tsr/C00-2123_sum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="17" column="72" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Summaries/systems/C00-2123_summary.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="135">
-            <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Experimentation/ducSummarizer.py">
+    <entry file="file://$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Annotations/systems/C00-2123.annv3.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2475">
-          <caret line="175" column="8" selection-start-line="175" selection-start-column="8" selection-end-line="175" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Summaries/systems/C04-1089_summary.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/encodings/utf_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experimentation/termBank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Experimentation/sentence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8115">
-          <caret line="547" column="83" selection-start-line="547" selection-start-column="83" selection-end-line="547" selection-end-column="83" />
+        <state relative-caret-position="145">
+          <caret line="554" column="0" selection-start-line="554" selection-start-column="0" selection-end-line="554" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/matplotlib/tri/tricontour.py">
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/system0_run_1_cos_bin/C00-2123_summary.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/powerlaw.py">
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/system0_run_1_cos_bin/C04-1089_summary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="104" column="42" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="42" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/system0_run_1_cos_bin/I05-5011_summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/system0_run_1_cos_bin/J96-3004_summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/system0_run_1_cos_bin/P05-1004_summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/system0_run_1_cos_bin/P05-1053_summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/system0_run_1_cos_bin/W03-0410_summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/system0_run_1_cos_bin/P98-2143_summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/system0_run_1_cos_bin/P98-1046_summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/system0_run_1_cos_bin/N06-2049_summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/models/C90-2039_model.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/CommunitySummaries/sci-summ.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="108" column="9" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/all/System5_Default#W03-0410_sum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/all/System5_Default#P98-2143_sum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/all/System5_Default#P98-1046_sum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/all/System5_Default#P05-1053_sum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/all/System5_Default#P05-1004_sum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/all/System5_Default#N06-2049_sum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/all/System5_Default#J96-3004_sum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/all/System5_Default#I05-5011_sum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/all/System5_Default#C04-1089_sum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/all/System5_Default#C00-2123_sum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system0_run_1_cos_bin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/xml/etree/ElementTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="1505" column="0" selection-start-line="1505" selection-start-column="0" selection-end-line="1505" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Corpus/Sci-Summ/C94-2154_TRAIN/summary/C94-2154.community.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Experimentation/communitySummarizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7995">
-          <caret line="543" column="67" selection-start-line="543" selection-start-column="67" selection-end-line="543" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Corpus/DUC2007/corpus/D0703A-A.scu">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
-          <folding>
-            <element signature="e#1298#1304#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experimentation/graphSummarizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="55">
+          <caret line="239" column="45" selection-start-line="239" selection-start-column="23" selection-end-line="239" selection-end-column="45" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Corpus/Sci-Summ-Test/C04-1089/summary/C04-1089.community.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSys/Gold/Default/Task1/C00-2123.annv3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummaries/models/I05-5011_model.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-173">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummaries/System8_Voting Method2/C00-2123_sum.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummaries/models/C00-2123_model.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummaries/models/N06-2049_model.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummaries/models/C04-1089_model.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/System9_tsr-sent-class/C00-2123_sum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/models/C00-2123_model.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="62" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/OtherSysSummariesHtml/models/I05-5011_model.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation/RougeXmls/system0_run_1_cos_bin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1177">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experimentation/RougeNormalisation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>

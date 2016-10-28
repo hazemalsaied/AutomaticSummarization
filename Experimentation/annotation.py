@@ -12,7 +12,7 @@ class Annotation:
          Every object of this class represent a line of the annotation file
     """
 
-    def __init__(self, annotationText, paper):
+    def __init__(self, annotationText, paper=None):
         self.query = []
         self.spanResultList = []
         self.isValid = True
@@ -39,6 +39,10 @@ class Annotation:
                 self.referenceArticle = content
             elif title == 'Citing Article':
                 self.citingArticle = content
+            elif title == 'Citation Offset':
+                self.citationOffset= content
+            elif title == 'Reference Offset':
+                self.referenceOffset= content
             elif title == 'Citation Marker':
                 self.citationMarker = content
             elif title == 'Citation Text':
