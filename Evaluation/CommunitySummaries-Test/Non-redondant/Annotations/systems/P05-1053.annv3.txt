@@ -1,0 +1,142 @@
+Citance Number :1 | Reference Article :P05-1053.xml | Citing Article :C08-1088.xml | Citation Offset :['36','37'] | Reference Offset :[0, 4, 5, 6, 7] | 
+
+Citance Number :2 | Reference Article :P05-1053.xml | Citing Article :C08-1088.xml | Citation Offset :['15'] | Reference Offset :[81, 134, 136, 138, 163] | 
+
+Citance Number :3 | Reference Article :P05-1053.xml | Citing Article :C08-1088.xml | Citation Offset :['180'] | Reference Offset :[51, 15, 32, 46, 33] | 
+
+Citance Number :4 | Reference Article :P05-1053.xml | Citing Article :C10-1018.xml | Citation Offset :['12'] | Reference Offset :[81, 130, 134, 136, 138] | 
+
+Citance Number :5 | Reference Article :P05-1053.xml | Citing Article :C10-1018.xml | Citation Offset :['42'] | Reference Offset :[15, 81, 134, 136, 138] | 
+
+Citance Number :6 | Reference Article :P05-1053.xml | Citing Article :C10-1018.xml | Citation Offset :['45'] | Reference Offset :[81, 134, 136, 138, 131] | 
+
+Citance Number :7 | Reference Article :P05-1053.xml | Citing Article :C10-1064.xml | Citation Offset :['10'] | Reference Offset :[30, 39, 6, 5, 17] | 
+
+Citance Number :8 | Reference Article :P05-1053.xml | Citing Article :D07-1076.xml | Citation Offset :['14'] | Reference Offset :[97, 193, 195, 93, 31] | 
+
+Citance Number :9 | Reference Article :P05-1053.xml | Citing Article :D07-1076.xml | Citation Offset :['14'] | Reference Offset :[4, 4, 5, 193, 211] | 
+
+Citance Number :10 | Reference Article :P05-1053.xml | Citing Article :D07-1076.xml | Citation Offset :['161'] | Reference Offset :[32, 51, 210, 164, 193] | 
+
+Citance Number :11 | Reference Article :P05-1053.xml | Citing Article :D07-1076.xml | Citation Offset :['166','167'] | Reference Offset :[77, 77, 80, 80, 62] | 
+
+Citance Number :12 | Reference Article :P05-1053.xml | Citing Article :D07-1076.xml | Citation Offset :['176','177'] | Reference Offset :[51, 51, 32, 32, 33] | 
+
+Citance Number :13 | Reference Article :P05-1053.xml | Citing Article :D09-1149.xml | Citation Offset :['9'] | Reference Offset :[6, 5, 45, 52, 191] | 
+
+Citance Number :14 | Reference Article :P05-1053.xml | Citing Article :D09-1149.xml | Citation Offset :['53'] | Reference Offset :[36, 78, 60, 79, 195] | 
+
+Citance Number :15 | Reference Article :P05-1053.xml | Citing Article :D09-1149.xml | Citation Offset :['81'] | Reference Offset :[141, 109, 160, 6, 194] | 
+
+Citance Number :16 | Reference Article :P05-1053.xml | Citing Article :D12-1074.xml | Citation Offset :['100'] | Reference Offset :[31, 36, 40, 41, 7] | 
+
+Citance Number :17 | Reference Article :P05-1053.xml | Citing Article :E06-2012.xml | Citation Offset :['59'] | Reference Offset :[0, 29, 167, 2, 126] | 
+
+Citance Number :18 | Reference Article :P05-1053.xml | Citing Article :E12-1020.xml | Citation Offset :['54'] | Reference Offset :[81, 134, 136, 138, 81] | 
+
+Citance Number :19 | Reference Article :P05-1053.xml | Citing Article :E12-1020.xml | Citation Offset :['109'] | Reference Offset :[39, 158, 163, 211, 218] | 
+
+Citance Number :21 | Reference Article :P05-1053.xml | Citing Article :E12-1020.xml | Citation Offset :['224','225'] | Reference Offset :[224, 224, 6, 6, 5] | 
+
+Citance Number :22 | Reference Article :P05-1053.xml | Citing Article :I08-1004.xml | Citation Offset :['10'] | Reference Offset :[192, 216, 0, 29, 167] | 
+
+Citance Number :23 | Reference Article :P05-1053.xml | Citing Article :N06-1037.xml | Citation Offset :['9'] | Reference Offset :[130, 36, 132, 81, 131] | 
+
+Citance Number :24 | Reference Article :P05-1053.xml | Citing Article :N06-1037.xml | Citation Offset :['31','32'] | Reference Offset :[163, 163, 195, 195, 0] | 
+
+Citance Number :25 | Reference Article :P05-1053.xml | Citing Article :N06-1037.xml | Citation Offset :['35','36'] | Reference Offset :[81, 134, 136, 138, 81] | 
+
+Citance Number :26 | Reference Article :P05-1053.xml | Citing Article :N06-1037.xml | Citation Offset :['38'] | Reference Offset :[97, 37, 140, 195, 143] | 
+
+Citance Number :27 | Reference Article :P05-1053.xml | Citing Article :N06-1037.xml | Citation Offset :['135','136'] | Reference Offset :[81, 134, 136, 138, 81] | 
+
+Citance Number :28 | Reference Article :P05-1053.xml | Citing Article :N06-1037.xml | Citation Offset :['137'] | Reference Offset :[22, 23, 110, 167, 166] | 
+
+Citance Number :29 | Reference Article :P05-1053.xml | Citing Article :N07-1015.xml | Citation Offset :['12'] | Reference Offset :[81, 134, 136, 138, 131] | 
+
+Citance Number :30 | Reference Article :P05-1053.xml | Citing Article :N07-1015.xml | Citation Offset :['33','34'] | Reference Offset :[163, 0, 29, 167, 195] | 
+
+Citance Number :31 | Reference Article :P05-1053.xml | Citing Article :N07-1015.xml | Citation Offset :['117'] | Reference Offset :[78, 12, 107, 102, 59] | 
+
+Citance Number :32 | Reference Article :P05-1053.xml | Citing Article :N07-1015.xml | Citation Offset :['122','123','124'] | Reference Offset :[81, 134, 136, 138, 81] | 
+
+Citance Number :33 | Reference Article :P05-1053.xml | Citing Article :N07-1015.xml | Citation Offset :['130','131','132'] | Reference Offset :[81, 134, 136, 138, 81] | 
+
+Citance Number :34 | Reference Article :P05-1053.xml | Citing Article :N09-3012.xml | Citation Offset :['7'] | Reference Offset :[36, 2, 195, 130, 163] | 
+
+Citance Number :35 | Reference Article :P05-1053.xml | Citing Article :N13-1093.xml | Citation Offset :['72','73'] | Reference Offset :[81, 134, 136, 138, 131] | 
+
+Citance Number :36 | Reference Article :P05-1053.xml | Citing Article :N13-1093.xml | Citation Offset :['107','108'] | Reference Offset :[51, 32, 54, 56, 33] | 
+
+Citance Number :38 | Reference Article :P05-1053.xml | Citing Article :N13-1093.xml | Citation Offset :['112','113'] | Reference Offset :[47, 47, 49, 49, 0] | 
+
+Citance Number :39 | Reference Article :P05-1053.xml | Citing Article :N13-1095.xml | Citation Offset :['6'] | Reference Offset :[192, 216, 0, 29, 167] | 
+
+Citance Number :40 | Reference Article :P05-1053.xml | Citing Article :P06-1016.xml | Citation Offset :['13'] | Reference Offset :[192, 216, 0, 29, 167] | 
+
+Citance Number :41 | Reference Article :P05-1053.xml | Citing Article :P06-1016.xml | Citation Offset :['18'] | Reference Offset :[39, 30, 6, 5, 14] | 
+
+Citance Number :42 | Reference Article :P05-1053.xml | Citing Article :P06-1016.xml | Citation Offset :['29','30'] | Reference Offset :[6, 6, 5, 5, 45] | 
+
+Citance Number :43 | Reference Article :P05-1053.xml | Citing Article :P06-1016.xml | Citation Offset :['45'] | Reference Offset :[166, 6, 36, 117, 132] | 
+
+Citance Number :44 | Reference Article :P05-1053.xml | Citing Article :P06-1016.xml | Citation Offset :['128'] | Reference Offset :[110, 126, 59, 166, 22] | 
+
+Citance Number :45 | Reference Article :P05-1053.xml | Citing Article :P06-1017.xml | Citation Offset :['6'] | Reference Offset :[6, 5, 45, 52, 224] | 
+
+Citance Number :46 | Reference Article :P05-1053.xml | Citing Article :P06-1017.xml | Citation Offset :['198','199'] | Reference Offset :[5, 5, 6, 6, 17] | 
+
+Citance Number :48 | Reference Article :P05-1053.xml | Citing Article :P06-1017.xml | Citation Offset :['206','207'] | Reference Offset :[81, 134, 136, 138, 81] | 
+
+Citance Number :49 | Reference Article :P05-1053.xml | Citing Article :P06-1104.xml | Citation Offset :['35'] | Reference Offset :[192, 216, 0, 29, 167] | 
+
+Citance Number :50 | Reference Article :P05-1053.xml | Citing Article :P06-1104.xml | Citation Offset :['39'] | Reference Offset :[36, 81, 131, 134, 136] | 
+
+Citance Number :51 | Reference Article :P05-1053.xml | Citing Article :P06-2012.xml | Citation Offset :['5'] | Reference Offset :[5, 6, 30, 45, 224] | 
+
+Citance Number :52 | Reference Article :P05-1053.xml | Citing Article :P08-2023.xml | Citation Offset :['29','30'] | Reference Offset :[15, 15, 77, 92, 18] | 
+
+Citance Number :53 | Reference Article :P05-1053.xml | Citing Article :P09-1113.xml | Citation Offset :['39'] | Reference Offset :[130, 212, 36, 160, 132] | 
+
+Citance Number :54 | Reference Article :P05-1053.xml | Citing Article :P09-1113.xml | Citation Offset :['50','51','52'] | Reference Offset :[40, 40, 40, 40, 191] | 
+
+Citance Number :55 | Reference Article :P05-1053.xml | Citing Article :P09-1114.xml | Citation Offset :['23','24','25'] | Reference Offset :[163, 163, 0, 29, 30] | 
+
+Citance Number :56 | Reference Article :P05-1053.xml | Citing Article :P09-1114.xml | Citation Offset :['7'] | Reference Offset :[6, 163, 195, 166, 0] | 
+
+Citance Number :57 | Reference Article :P05-1053.xml | Citing Article :P11-1053.xml | Citation Offset :['10'] | Reference Offset :[6, 5, 36, 224, 131] | 
+
+Citance Number :58 | Reference Article :P05-1053.xml | Citing Article :P11-1053.xml | Citation Offset :['80','81'] | Reference Offset :[81, 134, 136, 138, 81] | 
+
+Citance Number :59 | Reference Article :P05-1053.xml | Citing Article :P11-1053.xml | Citation Offset :['85','86'] | Reference Offset :[81, 134, 136, 138, 81] | 
+
+Citance Number :60 | Reference Article :P05-1053.xml | Citing Article :P11-1053.xml | Citation Offset :['193'] | Reference Offset :[191, 21, 109, 141, 164] | 
+
+Citance Number :61 | Reference Article :P05-1053.xml | Citing Article :P11-1056.xml | Citation Offset :['11'] | Reference Offset :[40, 37, 39, 0, 4] | 
+
+Citance Number :62 | Reference Article :P05-1053.xml | Citing Article :P11-1056.xml | Citation Offset :['58'] | Reference Offset :[59, 66, 58, 71, 95] | 
+
+Citance Number :63 | Reference Article :P05-1053.xml | Citing Article :P11-3012.xml | Citation Offset :['34'] | Reference Offset :[81, 134, 136, 138, 131] | 
+
+Citance Number :64 | Reference Article :P05-1053.xml | Citing Article :P11-3012.xml | Citation Offset :['47'] | Reference Offset :[19, 42, 81, 97, 134] | 
+
+Citance Number :66 | Reference Article :P05-1053.xml | Citing Article :P13-1147.xml | Citation Offset :['167'] | Reference Offset :[86, 92, 70, 81, 83] | 
+
+Citance Number :67 | Reference Article :P05-1053.xml | Citing Article :W06-1634.xml | Citation Offset :['9'] | Reference Offset :[6, 5, 45, 15, 52] | 
+
+Citance Number :68 | Reference Article :P05-1053.xml | Citing Article :W06-1634.xml | Citation Offset :['17'] | Reference Offset :[40, 37, 39, 0, 4] | 
+
+Citance Number :69 | Reference Article :P05-1053.xml | Citing Article :W06-1667.xml | Citation Offset :['8'] | Reference Offset :[30, 6, 5, 0, 29] | 
+
+Citance Number :70 | Reference Article :P05-1053.xml | Citing Article :W06-1667.xml | Citation Offset :['174'] | Reference Offset :[77, 93, 97, 102, 195] | 
+
+Citance Number :71 | Reference Article :P05-1053.xml | Citing Article :W08-0602.xml | Citation Offset :['39'] | Reference Offset :[0, 4, 5, 6, 7] | 
+
+Citance Number :72 | Reference Article :P05-1053.xml | Citing Article :W08-0602.xml | Citation Offset :['136'] | Reference Offset :[81, 134, 136, 138, 131] | 
+
+Citance Number :73 | Reference Article :P05-1053.xml | Citing Article :W11-1101.xml | Citation Offset :['203'] | Reference Offset :[81, 134, 136, 138, 131] | 
+
+Citance Number :74 | Reference Article :P05-1053.xml | Citing Article :W11-1101.xml | Citation Offset :['10'] | Reference Offset :[195, 163, 37, 143, 166] | 
+
+Citance Number :75 | Reference Article :P05-1053.xml | Citing Article :W11-1815.xml | Citation Offset :['10'] | Reference Offset :[14, 10, 30, 5, 17] | 
+

@@ -1,0 +1,28 @@
+Citance Number :1 | Reference Article :P05-1004.xml | Citing Article :C10-2101.xml | Citation Offset :['74'] | Reference Offset :[47, 43, 71, 202, 192] | 
+
+Citance Number :2 | Reference Article :P05-1004.xml | Citing Article :E09-1045.xml | Citation Offset :['23'] | Reference Offset :[71, 192, 171, 73, 202] | 
+
+Citance Number :3 | Reference Article :P05-1004.xml | Citing Article :J07-4005.xml | Citation Offset :['229'] | Reference Offset :[14, 2, 171, 31, 41] | 
+
+Citance Number :4 | Reference Article :P05-1004.xml | Citing Article :J09-3004.xml | Citation Offset :['446'] | Reference Offset :[446, 7, 14, 15, 24] | 
+
+Citance Number :5 | Reference Article :P05-1004.xml | Citing Article :N06-1017.xml | Citation Offset :['26'] | Reference Offset :[10, 16, 170, 149, 1] | 
+
+Citance Number :6 | Reference Article :P05-1004.xml | Citing Article :N06-1017.xml | Citation Offset :['189'] | Reference Offset :[148, 110, 87, 109, 23] | 
+
+Citance Number :7 | Reference Article :P05-1004.xml | Citing Article :N07-1024.xml | Citation Offset :['83'] | Reference Offset :[149, 19, 10, 16, 170] | 
+
+Citance Number :8 | Reference Article :P05-1004.xml | Citing Article :P12-2050.xml | Citation Offset :['15'] | Reference Offset :[2, 47, 225, 2, 123] | 
+
+Citance Number :9 | Reference Article :P05-1004.xml | Citing Article :S07-1032.xml | Citation Offset :['16'] | Reference Offset :[71, 192, 73, 171, 202] | 
+
+Citance Number :10 | Reference Article :P05-1004.xml | Citing Article :S10-1090.xml | Citation Offset :['16'] | Reference Offset :[71, 192, 171, 73, 202] | 
+
+Citance Number :11 | Reference Article :P05-1004.xml | Citing Article :S12-1011.xml | Citation Offset :['6'] | Reference Offset :[10, 16, 170, 9, 50] | 
+
+Citance Number :12 | Reference Article :P05-1004.xml | Citing Article :S12-1011.xml | Citation Offset :['50'] | Reference Offset :[47, 202, 44, 212, 43] | 
+
+Citance Number :13 | Reference Article :P05-1004.xml | Citing Article :S12-1023.xml | Citation Offset :['234'] | Reference Offset :[210, 10, 16, 170, 13] | 
+
+Citance Number :14 | Reference Article :P05-1004.xml | Citing Article :W06-1670.xml | Citation Offset :['94'] | Reference Offset :[47, 202, 212, 44, 43] | 
+

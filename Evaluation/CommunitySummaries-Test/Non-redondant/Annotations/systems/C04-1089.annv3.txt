@@ -1,0 +1,34 @@
+Citance Number :1 | Reference Article :C04-1089.xml | Citing Article :C10-1070.xml | Citation Offset :['78','79'] | Reference Offset :[124, 128, 143, 124, 128] | 
+
+Citance Number :2 | Reference Article :C04-1089.xml | Citing Article :C10-2164.xml | Citation Offset :['15'] | Reference Offset :[12, 4, 17, 49, 135] | 
+
+Citance Number :3 | Reference Article :C04-1089.xml | Citing Article :D10-1042.xml | Citation Offset :['53','54'] | Reference Offset :[11, 212, 12, 8, 8] | 
+
+Citance Number :4 | Reference Article :C04-1089.xml | Citing Article :D12-1003.xml | Citation Offset :['38'] | Reference Offset :[164, 16, 133, 13, 36] | 
+
+Citance Number :5 | Reference Article :C04-1089.xml | Citing Article :D12-1003.xml | Citation Offset :['68'] | Reference Offset :[134, 18, 135, 170, 36] | 
+
+Citance Number :6 | Reference Article :C04-1089.xml | Citing Article :N09-1048.xml | Citation Offset :['15'] | Reference Offset :[12, 49, 4, 135, 133] | 
+
+Citance Number :7 | Reference Article :C04-1089.xml | Citing Article :N09-1048.xml | Citation Offset :['50'] | Reference Offset :[135, 81, 3, 85, 173] | 
+
+Citance Number :8 | Reference Article :C04-1089.xml | Citing Article :P06-1011.xml | Citation Offset :['147'] | Reference Offset :[185, 16, 13, 24, 208] | 
+
+Citance Number :9 | Reference Article :C04-1089.xml | Citing Article :P13-1059.xml | Citation Offset :['208'] | Reference Offset :[208, 185, 13, 212, 12] | 
+
+Citance Number :10 | Reference Article :C04-1089.xml | Citing Article :P13-1062.xml | Citation Offset :['163','164'] | Reference Offset :[83, 83, 81, 81, 94] | 
+
+Citance Number :11 | Reference Article :C04-1089.xml | Citing Article :P13-1107.xml | Citation Offset :['212'] | Reference Offset :[212, 208, 13, 185, 12] | 
+
+Citance Number :12 | Reference Article :C04-1089.xml | Citing Article :P13-2036.xml | Citation Offset :['7'] | Reference Offset :[170, 169, 17, 173, 0] | 
+
+Citance Number :13 | Reference Article :C04-1089.xml | Citing Article :P13-2036.xml | Citation Offset :['8'] | Reference Offset :[47, 46, 107, 123, 27] | 
+
+Citance Number :14 | Reference Article :C04-1089.xml | Citing Article :W11-1215.xml | Citation Offset :['38'] | Reference Offset :[185, 208, 13, 49, 24] | 
+
+Citance Number :15 | Reference Article :C04-1089.xml | Citing Article :W11-2206.xml | Citation Offset :['185'] | Reference Offset :[185, 208, 13, 49, 24] | 
+
+Citance Number :16 | Reference Article :C04-1089.xml | Citing Article :W13-2501.xml | Citation Offset :['23'] | Reference Offset :[49, 13, 208, 185, 21] | 
+
+Citance Number :17 | Reference Article :C04-1089.xml | Citing Article :W13-2512.xml | Citation Offset :['66'] | Reference Offset :[140, 72, 21, 212, 143] | 
+

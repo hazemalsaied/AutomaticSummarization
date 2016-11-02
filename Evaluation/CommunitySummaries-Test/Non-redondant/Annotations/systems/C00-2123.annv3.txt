@@ -1,0 +1,40 @@
+Citance Number :1 | Reference Article :C00-2123.xml | Citing Article :C02-1050.xml | Citation Offset :['41'] | Reference Offset :[0, 1, 5, 6, 7] | 
+
+Citance Number :2 | Reference Article :C00-2123.xml | Citing Article :C02-1050.xml | Citation Offset :['8'] | Reference Offset :[6, 5, 52, 170, 84] | 
+
+Citance Number :3 | Reference Article :C00-2123.xml | Citing Article :C02-1050.xml | Citation Offset :['43'] | Reference Offset :[157, 158, 192, 85, 148] | 
+
+Citance Number :4 | Reference Article :C00-2123.xml | Citing Article :C02-1050.xml | Citation Offset :['80'] | Reference Offset :[172, 190, 118, 94, 113] | 
+
+Citance Number :5 | Reference Article :C00-2123.xml | Citing Article :C04-1091.xml | Citation Offset :['22'] | Reference Offset :[169, 189, 191, 14, 122] | 
+
+Citance Number :6 | Reference Article :C00-2123.xml | Citing Article :E06-1004.xml | Citation Offset :['22'] | Reference Offset :[30, 30, 118, 118, 10] | 
+
+Citance Number :7 | Reference Article :C00-2123.xml | Citing Article :H01-1062.xml | Citation Offset :['113'] | Reference Offset :[157, 158, 171, 148, 191] | 
+
+Citance Number :8 | Reference Article :C00-2123.xml | Citing Article :J03-1005.xml | Citation Offset :['115','117'] | Reference Offset :[170, 170, 84, 84, 157] | 
+
+Citance Number :9 | Reference Article :C00-2123.xml | Citing Article :J04-2003.xml | Citation Offset :['35'] | Reference Offset :[52, 11, 32, 96, 9] | 
+
+Citance Number :10 | Reference Article :C00-2123.xml | Citing Article :J04-2003.xml | Citation Offset :['235'] | Reference Offset :[0, 1, 5, 6, 7] | 
+
+Citance Number :11 | Reference Article :C00-2123.xml | Citing Article :J04-4002.xml | Citation Offset :['282'] | Reference Offset :[34, 37, 39, 83, 101] | 
+
+Citance Number :12 | Reference Article :C00-2123.xml | Citing Article :N03-1010.xml | Citation Offset :['16'] | Reference Offset :[125, 168, 170, 175, 177] | 
+
+Citance Number :13 | Reference Article :C00-2123.xml | Citing Article :P01-1027.xml | Citation Offset :['127'] | Reference Offset :[54, 85, 157, 158, 47] | 
+
+Citance Number :14 | Reference Article :C00-2123.xml | Citing Article :P03-1039.xml | Citation Offset :['113'] | Reference Offset :[170, 21, 169, 7, 189] | 
+
+Citance Number :15 | Reference Article :C00-2123.xml | Citing Article :P03-1039.xml | Citation Offset :['120'] | Reference Offset :[35, 10, 6, 36, 19] | 
+
+Citance Number :16 | Reference Article :C00-2123.xml | Citing Article :W01-0505.xml | Citation Offset :['13'] | Reference Offset :[0, 1, 5, 6, 7] | 
+
+Citance Number :17 | Reference Article :C00-2123.xml | Citing Article :W01-1404.xml | Citation Offset :['5'] | Reference Offset :[35, 10, 19, 36, 7] | 
+
+Citance Number :18 | Reference Article :C00-2123.xml | Citing Article :W01-1407.xml | Citation Offset :['110'] | Reference Offset :[169, 189, 191, 98, 14] | 
+
+Citance Number :19 | Reference Article :C00-2123.xml | Citing Article :W01-1408.xml | Citation Offset :['47'] | Reference Offset :[119, 123, 137, 139, 165] | 
+
+Citance Number :20 | Reference Article :C00-2123.xml | Citing Article :W02-1020.xml | Citation Offset :['61','62'] | Reference Offset :[170, 170, 10, 10, 68] | 
+
