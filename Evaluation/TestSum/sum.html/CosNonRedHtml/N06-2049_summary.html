@@ -1,0 +1,34 @@
+<html>
+<head><title>N06-2049_summary</title> </head>
+<body bgcolor="white">
+<a name="0">[0]</a> <a href="#0" id=0>2 Table 5 Segmentation performance presented in previous work and of our combination model . </a>
+<a name="1">[1]</a> <a href="#1" id=1>Table 1 shows the performance of the dictionary-based segmentation . </a>
+<a name="2">[2]</a> <a href="#2" id=2>CRF + Rule system represents a combination of CRF model and rule based model presented in Zhang et al . </a>
+<a name="3">[3]</a> <a href="#3" id=3>Best 0 5 represents the best system of the Second International Chinese Word Segmentation Bakeoff on the corresponding data ; CRF + rule-system represents confidence- based combination of CRF and rule-based models , presented in Zhang et al . </a>
+<a name="4">[4]</a> <a href="#4" id=4>In addition , we found a clear weakness with the IOB tagging approach : It yields a very low in-vocabulary ( IV ) rate ( R-iv ) in return for a higher out-of-vocabulary ( OOV ) rate ( R-oov ) . </a>
+<a name="5">[5]</a> <a href="#5" id=5>The effect of the confidence measure is shown in Table 3 , where we used Î± = 0.7 and confidence threshold t = 0.8 . </a>
+<a name="6">[6]</a> <a href="#6" id=6>We found the former achieved better performance than the existing character-based tagging, and the latter improved segmentation further by combining the former with a dictionary-based segmentation.</a>
+<a name="7">[7]</a> <a href="#7" id=7>using the FMM , and then labeled with âIOBâ tags by the CRFs . </a>
+<a name="8">[8]</a> <a href="#8" id=8>0 means the current word ; â1 â2 the first or second word to the left ; 1 , 2 , the first or second word to the right . </a>
+<a name="9">[9]</a> <a href="#9" id=9>Since it was a closed test , some information such as Arabic and Chinese number and alphabetical letters can not be used . </a>
+<a name="10">[10]</a> <a href="#10" id=10>It is composed of three parts : a dictionary-based N-gram word segmentation for segmenting IV words , a subword- based tagging by the CRF for recognizing OOVs , and a confidence-dependent word segmentation used for merging the results of both the dictionary-based and the IOB tagging . </a>
+<a name="11">[11]</a> <a href="#11" id=11>Detailed descriptions about sub word tagging by CRF can be found in our paper ( Zhang et al. , 2006 ) . </a>
+<a name="12">[12]</a> <a href="#12" id=12>A confidence measure threshold , t , was defined for making a decision based on the value . </a>
+<a name="13">[13]</a> <a href="#13" id=13>The confidence measure comes from two sources : IOB tagging and dictionary- based word segmentation . </a>
+<a name="14">[14]</a> <a href="#14" id=14>We found a speed up both in training and test . </a>
+<a name="15">[15]</a> <a href="#15" id=15>Note a lexicon and a LM are the only needed resources for building a dictionary-based CWS , like the Ã¢â¬Ådict-hybrid.Ã¢â¬Â ( Zhang et al. , 2006 ) We used the Ã¢â¬Ådict-hybridÃ¢â¬Â to segment the SMT training corpus and test data . </a>
+<a name="16">[16]</a> <a href="#16" id=16>Section 4 describes current state- of-the-art methods for Chinese word segmentation , with which our results were compared . </a>
+<a name="17">[17]</a> <a href="#17" id=17>After the dictionary- based word segmentation , the words are re-segmented into sub words by FMM before being fed to IOB tagging . </a>
+<a name="18">[18]</a> <a href="#18" id=18>For the subword-based tagging , we added another 2000 most frequent multiple- character words to the lexicons for tagging . </a>
+<a name="19">[19]</a> <a href="#19" id=19>In this work , we proposed a subword-based IOB tagging method for Chinese word segmentation . </a>
+<a name="20">[20]</a> <a href="#20" id=20>Our word segmentation process is illustrated in Fig . </a>
+<a name="21">[21]</a> <a href="#21" id=21>It was first used in Chinese word segmentation by ( Xue and Shen , 2003 ) , where maximum entropy methods were used . </a>
+<a name="22">[22]</a> <a href="#22" id=22>We chose the three models that achieved at least one best score in the closed tests from Emerson ( 2005 ) , as well as the sub-word-based model of Zhang et al . </a>
+<a name="23">[23]</a> <a href="#23" id=23>For the character-based tagging , we used all the Chinese characters . </a>
+<a name="24">[24]</a> <a href="#24" id=24>In the followings , we illustrate our word segmentation process in Section 2 , where the subword-based tagging is implemented by the CRFs method . </a>
+<a name="25">[25]</a> <a href="#25" id=25>Subword-based Tagging by Conditional Random Fields for Chinese Word Segmentation</a>
+<a name="26">[26]</a> <a href="#26" id=26>The character-based âIOBâ tagging approach has been widely used in Chinese word segmentation recently ( Xue and Shen , 2003 ; Peng and McCallum , 2004 ; Tseng et al. , 2005 ) . </a>
+<a name="27">[27]</a> <a href="#27" id=27>We proposed two approaches to improve Chinese word segmentation a subword-based tagging and a confidence measure approach.</a>
+<a name="28">[28]</a> <a href="#28" id=28>In addition, the latter can be used to balance out-of-vocabulary rates and in-vocabulary rates.</a>
+<a name="29">[29]</a> <a href="#29" id=29>We proposed two approaches to improve Chinese word segmentation : a subword-based tagging and a confidence measure approach . </a></body>
+</html>

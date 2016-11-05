@@ -23,8 +23,8 @@ class CommunitySummarizer:
     corpusPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries-Test/'
     htmlCorpus = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries-Test/SCISUMM-NonBinaryHtml/'
     modelPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries-Test/SCISUMM/models/'
-    peerPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries-Test/Summaries/systems/'
-    annotationsPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries-Test/Annotations/systems'
+    peerPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries-Test/Summaries-Redondant/systems/'
+    annotationsPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries-Test/Annotations-Redondant/systems'
 
     @staticmethod
     def createAutodeterminedSummary():
@@ -114,11 +114,11 @@ class CommunitySummarizer:
 
         if not os.path.exists(CommunitySummarizer.peerPath):
             os.makedirs(CommunitySummarizer.peerPath)
-        if not os.path.exists(CommunitySummarizer.annotationsPath):
-            os.makedirs(CommunitySummarizer.annotationsPath)
+        #if not os.path.exists(CommunitySummarizer.annotationsPath):
+        #    os.makedirs(CommunitySummarizer.annotationsPath)
         for subdir, dirs, files in os.walk(CommunitySummarizer.sourceCorpusPath):
             for directory in dirs:
-                newAnnotationList = []
+                #newAnnotationList = []
                 documentName = directory[:8]
                 referenceXmlPath = os.path.join(os.path.join(CommunitySummarizer.sourceCorpusPath, directory),
                                                 'Reference_XML/' + documentName + '.xml')
@@ -127,13 +127,11 @@ class CommunitySummarizer:
                 paper = Paper(newPath, isDucFile=False)
                 if getBinarySummaries:
                     xMin = DucSummarizer.getXMin(TermBank.wordsBank.values())
-                summary = []
+                nonRedSummary = []
+                redSummary = []
                 for ann in paper.getAnnotations():
                     annSent = []
                     spanResultList = []
-                    if not ann.isValid:
-                        print ann.citanceNumber + ' : Not valid annotation'
-                        continue
                     for citId, citSent in ann.citingSentencesDictionary.iteritems():
                         Corrector.correctSentence(citSent, paperText)
                         for idx, sent in TermBank.sentenceBank.iteritems():
@@ -144,27 +142,29 @@ class CommunitySummarizer:
                             spanResultList.append(SpanResultItem(distance, sent, citSent))
                             # ann.addSpanResultItem(distance, sent, citSent)
                         sortedSpanResults = sorted(spanResultList, key=lambda SpanResultItem: SpanResultItem.distance)
-                        annSent.extend(sortedSpanResults[:5])
-                        sentNumm = len(ann.referenceSentencesDictionary.values())
-                        idx = 1
+                        #annSent.extend(sortedSpanResults[:5])
+                        redSummary.append(sortedSpanResults[0].referenceSent)
                         for sortedSpanResult in sortedSpanResults:
-                            if sortedSpanResult.referenceSent not in summary:
-                                summary.append(sortedSpanResult.referenceSent)
-                                idx += 1
-                                if idx > sentNumm:
-                                    break
-                    annSent = sorted(annSent, key=lambda SpanResultItem: SpanResultItem.distance)[:5]
-                    referenceOffset = []
-                    for annS in annSent:
-                        referenceOffset.append(annS.referenceSent.getIndex())
-                    annotation = copy.copy(ann)
-                    annotation.referenceOffset = str(referenceOffset)
-                    newAnnotationList.append(annotation)
+                            if sortedSpanResult.referenceSent not in nonRedSummary:
+                                nonRedSummary.append(sortedSpanResult.referenceSent)
+                                break
+                #     annSent = sorted(annSent, key=lambda SpanResultItem: SpanResultItem.distance)[:5]
+                #     referenceOffset = []
+                #     for annS in annSent:
+                #         referenceOffset.append(annS.referenceSent.getIndex())
+                #     annotation = copy.copy(ann)
+                #     annotation.referenceOffset = str(referenceOffset)
+                #     newAnnotationList.append(annotation)
+                #
+                # CommunitySummarizer.writeAnnotations(newAnnotationList, documentName)
+                #ff = open(os.path.join(CommunitySummarizer.peerPath, documentName + '_red_sum.md'), 'w+')
+                #ff.write(DucSummarizer.generateSummaryText(redSummary))
+                #ff.close()
 
-                CommunitySummarizer.writeAnnotations(newAnnotationList, documentName)
-                ff = open(os.path.join(CommunitySummarizer.peerPath, documentName + '_summary.md'), 'w+')
-                ff.write(DucSummarizer.generateSummaryText(summary))
-                ff.close()
+                nonRedff = open(os.path.join(CommunitySummarizer.peerPath, documentName + '_nonRed_sum.md'), 'w+')
+                nonRedff.write(DucSummarizer.generateSummaryText(nonRedSummary))
+                nonRedff.close()
+
             break
 
     @staticmethod
@@ -583,7 +583,7 @@ sys.setdefaultencoding('utf8')
 # CommunitySummarizer.generateModelCommunitySummary()
 
 
-#CommunitySummarizer.generatePeerCommunitySummary(getBinarySummaries=True)
+CommunitySummarizer.generatePeerCommunitySummary(getBinarySummaries=True)
 
 
 # CommunitySummarizer.normailzeSummaries()
@@ -593,6 +593,6 @@ sys.setdefaultencoding('utf8')
 # CommunitySummarizer.createAutodeterminedSummary()
 # CommunitySummarizer.createDemonstrativeSummary()
 
-readingPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries-Test/Summaries/systems'
-writingPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries-Test/SummariesHtml/system'
-RougeNormalisation.normailzeGraphSummaries(readingPath,writingPath)
+#readingPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries-Test/Summaries/systems'
+#writingPath = '/Users/hazemalsaied/RA/Evaluation/CommunitySummaries-Test/SummariesHtml/system'
+#RougeNormalisation.normailzeGraphSummaries(readingPath,writingPath)

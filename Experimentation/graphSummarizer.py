@@ -16,11 +16,11 @@ class GraphSummarizer:
 
     """
 
-    sourceCorpusPath = '/Users/hazemalsaied/RA/Corpus/Sci-Summ'
+    sourceCorpusPath = '/Users/hazemalsaied/RA/Corpus/Sci-Summ-Test'
     corpusPath = '/Users/hazemalsaied/RA/Evaluation/GraphSummaries/'
     htmlCorpus = '/Users/hazemalsaied/RA/Evaluation/GraphSummaries/html'
     modelPath = '/Users/hazemalsaied/RA/Evaluation/GraphSummaries/models/'
-    peerPath = '/Users/hazemalsaied/RA/Evaluation/GraphSummaries/systems/'
+    peerPath = '/Users/hazemalsaied/RA/Evaluation/GraphSummaries-test/systems/'
 
     # dictionary for storing the edges, the key is a list of lemmas of the edge.
     graph = {}
@@ -47,7 +47,8 @@ class GraphSummarizer:
                 # GraphSummarizer.buildGraph()
                 # sortedEdges = sorted(GraphSummarizer.graph.values(), key=lambda Edge: Edge.score, reverse=True)
                 # GraphSummarizer.importanceRatio = GraphSummarizer.getXMin(sortedEdges)
-                summary = []
+                nonRedSummary = []
+                redondantSummary = []
                 traitedLemmas = []
                 for ann in paper.getAnnotations():
 
@@ -113,20 +114,21 @@ class GraphSummarizer:
                                 if distance < 1:  # sent.getDistance(citSent)
                                     ann.addSpanResultItem(distance, sent, citSent)
 
-                        sortedSpanResults = sorted(ann.spanResultList,
-                                                   key=lambda SpanResultItem: SpanResultItem.distance)
-                        sentNumm = len(ann.referenceSentencesDictionary.values())
-                        idx = 1
-                        for sortedSpanResult in sortedSpanResults:
-                            if sortedSpanResult.referenceSent not in summary:
-                                summary.append(sortedSpanResult.referenceSent)
-                                idx += 1
-                                if idx > sentNumm:
+                        sortedSpanResults = sorted(ann.spanResultList,key=lambda SpanResultItem: SpanResultItem.distance)
+                        if sortedSpanResults is not None and len(sortedSpanResults) > 0:
+                            redondantSummary.append(sortedSpanResults[0].referenceSent)
+                            for sortedSpanResult in sortedSpanResults:
+                                if sortedSpanResult.referenceSent not in nonRedSummary:
+                                    nonRedSummary.append(sortedSpanResult.referenceSent)
                                     break
-                                    # DucSummarizer.adjustWeights(sortedSpanResults[0].referenceSent, paper, WordsNumber=7)
-                ff = open(os.path.join(GraphSummarizer.peerPath, documentName + '_Gsummary.md'), 'w+')
-                ff.write(DucSummarizer.generateSummaryText(summary))
+                ff = open(os.path.join(GraphSummarizer.peerPath, documentName + 'nonRed_sum.md'), 'w+')
+                ff.write(DucSummarizer.generateSummaryText(nonRedSummary))
                 ff.close()
+
+                ffRed = open(os.path.join(GraphSummarizer.peerPath, documentName + '_red_sum.md'), 'w+')
+                ffRed.write(DucSummarizer.generateSummaryText(redondantSummary))
+                ffRed.close()
+
             break
 
     @staticmethod
@@ -449,15 +451,12 @@ class GraphSummarizer:
         DucSummarizer.getSentencesWeights(referencePaper)
 
         for ann in referencePaper.getAnnotations():
-            print '#Analyzing the annotation :' + str(ann.citanceNumber) + '\n'
-            print '##Reference Sentences: \n'
             sentIdx = '{ '
             sentIdxList = []
             for sent in ann.referenceSentences:
                 sentIdx += str(sent.getIndex()) + ', '
                 sentIdxList.append(sent.getIndex())
             sentIdx = sentIdx[:-1] + ' }'
-            print sentIdx + '\n\n'
 
             for sent in ann.citingSentences:
                 for term in sent.getTerms():
@@ -470,10 +469,6 @@ class GraphSummarizer:
                         ann.query.append(brotherWord)
 
             for word in ann.query:
-                if word.isPertinent():
-                    print '**' + word.getText() + '** : '
-                else:
-                    print word.getText()
                 sentIdx = '['
                 sortedSent = sorted(word.getSentences(), key=lambda Sentence: Sentence.getWeight(), reverse=True)
                 for sent in sortedSent[:10]:
@@ -482,7 +477,6 @@ class GraphSummarizer:
                     else:
                         sentIdx += str(sent.getIndex()) + ', '
                 sentIdx = sentIdx[:-1] + ']' + '\n\n'
-                print sentIdx
 
 
 class Edge:

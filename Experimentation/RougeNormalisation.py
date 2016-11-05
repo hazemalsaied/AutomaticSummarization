@@ -6,7 +6,7 @@ from sentence import Sentence
 
 class RougeNormalisation:
     @staticmethod
-    def normailzeGraphSummaries(readingFolder, writingFolder):
+    def normailzeSummaries(readingFolder, writingFolder):
 
         if not os.path.exists(writingFolder):
             os.makedirs(writingFolder)
@@ -149,14 +149,34 @@ class RougeNormalisation:
 #writingFolder = '/Users/hazemalsaied/RA/Evaluation/OtherSysSummariesHtml/all'
 #RougeNormalisation.renamePeerSummaries(readingFolder, writingFolder)
 
-#readingFolder = '/Users/hazemalsaied/RA/Evaluation/OtherSysSummaries/models'
-#writingFolder = '/Users/hazemalsaied/RA/Evaluation/OtherSysSummariesHtml/models'
-#RougeNormalisation.normailzeGraphSummaries(readingFolder,writingFolder)
+readingFolder = '/Users/hazemalsaied/RA/Evaluation/TestSum'
+writingFolder = '/Users/hazemalsaied/RA/Evaluation/TestSum'
+#RougeNormalisation.normailzeSummaries(readingFolder,writingFolder)
+
+# for root, folders, files in os.walk(readingFolder):
+#     for folder in folders:
+#         for r, folds, fils in os.walk(os.path.join(readingFolder, folder)):
+#             for file in fils:
+#                 old = os.path.join(os.path.join(readingFolder, folder), file)
+#                 subNew = os.path.join(readingFolder, folder + '1')
+#                 if not os.path.exists(subNew):
+#                     os.makedirs(subNew)
+#                 new = os.path.join(subNew,file.split('_')[0] + '_summary.md')
+#               os.rename(old, new)
+
+
+for root, folders, files in os.walk(readingFolder):
+    for folder in folders:
+        tempReadingFolder = os.path.join(readingFolder, folder)
+        tempWritingFolder = os.path.join(writingFolder, folder + 'Html')
+        RougeNormalisation.normailzeSummaries(tempReadingFolder,tempWritingFolder )
+    break
+
 
 #writingFolder = '/Users/hazemalsaied/RA/Evaluation/OtherSysSummaries/models'
 #readingFolder = '/Users/hazemalsaied/RA/Corpus/Sci-Summ-Test/'
 #RougeNormalisation.generateModelSummary(readingFolder,writingFolder)
 
-readingFolder = '/Users/hazemalsaied/RA/Evaluation/OtherSysSummariesHtml'
-writingFolder = '/Users/hazemalsaied/RA/Evaluation/RougeXmls'
-RougeNormalisation.generateEvalXML(readingFolder,writingFolder )
+#readingFolder = '/Users/hazemalsaied/RA/Evaluation/OtherSysSummariesHtml'
+#writingFolder = '/Users/hazemalsaied/RA/Evaluation/RougeXmls'
+#RougeNormalisation.generateEvalXML(readingFolder,writingFolder )

@@ -132,8 +132,6 @@ class Sentence:
                     if word.getFMeasure():
                         wordWeight = max(word.getFMeasure().values())
                 else:
-                    print word.getText()
-                    print word.getFMeasure()
                     wordWeight = word.getFMeasure()[self.getSection().getIndex()]
                 self.__weight += wordWeight
         if counter is not 0:
@@ -359,9 +357,6 @@ class Sentence:
                 word = TermBank.termsBank[word.getLemma()]
             else:
                 word = TermBank.wordsBank[word.getLemma()]
-            print bag
-            print word.getTempfMeasure()
-            print word.getText()
             if not secIdx:
                 fmeasure = max(self.getValue(isTempFMeasure, word).values())
             else:

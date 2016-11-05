@@ -1,0 +1,93 @@
+The Chinese person-name model is a modified version of that described in Sproat et al . 
+A Brief Introduction to the Chinese Writing System Most readers will undoubtedly be at least somewhat familiar with the nature of the Chinese writing system , but there are enough common misunderstandings that it is as well to spend a few paragraphs on properties of the Chinese script that will be relevant to topics discussed in this paper . 
+Lexical-knowledge-based approaches that include statistical information generally presume that one starts with all possible segmentations of a sentence , and picks the best segmentation from the set of possible segmentations using a probabilistic or costÂ­ based scoring mechanism . 
+Thus , if one wants to segment words-for any purpose-from Chinese sentences , one faces a more difficult task than one does in English since one can not use spacing as a guide . 
+Indeed , as we shall show in Section 5 , even human judges differ when presented with the task of segmenting a text into words , so a definition of the criteria used to determine that a given segmentation is correct is crucial before one can interpret such measures . 
+A Stochastic Finite-State Word-Segmentation Algorithm for Chinese
+While it may not be totally impossible to fully incorporate such knowledge and heuristics into the general framework of path evaluation and searching , they are apÃÂ­ apparently employed neither in Sproat et al . 
+For a language like English , this problem is generally regarded as trivial since words are delimited in English text by whitespace or marks of punctuation . 
+16 As one reviewer points out , one problem with the epigram model chosen here is that there is still a. tendency to pick a segmentation containing fewer words . 
+Furthermore , even the size of the dictionary per se is less important than the appropriateness of the lexicon to a particular test corpus : as Fung and Wu ( 1994 ) have shown , one can obtain substantially better segmentation by tailoring the lexicon to the corpus to be segmented . 
+It has been shown for English ( Wang and Hirschberg 1992 ; Hirschberg 1993 ; Sproat 1994 , inter aria that grammatical part of speech provides useful information for these tasks . 
+There is a sizable literature on Chinese word segmentation : recent reviews include Wang , Su , and Mo ( 1990 ) and Wu and Tseng ( 1993 ) . 
+There are thus some very good reasons why segmentation into words is an important task . 
+We will evaluate various specific aspects of the segmentation , as well as the overall segmentation perÂ­ performance . 
+Any NLP application that presumes as input unrestricted text requires an initial phase of text analysis ; such applications involve problems as diverse as machine translation , information retrieval , and text-to-speech synthesis ( TIS ) . 
+The family name set is restricted : there are a few hundred single-hanzi family names , and about ten double-hanzi ones . 
+Purely statistical approaches have not been very popular , and so far as we are aware earlier work by Sproat and Shih ( 1990 ) is the only published instance of such an approach . 
+Methods that allow multiple segmentations must provide criteria for choosing the best segmentation . 
+Raphael A ren 2 ' is a fairly uncontroversial case of a monograph word , and replica ( middle country ) 'China ' a fairly uncontroversial case of a diÂ­ grapheme word . 
+For eight judges , ranging k between 1 and 8 corresponded to a precision score range of 90 % to 30 % , meaning that there were relatively few words ( 30 % of those found by the automatic segmented on which all judges agreed , whereas most of the words found by the segmented such that one human judge agreed . 
+The three solemnization definitions in this section are essentially descriptive restatements of the corresponding constructive solemnization procedures , which in turn are realizaÃÂ­ sons of the widely followed principle of maximum tokenization ( e.g. , Liu 1986 ; Liang 1986a , 1986b ; Wang 1989 ; Jie 1989 ; Wang , Su , and Mo 1990 ; Jie , Liu , and Liang 1991a , b ; Yeh and Lee 1991 ; Webster and Kit 1992 ; Chen and Liu 1992 ; Guo 1993 ; Wu and Su 1993 ; Nie , Jin , and Hannan 1994 ; Sproat et al . 1996 ; 
+In this paper we present a stochastic finite-state model wherein the basic workhorse is the weighted finite-state transducer . 
+The weighted finite-state transducer model developed by Sproat et al . 
+The average agreement among the human judges is .76 , and the average agreement between ST and the humans is .75 , or about 99 % of the inter human One can better visualize the precision-recall similarity matrix by producing from that matrix a distance matrix , computing a classical metric multidimensional scaling ( Torgerson 1958 ; Becker , Chambers , Wilks 1988 ) on that disÂ­ stance matrix , and plotting the first two most significant dimensions . 
+Since the transducers are built from human-readable descriptions using a lexical toolkit ( Sproat 1995 ) , the system is easily maintained and extended . 
+The problem with these styles of evaluation is that , as we shall demonstrate , even human judges do not agree perfectly on how to segment a given text . 
+In Section 6 we disÂ­ cuss other issues relating to how higher-order language models could be incorporated into the model . 
+It is important to bear in mind , though , that this is not an inherent limitation of the model . 
+For a given `` word '' in the automatic segmentation , if at least k of the huÂ­ man judges agree that this is a word , then that word is considered to be correct . 
+If one is interested in translation , one would probably want to consider show up as a single dictionary word since its semantic interpretation is not trivially derivable from the meanings of show and up . 
+The simplest approach involves scoring the various analyses by costs based on word frequency , and picking the lowest cost path ; variants of this approach have been described in Chang , Chen , and Chen ( 1991 ) and Chang and Chen ( 1993 ) . 
+In Chinese text , individual characters of the script , to which we shall refer by their traditional name of Hanni Z are written one after another with no intervening spaces ; a Chinese sentence is shown in Figure 1.3 Partly as a result of this , the notion `` word '' has never played a role in Chinese philological tradition , and the idea that Chinese lacks anyÂ­ thing analogous to words in European languages has been prevalent among Western monologists see DeFrancis ( 1984 ) . 
+Methods for expanding the dictionary include , of course , morphological rules , rules for segmenting personal names , as well as numeral sequences , expressions for dates , and so forth ( Chen and Liu 1992 ; Wang , Li , and Chang 1992 ; Chang and Chen 1993 ; Nie , Jin , and Hannan 1994 ) . 
+Another question that remains unanswered is to what extent the linguistic information he considers can be handled-or at least approximated-by finite-state language models , and therefore could be directly interfaced with the segmentation model that we have presented in this paper . 
+Note that the back off model assumes that there is a positive correlation between the frequency of a singular noun and its plural . 
+The model we use provides a simple framework in which to incorporate a wide variety of lexical information in a uniform way . 
+This flexibility , along with the simplicity of implementation and expansion , makes this framework an attractive base for continued research . 
+The use of weighted transducers in particular has the attractive property that the model , as it stands , can be straightforwardly interfaced to other modules of a larger speech or natural language system : presumably one does not want to segment Chinese text for its own sake but instead with a larger purpose in mind . 
+More complex approaches such as the relaxation technique have been applied to this problem Fan and Tsai ( 1988 } . 
+Some approaches depend upon some form of conÂ­ strain satisfaction based on syntactic or semantic features ( e.g. , Yeh and Lee [ 1991 ] , which uses a unification-based approach ) . 
+2 Chinese ? l* han 4zi 4 character ' ; this is the same word as Japanese Kania 
+It is formally straightforward to extend the grammar to include these names , though it does increase the likelihood of over generation and we are unaware of any working systems that incorporate this type of name . 
+We of course also fail to identify , by the methods just described , given names used without their associated family name . 
+4.4 Chinese Personal Names . 
+Since foreign names can be of any length , and since their original pronunciation is effectively unlimited , the identiÂ­ fiction of such names is tricky . 
+In this paper we present a stochastic finite-state model for segmenting Chinese text into words , both words found in a ( static ) lexicon as well as words derived via the above-mentioned productive processes . 
+Obviously , the presence of a title after a potential name N increases the probability that N is in fact a name . 
+This is in general very difficult , given the extremely free manner in which Chinese given names are formed , and given that in these cases we lack even a family name to give the model confidence that it is identifying a name . 
+The major problem for all segmentation systems remains the coverage afforded by the dictionary and the lexical rules used to augment the dictionary to deal with unseen words . 
+each word in the lexicon whether or not each string is actually an instance of the word in question . 
+Following Sproat and Shih ( 1990 ) , performance for Chinese segmentation systems is generally reported in terms of the dual measures of precision and recalP It is fairly standard to report precision and recall scores in the mid to high 90 % range . 
+An initial step of any textÂ­ analysis task is the solemnization of the input into words . 
+As described in Sproat ( 1995 ) , the Chinese segmented presented here fits directly into the context of a broader finite-state model of text analysis for speech synthesis . 
+While size of the resulting transducers may seem daunting-the segmented described here , as it is used in the Bell Labs Mandarin TTS system has about 32,000 states and 209,000 arcs-recent work on minimization of weighted machines and transducers ( cf . 
+Furthermore , by inverting the transducer so that it maps from phonemic transcriptions to Hanni sequences , one can apply the segmented to other problems , such as speech recognition ( Pereira , Riley , and Sproat 1994 ) . 
+Thus in an English sentence such as I 'm going to show up at the ACL one would reasonably conjecture that there are eight words separated by seven spaces . 
+TIS systems in general need to do more than simply compute the . 
+The method reported in this paper makes use solely of epigram probabilities , and is therefore a zeroeth-order model : the cost of a particular segmentation is estimated as the sum of the costs of the individual words in the segmentation . 
+In this way , the method reported on here will necessarily be similar to a greedy method , though of course not identical . 
+The method just described segments dictionary words , but as noted in Section 1 , there are several classes of words that should be handled that are not found in a standard dictionary . 
+For example , it is well-known that one can build a finite-state digram word ) model by simply assigning a state Si to each word Wi in the vocabulary , and having ( word ) arcs leaving that state weighted such that for each Wj and corresponding arc aj leaving Si , the cost on aj is the digram of WiWj- ( Costs for unseen bi grams in such a scheme would typically be modeled with a special back off state . ) 
+On a set of 11 sentence fragments-the A set-where they reported 100 % recall and precision for name identification , we had 73 % recall and 80 % precision . 
+Particular relations are also consistent with particular hypotheses about the segmentation of a given sentence , and the scores for particular relations can be incremented or decremented depending upon whether the segmentations with which they are consistent are `` popular '' or not . 
+However , some caveats are in order in comparing this method ( or any method ) with other approaches to segÂ­ segmentation reported in the literature . 
+Chinese word segmentation can be viewed as a stochastic transduction problem . 
+Whether a language even has orthographic words is largely dependent on the writing system used to represent the language ( rather than the language itself ) ; the notion `` orthographic word '' is not universal . 
+While the semantic aspect of radicals is by no means completely predictive , the semantic homogeneity of many classes is quite striking : for example 254 out of the 263 examples ( 97 % ) of the INSECT class listed by Wieger ( 1965 , 77376 ) denote crawling or invertebrate animals ; similarly 21 out of the 22 examples ( 95 % ) of the GHOST class ( page 808 ) denote ghosts or spirits . 
+Roughly speaking , previous work can be divided into three categories , namely purely statistical approaches , purely lexiÂ­ cal rule-based approaches , and approaches that combine lexical information with staÂ­ statistical information . 
+A moment 's reflection will reveal that things are not quite that simple . 
+Each word is terminated by an arc that represents the transduction between f and the part of speech of that word , weighted with an estimated cost for that word . 
+There are clearly eight orthographic words in the example given , but if one were doing syntactic analysis one would probably want to consider I 'm to consist of two syntactic words , namely I and am . 
+This WFST represents the segmentation of the text into the words AB and CD , word boundaries being marked by arcs mapping between f and part-of-speech labels . 
+All notions of word , with the exception of the orthographic word , are as relevant in Chinese as they are in English , and just as is the case in other languages , a word in Chinese may correspond to one or more symbols in the orthographic 1 For a related approach to the problem of word-segrnention in Japanese , see Nagata ( 1994 ) , inter aria 
+Note that Hanni that are not grouped into dictionary words ( and are not identified as singleÂ­ Hanni words ) , or into one of the other categories of words discussed in this paper , are left unattached and tagged as unknown words . 
+This larger corpus was kindly provided to us by United Informatics Inc. , R.O.C . a set of initial estimates of the word frequencies. 9 In this re-estimation procedure only the entries in the base dictionary were used : in other words , derived words not in the base dictionary and personal and foreign names were not used . 
+Affix Pron Base category N found N missed ( recall ) N correct ( precision ) t , -,7 The second issue is that rare family names can be responsible for over generation especially if these names are otherwise common as single-hanzi words . 
+Some of these approaches ( e.g. , Lin , Chiang , and Su [ 1993 ] ) attempt to identify unknown words , but do not acÂ­ tally tag the words as belonging to one or another class of expression . 
+In this paper we have argued that Chinese word segmentation can be modeled efÂ­ effectively using weighted finite-state transducers . 
+As we shall argue , the semantic class affiliation of a Hanni constitutes useful information in predicting its properties . 
+com Â§Cambridge , UK Email : nc201 eng.cam.ac.uk 1996 Association for Computational Linguistics ( a ) B ) ( , : & ; ? ' H o w d o y o u s a y o c t o p u s i n J a p a n e s e ? ' ( b ) P l a u s i b l e S e g m e n t a t i o n I B X I I 1 : & I 0 0 r i 4 w e n 2 z h a n g l y u 2 z e n 3 m e 0 s h u o l ' J a p a n e s e ' ' o c t o p u s ' ' h o w ' ' s a y ' ( c ) Figure 1 I m p l a u s i b l e S e g m e n t a t i o n [ Â§ ] lxI 1 : & I ri4 wen 2 yu2zen3 shuttle ' essay fish how say A Chinese sentence in ( a ) illustrating the lack of word boundaries . 
+4.2 A Sample Segmentation Using Only Dictionary Words Figure 4 shows two possible paths from the lattice of possible analyses of the input sentence B X : Â¥ . : .S : P : l 'How do you say octopus in Japanese ? ' previously shown in Figure 1 . 
+This is because our corpus is not annotated , and hence does not distinguish between the various words represented by homographs , such as , which could be adv 'be about to ' orInc jiang 4 ( military ) general'-as in 1j\xiao3jiang4 general . ' 
+As noted , this sentence consists of four words , namely B X ri4wen2 , ' : Â¥ , zhanglyu 2 : & P : l zen 3me 0 , ' and IDt shuttle . ' 
+Papers that use this method or minor variants thereof include Liang ( 1986 ) , Li et al . 
+This is to allow for fair comparison between the statistical method and GR , which is also purely dictionary-based . 
+Again , famous place names will most likely be found in the dictionary , but less well-known names , such as 1PMÂ± R ; bu4lang3-shi4wei2-ke4 'Brunswick ' ( as in the New Jersey town name 'New Brunswick ' ) will not generally be found . 
+Let us notate the set of previously unseen , or novel , members of a category X as unseen ( X ) ; thus , novel members of the set of words derived in f , menO will be deÂ­ noted unseen ( f , ) . 
+And if one is interested in TIS , one would probably consider the single orthographic word ACL to consist of three phonological words-lei s'i d/-corresponding to the pronunciation of each of the letters in the acronym . 
+Word frequencies are estimated by a re-estimation procedure that involves applyÂ­ ing the segmentation algorithm presented here to a corpus of 20 million words, 8 using 8 Our training corpus was drawn from a larger corpus of mixed-genre text consisting mostly of . 
+A minimal requirement for building a Chinese word segmented is obviously a dictionary ; furthermore , as has been argued persuasively by Fung and Wu ( 1994 ) , one will perform much better at segmenting text by using a dictionary constructed with text of the same genre as the text to be segmented . 
+On the first of these-the B set-our system had 64 % recall and 86 % precision ; on the second-the C set-it had 33 % recall and 19 % precision . 
+orthographic words are thus only a starting point for further analysis and can only be regarded as a useful hint at the desired division of the sentence into words . 
+The simplest version of the maximum matching Algorithm effectively deal with ambiguities by ignoring it , since the methods is guaranteed to produce only one segmentation . 
