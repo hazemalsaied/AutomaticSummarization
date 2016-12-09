@@ -1,0 +1,13 @@
+We would like to move onto the more difficult task of insertion into the hierarchy itself and compare against the initial work by Widdows  using latent semantic analysis. 
+This has the advantage of producing a much smaller number of vectors to compare against. 
+The question now becomes how to construct vectors of supersenses. 
+Canonical attributes summarise the key contexts for each headword and are used to improve the efficiency of the similarity comparisons. 
+One solution would be to take the intersection between vectors across words for each supersense. 
+In contrast, some research have been focused on using predefined sets of sense-groupings for learning class-based classifiers for WSD. 
+Further, our similarity system does not currently incorporate multi-word terms. 
+This application of semantic similarity demonstrates that an unsupervised methods can outperform supervised methods for some NLP tasks if enough data is available. 
+We also demonstrate the use of an extremely large shallow-parsed corpus for calculating vector-space semantic similarity. 
+Our preliminary experiments suggest that only combining the vectors for unambiguous words produces the best results. 
+Using this approach we have significantly outperformed the supervised multi-class perceptron Ciaramita and Johnson. 
+The limited coverage of lexical-semantic resources is a significant problem for NLP systems which can be alleviated by automatically classifying the unknown words. 
+While contextual information is the primary source of information used in WSD research and has been used for acquiring semantic lexicons and classifying unknown words in other languages 

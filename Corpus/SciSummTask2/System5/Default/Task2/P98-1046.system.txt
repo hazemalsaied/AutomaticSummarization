@@ -1,0 +1,10 @@
+(1998) showed that multiple listings could in some cases be interpreted as regular sense extensions, and defined intcrsectivc Levin classes, which are a more fine-grained, syntactically and semantically coherÂ\xad ent refinement of basic Levin classes.
+A very good candidate seems to be the Intersective Levin classes (Dang et al., 1998) that can be found as well in other predicate resources like PropBank and VerbNet (Kipper et al., 2000).
+Unfortunately, VerbNet only covers about 34% of the verb tokens in our training corpus, and does not improve the systemâ€™s performance.
+Complicating the issue is the phenomenon of regular sense extensions (Dang et al., 1998), where what once may have been coercion has become entrenched and is now seen as a different sense of the verb.
+Besides the obvious influence of WordNet, this work is very much related to Palmer apos;s VerbNet project (Dang et al., 1998), and has benefited from (Levin, 1993) and (Pritchett, 1992).
+We see verb classes as the key to making gen­ eralizations about regular extensions of mean­ ing.
+We base these regular extensions on a fine-grained variation on Levin classes, inter­ sective Levin classes, as a source of semantic components associated with specific adjuncts.
+However, there are some interesting differences in which sense extensions are allowed.
+In this paper we specifically address questions of polysemy with respect to verbs, and how regular extensions of meaning can be achieved through the adjunction of particular syntactic phrases.
+The exception to this, as just noted, is flutuar (float).

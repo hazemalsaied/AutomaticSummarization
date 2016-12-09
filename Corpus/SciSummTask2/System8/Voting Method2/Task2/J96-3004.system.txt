@@ -1,0 +1,11 @@
+com §Cambridge, UK Email: nc201@eng.cam.ac.uk 1996 Association for Computational Linguistics (a) (b) (c) Figure [§] lxI 1:&I ri4 wen2 zhangl yu2zen3 me0 shuol 'Japan' 'essay' 'fish' 'how' 'say' Chinese sentence in (a) illustrating the lack of word boundaries.
+In this paper we present stochastic finite-state model wherein the basic workhorse is the weighted finite-state transducer.
+The initial stage of text analysis for any NLP task usually involves the tokenization of the input into words.
+In (b) is plausible segmentation for this sentence; in (c) is an implausible segmentation.
+including Third Tone Sandhi (Shih 1986), which changes (low) tone into (rising) tone before another tone: 'j";gil, xiao3 [lao3 shu3] 'little rat,' becomes xiao3 lao2shu3 ], rather than xiao2 lao2shu3 ], because the rule first applies within the word lao3shu3 'rat,' blocking its phrasal application.
+In the pinyin transliterations dash(-) separates syllables that may be considered part of the same phonological word; spaces are used to separate plausible phonological words; and plus sign (+) is used, where relevant, to indicate morpheme boundaries of interest.
+Space- or punctuation-delimited 700 Mountain Avenue, 2d451, Murray Hill, NJ 07974, USA.
+Examples will usually be accompanied by translation, plus morpheme-by-morpheme gloss given in parentheses whenever the translation does not adequately serve this purpose.
+com 600 Mountain Avenue, 2c278, Murray Hill, NJ 07974, USA.
+The high tone of J1l would not normally neutralize in this fashion if it were functioning as word on its own.
+While the semantic aspect of radicals is by no means completely predictive, the

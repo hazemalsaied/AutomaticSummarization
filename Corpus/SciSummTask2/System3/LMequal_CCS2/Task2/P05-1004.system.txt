@@ -1,0 +1,13 @@
+The limited coverage of lexical-semantic resources is a significant problem for NLP systems which can be alleviated by automatically classifying the unknown words. 
+There are, however, approaches to the complementary problem of determining the closest known sense for unknown words, which can be viewed as the logical next step after unknown sense detection. 
+In contrast, some research have been focused on using predefined sets of sense-groupings for learning class-based classifiers for WSD. 
+A concept analogous to our notion of meta sense, and indeed, the CAM might be used for class-based WSD as well. 
+We would like to move onto the more difficult task of insertion into the hierarchy itself and compare against the initial work by Widdows  using latent semantic analysis. 
+Canonical attributes summarise the key contexts for each headword and are used to improve the efficiency of the similarity comparisons. 
+We overcome this by using the synonyms of the last word in the multi-word term. 
+Further, our similarity system does not currently incorporate multi-word terms. 
+This application of semantic similarity demonstrates that an unsupervised methods can outperform supervised methods for some NLP tasks if enough data is available. 
+We also demonstrate the use of an extremely large shallow-parsed corpus for calculating vector-space semantic similarity. 
+The question now becomes how to construct vectors of supersenses. 
+Ciaramita and Johnson  present a tagger which uses synonym set glosses as annotated training examples. 
+Using this approach we have significantly outperformed the supervised multi-class perceptron Ciaramita and Johnson. 

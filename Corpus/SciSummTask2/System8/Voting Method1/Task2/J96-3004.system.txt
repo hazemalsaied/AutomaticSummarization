@@ -1,0 +1,11 @@
+The initial stage of text analysis for any NLP task usually involves the tokenization of the input into words.
+orthographic words are thus only starting point for further analysis and can only be regarded as useful hint at the desired division of the sentence into words.
+In this paper we present stochastic finite-state model wherein the basic workhorse is the weighted finite-state transducer.
+raphy: ren2 'person' is fairly uncontroversial case of monographemic word, and rplil zhong1guo2 (middle country) 'China' fairly uncontroversial case of di­ graphernic word.
+Whether language even has orthographic words is largely dependent on the writing system used to represent the language (rather than the language itself); the notion "orthographic word" is not universal.
+pronunciations of individual words; they also need to compute intonational phrase boundaries in long utterances and assign relative prominence to words in those utterances.
+The high tone of J1l would not normally neutralize in this fashion if it were functioning as word on its own.
+It has been shown for English (Wang and Hirschberg 1992; Hirschberg 1993; Sproat 1994, inter alia) that grammatical part of speech provides useful information for these tasks.
+The relevance of the distinction between, say, phonological words and, say, dictionary words is shown by an example like rpftl_A :;!:Hfllil zhong1hua2 ren2min2 gong4he2-guo2 (China people republic) 'People's Republic of China.'
+Making the reasonable assumption that similar information is relevant for solving these problems in Chinese, it follows that prerequisite for intonation-boundary assignment and prominence assignment is word segmentation.
+In (b) is

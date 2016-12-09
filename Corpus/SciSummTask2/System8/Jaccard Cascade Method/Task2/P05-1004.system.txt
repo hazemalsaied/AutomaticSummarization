@@ -1,0 +1,12 @@
+Supersense Tagging of Unknown Nouns using Semantic Similarity
+The limited coverage of lexical-semantic resources is a significant problem for NLP systems which can be alleviated by automatically classifying the unknown words.
+Supersense tagging assigns unknown nouns one of 26 broad semantic categories used by lexicographers to organise their manual insertion into WORDNET.
+Ciaramita and Johnson (2003) present a tagger which uses synonym set glosses as annotated training examples.
+We describe an unsupervised approach, based on vector-space similarity, which does not require annotated examples but significantly outperforms their tagger.
+We also demonstrate the use of an extremely large shallow-parsed corpus for calculating vector-space semantic similarity.
+Lexical-semantic resources have been applied successful to a wide range of Natural Language Processing (NLP) problems ranging from collocation extraction (Pearce, 2001) and class-based smoothing (Clark and Weir, 2002), to text classification (Baker and McCallum, 1998) and question answering (Pasca and Harabagiu, 2001).
+In particular, WORDNET (Fellbaum, 1998) has significantly influenced research in NLP.
+Unfortunately, these resource are extremely time- consuming and labour-intensive to manually develop and maintain, requiring considerable linguistic and domain expertise.
+Lexicographers cannot possibly keep pace with language evolution: sense distinctions are continually made and merged, words are coined or become obsolete, and technical terms migrate into the vernacular.
+Technical domains, such as medicine, require separate treatment since common words often take on special meanings, and a significant proportion of their vocabulary does not overlap with everyday vocabulary.
+Bur- gun and Bodenreider (2001) compared an alignment of WORDNET with the UMLS medical resource

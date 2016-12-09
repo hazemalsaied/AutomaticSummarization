@@ -1,0 +1,14 @@
+We have also adapted and evaluated the approach for Polish. 
+The evaluation for Polish was based technical manuals available on the Internet. 
+Mitkov  obtains a success rate of 89.7% for pronominal references, working with English technical manuals. 
+The robust approach adapted for Polish demonstrated a high success rate of 93.3% in resolv­ ing anaphors. 
+In addition, preliminary experiments show that the approach can be success­ fully adapted for other languages with minimum modifications. 
+We selected for comparative evaluation three approaches extensively cited in the literature: Kennedy and Boguraevâ€™s parser- free version of Lappin and Leassâ€™ RAP. 
+We have described a robust, knowledge-poor ap­ proach to pronoun resolution which operates on texts pre-processed by a part-of-speech tagger. 
+Mitkovâ€™s knowledge-poor pronoun resolution method, for example, uses the scores from a set of antecedent indicators to rank the candidates. 
+Candidates are assigned scores by each indicator and the candidate with the highest score is returned as the antecedent. 
+One of the disadvantages of developing a knowledge­ based system, however, is that it is a very labour­ intensive and time-consuming task. 
+As expected, some of the preferences had to be modified in order to fit with specific features of Polish. 
+Early work on pronoun anaphora resolution usually uses rule-based methods, which try to mine the cues of the relation between the pronouns and its antecedents. 
+Most traditional approaches to anaphora resolution rely heavily on linguistic and domain knowledge. 
+There are many recent approaches to this prob lem, e. g. syntax-based approaches. 

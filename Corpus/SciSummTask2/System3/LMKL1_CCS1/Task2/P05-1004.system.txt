@@ -1,0 +1,11 @@
+Although we could adapt our method for use with an automatically induced inventory, our method which uses WordNet might also be combined with one that can automatically find new senses from text and then relate these to WordNet synsets, as Ciaramita and Johnson  do with unknown nouns. 
+Canonical attributes summarise the key contexts for each headword and are used to improve the efficiency of the similarity comparisons. 
+While contextual information is the primary source of information used in WSD research and has been used for acquiring semantic lexicons and classifying unknown words in other languages 
+The limited coverage of lexical-semantic resources is a significant problem for NLP systems which can be alleviated by automatically classifying the unknown words. 
+In contrast, some research have been focused on using predefined sets of sense-groupings for learning class-based classifiers for WSD. 
+We would like to move onto the more difficult task of insertion into the hierarchy itself and compare against the initial work by Widdows  using latent semantic analysis. 
+Our application of semantic similarity to supersense tagging follows earlier work by Hearst and Schu¨ tze. 
+We also demonstrate the use of an extremely large shallow-parsed corpus for calculating vector-space semantic similarity. 
+We describe an unsupervised approach, based on vector-space similarity, which does not require annotated examples but significantly outperforms their tagger. 
+Further, our similarity system does not currently incorporate multi-word terms. 
+The most obvious solution is to sum the context vectors across the words which have each supersense. 

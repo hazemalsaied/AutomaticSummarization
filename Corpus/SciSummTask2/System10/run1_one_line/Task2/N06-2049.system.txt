@@ -1,0 +1,9 @@
+We proposed two approaches to improve Chinese word segmentation: a subword-based tagging and a confidence measure approach.
+The character-based “IOB” tagging approach has been widely used in Chinese word segmentation recently (Xue and Shen, 2003; Peng and McCallum, 2004; Tseng et al., 2005).
+It is composed of three parts: a dictionary-based N-gram word segmentation for segmenting IV words, a subword- based tagging by the CRF for recognizing OOVs, and a confidence-dependent word segmentation used for merging the results of both the dictionary-based and the IOB tagging.
+We define a confidence measure, C M(tiob |w), to measure the confidence of the results produced by the IOB tagging by using the results from the dictionary-based segmentation.
+The confidence measure comes from two sources: IOB tagging and dictionary- based word segmentation.
+71 6 0.9 64 0.9 72 Table 2: Segmentation results by a pure subword-based IOB tagging.
+In section 2.2, we proposed a confidence measure approach to reevaluate the results of IOB tagging by combinations of the results of the dictionary-based segmentation.
+We found the results in Table 3 were better than those in Table 2 and Table 1, which prove that using confidence measure approach achieved the best performance over the dictionary-based segmentation and the IOB tagging approach.
+In this work, we proposed a subword-based IOB tagging method for Chinese word segmentation.

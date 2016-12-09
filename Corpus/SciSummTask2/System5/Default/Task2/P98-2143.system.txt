@@ -1,0 +1,13 @@
+The algorithm with the next-to-highest results in (Char- niak and Elsner, 2009) is MARS (Mitkov, 1998) from the GuiTAR (Poesio and Kabadjov, 2004) toolkit.
+Mitkovâ€™s algorithm operates on the basis of antecedent-tracking preferences (referred to hereafter as â€\x9dantecedent indicatorsâ€\x9d).
+Mitkov showed that a salience-based approach can be applied across genres and without complex syntactic, semantic, and discourse analysis (Mitkov, 1998).
+Many hand-tested corpus evaluations have been done in the past (e.g., Walker 1989; Strube 1998; Mitkov 1998; Strube and Hahn 1999), but these have the drawback of being carried out on small corpora.
+A lot of work has been done in English for the purpose of anaphora resolution and various
+Most of the indicators have been adopted in LINGUA without modification from the original English version (see (Mitkov, 1998) for more details).
+To turn on the printer, press the Power buttoni and hold iti down for a moment.
+The approach being robust (an attempt is made to resolve each anaphor and a pro­ posed antecedent is returned), this figure represents both precision and recall if we use the MUC terminology.		
+For in­ stance, in the sentence Insert the cassette into the VCRi making sure iti is turned on, the indicator non-prepositional noun phrases would penalise the correct antecedent.		
+The success rate of the Baseline Subject was 29.2%, whereas the success rate of Baseline Most Recent NP was 62.5%.
+  
+			
+

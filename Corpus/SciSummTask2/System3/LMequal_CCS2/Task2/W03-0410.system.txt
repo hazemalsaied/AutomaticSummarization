@@ -1,0 +1,11 @@
+As successful as our seed set of features is, it still does not achieve the accuracy of a supervised learner. 
+We find that manual selection of a subset of features based on the known classification performs better than using a full set of noisy features, demonstrating the potential benefit of feature selection in our task. 
+We cluster verbs into lexical semantic classes, using a general set of noisy features that capture syntactic and semantic properties of the verbs. 
+However, Schulte im Walde’s features rely on accurate subcategorization statistics, and her experiments include a much larger set of classes. 
+It is a question for future research to explore the effect of these variables in clustering performance. 
+In recent work, Stevenson and Joanis, which used an entropy measure to organize data into a multidimensional space. 
+Our feature set is essentially a generalization of theirs, but in scaling up the feature space to be useful across English verb classes in general, we necessarily face a dimensionality problem that did not arise in their research. 
+In moving to a scenario of verb class discovery, using clustering, we face the problem of having a large number of irrelevant features for a particular clustering task. 
+Furthermore, we might question the clustering approach itself, in the context of verb class discovery. 
+We have explored manual, unsupervised, and semi- supervised methods for feature selection in a clustering approach for verb class discovery. 
+Supervised methods for automatic verb classification have been extensively investigated. 

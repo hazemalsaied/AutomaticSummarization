@@ -1,0 +1,12 @@
+As shown in Sproat et al.
+(1996), which is based on weighted finite-state transducers (FSTs).
+Proposed applications of segmentation technology include extracting new technical terms, indexing documents for information retrieval, and correcting optical character recognition (OCR) erÂ\xad rors (Wu and Tseng, 1993; Nagao and Mori, 1994; Nagata, 1996a; Nagata, 1996b; Sproat et al., 1996; Fung, 1998).
+We used a simple greedy algorithm described in [Sproat et al., 1996].
+(1996) also uses multiple human judges.
+First of all, it is really difficult to build a reliable and objective gold-standard given the fact that there is only 70% agreement between native speakers on this task (Sproat et al., 1996).
+(1996) can be taken as an evidence that the hypothesis of one tokenization per source has already in practical use.
+An initial step of any text­ analysis task is the tokenization of the input into words.
+from the subset of the United Informatics corpus not used in the training of the models.
+This WFST represents the segmentation of the text into the words AB and CD, word boundaries being marked by arcs mapping between f and part-of-speech labels.
+Two sets of examples from Gan are given in (1) and (2) (:::::: Gan's Appendix B, exx.
+Figure 5 shows how this model is implemented as part of the dictionary WFST.

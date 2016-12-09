@@ -1,0 +1,11 @@
+The limited coverage of lexical-semantic resources is significant problem for NLP systems which can be alleviated by automatically classifying the unknown words.
+Ciaramita and Johnson (2003) present tagger which uses synonym set glosses as annotated training examples.
+Broad semantic classification is currently used by lexicographers to or- ganise the manual insertion of words into WORDNET, and is an experimental precursor to automatically inserting words directly into the WORDNET hierarchy.
+Bur- gun and Bodenreider (2001) compared an alignment of WORDNET with the UMLS medical resource and found only very small degree of overlap.
+Some specialist topics are better covered in WORD- NET than others, e.g. dog has finer-grained distinctions than cat and worm although this does not reflect finer distinctions in reality; limited coverage of infrequent words and senses.
+Technical domains, such as medicine, require separate treatment since common words often take on special meanings, and significant proportion of their vocabulary does not overlap with everyday vocabulary.
+Supersense Tagging of Unknown Nouns using Semantic Similarity
+Lexicographers cannot possibly keep pace with language evolution: sense distinctions are continually made and merged, words are coined or become obsolete, and technical terms migrate into the vernacular.
+Ciaramita and Johnson (2003) call this supersense tagging and describe multi-class perceptron tagger, which uses WORDNET’s hierarchical structure to create many annotated training instances from the synset glosses.
+For instance, the WORDNET lexicographer file for ionosphere (location) is different to exo- sphere and stratosphere (object), two other layers of the earth’s atmosphere.
+These problems demonstrate the need for

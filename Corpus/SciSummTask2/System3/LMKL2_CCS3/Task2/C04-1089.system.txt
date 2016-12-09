@@ -1,0 +1,13 @@
+At present, the methods for OOV term translation have changed from the basic pattern based on bilingual dictionary, transliteration or parallel corpus to the intermediate pattern based on comparable corpus. 
+It also made use of part-of-speech tag information, whereas our method is simpler and does not require part-of- speech tagging. 
+Hybrid methods exploit that a term or a named entity can be translated in various ways across languages. 
+For example, the work of  used only the pronunciation or spelling of w in translation. 
+To our knowledge, this association measure has not been used yet in translation spotting.It is computed as:. 
+Their contextual semantic similarity model is different from our language modeling approach to measuring context similarity. 
+Koehn and Knight  attempted to combine multiple clues, including similar context and spelling. 
+Some recent research used comparable corpora to re-score name transliterations. 
+In this paper, we proposed a new method to mine new word translations from comparable corpora, by combining context and transliteration information, which are complementary sources of information. 
+Shao and Ng  presented a method to mine new translations from Chinese and English news documents of the same period from different news agencies, combining both transliteration and context information. 
+We evaluated our approach on six months of Chinese and English Gigaword corpora, with encouraging results. 
+rank translation candidates using PH and CX independently and return results with the highest average rank. 
+Evaluation E C We processed news articles for an entire year in tion of maximum bipartite matching. 

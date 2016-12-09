@@ -1,0 +1,15 @@
+The Chinese word segmentation is a nontrivial task because no explicit delimiters. 
+The Chinese person-name model is a modified version of that described in Sproat et al.. 
+A previous work along this line is Sproat et al.. 
+It is rule-based, but relies on 2 See, for example, Sproat et al. 
+Experiments have shown only about 75% agreement among native speakers regarding the correct word segmentation. 
+Much previous research on Chinese language processing focused on word segmentation. 
+Conventionally a word segmentation process identifies the words in input text by matching lexical entries and resolving the ambiguous matching. 
+Many natural language models can be captured by weighted finite-state transducers, which offer several benefits:â€¢ WFSTs provide a uniform knowledge represen tation. 
+In this paper we present a stochastic finite-state model wherein the basic workhorse is the weighted finite-state transducer. 
+also proposed another method to estimate a set of initial word frequencies without segmenting the corpus. 
+The model described here thus demonstrates great potential for use in widespread applications. 
+In Chinese text segmentation there are three basic approaches : pure heuristic, pure statistical, and a hybrid of the two. 
+There are several commonly used segmentation methods such as forward maximum matching and backward maximum matching. 
+We used a maximum- matching algorithm and a dictionary compiled from the CTB  to do segmentation 
+Using the 495 characters that are frequently used for transliterating foreign names, a sequence of three of more characters from the list was taken as a possible candidate for Chinese. 

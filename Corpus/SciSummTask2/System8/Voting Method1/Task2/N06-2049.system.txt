@@ -1,0 +1,15 @@
+We proposed two approaches to improve Chinese word segmentation: subword-based tagging and confidence measure approach.
+In addition, the latter can be used to balance out-of-vocabulary rates and in-vocabulary rates.
+By these techniques we achieved higher F-scores in CITYU, PKU and MSR corpora than the best results from Sighan Bakeoff 2005.
+We found that so far all the existing implementations were using character-based IOB tagging.
+Subword-based Tagging by Conditional Random Fields for Chinese Word Segmentation
+We found the former achieved better performance than the existing character-based tagging, and the latter improved segmentation further by combining the former with dictionary-based segmentation.
+In the followings, we illustrate our word segmentation process in Section 2, where the subword-based tagging is implemented by the CRFs method.
+Taking the same example mentioned above, (whole) (Beijing city)” is labeled as (whole)/O (Beijing)/B (city)/I” in the subword-based tagging, where (Beijing)/B” is labeled as one unit.
+However, keep in mind that the dictionary-based approach can produce higher R-iv rate.
+In this work we propose subword-based IOB tagging, which assigns tags to predefined lexicon subset consisting of the most frequent multiple-character words in addition to single Chinese characters.
+In addition, we found clear weakness with the IOB tagging approach: It yields very low in-vocabulary (IV) rate (R-iv) in return for higher out-of-vocabulary (OOV) rate (R-oov).
+This approach will be described in Section 2.2.
+We will use this advantage in the confidence measure approach.
+There are several steps to train subword-based IOB tag- ger.
+In the third step, we used the

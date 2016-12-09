@@ -1,0 +1,10 @@
+When translating word w, two sources of information can be used to determine its translation: the word itself and the surrounding words in the neighborhood (i.e., the context) of w. Most previous research only considers one of the two sources of information, but not both.
+As such, the bilingual lexicon of machine translation system has to be constantly updated with these new word translations.
+Comparable corpora such as news documents of the same period from different news agencies are readily available.
+In order for machine translation system to translate these new words correctly, its bilingual lexicon needs to be constantly updated with new word translations.
+On the other hand, the work of (Cao and Li, 2002; Fung and Yee, 1998; Koehn and Knight, 2002; Rapp, 1995; Rapp, 1999) used the context of to locate its translation in second language.
+For example, the work of (AlOnaizan and Knight, 2002a; AlOnaizan and Knight, 2002b; Knight and Graehl, 1998) used the pronunciation of in translation.
+Being more readily available, comparable corpora are thus more suitable than parallel corpora for the task of acquiring new word translations, although relatively less research has been done in the past on comparable corpora.
+Much research has been done on using parallel corpora to learn bilingual lexicons (Melamed, 1997; Moore, 2003).
+Comparable corpora refer to texts that are not direct translation but are about the same topic.
+For example, various news agencies report major world events in different languages, and such news documents form readily available source of

@@ -1,0 +1,12 @@
+The limited coverage of lexical-semantic resources is significant problem for NLP systems which can be alleviated by automatically classifying the unknown words.
+Bur- gun and Bodenreider (2001) compared an alignment of WORDNET with the UMLS medical resource and found only very small degree of overlap.
+Ciaramita and Johnson (2003) present tagger which uses synonym set glosses as annotated training examples.
+These problems demonstrate the need for automatic or semiautomatic methods for the creation and maintenance of lexical-semantic resources.
+For instance, the WORDNET lexicographer file for ionosphere (location) is different to exo- sphere and stratosphere (object), two other layers of the earth’s atmosphere.
+Also, lexical- semantic resources suffer from: bias towards concepts and senses from particular topics.
+26 Proceedings of the 43rd Annual Meeting of the ACL, pages 26–33, Ann Arbor, June 2005.
+Lexicographers cannot possibly keep pace with language evolution: sense distinctions are continually made and merged, words are coined or become obsolete, and technical terms migrate into the vernacular.
+Technical domains, such as medicine, require separate treatment since common words often take on special meanings, and significant proportion of their vocabulary does not overlap with everyday vocabulary.
+These topic distinctions are coarser-grained than WORDNET senses, which have been criticised for being too difficult to distinguish even for experts.
+Ciaramita and Johnson (2003) call this supersense tagging and describe multi-class perceptron tagger, which uses WORDNET’s hierarchical structure to create many annotated training instances from the synset glosses.
+Ciaramita and Johnson (2003) believe that the key sense distinctions are still maintained

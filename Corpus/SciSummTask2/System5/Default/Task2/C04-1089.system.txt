@@ -1,0 +1,11 @@
+Some recent research used comparable corpora to mine name translation pairs (Feng et al., 2004; Kutsumi et al., 2004; Udupa et al., 2009; Ji, 2009; Fung and Yee, 1998; Rapp, 1999; Shao and Ng, 2004; Lu and Zhao, 2006; Hassan et al., 2007).
+Using parallel corpora (Kupiec, 1993; Feng et al., 2004), e.g., bilingual Wikipedia entries on the same person, renders high accuracy but suffers from high scarcity.
+Recently, holistic approaches combining such similarities have been studied (Shao and Ng, 2004; You et al., 2010; Kim et al., 2011).
+Evaluation E C We processed news articles for an entire year in tion of maximum bipartite matching (West, 1999) on a bipartite graph GB = (VB = (Si , Sj ), EB ) 2008 by Xinhua news who publishes news in E C both English and Chinese, which were also used with edge weights that are defined by TS . The maximum bipartite matching finds a subset of by Kim et al.
+In this paper, we proposed a new method to mine new word translations from comparable corpora, by combining context and transliteration information, which are complementary sources of information.
+#Cor is the number of correct English translations output.
+Comparable corpora refer to texts that are not direct translation but are about the same topic.
+The name could have multiple translations in English.
+For example, 米 洛西娜 was a Russian name.
+If an English word e is the translation of a Chinese word c , they will have similar contexts.
+Being more readily available, comparable corpora are thus more suitable than parallel corpora for the task of acquiring new word translations, although relatively less research has been done in the past on comparable corpora.

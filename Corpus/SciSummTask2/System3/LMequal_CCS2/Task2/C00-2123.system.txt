@@ -1,0 +1,15 @@
+In this paper, we describe a search procedure for statistical machine translation. 
+A detailed description of the search procedure used is given in this patent. 
+The decoding methods presented in this paper explore the partial candidate translation hypotheses greedily, as presented in Tillmann and Ney  and Och et al. 
+We used a translation system called â€œsingle- word based approachâ€ described in. 
+Covering the first uncovered position in the source sentence, we use the language model probability p. 
+The approach assumes that the word reordering is restricted to a few positions in the source sentence. 
+Starting from a DP-based solution to the traveling salesman problem, we present a novel technique to restrict the possible word reordering between source and target language in order to achieve an eÆcient search algorithm. 
+For each extension a new position is added to the coverage set. 
+A search restriction especially useful for the translation direction from German to English is presented. 
+The computational complexity for the left-to-right and right-to-left is the same, O( 
+The complexity of the algorithm is O, where E is the size of the target language vocabulary. 
+Using these states, we define partial hypothesis extensions, which are of the following type: ! 
+For a trigram language model, the partial hypotheses are of the form. 
+2) An improved language model, which takes into account syntactic structure, e.g. to ensure that a proper English verbgroup is generated. 
+The experimental tests are carried out on the Verbmobil task, which is a limited-domain spoken-language task. 

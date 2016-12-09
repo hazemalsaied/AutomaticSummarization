@@ -1,0 +1,12 @@
+It also shows that our system achieves overall performance of 77.2%/60.7%/68.0 and 63.1%/49.5%/55.5 in precision/recall/F-measure on the 5 ACE relation types and the best-reported systems on the ACE corpus. 
+It only improves the F-measure by 0.8 due to the recall increase. 
+8 6 9. 4 7 2. 6 General Staff 2 0 1 1 0 8 4 6 71. 
+9 2 8. 8 4 0. 4 N EA R 3 5 8 1 88. 
+9 2 2. 9 3 6. 4 P A R T 1 6 4 1 0 6 3 9 73. 
+Our study illustrates that the base phrase chunking information is very effective for relation extraction and contributes to most of the performance improvement from syntactic aspect while additional information from full parsing gives limited further enhancement. 
+This suggests that most of useful information in full parse trees for relation extraction is shallow and can be captured by chunking. 
+We also demonstrate how semantic information such as WordNet and Name List, can be used in feature-based relation extraction to further improve the performance. 
+This paper investigates the incorporation of diverse lexical, syntactic and semantic knowledge in feature-based relation extraction using SVM. 
+For the choice of features, we use the full set of features from Zhou et al.. 
+Table 2 also measures the contributions of different features by gradually increasing the feature set. 
+4 5 5. 9 6 2. 3 Subsid iary 2 7 1 4 2 3 37. 

@@ -1,0 +1,15 @@
+We propose an unsupervised method to discover paraphrases from large untagged corpus, without requiring any seed phrase or other cue.
+If the expression is word or short phrase (like “corporation” and “company”), it is called “synonym”.
+We realize the importance of paraphrase; however, the major obstacle is the construction of paraphrase knowledge.
+So, it is too costly to make IE technology “open- domain” or “on-demand” like IR or QA.
+Up to now, most IE researchers have been creating paraphrase knowledge (or IE patterns) by hand and for specific tasks.
+In this paper, we will propose an unsupervised method to discover paraphrases from large untagged corpus.
+Automatic Paraphrase Discovery based on Context and Keywords between NE Pairs
+We are focusing on phrases which have two Named Entities (NEs), as those types of phrases are very important for IE applications.
+Automatic paraphrase discovery is an important but challenging task.
+The sentences in the corpus were tagged by transformation-based chunker and an NE tagger.
+Next, for each pair of NE categories, we collect all the contexts and find the keywords which are topical for that NE category pair.
+Recently, this topic has been getting more attention, as is evident from the Paraphrase Workshops in 2003 and 2004, driven by the needs of various NLP applications.
+Finally, we find links between sets of phrases, based on the NE instance pair data (for example, different phrases which link “IBM” and “Lotus”) (Step 4).
+Overview of the method 2.2 Step by Step Algorithm.
+All the sentences

@@ -1,0 +1,13 @@
+In this paper, we describe search procedure for statistical machine translation (MT) based on dynamic programming (DP).
+The experimental tests are carried out on the Verbmobil task (GermanEnglish, 8000-word vocabulary), which is limited-domain spoken-language task.
+The goal of machine translation is the translation of text given in some source language into target language.
+Pr(eI 1) is the language model of the target language, whereas Pr(fJ jeI1) is the transla tion model.
+These alignment models are similar to the concept of hidden Markov models (HMM) in speech recognition.
+Word Re-ordering and DP-based Search in Statistical Machine Translation
+The model is often further restricted so that each source word is assigned to exactly one target word (Brown et al., 1993; Ney et al., 2000).
+In Section 4, we present the performance measures used and give translation results on the Verbmobil task.
+In Section 3, we introduce our novel concept to word reordering and DP-based search, which is especially suitable for the translation direction from German to English.
+Our approach uses word-to-word dependencies between source and target words.
+For the translation model Pr(fJ jeI 1), we go on the assumption that each source word is aligned to exactly one target word.
+Starting from DP-based solution to the traveling salesman problem, we present novel technique to restrict the possible word reordering between source and target language in order to achieve an eÆcient search algorithm.
+For the inverted alignment probability p(bijbi􀀀1; I; J), we drop the dependence on the target sentence length I. 2.2 Word

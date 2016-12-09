@@ -1,0 +1,12 @@
+Evaluation on the ACE corpus shows that effective incorporation of diverse features enables our system outperform previously best-reported systems on the 24 ACE relation subtypes and significantly outperforms tree kernel-based systems by over 20 in F-measure on the 5 ACE relation types. 
+It shows that our system achieves the performance of 84.8%/66.7%/74.7 in precision/recall/F- measure on relation detection. 
+It also shows that feature-based methods dramatically outperform kernel methods. 
+For the choice of features, we use the full set of features from Zhou et al.. 
+Zhou et al. explore various features in relation extraction using SVM. 
+This paper investigates the incorporation of diverse lexical, syntactic and semantic knowledge in feature-based relation extraction using SVM. 
+We also demonstrate how semantic information such as WordNet and Name List, can be used in feature-based relation extraction to further improve the performance. 
+This suggests that most of useful information in full parse trees for relation extraction is shallow and can be captured by chunking. 
+Our study illustrates that the base phrase chunking information is very effective for relation extraction and contributes to most of the performance improvement from syntactic aspect while additional information from full parsing gives limited further enhancement. 
+Many machine learning methods have been proposed to address this problem, e.g., supervised learning algorithms. 
+9 2 2. 9 3 6. 4 P A R T 1 6 4 1 0 6 3 9 73. 
+8 6 9. 4 7 2. 6 General Staff 2 0 1 1 0 8 4 6 71. 

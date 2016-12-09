@@ -1,0 +1,9 @@
+par t. y e s y e s y e s y e s y e s ye s ye s ye s y e s y e s y e s y e s y e s y e s y e s ind. acti on loc at. 
+We also have begun to ex­ amine related classes in Portuguese, and find that these verbs demonstrate similarly coherent syntactic and semantic properties. 
+We also plan to experiment with different classification schemes for verb semantics such as WordNet. 
+In this paper we specifically address questions of polysemy with respect to verbs, and how regular extensions of meaning can be achieved through the adjunction of particular syntactic phrases. 
+This constraint of having the same semantic roles is further ensured inside the VN lexicon which is constructed based on a more refined version of the Levinâ€™s classification, called Intersective Levin classes. 
+In this experiment, we have tried to choose the Portuguese verb that is most closely related to the description of the English verb in the Levin class. 
+We have presented a refinement of Levin classes, intersective classes, and discussed the potential for mapping them to WordNet senses. 
+We present a refinement of Levin classes, intersec­ tive sets, which are a more fine-grained clas­ sification and have more coherent sets of syn­ tactic frames and associated semantic compo­ nents. 
+Palmer  argue that syntactic frames and verb classes are useful for developing principled classifications of verbs. 
