@@ -1,7 +1,0 @@
-Curran and Moens (2002a) compared several different similarity measures and found that Grefenstette’s weighted JACCARD measure performed the best: R E L AT I O N D E S C R I P T I O N adj noun–adjectival modifier relation dobj verb–direct object relation iobj verb–indirect object relation nn noun–noun modifier relation nnprep noun–prepositional head relation subj verb–subject relation Table 4: Grammatical relations from SEXTANT against the CELEX lexical database (Minnen et al., 2001) – and is very efficient, analysing over 80 000 words per second.
-We have used the WORDNET 1.6 test set to experiment with different parameter settings and have kept the WORDNET 1.7.1 test set as a final comparison of best results with Ciaramita and Johnson (2003).
-On the previously unused WORDNET 1.7.1 test set, our accuracy is 63% using the best system on the WORDNET 1.6 test set.
-They use the common nouns that have been added to WORDNET 1.7.1 since WORDNET 1.6 and compare this evaluation with a standard cross-validation approach that uses a small percentage of the words from their WORDNET 1.6 training set for evaluation.
-The accuracy of the best-performing configurations was 68% on the Table 7: Breakdown of results by supersense WORDNET 1.6 test set with several other parameter combinations described above performing nearly as well.
-There are 11 unique beginners in the WORDNET noun hierarchy which could also be used as supersenses.
-To classify a previously unseen common noun our approach extracts synonyms which vote using their supersenses in WORDNET 1.6.

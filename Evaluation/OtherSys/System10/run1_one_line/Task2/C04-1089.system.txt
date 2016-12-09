@@ -1,8 +1,0 @@
-As such, the bilingual lexicon of a machine translation system has to be constantly updated with these new word translations.
-In order for a machine translation system to translate these new words correctly, its bilingual lexicon needs to be constantly updated with new word translations.
-Being more readily available, comparable corpora are thus more suitable than parallel corpora for the task of acquiring new word translations, although relatively less research has been done in the past on comparable corpora.
-The work of (Fung and Yee, 1998; Rapp, 1995; Rapp, 1999) noted that if an English word e is the translation of a Chinese word c , then the contexts of the two words are similar.
-If an English word e is the translation of a Chinese word c , they will have similar contexts.
-If a word e in English is indeed the translation of a word c in Chinese, then we would expect e to be ranked very high in both lists in general.
-Recall is somewhat difficult to estimate because we do not know whether the English translation of a Chinese word appears in the English part of the corpus.
-To investigate the effect of the two individual sources of information (context and transliteration), we checked how many translations could be found using only one source of information (i.e., context alone or transliteration alone), on those Chinese words that have translations in the English part of the comparable corpus.

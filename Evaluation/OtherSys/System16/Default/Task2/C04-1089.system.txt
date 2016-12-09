@@ -1,8 +1,0 @@
-For each Chinese source word, we ranked all its English translation candidate words according to the estimated P(C (c) | C (e)) . For each Chinese source word c and an English translation candidate word e , we also calcu We then divided the Chinese corpus from Jul to Dec 1995 into 12 periods, each containing text lated the probability P(e | c) (as described in from a half-month period.
-To investigate the effect of the two individual sources of information (context and transliteration), we checked how many translations could be found using only one source of information (i.e., context alone or transliteration alone), on those Chinese words that have translations in the English part of the comparable corpus.
-As shown in Table 3, using just context information alone, 10 Chinese words (the first 10) have their correct English translations at rank one position.
-The corpus of the period Jul to Dec 1995 was used to come up with new Chinese words c for translation into English.
-And using just transliteration information alone, 9 Chinese words have their correct English translations at rank one position.
-During the whole December period, we only managed to find English translations which were present in the English side of the comparable corpora for 43 Chinese words.
-On the other hand, using our method of combining both sources of information and setting M = ∞, 19 Chinese words (i.e., the first 22 Chinese words in Table 3 except 巴佐亚,坩埚,普利法) have their correct English translations at rank one position.
-And among those cases where more than one English words appeared within the top M positions for both lists, many were multiple translations of a Chinese word.

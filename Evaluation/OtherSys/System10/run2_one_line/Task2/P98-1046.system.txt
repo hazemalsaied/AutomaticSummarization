@@ -1,8 +1,0 @@
-Two current approaches to English verb classi­ fications are WordNet (Miller et al., 1990) and Levin classes (Levin, 1993).
-This listing of a verb in more than one class (many verbs are in three or even four classes) is left open to interpretation in Levin.
-isolate semantic components Some of the large Levin classes comprise verbs that exhibit a wide range of possible semantic components, and could be divided into smaller subclasses.
-The list of members for each Levin verb class is not always complete, so to check if a particular verb belongs to a class it is better to check that the verb exhibits all the alternations that de­ fine the class.
-Even though the Levin verb classes are defined by their syntactic behavior, many reflect seman­ tic distinctions made by WordNet, a classifica­ tion hierarchy defined in terms of purely se­ mantic word relations (synonyms, hypernyms, etc.).
-Most verbs have more than one translation into Portuguese, so we chose the translation that best described the meaning or that had the same type of arguments as described in Levin's verb classes.
-Whereas each WordNet synset is hierarchicalized accord­ ing to only one aspect (e.g., Result, in the case of cut), Levin recognizes that verbs in a class may share many different semantic features, without designating one as primary.
-Given the incompleteness of the list of members of Levin classes, each verb must be examined to see whether it exhibits all the al­ ternations of a class.

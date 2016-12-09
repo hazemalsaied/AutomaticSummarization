@@ -1,8 +1,0 @@
-Ciaramita and Johnson (2003) call this supersense tagging and describe a multi-class perceptron tagger, which uses WORDNET’s hierarchical structure to create many annotated training instances from the synset glosses.
-This paper describes an unsupervised approach to supersense tagging that does not require annotated sentences.
-Supersense tagging is also interesting for many applications that use shallow semantics, e.g. information extraction and question answering.
-Ciaramita and Johnson (2003) propose a very natural evaluation for supersense tagging: inserting the extra common nouns that have been added to a new version of WORDNET.
-We have developed a 2 billion word corpus, shallow- parsed with a statistical NLP pipeline, which is by far the Table 2: Example nouns and their supersenses largest NLP processed corpus described in published re search.
-The accuracy of the best-performing configurations was 68% on the Table 7: Breakdown of results by supersense WORDNET 1.6 test set with several other parameter combinations described above performing nearly as well.
-We would expect the location supersense to perform well since it is quite concrete, but unfortunately our synonym extraction system does not incorporate proper nouns, so many of these words were classified using the hand-built classifier.
-In the current system, we must compare a word against the entire vocabulary (over 500 000 headwords), which is much less efficient than a comparison against only 26 supersense context vectors.

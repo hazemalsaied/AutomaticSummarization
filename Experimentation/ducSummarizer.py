@@ -126,25 +126,7 @@ class DucSummarizer:
                     break
         return summary
 
-    @staticmethod
-    def getSentencesWeights(paper):
-        """
-            After assigning weights for all the words of the article, we assign weights for sentences in calculating the
-            average of informative words for each sentence.
-
-            :param paper:  the article after weighting words.
-        """
-        sents = []
-        for section in paper.getSections():
-            for sent in section.getSentences():
-                sent.setWeight()
-                sents.append(sent)
-        if paper.getTitle() is not None:
-            paper.getTitle().setWeight()
-            sents.append(paper.getTitle())
-
-        sents = sorted(sents, key=lambda Sentence: Sentence.getWeight(), reverse=True)
-        return sents
+        adjustWeights
 
     @staticmethod
     def plottingSentences(orderedSents):

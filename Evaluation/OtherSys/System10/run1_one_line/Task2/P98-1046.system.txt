@@ -1,8 +1,0 @@
-We see verb classes as the key to making gen­ eralizations about regular extensions of mean­ ing.
-Two current approaches to English verb classi­ fications are WordNet (Miller et al., 1990) and Levin classes (Levin, 1993).
-This listing of a verb in more than one class (many verbs are in three or even four classes) is left open to interpretation in Levin.
-If only one or two verbs were shared between two classes, we assumed this might be due to ho­ mophony, an idiosyncrasy involving individual verbs rather than a systematic relationship in­ volving coherent sets of verbs.
-isolate semantic components Some of the large Levin classes comprise verbs that exhibit a wide range of possible semantic components, and could be divided into smaller subclasses.
-The list of members for each Levin verb class is not always complete, so to check if a particular verb belongs to a class it is better to check that the verb exhibits all the alternations that de­ fine the class.
-Even though the Levin verb classes are defined by their syntactic behavior, many reflect seman­ tic distinctions made by WordNet, a classifica­ tion hierarchy defined in terms of purely se­ mantic word relations (synonyms, hypernyms, etc.).
-Whereas each WordNet synset is hierarchicalized accord­ ing to only one aspect (e.g., Result, in the case of cut), Levin recognizes that verbs in a class may share many different semantic features, without designating one as primary.

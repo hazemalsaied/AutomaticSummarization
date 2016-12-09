@@ -1,9 +1,0 @@
-Each clustering experiment used the full set of 20 verbs per class; i.e., seed verbs were included, following our proposed model of guided verb class discovery.5 The results using these feature sets are shown in the third subcolumn (Seed) under our three evaluation measures in Table 2.
-For example, Figure 1 shows two dendrograms using different feature sets (Ling and Seed, described in Section 5) for the same set of verbs from two classes.
-The first subcolumn (Full) under each of the three clustering evaluation measures in Table 2 shows the results using the full set of features (i.e., no feature selection).
-Moreover, the value for the manually selected features is almost always very much higher than that of the full feature set, indicating that the subset of features is more focused on the properties that lead to a better separation of the data.
-We calculated the MI of each feature with respect to the classification of the seed verbs, and computed clusterings using the features above a certain MI threshold.
-We then replaced 10 of the 260 verbs (4%) to enable us to have representative seed verbs for certain classes in our semi-supervised experiments (e.g., so that we could include wipe as a seed verb for the Wipe verbs, and fill for the Fill verbs).
-For each experimental task, we ran our supervised Table 3: Feature counts for Ling and Seed feature sets.
-Full is full feature set; Ling is manually selected subset; Seed is seed-verb-selected set.
-In this paper, we report results on several feature selection approaches to the problem: manual selection (based on linguistic knowledge), unsupervised selection (based on an entropy measure among the features, Dash et al., 1997), and a semi- supervised approach (in which seed verbs are used to train a supervised learner, from which we extract the useful features).

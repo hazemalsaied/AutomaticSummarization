@@ -1,9 +1,0 @@
-Supersense tagging assigns unknown nouns one of 26 broad semantic categories used by lexicographers to organise their manual insertion into WORDNET.
-Ciaramita and Johnson (2003) call this supersense tagging and describe a multi-class perceptron tagger, which uses WORDNET’s hierarchical structure to create many annotated training instances from the synset glosses.
-There are 11 unique beginners in the WORDNET noun hierarchy which could also be used as supersenses.
-Other alternative sets of supersenses can be created by an arbitrary cut through the WORDNET hierarchy near the top, or by using topics from a thesaurus such as Roget’s (Yarowsky, 1992).
-Ciaramita and Johnson (2003) propose a very natural evaluation for supersense tagging: inserting the extra common nouns that have been added to a new version of WORDNET.
-Another alternative is to only consider unambiguous synonyms with a single supersense in WORDNET.
-The accuracy of the best-performing configurations was 68% on the Table 7: Breakdown of results by supersense WORDNET 1.6 test set with several other parameter combinations described above performing nearly as well.
-We would expect the location supersense to perform well since it is quite concrete, but unfortunately our synonym extraction system does not incorporate proper nouns, so many of these words were classified using the hand-built classifier.
-To classify a previously unseen common noun our approach extracts synonyms which vote using their supersenses in WORDNET 1.6.
