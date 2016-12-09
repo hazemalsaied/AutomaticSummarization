@@ -2,269 +2,319 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fea1f80-735b-44dd-b5ba-6253f8bf8d11" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Experimentation/SciSummSigleDocSummarizer.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Non-redondant/Summaries/systems/P05-1004_summary.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/CommunitySummaries-Test/Summaries-Redondant/systems/P05-1004_summary.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task1/C00-2123.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task1/C04-1089.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task1/I05-5011.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task1/J96-3004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task1/N06-2049.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task1/P05-1004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task1/P05-1053.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task1/P98-1046.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task1/P98-2143.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task1/W03-0410.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task2/C00-2123.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task2/C04-1089.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task2/I05-5011.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task2/J96-3004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task2/N06-2049.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task2/P05-1004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task2/P05-1053.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task2/P98-1046.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task2/P98-2143.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run1_one_line/Task2/W03-0410.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task1/C00-2123.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task1/C04-1089.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task1/I05-5011.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task1/J96-3004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task1/N06-2049.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task1/P05-1004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task1/P05-1053.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task1/P98-1046.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task1/P98-2143.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task1/W03-0410.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task2/C00-2123.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task2/C04-1089.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task2/I05-5011.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task2/J96-3004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task2/N06-2049.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task2/P05-1004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task2/P05-1053.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task2/P98-1046.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task2/P98-2143.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System10/run2_one_line/Task2/W03-0410.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System12/Default/Task1/C00-2123.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System12/Default/Task1/C04-1089.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System12/Default/Task1/I05-5011.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System12/Default/Task1/J96-3004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System12/Default/Task1/N06-2049.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System12/Default/Task1/P05-1004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System12/Default/Task1/P05-1053.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System12/Default/Task1/P98-1046.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System12/Default/Task1/P98-2143.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System12/Default/Task1/W03-0410.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/C00-2123.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/C04-1089.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/I05-5011.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/J96-3004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/N06-2049.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P05-1004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P05-1053.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P98-1046.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/P98-2143.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System13/Default/Task1/W03-0410.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task1/C00-2123.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task1/C04-1089.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task1/I05-5011.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task1/J96-3004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task1/N06-2049.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task1/P05-1004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task1/P05-1053.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task1/P98-1046.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task1/P98-2143.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task1/W03-0410.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task2/C00-2123.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task2/C04-1089.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task2/I05-5011.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task2/J96-3004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task2/N06-2049.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task2/P05-1004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task2/P05-1053.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task2/P98-1046.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task2/P98-2143.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1/Task2/W03-0410.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task1/C00-2123.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task1/C04-1089.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task1/I05-5011.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task1/J96-3004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task1/N06-2049.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task1/P05-1004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task1/P05-1053.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task1/P98-1046.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task1/P98-2143.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task1/W03-0410.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task2/C00-2123.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task2/C04-1089.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task2/I05-5011.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task2/J96-3004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task2/N06-2049.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task2/P05-1004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task2/P05-1053.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task2/P98-1046.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task2/P98-2143.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-1ce/Task2/W03-0410.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task1/C00-2123.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task1/C04-1089.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task1/I05-5011.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task1/J96-3004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task1/N06-2049.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task1/P05-1004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task1/P05-1053.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task1/P98-1046.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task1/P98-2143.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task1/W03-0410.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task2/C00-2123.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task2/C04-1089.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task2/I05-5011.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task2/J96-3004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task2/N06-2049.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task2/P05-1004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task2/P05-1053.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task2/P98-1046.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task2/P98-2143.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4/Task2/W03-0410.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task1/C00-2123.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task1/C04-1089.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task1/I05-5011.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task1/J96-3004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task1/N06-2049.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task1/P05-1004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task1/P05-1053.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task1/P98-1046.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task1/P98-2143.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task1/W03-0410.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task2/C00-2123.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task2/C04-1089.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task2/I05-5011.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task2/J96-3004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task2/N06-2049.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task2/P05-1004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task2/P05-1053.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task2/P98-1046.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task2/P98-2143.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-4ce/Task2/W03-0410.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task1/C00-2123.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task1/C04-1089.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task1/I05-5011.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task1/J96-3004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task1/N06-2049.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task1/P05-1004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task1/P05-1053.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task1/P98-1046.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task1/P98-2143.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task1/W03-0410.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task2/C00-2123.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task2/C04-1089.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task2/I05-5011.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task2/J96-3004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task2/N06-2049.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task2/P05-1004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task2/P05-1053.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task2/P98-1046.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task2/P98-2143.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8/Task2/W03-0410.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task1/C00-2123.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task1/C04-1089.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task1/I05-5011.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task1/J96-3004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task1/N06-2049.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task1/P05-1004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task1/P05-1053.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task1/P98-1046.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task1/P98-2143.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task1/W03-0410.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task2/C00-2123.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task2/C04-1089.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task2/I05-5011.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task2/J96-3004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task2/N06-2049.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task2/P05-1004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task2/P05-1053.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task2/P98-1046.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task2/P98-2143.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/Tkern1-8ce/Task2/W03-0410.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task1/C00-2123.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task1/C04-1089.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task1/I05-5011.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task1/J96-3004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task1/N06-2049.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task1/P05-1004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task1/P05-1053.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task1/P98-1046.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task1/P98-2143.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task1/W03-0410.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task2/C00-2123.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task2/C04-1089.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task2/I05-5011.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task2/J96-3004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task2/N06-2049.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task2/P05-1004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task2/P05-1053.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task2/P98-1046.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task2/P98-2143.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System15/tfidf+st+sl/Task2/W03-0410.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task1/C00-2123.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task1/C04-1089.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task1/I05-5011.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task1/J96-3004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task1/N06-2049.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task1/P05-1004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task1/P05-1053.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task1/P98-1046.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task1/P98-2143.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task1/W03-0410.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task2/C00-2123.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task2/C04-1089.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task2/I05-5011.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task2/J96-3004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task2/N06-2049.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task2/P05-1004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task2/P05-1053.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task2/P98-1046.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task2/P98-2143.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System16/Default/Task2/W03-0410.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task1/J96-3004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task1/N06-2049.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task1/P05-1004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task1/P05-1053.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task1/P98-1046.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task1/P98-2143.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task1/W03-0410.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task2/C00-2123.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task2/C04-1089.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task2/I05-5011.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task2/J96-3004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task2/N06-2049.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task2/P05-1004.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task2/P05-1053.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task2/P98-1046.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task2/P98-2143.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System8/Jaccard Focused Method/Task2/W03-0410.system.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/modified-tsr/Task1/C00-2123.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/modified-tsr/Task1/C04-1089.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/modified-tsr/Task1/I05-5011.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/modified-tsr/Task1/J96-3004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/modified-tsr/Task1/N06-2049.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/modified-tsr/Task1/P05-1004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/modified-tsr/Task1/P05-1053.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/modified-tsr/Task1/P98-1046.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/modified-tsr/Task1/P98-2143.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/modified-tsr/Task1/W03-0410.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/tsr-sent-class/Task1/C00-2123.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/tsr-sent-class/Task1/C04-1089.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/tsr-sent-class/Task1/I05-5011.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/tsr-sent-class/Task1/J96-3004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/tsr-sent-class/Task1/N06-2049.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/tsr-sent-class/Task1/P05-1004.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/tsr-sent-class/Task1/P05-1053.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/tsr-sent-class/Task1/P98-1046.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/tsr-sent-class/Task1/P98-2143.annv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Evaluation/OtherSys/System9/tsr-sent-class/Task1/W03-0410.annv3.txt" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/C00-2123_redsum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/C04-1089_redsum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/I05-5011_redsum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/J96-3004_redsum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/N06-2049_redsum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/P05-1004_redsum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/P05-1053_redsum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/P98-1046_redsum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/P98-2143_redsum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/W03-0410_redsum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html/C00-2123_redsum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html/C04-1089_redsum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html/I05-5011_redsum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html/J96-3004_redsum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html/N06-2049_redsum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html/P05-1004_redsum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html/P05-1053_redsum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html/P98-1046_redsum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html/P98-2143_redsum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html/W03-0410_redsum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/html/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/nonRed/C00-2123_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/nonRed/C04-1089_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/nonRed/I05-5011_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/nonRed/J96-3004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/nonRed/N06-2049_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/nonRed/P05-1004_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/nonRed/P05-1053_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/nonRed/P98-1046_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/nonRed/P98-2143_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/nonRed/W03-0410_sum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/red/C00-2123_redsum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/red/C04-1089_redsum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/red/I05-5011_redsum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/red/J96-3004_redsum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/red/N06-2049_redsum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/red/P05-1004_redsum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/red/P05-1053_redsum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/red/P98-1046_redsum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/red/P98-2143_redsum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSumm/summaries/red/W03-0410_redsum.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/Gold/Default/Task2/C00-2123.human.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/Gold/Default/Task2/C04-1089.human.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/Gold/Default/Task2/I05-5011.human.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/Gold/Default/Task2/J96-3004.human.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/Gold/Default/Task2/N06-2049.human.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/Gold/Default/Task2/P05-1004.human.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/Gold/Default/Task2/P98-1046.human.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/Gold/Default/Task2/P98-2143.human.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/Gold/Default/Task2/W03-0410.human.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System10/run1_one_line/Task2/C00-2123.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System10/run1_one_line/Task2/C04-1089.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System10/run1_one_line/Task2/I05-5011.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System10/run1_one_line/Task2/J96-3004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System10/run1_one_line/Task2/N06-2049.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System10/run1_one_line/Task2/P05-1004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System10/run1_one_line/Task2/P05-1053.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System10/run1_one_line/Task2/P98-1046.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System10/run1_one_line/Task2/P98-2143.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System10/run1_one_line/Task2/W03-0410.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System10/run2_one_line/Task2/C00-2123.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System10/run2_one_line/Task2/C04-1089.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System10/run2_one_line/Task2/I05-5011.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System10/run2_one_line/Task2/J96-3004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System10/run2_one_line/Task2/N06-2049.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System10/run2_one_line/Task2/P05-1004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System10/run2_one_line/Task2/P05-1053.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System10/run2_one_line/Task2/P98-1046.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System10/run2_one_line/Task2/P98-2143.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System10/run2_one_line/Task2/W03-0410.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-1/Task2/C00-2123.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-1/Task2/C04-1089.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-1/Task2/I05-5011.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-1/Task2/J96-3004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-1/Task2/N06-2049.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-1/Task2/P05-1004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-1/Task2/P05-1053.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-1/Task2/P98-1046.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-1/Task2/P98-2143.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-1/Task2/W03-0410.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-1ce/Task2/C00-2123.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-1ce/Task2/C04-1089.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-1ce/Task2/I05-5011.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-1ce/Task2/J96-3004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-1ce/Task2/N06-2049.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-1ce/Task2/P05-1004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-1ce/Task2/P05-1053.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-1ce/Task2/P98-1046.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-1ce/Task2/P98-2143.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-1ce/Task2/W03-0410.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-4/Task2/C00-2123.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-4/Task2/C04-1089.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-4/Task2/I05-5011.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-4/Task2/J96-3004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-4/Task2/N06-2049.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-4/Task2/P05-1004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-4/Task2/P05-1053.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-4/Task2/P98-1046.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-4/Task2/P98-2143.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-4/Task2/W03-0410.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-4ce/Task2/C00-2123.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-4ce/Task2/C04-1089.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-4ce/Task2/I05-5011.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-4ce/Task2/J96-3004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-4ce/Task2/N06-2049.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-4ce/Task2/P05-1004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-4ce/Task2/P05-1053.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-4ce/Task2/P98-1046.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-4ce/Task2/P98-2143.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-4ce/Task2/W03-0410.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-8/Task2/C00-2123.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-8/Task2/C04-1089.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-8/Task2/I05-5011.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-8/Task2/J96-3004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-8/Task2/N06-2049.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-8/Task2/P05-1004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-8/Task2/P05-1053.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-8/Task2/P98-1046.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-8/Task2/P98-2143.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-8/Task2/W03-0410.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-8ce/Task2/C00-2123.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-8ce/Task2/C04-1089.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-8ce/Task2/I05-5011.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-8ce/Task2/J96-3004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-8ce/Task2/N06-2049.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-8ce/Task2/P05-1004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-8ce/Task2/P05-1053.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-8ce/Task2/P98-1046.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-8ce/Task2/P98-2143.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/Tkern1-8ce/Task2/W03-0410.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/tfidf+st+sl/Task2/C00-2123.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/tfidf+st+sl/Task2/C04-1089.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/tfidf+st+sl/Task2/I05-5011.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/tfidf+st+sl/Task2/J96-3004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/tfidf+st+sl/Task2/N06-2049.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/tfidf+st+sl/Task2/P05-1004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/tfidf+st+sl/Task2/P05-1053.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/tfidf+st+sl/Task2/P98-1046.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/tfidf+st+sl/Task2/P98-2143.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System15/tfidf+st+sl/Task2/W03-0410.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System16/Default/Task2/C00-2123.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System16/Default/Task2/C04-1089.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System16/Default/Task2/I05-5011.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System16/Default/Task2/J96-3004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System16/Default/Task2/N06-2049.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System16/Default/Task2/P05-1004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System16/Default/Task2/P05-1053.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System16/Default/Task2/P98-1046.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System16/Default/Task2/P98-2143.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System16/Default/Task2/W03-0410.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMKL1_CCS1/Task2/C00-2123.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMKL1_CCS1/Task2/C04-1089.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMKL1_CCS1/Task2/I05-5011.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMKL1_CCS1/Task2/J96-3004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMKL1_CCS1/Task2/N06-2049.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMKL1_CCS1/Task2/P05-1004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMKL1_CCS1/Task2/P05-1053.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMKL1_CCS1/Task2/P98-1046.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMKL1_CCS1/Task2/P98-2143.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMKL1_CCS1/Task2/W03-0410.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMKL2_CCS3/Task2/C00-2123.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMKL2_CCS3/Task2/C04-1089.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMKL2_CCS3/Task2/I05-5011.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMKL2_CCS3/Task2/J96-3004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMKL2_CCS3/Task2/N06-2049.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMKL2_CCS3/Task2/P05-1004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMKL2_CCS3/Task2/P05-1053.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMKL2_CCS3/Task2/P98-1046.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMKL2_CCS3/Task2/P98-2143.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMKL2_CCS3/Task2/W03-0410.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMequal_CCS2/Task2/C00-2123.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMequal_CCS2/Task2/C04-1089.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMequal_CCS2/Task2/I05-5011.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMequal_CCS2/Task2/J96-3004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMequal_CCS2/Task2/N06-2049.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMequal_CCS2/Task2/P05-1004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMequal_CCS2/Task2/P05-1053.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMequal_CCS2/Task2/P98-1046.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMequal_CCS2/Task2/P98-2143.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/LMequal_CCS2/Task2/W03-0410.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/TF_CCS4/Task2/C00-2123.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/TF_CCS4/Task2/C04-1089.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/TF_CCS4/Task2/I05-5011.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/TF_CCS4/Task2/J96-3004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/TF_CCS4/Task2/N06-2049.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/TF_CCS4/Task2/P05-1004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/TF_CCS4/Task2/P05-1053.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/TF_CCS4/Task2/P98-1046.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/TF_CCS4/Task2/P98-2143.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System3/TF_CCS4/Task2/W03-0410.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System5/Default/Task2/C00-2123.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System5/Default/Task2/C04-1089.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System5/Default/Task2/I05-5011.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System5/Default/Task2/J96-3004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System5/Default/Task2/N06-2049.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System5/Default/Task2/P05-1004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System5/Default/Task2/P05-1053.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System5/Default/Task2/P98-1046.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System5/Default/Task2/P98-2143.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System5/Default/Task2/W03-0410.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Jaccard Cascade Method/Task2/C00-2123.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Jaccard Cascade Method/Task2/C04-1089.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Jaccard Cascade Method/Task2/I05-5011.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Jaccard Cascade Method/Task2/J96-3004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Jaccard Cascade Method/Task2/N06-2049.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Jaccard Cascade Method/Task2/P05-1004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Jaccard Cascade Method/Task2/P05-1053.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Jaccard Cascade Method/Task2/P98-1046.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Jaccard Cascade Method/Task2/P98-2143.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Jaccard Cascade Method/Task2/W03-0410.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Jaccard Focused Method/Task2/C00-2123.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Jaccard Focused Method/Task2/C04-1089.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Jaccard Focused Method/Task2/I05-5011.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Jaccard Focused Method/Task2/J96-3004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Jaccard Focused Method/Task2/N06-2049.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Jaccard Focused Method/Task2/P05-1004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Jaccard Focused Method/Task2/P05-1053.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Jaccard Focused Method/Task2/P98-1046.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Jaccard Focused Method/Task2/P98-2143.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Jaccard Focused Method/Task2/W03-0410.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/SVM Method/Task2/C00-2123.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/SVM Method/Task2/C04-1089.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/SVM Method/Task2/I05-5011.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/SVM Method/Task2/J96-3004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/SVM Method/Task2/N06-2049.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/SVM Method/Task2/P05-1004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/SVM Method/Task2/P05-1053.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/SVM Method/Task2/P98-1046.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/SVM Method/Task2/P98-2143.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/SVM Method/Task2/W03-0410.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Voting Method1/Task2/C00-2123.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Voting Method1/Task2/C04-1089.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Voting Method1/Task2/I05-5011.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Voting Method1/Task2/J96-3004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Voting Method1/Task2/N06-2049.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Voting Method1/Task2/P05-1004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Voting Method1/Task2/P05-1053.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Voting Method1/Task2/P98-1046.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Voting Method1/Task2/P98-2143.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Voting Method1/Task2/W03-0410.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Voting Method2/Task2/C00-2123.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Voting Method2/Task2/C04-1089.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Voting Method2/Task2/I05-5011.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Voting Method2/Task2/J96-3004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Voting Method2/Task2/N06-2049.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Voting Method2/Task2/P05-1004.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Voting Method2/Task2/P05-1053.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Voting Method2/Task2/P98-1046.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Voting Method2/Task2/P98-2143.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/System8/Voting Method2/Task2/W03-0410.system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/system0/nonRedSummaries/Task2/C00-2123_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/system0/nonRedSummaries/Task2/C04-1089_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/system0/nonRedSummaries/Task2/I05-5011_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/system0/nonRedSummaries/Task2/J96-3004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/system0/nonRedSummaries/Task2/N06-2049_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/system0/nonRedSummaries/Task2/P05-1004_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/system0/nonRedSummaries/Task2/P05-1053_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/system0/nonRedSummaries/Task2/P98-1046_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/system0/nonRedSummaries/Task2/P98-2143_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/system0/nonRedSummaries/Task2/W03-0410_sum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/system0/redSummaries/Task2/C00-2123_redsum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/system0/redSummaries/Task2/C04-1089_redsum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/system0/redSummaries/Task2/I05-5011_redsum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/system0/redSummaries/Task2/J96-3004_redsum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/system0/redSummaries/Task2/N06-2049_redsum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/system0/redSummaries/Task2/P05-1004_redsum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/system0/redSummaries/Task2/P05-1053_redsum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/system0/redSummaries/Task2/P98-1046_redsum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/system0/redSummaries/Task2/P98-2143_redsum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/SciSummTask2Html/system0/redSummaries/Task2/W03-0410_redsum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/System10_run1_one_line.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/System10_run2_one_line.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/System15_Tkern1-1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/System15_Tkern1-1ce.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/System15_Tkern1-4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/System15_Tkern1-4ce.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/System15_Tkern1-8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/System15_Tkern1-8ce.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/System15_tfidf+st+sl.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/System16_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/System3_LMKL1_CCS1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/System3_LMKL2_CCS3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/System3_LMequal_CCS2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/System3_TF_CCS4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/System5_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/System8_Jaccard Cascade Method.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/System8_Jaccard Focused Method.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/System8_SVM Method.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/System8_Voting Method1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/System8_Voting Method2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/system0_nonRedSummaries.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Evaluation/xmls/system0_redSummaries.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Experimentation/RougeNormalisation.py" afterPath="$PROJECT_DIR$/Experimentation/RougeNormalisation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Experimentation/ducSummarizer.py" afterPath="$PROJECT_DIR$/Experimentation/ducSummarizer.py" />
     </list>
     <ignored path="RA.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -442,6 +492,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="RA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Corpus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -800,7 +864,21 @@
       <option name="project" value="LOCAL" />
       <updated>1478381091708</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Publiciation exxperiementation">
+      <created>1481284407501</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1481284407501</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Publiciation exxperiementation">
+      <created>1481284480447</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1481284480447</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">

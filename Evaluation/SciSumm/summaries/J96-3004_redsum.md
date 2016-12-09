@@ -1,0 +1,7 @@
+We also thank ChaoHuang Chang , reviewers for the 1994 ACL conference , and four anonymous reviewers for Computational Linguistics for useful comments . 
+Chang of Tsinghua University , Taiwan , R.O.C. , for kindly providing us with the name corpora . 
+We thank United Informatics for providing us with our corpus of Chinese text , and BDC for the 'Behavior ChineseEnglish Electronic Dictionary . ' 
+Whether a language even has orthographic words is largely dependent on the writing system used to represent the language ( rather than the language itself ) ; the notion `` orthographic word '' is not universal . 
+All notions of word , with the exception of the orthographic word , are as relevant in Chinese as they are in English , and just as is the case in other languages , a word in Chinese may correspond to one or more symbols in the orthographic 1 For a related approach to the problem of word-segrnention in Japanese , see Nagata ( 1994 ) , inter aria 
+orthographic words are thus only a starting point for further analysis and can only be regarded as a useful hint at the desired division of the sentence into words . 
+including Third tones Sandhi ( Shih 1986 ) , which changes a 3 ( low ) tones into a 2 ( rising ) tones 

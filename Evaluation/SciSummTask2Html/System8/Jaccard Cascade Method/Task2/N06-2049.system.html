@@ -1,0 +1,15 @@
+<html>
+<head><title>N06-2049.system.</title> </head>
+<body bgcolor="white">
+<a name="0">[0]</a> <a href="#0" id=0>Subword-based Tagging by Conditional Random Fields for Chinese Word Segmentation</a>
+<a name="1">[1]</a> <a href="#1" id=1>We proposed two approaches to improve Chinese word segmentation: a subword-based tagging and a confidence measure approach.</a>
+<a name="2">[2]</a> <a href="#2" id=2>We found the former achieved better performance than the existing character-based tagging, and the latter improved segmentation further by combining the former with a dictionary-based segmentation.</a>
+<a name="3">[3]</a> <a href="#3" id=3>In addition, the latter can be used to balance out-of-vocabulary rates and in-vocabulary rates.</a>
+<a name="4">[4]</a> <a href="#4" id=4>By these techniques we achieved higher F-scores in CITYU, PKU and MSR corpora than the best results from Sighan Bakeoff 2005.</a>
+<a name="5">[5]</a> <a href="#5" id=5>The character-based “IOB” tagging approach has been widely used in Chinese word segmentation recently (Xue and Shen, 2003; Peng and McCallum, 2004; Tseng et al., 2005).</a>
+<a name="6">[6]</a> <a href="#6" id=6>Under the scheme, each character of a word is labeled as ‘B’ if it is the first character of a multiple-character word, or ‘O’ if the character functions as an independent word, or ‘I’ otherwise.” For example, ” (whole) (Beijing city)” is labeled as ” (whole)/O (north)/B (capital)/I (city)/I”.</a>
+<a name="7">[7]</a> <a href="#7" id=7>We found that so far all the existing implementations were using character-based IOB tagging.</a>
+<a name="8">[8]</a> <a href="#8" id=8>In this work we propose a subword-based IOB tagging, which assigns tags to a predefined lexicon subset consisting of the most frequent multiple-character words in addition to single Chinese characters.</a>
+<a name="9">[9]</a> <a href="#9" id=9>If only Chinese characters are used, the subword-based IOB tagging is downgraded into a character-based one.</a>
+<a name="10">[10]</a> <a href="#10" id=10>Taking the same example mentioned above, “ (whole) (Beijing city)” is labeled as ” (whole)/O (Beijing)/B (city)/I” in the subword-based tagging, where ” (Beijing)/B” is labeled as</a></body>
+</html>

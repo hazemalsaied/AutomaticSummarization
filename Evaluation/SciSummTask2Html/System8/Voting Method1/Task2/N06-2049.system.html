@@ -1,0 +1,19 @@
+<html>
+<head><title>N06-2049.system.</title> </head>
+<body bgcolor="white">
+<a name="0">[0]</a> <a href="#0" id=0>We proposed two approaches to improve Chinese word segmentation: subword-based tagging and confidence measure approach.</a>
+<a name="1">[1]</a> <a href="#1" id=1>In addition, the latter can be used to balance out-of-vocabulary rates and in-vocabulary rates.</a>
+<a name="2">[2]</a> <a href="#2" id=2>By these techniques we achieved higher F-scores in CITYU, PKU and MSR corpora than the best results from Sighan Bakeoff 2005.</a>
+<a name="3">[3]</a> <a href="#3" id=3>We found that so far all the existing implementations were using character-based IOB tagging.</a>
+<a name="4">[4]</a> <a href="#4" id=4>Subword-based Tagging by Conditional Random Fields for Chinese Word Segmentation</a>
+<a name="5">[5]</a> <a href="#5" id=5>We found the former achieved better performance than the existing character-based tagging, and the latter improved segmentation further by combining the former with dictionary-based segmentation.</a>
+<a name="6">[6]</a> <a href="#6" id=6>In the followings, we illustrate our word segmentation process in Section 2, where the subword-based tagging is implemented by the CRFs method.</a>
+<a name="7">[7]</a> <a href="#7" id=7>Taking the same example mentioned above, (whole) (Beijing city)” is labeled as (whole)/O (Beijing)/B (city)/I” in the subword-based tagging, where (Beijing)/B” is labeled as one unit.</a>
+<a name="8">[8]</a> <a href="#8" id=8>However, keep in mind that the dictionary-based approach can produce higher R-iv rate.</a>
+<a name="9">[9]</a> <a href="#9" id=9>In this work we propose subword-based IOB tagging, which assigns tags to predefined lexicon subset consisting of the most frequent multiple-character words in addition to single Chinese characters.</a>
+<a name="10">[10]</a> <a href="#10" id=10>In addition, we found clear weakness with the IOB tagging approach: It yields very low in-vocabulary (IV) rate (R-iv) in return for higher out-of-vocabulary (OOV) rate (R-oov).</a>
+<a name="11">[11]</a> <a href="#11" id=11>This approach will be described in Section 2.2.</a>
+<a name="12">[12]</a> <a href="#12" id=12>We will use this advantage in the confidence measure approach.</a>
+<a name="13">[13]</a> <a href="#13" id=13>There are several steps to train subword-based IOB tag- ger.</a>
+<a name="14">[14]</a> <a href="#14" id=14>In the third step, we used the</a></body>
+</html>
