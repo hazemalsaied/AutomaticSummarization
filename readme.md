@@ -1,4 +1,4 @@
-#Abstract 
+# Abstract 
 
 The rapid growth of the amount of information has prompted the emergence of many IT domains including
 automatic summarization (AS). These systems are used to extract the most relevant information from
@@ -17,6 +17,6 @@ In sum, this thesis introduce a new approach for AS based on FM and it aims to e
 of this method in the task of producing extractive summaries, either generic summaries or query-focused
 ones.
 
-#Keywords: 
+# Keywords: 
 Automatic Summarization, Retrieval Systems, Features Maximization, Cosine Similarity,
 Graph-Based Model, Spreading Activation.
